@@ -1,7 +1,7 @@
 name: Scrape Weather
 
 on:
-  workflow_call:
+  workflow_dispatch:
   schedule:
     - cron: '0 * * * *' # Runs every hour at minute 0
 
