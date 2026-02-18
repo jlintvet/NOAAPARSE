@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-02-18 01:23:41",
+    "timestamp": "2026-02-18 01:28:57",
     "forecasts": [
         {
             "raw_text": "SW winds around 10 kt. Seas 5 to 8 ft, subsiding to 5 to 6 ft after midnight. Wave detail: NE 6 ft at 12 seconds and S 2 ft at 8 seconds.",
@@ -8,6 +8,20 @@
             "wave_height": "5 to 8 ft",
             "wave_commentary": "subsiding to 5 to 6 ft",
             "wave_detail_string": "NE 6 ft at 12 seconds and S 2 ft at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "6 ft",
+                    "period": "12 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "2 ft",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "6 ft",
             "primary_wave_period": "12 seconds",
             "period": "Tonight 2/18"
         },
@@ -20,6 +34,30 @@
             "wave_height": "5 to 6 ft",
             "wave_commentary": "building to 5 to 8 ft",
             "wave_detail_string": "NE 5 ft at 12 seconds and S 4 ft at 7 seconds, becoming S 6 ft at 7 seconds and NE 5 ft at 12 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "12 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "4 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "6 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "12 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "5 ft",
             "primary_wave_period": "12 seconds",
             "period": "Wed 2/18"
         },
@@ -30,6 +68,20 @@
             "wind_gusts": "25 kt",
             "wave_height": "5 to 8 ft",
             "wave_detail_string": "S 6 ft at 7 seconds and NE 5 ft at 13 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "6 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "13 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "6 ft",
             "primary_wave_period": "7 seconds",
             "period": "Wed Night 2/18"
         },
@@ -40,6 +92,20 @@
             "wind_commentary": "becoming SE in the afternoon",
             "wave_height": "4 to 6 ft",
             "wave_detail_string": "S 4 ft at 7 seconds and NE 4 ft at 13 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "4 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "4 ft",
+                    "period": "13 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "4 ft",
             "primary_wave_period": "7 seconds",
             "period": "Thu 2/19"
         },
@@ -49,6 +115,20 @@
             "wind_speed": "10 to 15 kt",
             "wave_height": "4 to 5 ft",
             "wave_detail_string": "S 4 ft at 6 seconds and NE 4 ft at 13 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "4 ft",
+                    "period": "6 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "4 ft",
+                    "period": "13 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "4 ft",
             "primary_wave_period": "6 seconds",
             "period": "Thu Night 2/19"
         },
@@ -59,6 +139,20 @@
             "wind_commentary": "increasing to 15 to 20 kt in the afternoon",
             "wave_height": "3 to 5 ft",
             "wave_detail_string": "S 5 ft at 6 seconds and NE 3 ft at 12 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "5 ft",
+                    "period": "6 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "3 ft",
+                    "period": "12 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "5 ft",
             "primary_wave_period": "6 seconds",
             "period": "Fri 2/20"
         },
