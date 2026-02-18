@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 * * * *' # Runs every hour at minute 0
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
