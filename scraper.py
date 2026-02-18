@@ -7,10 +7,7 @@ from datetime import datetime, timedelta
 def get_forecast_date(period_text, run_date):
     """
     Calculates the date based on the period name.
-    Handles full names ("Wednesday") and abbreviations ("Wed").
     """
-    # 1. Map days to numbers (0=Monday, ... 6=Sunday)
-    # This allows it to understand "Wed" is the same as "Wednesday"
     day_mapping = {
         "mon": 0, "monday": 0,
         "tue": 1, "tuesday": 1,
@@ -26,24 +23,18 @@ def get_forecast_date(period_text, run_date):
     found_day = False
     target_day_index = -1
 
-    # 2. Check if any day name (or abbreviation) is in the text
     for day_name, index in day_mapping.items():
         if day_name in period_lower:
             target_day_index = index
             found_day = True
-            break # Stop once we find the day
+            break 
     
-    # 3. Calculate the date difference
     if found_day:
         current_day_index = run_date.weekday()
-        # Calculate how many days ahead this is (modulo 7 handles next week wrapping)
         days_ahead = (target_day_index - current_day_index) % 7
         target_date = run_date + timedelta(days=days_ahead)
     
-    # 4. Format the date (e.g., "2/18")
-    # Using %-m and %-d removes leading zeros (Linux/GitHub Actions standard)
     date_str = target_date.strftime("%-m/%-d")
-    
     return f"{period_text} {date_str}"
 
 def parse_marine_forecast(text):
@@ -51,39 +42,46 @@ def parse_marine_forecast(text):
     text = text.replace('\n', ' ').strip()
     data['raw_text'] = text 
 
-    # --- REGEX PATTERNS ---
+    # --- 1. WIND EXTRACTION (UPDATED) ---
+    # Old Regex: strictly looked for digits immediately.
+    # New Regex: allows optional words like "around", "up to", "approx" before the digits.
+    # Pattern explanation:
+    #   ([N|S|E|W|NE|SE|SW|NW]+)  -> Capture Direction (Group 1)
+    #   \s+winds?                 -> " wind" or " winds"
+    #   (?:\s+(?:around|up\s+to|increasing\s+to))? -> Optional filler words (Non-capturing)
+    #   \s+                       -> space
+    #   (\d+\s+to\s+\d+\s+kt|\d+\s+kt) -> Capture Speed (Group 2)
     
-    # Wind
-    wind_match = re.search(r'([N|S|E|W|NE|SE|SW|NW]+)\s+winds?\s+(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
+    wind_match = re.search(r'([N|S|E|W|NE|SE|SW|NW]+)\s+winds?\s+(?:around|up\s+to|increasing\s+to)?\s*(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
     if wind_match:
         data['wind_direction'] = wind_match.group(1)
         data['wind_speed'] = wind_match.group(2)
 
-    # Wind Change (Commentary)
-    change_match = re.search(r'(becoming|increasing|decreasing)\s+([N|S|E|W|NE|SE|SW|NW]+\s+)?.*?(?=\.|,)', text, re.IGNORECASE)
+    # --- 2. WIND COMMENTARY ---
+    change_match = re.search(r'(becoming|increasing|decreasing|diminishing)\s+([N|S|E|W|NE|SE|SW|NW]+\s+)?.*?(?=\.|,)', text, re.IGNORECASE)
     if change_match:
         data['wind_commentary'] = change_match.group(0)
 
-    # Gusts
+    # --- 3. GUSTS ---
     gust_match = re.search(r'Gusts\s+up\s+to\s+(\d+\s+kt)', text, re.IGNORECASE)
     if gust_match:
         data['wind_gusts'] = gust_match.group(1)
 
-    # Waves
-    seas_match = re.search(r'Seas\s+(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
+    # --- 4. WAVE HEIGHT ---
+    # Also added support for "around X ft" here just in case
+    seas_match = re.search(r'Seas\s+(?:around|up\s+to)?\s*(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
     if seas_match:
         data['wave_height'] = seas_match.group(1)
 
-    # Wave Change (Commentary)
+    # --- 5. WAVE COMMENTARY ---
     wave_change_match = re.search(r'(building|subsiding)\s+to\s+(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
     if wave_change_match:
         data['wave_commentary'] = wave_change_match.group(0)
 
-    # Wave Detail
+    # --- 6. WAVE DETAIL ---
     detail_match = re.search(r'Wave detail:\s+(.*?)(?=\.|$)', text, re.IGNORECASE)
     if detail_match:
         data['wave_detail_string'] = detail_match.group(1)
-        # Extract period from detail string
         period_match = re.search(r'at\s+(\d+\s+seconds?)', detail_match.group(1), re.IGNORECASE)
         if period_match:
             data['primary_wave_period'] = period_match.group(1)
@@ -120,10 +118,7 @@ def scrape_weather():
                     raw_text = desc_div.text.strip()
                     original_period_name = period_div.text.strip()
                     
-                    # --- CALCULATE DATE ---
                     formatted_period = get_forecast_date(original_period_name, run_date)
-                    
-                    # --- PARSE TEXT ---
                     parsed_info = parse_marine_forecast(raw_text)
                     parsed_info['period'] = formatted_period
                     
@@ -134,6 +129,10 @@ def scrape_weather():
             json.dump(final_data, f, indent=4)
         
         print(f"Success! Saved to {filename}")
+        
+        # Simple debug print
+        if final_data['forecasts']:
+            print(f"Sample Wind Check: {final_data['forecasts'][0].get('wind_speed', 'MISSING')}")
 
     except Exception as e:
         print(f"Error scraping data: {e}")
