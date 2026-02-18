@@ -12,6 +12,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Debug - List all files
+      run: ls -R
+      echo "Current Directory: $(pwd)"
+        echo "List of all files:"
+        ls -R
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -20,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests beautifulsoup4
-
+          
       - name: Run Scraper
         run: python scraper.py
 
