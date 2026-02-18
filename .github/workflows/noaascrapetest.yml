@@ -28,10 +28,12 @@ jobs:
         run: python scraper.py
 
       - name: Commit and Push Data
-        # This step saves the new JSON file back to your repo!
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add weather_data.json
-          git commit -m "Update weather data"
-          git push
+          
+          # Add all files (simpler than naming specific ones)
+          git add .
+          
+          # Only commit if there are changes (avoids "nothing to commit" error)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update weather data" && git push)
