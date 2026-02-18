@@ -12,6 +12,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Debug - List all files    # <--- The dash aligns with the one above
+        run: ls -R
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
