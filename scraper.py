@@ -34,6 +34,7 @@ def get_forecast_date(period_text, run_date):
         days_ahead = (target_day_index - current_day_index) % 7
         target_date = run_date + timedelta(days=days_ahead)
     
+    # Format: "Wed Night 2/18"
     date_str = target_date.strftime("%-m/%-d")
     return f"{period_text} {date_str}"
 
@@ -42,23 +43,15 @@ def parse_marine_forecast(text):
     text = text.replace('\n', ' ').strip()
     data['raw_text'] = text 
 
-    # --- 1. WIND EXTRACTION (UPDATED) ---
-    # Old Regex: strictly looked for digits immediately.
-    # New Regex: allows optional words like "around", "up to", "approx" before the digits.
-    # Pattern explanation:
-    #   ([N|S|E|W|NE|SE|SW|NW]+)  -> Capture Direction (Group 1)
-    #   \s+winds?                 -> " wind" or " winds"
-    #   (?:\s+(?:around|up\s+to|increasing\s+to))? -> Optional filler words (Non-capturing)
-    #   \s+                       -> space
-    #   (\d+\s+to\s+\d+\s+kt|\d+\s+kt) -> Capture Speed (Group 2)
-    
-    wind_match = re.search(r'([N|S|E|W|NE|SE|SW|NW]+)\s+winds?\s+(?:around|up\s+to|increasing\s+to)?\s*(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
+    # --- 1. WIND EXTRACTION ---
+    # Matches: "SW winds around 10 kt" or "N winds 15 to 20 kt"
+    wind_match = re.search(r'(N|S|E|W|NE|SE|SW|NW)\s+winds?\s+(?:around|up\s+to|increasing\s+to)?\s*(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
     if wind_match:
         data['wind_direction'] = wind_match.group(1)
         data['wind_speed'] = wind_match.group(2)
 
     # --- 2. WIND COMMENTARY ---
-    change_match = re.search(r'(becoming|increasing|decreasing|diminishing)\s+([N|S|E|W|NE|SE|SW|NW]+\s+)?.*?(?=\.|,)', text, re.IGNORECASE)
+    change_match = re.search(r'(becoming|increasing|decreasing|diminishing)\s+((?:N|S|E|W|NE|SE|SW|NW)+\s+)?.*?(?=\.|,)', text, re.IGNORECASE)
     if change_match:
         data['wind_commentary'] = change_match.group(0)
 
@@ -68,7 +61,6 @@ def parse_marine_forecast(text):
         data['wind_gusts'] = gust_match.group(1)
 
     # --- 4. WAVE HEIGHT ---
-    # Also added support for "around X ft" here just in case
     seas_match = re.search(r'Seas\s+(?:around|up\s+to)?\s*(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
     if seas_match:
         data['wave_height'] = seas_match.group(1)
@@ -78,13 +70,34 @@ def parse_marine_forecast(text):
     if wave_change_match:
         data['wave_commentary'] = wave_change_match.group(0)
 
-    # --- 6. WAVE DETAIL ---
+    # --- 6. WAVE DETAIL & COMPONENT PARSING ---
     detail_match = re.search(r'Wave detail:\s+(.*?)(?=\.|$)', text, re.IGNORECASE)
+    
     if detail_match:
-        data['wave_detail_string'] = detail_match.group(1)
-        period_match = re.search(r'at\s+(\d+\s+seconds?)', detail_match.group(1), re.IGNORECASE)
-        if period_match:
-            data['primary_wave_period'] = period_match.group(1)
+        full_detail_string = detail_match.group(1)
+        data['wave_detail_string'] = full_detail_string # Keep the raw string
+        
+        # New Step: Parse the components inside the string
+        # Pattern looks for: "NE 6 ft at 12 seconds"
+        # It captures 3 groups: Direction, Height, Period
+        component_pattern = r'(N|S|E|W|NE|SE|SW|NW)\s+(\d+\s+ft)\s+at\s+(\d+\s+seconds?)'
+        
+        components = re.findall(component_pattern, full_detail_string, re.IGNORECASE)
+        
+        if components:
+            data['swell_components'] = []
+            for comp in components:
+                data['swell_components'].append({
+                    "direction": comp[0],
+                    "height": comp[1],
+                    "period": comp[2]
+                })
+
+            # Logic to set "Primary" stats based on the first component found
+            # (Usually the first listed is the dominant swell)
+            data['primary_swell_direction'] = components[0][0]
+            data['primary_wave_height'] = components[0][1]
+            data['primary_wave_period'] = components[0][2]
 
     return data
 
@@ -130,9 +143,9 @@ def scrape_weather():
         
         print(f"Success! Saved to {filename}")
         
-        # Simple debug print
+        # Debug check
         if final_data['forecasts']:
-            print(f"Sample Wind Check: {final_data['forecasts'][0].get('wind_speed', 'MISSING')}")
+            print(f"Sample Swell Data: {json.dumps(final_data['forecasts'][0].get('swell_components', 'No Swell Data'), indent=2)}")
 
     except Exception as e:
         print(f"Error scraping data: {e}")
