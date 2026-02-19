@@ -5,10 +5,16 @@ import re
 from datetime import datetime, timedelta
 
 def get_forecast_date(period_text, run_date):
+    """
+    Calculates the date based on the period name.
+    """
     day_mapping = {
-        "mon": 0, "monday": 0, "tue": 1, "tuesday": 1,
-        "wed": 2, "wednesday": 2, "thu": 3, "thursday": 3,
-        "fri": 4, "friday": 4, "sat": 5, "saturday": 5,
+        "mon": 0, "monday": 0,
+        "tue": 1, "tuesday": 1,
+        "wed": 2, "wednesday": 2,
+        "thu": 3, "thursday": 3,
+        "fri": 4, "friday": 4,
+        "sat": 5, "saturday": 5,
         "sun": 6, "sunday": 6
     }
     
@@ -28,7 +34,7 @@ def get_forecast_date(period_text, run_date):
         days_ahead = (target_day_index - current_day_index) % 7
         target_date = run_date + timedelta(days=days_ahead)
     
-    date_str = target_date.strftime("%m/%d")
+    date_str = target_date.strftime("%-m/%-d")
     return f"{period_text} {date_str}"
 
 def parse_marine_forecast(text):
@@ -36,37 +42,51 @@ def parse_marine_forecast(text):
     text = text.replace('\n', ' ').strip()
     data['raw_text'] = text 
 
-    # 1. WIND EXTRACTION
+    # --- 1. WIND EXTRACTION ---
     wind_match = re.search(r'(N|S|E|W|NE|SE|SW|NW)\s+winds?\s+(?:around|up\s+to|increasing\s+to)?\s*(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
     if wind_match:
         data['wind_direction'] = wind_match.group(1)
         data['wind_speed'] = wind_match.group(2)
 
-    # 2. WIND COMMENTARY
+    # --- 2. WIND COMMENTARY ---
     change_match = re.search(r'(becoming|increasing|decreasing|diminishing)\s+((?:N|S|E|W|NE|SE|SW|NW)+\s+)?.*?(?=\.|,)', text, re.IGNORECASE)
     if change_match:
         data['wind_commentary'] = change_match.group(0)
 
-    # 3. GUSTS
+    # --- 3. GUSTS ---
     gust_match = re.search(r'Gusts\s+up\s+to\s+(\d+\s+kt)', text, re.IGNORECASE)
     if gust_match:
         data['wind_gusts'] = gust_match.group(1)
 
-    # 4. WAVE HEIGHT
+    # --- 4. WAVE HEIGHT ---
     seas_match = re.search(r'(?:Seas|Waves)\s+(?:around|up\s+to)?\s*(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
     if seas_match:
         data['wave_height'] = seas_match.group(1)
 
-    # 5. WAVE DETAIL & COMPONENTS
+    # --- 5. WAVE COMMENTARY ---
+    wave_change_match = re.search(r'(building|subsiding)\s+to\s+(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
+    if wave_change_match:
+        data['wave_commentary'] = wave_change_match.group(0)
+
+    # --- 6. WAVE DETAIL & COMPONENT PARSING ---
     detail_match = re.search(r'Wave detail:\s+(.*?)(?=\.|$)', text, re.IGNORECASE)
+    
     if detail_match:
         full_detail_string = detail_match.group(1)
         data['wave_detail_string'] = full_detail_string
+        
         component_pattern = r'(N|S|E|W|NE|SE|SW|NW)\s+(\d+\s+ft)\s+at\s+(\d+\s+seconds?)'
         components = re.findall(component_pattern, full_detail_string, re.IGNORECASE)
         
         if components:
-            data['swell_components'] = [{"direction": c[0], "height": c[1], "period": c[2]} for c in components]
+            data['swell_components'] = []
+            for comp in components:
+                data['swell_components'].append({
+                    "direction": comp[0],
+                    "height": comp[1],
+                    "period": comp[2]
+                })
+
             data['primary_swell_direction'] = components[0][0]
             data['primary_wave_height'] = components[0][1]
             data['primary_wave_period'] = components[0][2]
@@ -74,55 +94,63 @@ def parse_marine_forecast(text):
     return data
 
 def scrape_and_save(url, filename):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+    """
+    Performs the actual scrape and saves to the specified JSON file.
+    """
+    # Using a standard browser User-Agent helps avoid getting blocked
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
     run_date = datetime.now()
 
     try:
         print(f"Fetching data from {url}...")
         response = requests.get(url, headers=headers)
         response.raise_for_status()
+
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        final_data = {"timestamp": run_date.strftime("%Y-%m-%d %H:%M:%S"), "forecasts": []}
+        final_data = {
+            "timestamp": run_date.strftime("%Y-%m-%d %H:%M:%S"),
+            "forecasts": []
+        }
 
-        # Try standard layout first
-        forecast_div = soup.find('div', id='detailed-forecast-body')
+        # Look for the container that holds the text-based forecast
+        forecast_container = soup.find('div', id='detailed-forecast')
         
-        if forecast_div:
-            rows = forecast_div.find_all('div', class_='row-forecast')
+        if forecast_container:
+            # On MapClick pages, rows are usually div class "row-forecast"
+            rows = forecast_container.find_all('div', class_='row-forecast')
+            
             for row in rows:
                 period_div = row.find('div', class_='forecast-label')
                 desc_div = row.find('div', class_='forecast-text')
+                
                 if period_div and desc_div:
-                    process_row(period_div.text, desc_div.text, run_date, final_data)
-        else:
-            # Try Marine Table Layout (used in the Hatteras link)
-            table = soup.find('table', class_='forecast-tabel') # Note: NOAA uses 'tabel' spelling often
-            if table:
-                rows = table.find_all('tr')
-                for row in rows:
-                    cols = row.find_all('td')
-                    if len(cols) >= 2:
-                        process_row(cols[0].text, cols[1].text, run_date, final_data)
+                    raw_text = desc_div.get_text(strip=True)
+                    original_period_name = period_div.get_text(strip=True)
+                    
+                    formatted_period = get_forecast_date(original_period_name, run_date)
+                    parsed_info = parse_marine_forecast(raw_text)
+                    parsed_info['period'] = formatted_period
+                    
+                    final_data['forecasts'].append(parsed_info)
+
+        if not final_data['forecasts']:
+            print(f"Warning: No forecast data found for {filename}. Check if the CSS selectors need updating.")
 
         with open(filename, 'w') as f:
             json.dump(final_data, f, indent=4)
+        
         print(f"Success! Saved to {filename}")
 
     except Exception as e:
         print(f"Error scraping {url}: {e}")
 
-def process_row(period_name, forecast_text, run_date, final_data):
-    p_name = period_name.strip().replace(':', '')
-    f_text = forecast_text.strip()
-    if p_name and f_text:
-        formatted_period = get_forecast_date(p_name, run_date)
-        parsed_info = parse_marine_forecast(f_text)
-        parsed_info['period'] = formatted_period
-        final_data['forecasts'].append(parsed_info)
-
 def main():
-    # Hatteras NC Marine Forecast
+    # 1. Scrape Oregon Inlet (Original URL)
+    oregon_inlet_url = "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111"
+    scrape_and_save(oregon_inlet_url, 'weather_data.json')
+
+    # 2. Scrape Hatteras NC (Updated URL)
     hatteras_url = "https://forecast.weather.gov/MapClick.php?x=306&y=181&site=mhx&zmx=&zmy=&map_x=306&map_y=181"
     scrape_and_save(hatteras_url, 'hatterasncnoaa.json')
 
