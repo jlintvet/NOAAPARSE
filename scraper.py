@@ -34,7 +34,6 @@ def get_forecast_date(period_text, run_date):
         days_ahead = (target_day_index - current_day_index) % 7
         target_date = run_date + timedelta(days=days_ahead)
     
-    # Format: "Wed Night 2/18"
     date_str = target_date.strftime("%-m/%-d")
     return f"{period_text} {date_str}"
 
@@ -44,7 +43,6 @@ def parse_marine_forecast(text):
     data['raw_text'] = text 
 
     # --- 1. WIND EXTRACTION ---
-    # Matches: "SW winds around 10 kt" or "N winds 15 to 20 kt"
     wind_match = re.search(r'(N|S|E|W|NE|SE|SW|NW)\s+winds?\s+(?:around|up\s+to|increasing\s+to)?\s*(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
     if wind_match:
         data['wind_direction'] = wind_match.group(1)
@@ -75,13 +73,9 @@ def parse_marine_forecast(text):
     
     if detail_match:
         full_detail_string = detail_match.group(1)
-        data['wave_detail_string'] = full_detail_string # Keep the raw string
+        data['wave_detail_string'] = full_detail_string
         
-        # New Step: Parse the components inside the string
-        # Pattern looks for: "NE 6 ft at 12 seconds"
-        # It captures 3 groups: Direction, Height, Period
         component_pattern = r'(N|S|E|W|NE|SE|SW|NW)\s+(\d+\s+ft)\s+at\s+(\d+\s+seconds?)'
-        
         components = re.findall(component_pattern, full_detail_string, re.IGNORECASE)
         
         if components:
@@ -93,18 +87,17 @@ def parse_marine_forecast(text):
                     "period": comp[2]
                 })
 
-            # Logic to set "Primary" stats based on the first component found
-            # (Usually the first listed is the dominant swell)
             data['primary_swell_direction'] = components[0][0]
             data['primary_wave_height'] = components[0][1]
             data['primary_wave_period'] = components[0][2]
 
     return data
 
-def scrape_weather():
-    url = "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111"
+def scrape_and_save(url, filename):
+    """
+    Performs the actual scrape and saves to the specified JSON file.
+    """
     headers = {'User-Agent': 'Mozilla/5.0 (MyMarineScraper/1.0)'}
-    
     run_date = datetime.now()
 
     try:
@@ -137,19 +130,22 @@ def scrape_weather():
                     
                     final_data['forecasts'].append(parsed_info)
 
-        filename = 'weather_data.json'
         with open(filename, 'w') as f:
             json.dump(final_data, f, indent=4)
         
         print(f"Success! Saved to {filename}")
-        
-        # Debug check
-        if final_data['forecasts']:
-            print(f"Sample Swell Data: {json.dumps(final_data['forecasts'][0].get('swell_components', 'No Swell Data'), indent=2)}")
 
     except Exception as e:
-        print(f"Error scraping data: {e}")
-        exit(1)
+        print(f"Error scraping {url}: {e}")
+
+def main():
+    # 1. Scrape Oregon Inlet (Original URL)
+    oregon_inlet_url = "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111"
+    scrape_and_save(oregon_inlet_url, 'weather_data.json')
+
+    # 2. Scrape Hatteras NC (New URL)
+    hatteras_url = "https://marine.weather.gov/MapClick.php?lon=-75.75892&lat=35.05471"
+    scrape_and_save(hatteras_url, 'hatterasncnoaa.json')
 
 if __name__ == "__main__":
-    scrape_weather()
+    main()
