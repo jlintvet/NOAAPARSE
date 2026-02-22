@@ -1,39 +1,38 @@
 {
-    "timestamp": "2026-02-22 17:00:08",
+    "timestamp": "2026-02-22 17:54:04",
     "forecasts": [
         {
-            "raw_text": "SE winds 10 to 15 kt, becoming SW 15 to 20 kt late this morning, then becoming W early this afternoon, increasing to 20 to 25 kt with gusts up to 30 kt late. Seas 4 to 6 ft. Wave detail: E 4 ft at 6 seconds and SW 3 ft at 5 seconds. Showers this morning. A slight chance of tstms. A chance of rain this afternoon.",
-            "wind_direction": "SE",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming SW 15 to 20 kt late this morning",
+            "raw_text": "W winds 15 to 25 kt, becoming NW 20 to 25 kt  late. Gusts up to 30 kt. Seas 4 to 6 ft. Wave detail: W 4 ft at 6  seconds and E 4 ft at 7 seconds. A slight chance of rain.",
+            "wind_direction": "W",
+            "wind_speed": "15 to 25 kt",
+            "wind_commentary": "becoming NW 20 to 25 kt  late",
             "wind_gusts": "30 kt",
             "wave_height": "4 to 6 ft",
-            "wave_detail_string": "E 4 ft at 6 seconds and SW 3 ft at 5 seconds",
+            "wave_detail_string": "W 4 ft at 6  seconds and E 4 ft at 7 seconds",
             "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "4 ft",
+                    "period": "6  seconds"
+                },
                 {
                     "direction": "E",
                     "height": "4 ft",
-                    "period": "6 seconds"
-                },
-                {
-                    "direction": "SW",
-                    "height": "3 ft",
-                    "period": "5 seconds"
+                    "period": "7 seconds"
                 }
             ],
-            "primary_swell_direction": "E",
+            "primary_swell_direction": "W",
             "primary_wave_height": "4 ft",
-            "primary_wave_period": "6 seconds",
-            "period": "Today 2/22"
+            "primary_wave_period": "6  seconds",
+            "period": "This Afternoon 2/22"
         },
         {
-            "raw_text": "W winds 25 to 35 kt, becoming NW 30 to 35 kt after midnight. Gusts up to 45 kt. Seas 6 to 9 ft. Wave detail: W 9 ft at 7 seconds and NE 3 ft at 7 seconds. Rain likely, mainly in the evening.",
-            "wind_direction": "W",
-            "wind_speed": "25 to 35 kt",
-            "wind_commentary": "becoming NW 30 to 35 kt after midnight",
+            "raw_text": "NW winds 30 to 40 kt with gusts up to 45 kt. Seas 6 to 9 ft. Wave detail: W 9 ft at 7 seconds and NE 3 ft at 8 seconds.  rain likely, mainly in the evening.",
+            "wind_direction": "NW",
+            "wind_speed": "30 to 40 kt",
             "wind_gusts": "45 kt",
             "wave_height": "6 to 9 ft",
-            "wave_detail_string": "W 9 ft at 7 seconds and NE 3 ft at 7 seconds",
+            "wave_detail_string": "W 9 ft at 7 seconds and NE 3 ft at 8 seconds",
             "swell_components": [
                 {
                     "direction": "W",
@@ -43,7 +42,7 @@
                 {
                     "direction": "NE",
                     "height": "3 ft",
-                    "period": "7 seconds"
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "W",
@@ -52,13 +51,13 @@
             "period": "Tonight 2/22"
         },
         {
-            "raw_text": "NW winds 25 to 30 kt. Gusts up to 40 kt, decreasing to 30 kt in the afternoon. Seas 6 to 9 ft. Wave detail: W 8 ft at 7 seconds and N 4 ft at 9 seconds. A slight chance of rain.",
+            "raw_text": "NW winds 25 to 30 kt with gusts up to 40 kt, diminishing to 20 to 25 kt with gusts up to 30 kt in the afternoon. Seas 5 to 8 ft. Wave detail: W 8 ft at 7 seconds and NE 5 ft at 10 seconds.",
             "wind_direction": "NW",
             "wind_speed": "25 to 30 kt",
-            "wind_commentary": "decreasing to 30 kt in the afternoon",
+            "wind_commentary": "diminishing to 20 to 25 kt with gusts up to 30 kt in the afternoon",
             "wind_gusts": "40 kt",
-            "wave_height": "6 to 9 ft",
-            "wave_detail_string": "W 8 ft at 7 seconds and N 4 ft at 9 seconds",
+            "wave_height": "5 to 8 ft",
+            "wave_detail_string": "W 8 ft at 7 seconds and NE 5 ft at 10 seconds",
             "swell_components": [
                 {
                     "direction": "W",
@@ -66,9 +65,9 @@
                     "period": "7 seconds"
                 },
                 {
-                    "direction": "N",
-                    "height": "4 ft",
-                    "period": "9 seconds"
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "10 seconds"
                 }
             ],
             "primary_swell_direction": "W",
@@ -77,38 +76,37 @@
             "period": "Mon 2/23"
         },
         {
-            "raw_text": "NW winds 20 to 25 kt with gusts up to 30 kt. Seas 5 to 7 ft. Wave detail: W 6 ft at 6 seconds and NE 5 ft at 11 seconds. A slight chance of rain in the evening.",
+            "raw_text": "NW winds 20 to 25 kt with gusts up to 30 kt. Seas 5 to 7 ft. Wave detail: W 6 ft at 7 seconds and NE 6 ft at 11 seconds. A slight chance of rain in the evening.",
             "wind_direction": "NW",
             "wind_speed": "20 to 25 kt",
             "wind_gusts": "30 kt",
             "wave_height": "5 to 7 ft",
-            "wave_detail_string": "W 6 ft at 6 seconds and NE 5 ft at 11 seconds",
+            "wave_detail_string": "W 6 ft at 7 seconds and NE 6 ft at 11 seconds",
             "swell_components": [
                 {
                     "direction": "W",
                     "height": "6 ft",
-                    "period": "6 seconds"
+                    "period": "7 seconds"
                 },
                 {
                     "direction": "NE",
-                    "height": "5 ft",
+                    "height": "6 ft",
                     "period": "11 seconds"
                 }
             ],
             "primary_swell_direction": "W",
             "primary_wave_height": "6 ft",
-            "primary_wave_period": "6 seconds",
+            "primary_wave_period": "7 seconds",
             "period": "Mon Night 2/23"
         },
         {
-            "raw_text": "NW winds 15 to 20 kt with gusts up to 25 kt, becoming W 10 to 15 kt in the afternoon. Seas 5 to 7 ft, subsiding to 3 to 5 ft in the afternoon. Wave detail: NE 6 ft at 12 seconds and W 5 ft at 6 seconds, becoming NE 5 ft at 14 seconds and W 3 ft at 6 seconds.",
+            "raw_text": "NW winds 15 to 20 kt with gusts up to 25 kt, becoming W 10 to 15 kt in the afternoon. Seas 4 to 6 ft. Wave detail: NE 6 ft at 12 seconds and NW 5 ft at 7 seconds.",
             "wind_direction": "NW",
             "wind_speed": "15 to 20 kt",
             "wind_commentary": "becoming W 10 to 15 kt in the afternoon",
             "wind_gusts": "25 kt",
-            "wave_height": "5 to 7 ft",
-            "wave_commentary": "subsiding to 3 to 5 ft",
-            "wave_detail_string": "NE 6 ft at 12 seconds and W 5 ft at 6 seconds, becoming NE 5 ft at 14 seconds and W 3 ft at 6 seconds",
+            "wave_height": "4 to 6 ft",
+            "wave_detail_string": "NE 6 ft at 12 seconds and NW 5 ft at 7 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
@@ -116,19 +114,9 @@
                     "period": "12 seconds"
                 },
                 {
-                    "direction": "W",
+                    "direction": "NW",
                     "height": "5 ft",
-                    "period": "6 seconds"
-                },
-                {
-                    "direction": "NE",
-                    "height": "5 ft",
-                    "period": "14 seconds"
-                },
-                {
-                    "direction": "W",
-                    "height": "3 ft",
-                    "period": "6 seconds"
+                    "period": "7 seconds"
                 }
             ],
             "primary_swell_direction": "NE",
@@ -137,13 +125,13 @@
             "period": "Tue 2/24"
         },
         {
-            "raw_text": "W winds 10 to 15 kt, becoming SW 15 to 20 kt with gusts up to 25 kt after midnight. Seas 4 to 6 ft. Wave detail: SW 5 ft at 5 seconds and NE 5 ft at 14 seconds.",
+            "raw_text": "W winds 10 to 15 kt, becoming SW 15 to 20 kt with gusts up to 25 kt after midnight. Seas 4 to 6 ft. Wave detail: SW 5 ft at 5 seconds and NE 5 ft at 16 seconds.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "becoming SW 15 to 20 kt with gusts up to 25 kt after midnight",
             "wind_gusts": "25 kt",
             "wave_height": "4 to 6 ft",
-            "wave_detail_string": "SW 5 ft at 5 seconds and NE 5 ft at 14 seconds",
+            "wave_detail_string": "SW 5 ft at 5 seconds and NE 5 ft at 16 seconds",
             "swell_components": [
                 {
                     "direction": "SW",
@@ -153,7 +141,7 @@
                 {
                     "direction": "NE",
                     "height": "5 ft",
-                    "period": "14 seconds"
+                    "period": "16 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
@@ -162,11 +150,10 @@
             "period": "Tue Night 2/24"
         },
         {
-            "raw_text": "SW winds 20 to 25 kt. Seas 5 to 7 ft, building to 6 to 9 ft in the afternoon.",
+            "raw_text": "SW winds 25 to 30 kt. Seas 6 to 9 ft.",
             "wind_direction": "SW",
-            "wind_speed": "20 to 25 kt",
-            "wave_height": "5 to 7 ft",
-            "wave_commentary": "building to 6 to 9 ft",
+            "wind_speed": "25 to 30 kt",
+            "wave_height": "6 to 9 ft",
             "period": "Wed 2/25"
         },
         {
@@ -186,11 +173,11 @@
             "period": "Thu 2/26"
         },
         {
-            "raw_text": "SW winds 20 to 25 kt. Seas 5 to 7 ft, building to 6 to 9 ft after midnight. A chance of rain in the evening, then rain likely after midnight.winds and seas higher in and near tstms.",
+            "raw_text": "SW winds 20 to 25 kt. Seas 5 to 8 ft, building to 7 to 9 ft after midnight. Rain likely in the evening, then rain after midnight.",
             "wind_direction": "SW",
             "wind_speed": "20 to 25 kt",
-            "wave_height": "5 to 7 ft",
-            "wave_commentary": "building to 6 to 9 ft",
+            "wave_height": "5 to 8 ft",
+            "wave_commentary": "building to 7 to 9 ft",
             "period": "Thu Night 2/26"
         }
     ]
