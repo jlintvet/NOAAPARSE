@@ -1,29 +1,30 @@
 {
-    "timestamp": "2026-02-24 23:04:32",
+    "timestamp": "2026-02-25 05:16:56",
     "forecasts": [
         {
-            "raw_text": "W winds around 10 kt, becoming SW 20 to 25 kt late.  seas 4 to 6 ft. Wave detail: NE 6 ft at 13 seconds and SW 5 ft at  5 seconds.",
-            "wind_direction": "W",
-            "wind_speed": "10 kt",
-            "wind_commentary": "becoming SW 20 to 25 kt late",
+            "raw_text": "SW winds 15 to 20 kt with gusts up to 25 kt, increasing to 20 to 25 kt late. Seas 4 to 6 ft. Wave detail: SW 5 ft at 5 seconds and NE 5 ft at 13 seconds.",
+            "wind_direction": "SW",
+            "wind_speed": "15 to 20 kt",
+            "wind_commentary": "increasing to 20 to 25 kt late",
+            "wind_gusts": "25 kt",
             "wave_height": "4 to 6 ft",
-            "wave_detail_string": "NE 6 ft at 13 seconds and SW 5 ft at  5 seconds",
+            "wave_detail_string": "SW 5 ft at 5 seconds and NE 5 ft at 13 seconds",
             "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "6 ft",
-                    "period": "13 seconds"
-                },
                 {
                     "direction": "SW",
                     "height": "5 ft",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "13 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "6 ft",
-            "primary_wave_period": "13 seconds",
-            "period": "Tonight 2/24"
+            "primary_swell_direction": "SW",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "5 seconds",
+            "period": "Overnight 2/25"
         },
         {
             "raw_text": "SW winds 25 to 30 kt with gusts up to 35 kt. Seas 6 to 9 ft, building to 8 to 11 ft in the afternoon. Wave detail: SW 8 ft at 7 seconds and NE 4 ft at 12 seconds, becoming SW 10 ft at 8 seconds and NE 4 ft at 15 seconds.",
