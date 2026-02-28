@@ -50,7 +50,8 @@ def parse_marine_forecast(text):
 
     # --- 2. WIND COMMENTARY ---
     # Negative lookahead rejects matches that resolve to a visibility range (nm).
-    # Secondary guard confirms the captured text actually contains kt before storing.
+    # Secondary guard accepts the match only if it references knots OR a bare
+    # compass direction change (e.g. "becoming SW in the afternoon").
     change_match = re.search(
         r'(becoming|increasing|decreasing|diminishing)\s+'
         r'(?!.*?\d+\s+to\s+\d+\s+nm)'
@@ -59,8 +60,12 @@ def parse_marine_forecast(text):
     )
     if change_match:
         commentary = change_match.group(0)
-        # Secondary guard: only store if the match actually references knots
-        if re.search(r'\d+\s+kt', commentary, re.IGNORECASE):
+        has_knots = re.search(r'\d+\s+kt', commentary, re.IGNORECASE)
+        has_direction_change = re.search(
+            r'(becoming|increasing|decreasing|diminishing)\s+(N|S|E|W|NE|SE|SW|NW)\b',
+            commentary, re.IGNORECASE
+        )
+        if has_knots or has_direction_change:
             data['wind_commentary'] = commentary
 
     # --- 3. GUSTS ---
