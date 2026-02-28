@@ -49,9 +49,19 @@ def parse_marine_forecast(text):
         data['wind_speed'] = wind_match.group(2)
 
     # --- 2. WIND COMMENTARY ---
-    change_match = re.search(r'(becoming|increasing|decreasing|diminishing)\s+((?:N|S|E|W|NE|SE|SW|NW)+\s+)?.*?(?=\.|,)', text, re.IGNORECASE)
+    # Negative lookahead rejects matches that resolve to a visibility range (nm).
+    # Secondary guard confirms the captured text actually contains kt before storing.
+    change_match = re.search(
+        r'(becoming|increasing|decreasing|diminishing)\s+'
+        r'(?!.*?\d+\s+to\s+\d+\s+nm)'
+        r'((?:N|S|E|W|NE|SE|SW|NW)+\s+)?.*?(?=\.|,)',
+        text, re.IGNORECASE
+    )
     if change_match:
-        data['wind_commentary'] = change_match.group(0)
+        commentary = change_match.group(0)
+        # Secondary guard: only store if the match actually references knots
+        if re.search(r'\d+\s+kt', commentary, re.IGNORECASE):
+            data['wind_commentary'] = commentary
 
     # --- 3. GUSTS ---
     gust_match = re.search(r'Gusts\s+up\s+to\s+(\d+\s+kt)', text, re.IGNORECASE)
@@ -97,7 +107,6 @@ def scrape_and_save(url, filename):
     """
     Performs the actual scrape and saves to the specified JSON file.
     """
-    # Using a standard browser User-Agent helps avoid getting blocked
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
     run_date = datetime.now()
 
@@ -113,11 +122,9 @@ def scrape_and_save(url, filename):
             "forecasts": []
         }
 
-        # Look for the container that holds the text-based forecast
         forecast_container = soup.find('div', id='detailed-forecast')
         
         if forecast_container:
-            # On MapClick pages, rows are usually div class "row-forecast"
             rows = forecast_container.find_all('div', class_='row-forecast')
             
             for row in rows:
@@ -146,11 +153,11 @@ def scrape_and_save(url, filename):
         print(f"Error scraping {url}: {e}")
 
 def main():
-    # 1. Scrape Oregon Inlet (Original URL)
+    # 1. Scrape Oregon Inlet
     oregon_inlet_url = "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111"
     scrape_and_save(oregon_inlet_url, 'weather_data.json')
 
-    # 2. Scrape Hatteras NC (Updated URL)
+    # 2. Scrape Hatteras NC
     hatteras_url = "https://forecast.weather.gov/MapClick.php?x=306&y=181&site=mhx&zmx=&zmy=&map_x=306&map_y=181"
     scrape_and_save(hatteras_url, 'hatterasncnoaa.json')
 
