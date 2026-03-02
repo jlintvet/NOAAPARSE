@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-03-02 14:29:38",
+    "timestamp": "2026-03-02 17:32:20",
     "forecasts": [
         {
             "raw_text": "NE winds around 20 kt with gusts up to 30 kt. Seas 5 to 7 ft. Wave detail: NE 6 ft at 7 seconds and SE 2 ft at 10 seconds. A slight chance of rain early this afternoon. A chance of rain late.",
@@ -23,7 +23,7 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "6 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Today 3/2"
+            "period": "Rest Of Today 3/2"
         },
         {
             "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt, diminishing to 10 to 15 kt after midnight. Seas 5 to 7 ft. Wave detail: NE 6 ft at 8 seconds and SE 3 ft at 10 seconds. A chance of rain in the evening, then a chance of rain with a slight chance of tstms after midnight.",
@@ -51,25 +51,25 @@
             "period": "Tonight 3/2"
         },
         {
-            "raw_text": "E winds 5 to 10 kt, becoming SE in the afternoon. Seas 5 to 6 ft. Wave detail: NE 5 ft at 8 seconds and SE 5 ft at 8 seconds. A chance of rain.",
+            "raw_text": "E winds 5 to 10 kt, becoming SE in the afternoon. Seas 5 to 6 ft. Wave detail: SE 5 ft at 8 seconds and NE 5 ft at 8 seconds. A chance of rain.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming SE in the afternoon",
             "wave_height": "5 to 6 ft",
-            "wave_detail_string": "NE 5 ft at 8 seconds and SE 5 ft at 8 seconds",
+            "wave_detail_string": "SE 5 ft at 8 seconds and NE 5 ft at 8 seconds",
             "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "5 ft",
-                    "period": "8 seconds"
-                },
                 {
                     "direction": "SE",
                     "height": "5 ft",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "8 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
+            "primary_swell_direction": "SE",
             "primary_wave_height": "5 ft",
             "primary_wave_period": "8 seconds",
             "period": "Tue 3/3"
