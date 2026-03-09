@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-03-09 11:09:59",
+    "timestamp": "2026-03-09 14:39:13",
     "forecasts": [
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 6 seconds and E 3 ft at 10 seconds. A chance of rain with a slight chance of tstms early this morning. Areas of fog. Vsby 1 nm or less.",
+            "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 3 ft at 10 seconds and S 2 ft at 6 seconds. Areas of dense fog late this morning with vsby 1 nm or less.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "S 3 ft at 6 seconds and E 3 ft at 10 seconds",
+            "wave_detail_string": "E 3 ft at 10 seconds and S 2 ft at 6 seconds",
             "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "3 ft",
-                    "period": "6 seconds"
-                },
                 {
                     "direction": "E",
                     "height": "3 ft",
                     "period": "10 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "2 ft",
+                    "period": "6 seconds"
                 }
             ],
-            "primary_swell_direction": "S",
+            "primary_swell_direction": "E",
             "primary_wave_height": "3 ft",
-            "primary_wave_period": "6 seconds",
-            "period": "Today 3/9"
+            "primary_wave_period": "10 seconds",
+            "period": "Rest Of Today 3/9"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas around 3 ft. Wave detail: SE 3 ft at 10 seconds and S 2 ft at 6 seconds. Patchy fog. Vsby 1 to 3 nm.",
+            "raw_text": "SW winds 5 to 10 kt. Seas around 3 ft. Wave detail: SE 3 ft at 10 seconds and S 2 ft at 6 seconds. Patchy fog. Vsby 1 nm or less, increasing to 1 to 3 nm after midnight.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 ft",

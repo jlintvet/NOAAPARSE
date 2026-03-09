@@ -1,28 +1,28 @@
 {
-    "timestamp": "2026-03-09 11:10:00",
+    "timestamp": "2026-03-09 14:39:14",
     "forecasts": [
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 10 seconds and S 3 ft at 6 seconds. A chance of rain with a slight chance of tstms early this morning, then a slight chance of showers and tstms late this morning. Patchy fog. Vsby 1 to 3  nm.",
+            "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 6 seconds and E 3 ft at 10 seconds. A slight chance of showers and tstms late this morning.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "E 4 ft at 10 seconds and S 3 ft at 6 seconds",
+            "wave_detail_string": "S 3 ft at 6 seconds and E 3 ft at 10 seconds",
             "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "4 ft",
-                    "period": "10 seconds"
-                },
                 {
                     "direction": "S",
                     "height": "3 ft",
                     "period": "6 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "3 ft",
+                    "period": "10 seconds"
                 }
             ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "10 seconds",
-            "period": "Today 3/9"
+            "primary_swell_direction": "S",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "6 seconds",
+            "period": "Rest Of Today 3/9"
         },
         {
             "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: SE 4 ft at 10 seconds and S 2 ft at 7 seconds. Patchy fog. Vsby 1 to 3 nm.",
