@@ -1,23 +1,34 @@
 {
-    "timestamp": "2026-03-12 21:05:20",
+    "timestamp": "2026-03-12 22:57:25",
     "forecasts": [
         {
-            "raw_text": "N winds 30 to 35 kt with gusts up to 45 kt, diminishing to 15 to 20 kt with gusts up to 25 kt. Seas 5 to 8 ft. Wave detail: N 7 ft at 7 seconds. A chance of showers early this evening with vsby 1 to 3 nm.",
+            "raw_text": "N winds 30 to 35 kt with gusts up to 45 kt, diminishing to 15 to 20 kt with gusts up to 30 kt. Seas 8 to 11 ft, subsiding to 6 to 9 ft after midnight. Wave detail: N 7 ft at 6 seconds and S 6 ft at 8 seconds, becoming N 7 ft at 8 seconds. A chance of rain early this evening with vsby 1 to 3 nm.",
             "wind_direction": "N",
             "wind_speed": "30 to 35 kt",
             "wind_gusts": "45 kt",
-            "wave_height": "5 to 8 ft",
-            "wave_detail_string": "N 7 ft at 7 seconds",
+            "wave_height": "8 to 11 ft",
+            "wave_commentary": "subsiding to 6 to 9 ft",
+            "wave_detail_string": "N 7 ft at 6 seconds and S 6 ft at 8 seconds, becoming N 7 ft at 8 seconds",
             "swell_components": [
                 {
                     "direction": "N",
                     "height": "7 ft",
-                    "period": "7 seconds"
+                    "period": "6 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "6 ft",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "7 ft",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "N",
             "primary_wave_height": "7 ft",
-            "primary_wave_period": "7 seconds",
+            "primary_wave_period": "6 seconds",
             "period": "Tonight 3/12"
         },
         {
