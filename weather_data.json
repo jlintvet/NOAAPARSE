@@ -1,34 +1,11 @@
 {
-    "timestamp": "2026-03-14 07:50:44",
+    "timestamp": "2026-03-14 09:03:56",
     "forecasts": [
         {
-            "raw_text": "W winds 15 to 20 kt. Seas 3 to 5 ft. Wave detail: S 4 ft at 5 seconds and NE 3 ft at 7 seconds.",
-            "wind_direction": "W",
-            "wind_speed": "15 to 20 kt",
-            "wave_height": "3 to 5 ft",
-            "wave_detail_string": "S 4 ft at 5 seconds and NE 3 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "4 ft",
-                    "period": "5 seconds"
-                },
-                {
-                    "direction": "NE",
-                    "height": "3 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "5 seconds",
-            "period": "Rest Of Tonight 3/14"
-        },
-        {
-            "raw_text": "W winds 10 to 15 kt, becoming N 5 to 10 kt in the afternoon. Seas 3 to 5 ft, subsiding to 2 to 3 ft in the afternoon. Wave detail: SW 4 ft at 6 seconds and NE 3 ft at 8 seconds, becoming S 3 ft at 6 seconds and E 2 ft at 9 seconds.",
+            "raw_text": "W winds 10 to 15 kt, becoming NW around 5 kt early this afternoon, then becoming NE late. Seas 3 to 5 ft, subsiding to 2 to 3 ft this afternoon. Wave detail: SW 4 ft at 6 seconds and NE 3 ft at 8 seconds, becoming S 3 ft at 6 seconds and E 2 ft at 9 seconds.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming N 5 to 10 kt in the afternoon",
+            "wind_commentary": "becoming NW around 5 kt early this afternoon",
             "wave_height": "3 to 5 ft",
             "wave_commentary": "subsiding to 2 to 3 ft",
             "wave_detail_string": "SW 4 ft at 6 seconds and NE 3 ft at 8 seconds, becoming S 3 ft at 6 seconds and E 2 ft at 9 seconds",
@@ -57,7 +34,7 @@
             "primary_swell_direction": "SW",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "6 seconds",
-            "period": "Sat 3/14"
+            "period": "Today 3/14"
         },
         {
             "raw_text": "E winds 15 to 20 kt. Seas 2 to 4 ft, building to 4 to 6 ft after midnight. Wave detail: E 4 ft at 9 seconds and S 2 ft at 5 seconds, becoming E 6 ft at 6 seconds and S 1 ft at 5 seconds.",
@@ -92,7 +69,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "9 seconds",
-            "period": "Sat Night 3/14"
+            "period": "Tonight 3/14"
         },
         {
             "raw_text": "E winds 15 to 20 kt. Gusts up to 25 kt in the morning. Seas 5 to 7 ft. Wave detail: E 7 ft at 8 seconds. A chance of showers in the afternoon.",
@@ -159,13 +136,29 @@
             "period": "Mon 3/16"
         },
         {
-            "raw_text": "S winds 25 to 35 kt, becoming SW 25 to 30 kt after midnight. Gusts up to 40 kt. Seas 9 to 13 ft, subsiding to 8 to 11 ft after midnight. Showers with a chance of tstms in the evening, then showers after midnight.",
+            "raw_text": "S winds 25 to 35 kt, becoming SW 25 to 30 kt after midnight. Gusts up to 40 kt. Seas 9 to 13 ft, subsiding to 8 to 11 ft after midnight. Wave detail: S 13 ft at 9 seconds, becoming S 11 ft at 9 seconds. Showers with a chance of tstms in the evening, then showers after midnight.",
             "wind_direction": "S",
             "wind_speed": "25 to 35 kt",
             "wind_commentary": "becoming SW 25 to 30 kt after midnight",
             "wind_gusts": "40 kt",
             "wave_height": "9 to 13 ft",
             "wave_commentary": "subsiding to 8 to 11 ft",
+            "wave_detail_string": "S 13 ft at 9 seconds, becoming S 11 ft at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "13 ft",
+                    "period": "9 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "11 ft",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "13 ft",
+            "primary_wave_period": "9 seconds",
             "period": "Mon Night 3/16"
         },
         {
