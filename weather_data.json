@@ -1,30 +1,11 @@
 {
-    "timestamp": "2026-03-30 19:51:08",
+    "timestamp": "2026-03-30 20:37:24",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 to 15 kt, increasing to 15 to 20 kt late. Seas 3 to 5 ft. Wave detail: SE 4 ft at 7 seconds.",
-            "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "increasing to 15 to 20 kt late",
-            "wave_height": "3 to 5 ft",
-            "wave_detail_string": "SE 4 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "4 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "This Afternoon 3/30"
-        },
-        {
-            "raw_text": "SW winds 15 to 20 kt, diminishing to 10 to 15 kt after midnight. Seas 3 to 5 ft. Wave detail: S 4 ft at 6 seconds and E 4 ft at 9 seconds.",
+            "raw_text": "SW winds 15 to 20 kt, diminishing to 10 to 15 kt late. Seas 3 to 5 ft. Wave detail: S 4 ft at 6 seconds and E 4 ft at 9 seconds.",
             "wind_direction": "SW",
             "wind_speed": "15 to 20 kt",
-            "wind_commentary": "diminishing to 10 to 15 kt after midnight",
+            "wind_commentary": "diminishing to 10 to 15 kt late",
             "wave_height": "3 to 5 ft",
             "wave_detail_string": "S 4 ft at 6 seconds and E 4 ft at 9 seconds",
             "swell_components": [
@@ -137,10 +118,21 @@
             "period": "Wed Night 4/1"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Seas 3 to 4 ft.",
+            "raw_text": "S winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: SE 4 ft at 10 seconds.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 to 4 ft",
+            "wave_detail_string": "SE 4 ft at 10 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "4 ft",
+                    "period": "10 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "4 ft",
+            "primary_wave_period": "10 seconds",
             "period": "Thu 4/2"
         },
         {
@@ -163,6 +155,20 @@
             "wind_speed": "5 to 10 kt",
             "wave_height": "4 ft",
             "period": "Fri Night 4/3"
+        },
+        {
+            "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Sat 4/4"
+        },
+        {
+            "raw_text": "S winds 10 to 15 kt. Seas 4 to 5 ft.",
+            "wind_direction": "S",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "4 to 5 ft",
+            "period": "Sat Night 4/4"
         }
     ]
 }
