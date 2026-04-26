@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-04-26 22:30:26",
+    "timestamp": "2026-04-26 23:32:27",
     "forecasts": [
         {
-            "raw_text": "N winds 20 to 25 kt with gusts up to 30 kt. Seas 7 to 10 ft. Wave detail: NE 8 ft at 8 seconds and S 2 ft at 5 seconds. Showers likely with a slight chance of tstms early this afternoon, then a chance of showers with a slight chance of tstms early.",
+            "raw_text": "N winds 20 to 25 kt with gusts up to 30 kt. Seas 7 to 10 ft. Wave detail: NE 8 ft at 8 seconds and N 2 ft at 5 seconds.",
             "wind_direction": "N",
             "wind_speed": "20 to 25 kt",
             "wind_gusts": "30 kt",
             "wave_height": "7 to 10 ft",
-            "wave_detail_string": "NE 8 ft at 8 seconds and S 2 ft at 5 seconds",
+            "wave_detail_string": "NE 8 ft at 8 seconds and N 2 ft at 5 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
@@ -15,7 +15,7 @@
                     "period": "8 seconds"
                 },
                 {
-                    "direction": "S",
+                    "direction": "N",
                     "height": "2 ft",
                     "period": "5 seconds"
                 }
@@ -120,12 +120,12 @@
             "period": "Tue Night 4/28"
         },
         {
-            "raw_text": "S winds 5 to 10 kt, increasing to 10 to 15 kt in the afternoon. Seas 5 to 7 ft. Wave detail: NE 7 ft at 11 seconds and NE 1 ft at 3 seconds. A chance of showers in the afternoon.",
+            "raw_text": "S winds 5 to 10 kt, increasing to 10 to 15 kt in the afternoon. Seas 5 to 7 ft. Wave detail: NE 7 ft at 11 seconds and S 1 ft at 3 seconds. A chance of showers in the afternoon.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "increasing to 10 to 15 kt in the afternoon",
             "wave_height": "5 to 7 ft",
-            "wave_detail_string": "NE 7 ft at 11 seconds and NE 1 ft at 3 seconds",
+            "wave_detail_string": "NE 7 ft at 11 seconds and S 1 ft at 3 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
@@ -133,7 +133,7 @@
                     "period": "11 seconds"
                 },
                 {
-                    "direction": "NE",
+                    "direction": "S",
                     "height": "1 ft",
                     "period": "3 seconds"
                 }
