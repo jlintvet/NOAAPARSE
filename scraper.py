@@ -49,9 +49,6 @@ def parse_marine_forecast(text):
         data['wind_speed'] = wind_match.group(2)
 
     # --- 2. WIND COMMENTARY ---
-    # Negative lookahead rejects matches that resolve to a visibility range (nm).
-    # Secondary guard accepts the match only if it references knots OR a bare
-    # compass direction change (e.g. "becoming SW in the afternoon").
     change_match = re.search(
         r'(becoming|increasing|decreasing|diminishing)\s+'
         r'(?!.*?\d+\s+to\s+\d+\s+nm)'
@@ -158,13 +155,21 @@ def scrape_and_save(url, filename):
         print(f"Error scraping {url}: {e}")
 
 def main():
-    # 1. Scrape Oregon Inlet
+    # 1. Oregon Inlet (NWS office: MHX — Newport/Morehead City NC)
     oregon_inlet_url = "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111"
     scrape_and_save(oregon_inlet_url, 'weather_data.json')
 
-    # 2. Scrape Hatteras NC
+    # 2. Hatteras NC (NWS office: MHX)
     hatteras_url = "https://forecast.weather.gov/MapClick.php?x=306&y=181&site=mhx&zmx=&zmy=&map_x=306&map_y=181"
     scrape_and_save(hatteras_url, 'hatterasncnoaa.json')
+
+    # 3. Beaufort Inlet (NWS office: MHX) — added 2026-05-04
+    beaufort_url = "https://forecast.weather.gov/MapClick.php?x=195&y=256&site=mhx&zmx=&zmy=&map_x=194&map_y=256"
+    scrape_and_save(beaufort_url, 'beaufortinletnoaa.json')
+
+    # 4. Virginia Beach (NWS office: AKQ — Wakefield VA) — added 2026-05-04
+    virginia_beach_url = "https://forecast.weather.gov/MapClick.php?x=265&y=174&site=akq&zmx=&zmy=&map_x=264&map_y=173"
+    scrape_and_save(virginia_beach_url, 'virginiabeachnoaa.json')
 
 if __name__ == "__main__":
     main()
