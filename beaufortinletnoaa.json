@@ -1,36 +1,12 @@
 {
-    "timestamp": "2026-05-15 17:40:06",
+    "timestamp": "2026-05-15 19:20:47",
     "forecasts": [
         {
-            "raw_text": "NW winds around 10 kt, becoming W late. Seas 2 to 4 ft. Wave detail: SE 4 ft at 8 seconds and NW 2 ft at 4 seconds. Adjacent sounds and rivers light chop.",
-            "wind_direction": "NW",
-            "wind_speed": "10 kt",
-            "wind_commentary": "becoming W late",
-            "wave_height": "2 to 4 ft",
-            "wave_detail_string": "SE 4 ft at 8 seconds and NW 2 ft at 4 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "4 ft",
-                    "period": "8 seconds"
-                },
-                {
-                    "direction": "NW",
-                    "height": "2 ft",
-                    "period": "4 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "8 seconds",
-            "period": "Rest Of Today 5/15"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 4 ft. Wave detail: SE 3 ft at 8 seconds and SW 2 ft at 3 seconds. Adjacent sounds and rivers light chop.",
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 4 ft. Wave detail: SE 3 ft at 8 seconds and W 2 ft at 3 seconds. Adjacent sounds and rivers light chop.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 4 ft",
-            "wave_detail_string": "SE 3 ft at 8 seconds and SW 2 ft at 3 seconds",
+            "wave_detail_string": "SE 3 ft at 8 seconds and W 2 ft at 3 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
@@ -38,7 +14,7 @@
                     "period": "8 seconds"
                 },
                 {
-                    "direction": "SW",
+                    "direction": "W",
                     "height": "2 ft",
                     "period": "3 seconds"
                 }
@@ -49,12 +25,11 @@
             "period": "Tonight 5/15"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming S 10 to 15 kt in the afternoon. Seas 2 to 4 ft. Wave detail: SE 3 ft at 9 seconds and SW 2 ft at 3 seconds. Adjacent sounds and rivers light chop, increasing to a moderate chop in the afternoon.",
-            "wind_direction": "SW",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming S 10 to 15 kt in the afternoon",
+            "raw_text": "S winds 10 to 15 kt. Seas 2 to 4 ft. Wave detail: SE 3 ft at 9 seconds and SW 2 ft at 4 seconds. Adjacent sounds and rivers a moderate chop.",
+            "wind_direction": "S",
+            "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 4 ft",
-            "wave_detail_string": "SE 3 ft at 9 seconds and SW 2 ft at 3 seconds",
+            "wave_detail_string": "SE 3 ft at 9 seconds and SW 2 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
@@ -64,7 +39,7 @@
                 {
                     "direction": "SW",
                     "height": "2 ft",
-                    "period": "3 seconds"
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
@@ -73,8 +48,8 @@
             "period": "Sat 5/16"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 4 seconds and SE 3 ft at 9 seconds. Adjacent sounds and rivers a moderate chop.",
-            "wind_direction": "SW",
+            "raw_text": "S winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 4 seconds and SE 3 ft at 9 seconds. Adjacent sounds and rivers a moderate chop.",
+            "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
             "wave_height": "3 to 4 ft",
             "wave_detail_string": "S 3 ft at 4 seconds and SE 3 ft at 9 seconds",
@@ -119,16 +94,39 @@
             "period": "Sun 5/17"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 8 seconds and S 2 ft at 4 seconds. Adjacent sounds and rivers light chop.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 4 ft. Wave detail: S 3 ft at 4 seconds and SE 3 ft at 9 seconds. Adjacent sounds and rivers a moderate chop.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "2 to 4 ft",
+            "wave_detail_string": "S 3 ft at 4 seconds and SE 3 ft at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "3 ft",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "3 ft",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "4 seconds",
+            "period": "Sun Night 5/17"
+        },
+        {
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 9 seconds and S 2 ft at 4 seconds. Adjacent sounds and rivers light chop.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SE 3 ft at 8 seconds and S 2 ft at 4 seconds",
+            "wave_detail_string": "SE 3 ft at 9 seconds and S 2 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "3 ft",
-                    "period": "8 seconds"
+                    "period": "9 seconds"
                 },
                 {
                     "direction": "S",
@@ -138,15 +136,7 @@
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "3 ft",
-            "primary_wave_period": "8 seconds",
-            "period": "Sun Night 5/17"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt, becoming S in the afternoon. Seas 2 to 3 ft. Adjacent sounds and rivers light chop.",
-            "wind_direction": "SW",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming S in the afternoon",
-            "wave_height": "2 to 3 ft",
+            "primary_wave_period": "9 seconds",
             "period": "Mon 5/18"
         },
         {
@@ -165,11 +155,25 @@
             "period": "Tue 5/19"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Seas 2 to 3 ft. Adjacent sounds and rivers light chop.",
+            "raw_text": "S winds 5 to 10 kt. Seas 2 to 4 ft. Adjacent sounds and rivers light chop.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "2 to 3 ft",
+            "wave_height": "2 to 4 ft",
             "period": "Tue Night 5/19"
+        },
+        {
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Adjacent sounds and rivers light chop.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Wed 5/20"
+        },
+        {
+            "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft. Adjacent sounds and rivers light chop.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Wed Night 5/20"
         }
     ]
 }
