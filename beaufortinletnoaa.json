@@ -1,13 +1,29 @@
 {
-    "timestamp": "2026-05-15 13:48:28",
+    "timestamp": "2026-05-15 15:58:43",
     "forecasts": [
         {
-            "raw_text": "NW winds 15 to 20 kt, becoming W 5 to 10 kt this  afternoon. Seas 3 to 5 ft, except 2 to 3 ft near shore. Wave  detail: SE 4 ft at 8 seconds and NW 3 ft at 4 seconds. Adjacent  sounds and rivers a moderate chop, diminishing to light chop late.",
+            "raw_text": "NW winds around 10 kt, becoming W late. Seas 2 to 4 ft. Wave detail: SE 4 ft at 8 seconds and NW 2 ft at 4 seconds. Adjacent sounds and rivers light chop.",
             "wind_direction": "NW",
-            "wind_speed": "15 to 20 kt",
-            "wind_commentary": "becoming W 5 to 10 kt this  afternoon",
-            "wave_height": "3 to 5 ft",
-            "period": "Today 5/15"
+            "wind_speed": "10 kt",
+            "wind_commentary": "becoming W late",
+            "wave_height": "2 to 4 ft",
+            "wave_detail_string": "SE 4 ft at 8 seconds and NW 2 ft at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "4 ft",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "NW",
+                    "height": "2 ft",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "4 ft",
+            "primary_wave_period": "8 seconds",
+            "period": "Rest Of Today 5/15"
         },
         {
             "raw_text": "SW winds 5 to 10 kt. Seas 2 to 4 ft. Wave detail: SE 3 ft at 8 seconds and SW 2 ft at 3 seconds. Adjacent sounds and rivers light chop.",
