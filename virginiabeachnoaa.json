@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-05-20 23:06:20",
+    "timestamp": "2026-05-21 02:38:34",
     "forecasts": [
         {
-            "raw_text": "S winds 15 to 20 kt with gusts up to 25 kt, becoming SW 10 to 15 kt with gusts up to 20 kt after midnight. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: S 4 ft at 5 seconds and SE 3 ft at 9 seconds.",
+            "raw_text": "S winds 15 to 20 kt, becoming SW 10 to 15 kt late.  seas 3 to 4 ft, occasionally to 6 ft, subsiding to 2 to 3 ft late.  wave detail: S 4 ft at 5 seconds and SE 3 ft at 9 seconds.",
             "wind_direction": "S",
             "wind_speed": "15 to 20 kt",
-            "wind_commentary": "becoming SW 10 to 15 kt with gusts up to 20 kt after midnight",
-            "wind_gusts": "25 kt",
+            "wind_commentary": "becoming SW 10 to 15 kt late",
             "wave_height": "3 to 4 ft",
+            "wave_commentary": "subsiding to 2 to 3 ft",
             "wave_detail_string": "S 4 ft at 5 seconds and SE 3 ft at 9 seconds",
             "swell_components": [
                 {
@@ -24,26 +24,16 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Tonight 5/20"
+            "period": "Overnight 5/21"
         },
         {
-            "raw_text": "S winds 5 to 10 kt, becoming E 15 to 20 kt with gusts up to 25 kt in the afternoon. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: SE 3 ft at 9 seconds and E 1 foot at 8 seconds.",
+            "raw_text": "S winds 5 to 10 kt, becoming SE with gusts up to 15 kt early in the afternoon, then becoming E 15 to 20 kt late. Seas 2 to 3 ft, building to 3 to 4 ft, occasionally to 6 ft. Wave  detail: SE 3 ft at 9 seconds and E 1 foot at 8 seconds.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming E 15 to 20 kt with gusts up to 25 kt in the afternoon",
-            "wind_gusts": "25 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "SE 3 ft at 9 seconds and E 1 foot at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "3 ft",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "9 seconds",
+            "wind_commentary": "becoming SE with gusts up to 15 kt early in the afternoon",
+            "wind_gusts": "15 kt",
+            "wave_height": "2 to 3 ft",
+            "wave_commentary": "building to 3 to 4 ft",
             "period": "Thu 5/21"
         },
         {
@@ -115,24 +105,39 @@
             "period": "Fri Night 5/22"
         },
         {
-            "raw_text": "E winds 5 to 10 kt with gusts up to 15 kt. Seas around 4 ft, occasionally to 6 ft. A chance of showers.",
+            "raw_text": "E winds 5 to 10 kt with gusts up to 15 kt. Seas around 4 ft, occasionally to 6 ft. Wave detail: NE 4 ft at 8 seconds and SE 2 ft at 8 seconds. A chance of showers.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wind_gusts": "15 kt",
             "wave_height": "4 ft",
+            "wave_detail_string": "NE 4 ft at 8 seconds and SE 2 ft at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "4 ft",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "2 ft",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "4 ft",
+            "primary_wave_period": "8 seconds",
             "period": "Sat 5/23"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt, becoming S after midnight. Gusts up to 15 kt. Seas 3 to 4 ft, occasionally to 6 ft. A chance of tstms. A chance of showers in the evening, then showers likely after midnight.",
+            "raw_text": "SE winds 5 to 10 kt with gusts up to 15 kt. Seas 3 to 4 ft, occasionally to 6 ft. A chance of showers and tstms.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming S after midnight",
             "wind_gusts": "15 kt",
             "wave_height": "3 to 4 ft",
             "period": "Sat Night 5/23"
         },
         {
-            "raw_text": "S winds 10 kt with gusts up to 15 kt. Seas 3 to 4 ft, occasionally to 6 ft. Showers likely. A chance of tstms in the afternoon.",
+            "raw_text": "S winds 10 kt with gusts up to 15 kt. Seas 3 to 4 ft, occasionally to 6 ft. A chance of showers. A chance of tstms in the afternoon.",
             "wind_direction": "S",
             "wind_speed": "10 kt",
             "wind_gusts": "15 kt",
@@ -140,12 +145,28 @@
             "period": "Sun 5/24"
         },
         {
-            "raw_text": "S winds 10 kt with gusts up to 15 kt. Seas around 4 ft, occasionally to 6 ft. A chance of tstms. Showers likely, mainly in the evening.winds and seas higher in and near tstms.",
+            "raw_text": "S winds 10 kt with gusts up to 15 kt. Seas around 4 ft, occasionally to 6 ft. A chance of tstms in the evening. A chance of showers.",
             "wind_direction": "S",
             "wind_speed": "10 kt",
             "wind_gusts": "15 kt",
             "wave_height": "4 ft",
             "period": "Sun Night 5/24"
+        },
+        {
+            "raw_text": "S winds 10 kt with gusts up to 15 kt. Seas around 4 ft, occasionally to 6 ft. A chance of showers.",
+            "wind_direction": "S",
+            "wind_speed": "10 kt",
+            "wind_gusts": "15 kt",
+            "wave_height": "4 ft",
+            "period": "Mon 5/25"
+        },
+        {
+            "raw_text": "S winds 5 to 10 kt with gusts up to 15 kt. Seas 3 to 4 ft, occasionally to 6 ft. A chance of tstms. A chance of showers in the evening, then showers likely after midnight.winds and seas higher in and near tstms.",
+            "wind_direction": "S",
+            "wind_speed": "5 to 10 kt",
+            "wind_gusts": "15 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Mon Night 5/25"
         }
     ]
 }
