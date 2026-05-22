@@ -1,11 +1,10 @@
 {
-    "timestamp": "2026-05-22 13:25:45",
+    "timestamp": "2026-05-22 16:18:08",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 to 15 kt, becoming W 5 to 10 kt late this morning and afternoon. Seas 3 to 4 ft. Wave detail: SE 4 ft at 9 seconds and S 3 ft at 6 seconds. Showers likely with a slight chance of tstms early this morning, then a chance of showers late this morning and afternoon. A slight chance of tstms late.",
-            "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming W 5 to 10 kt late this morning and afternoon",
+            "raw_text": "W winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: SE 4 ft at 9 seconds and S 3 ft at 6 seconds. A chance of showers. A slight chance of tstms late.",
+            "wind_direction": "W",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "3 to 4 ft",
             "wave_detail_string": "SE 4 ft at 9 seconds and S 3 ft at 6 seconds",
             "swell_components": [
@@ -23,7 +22,7 @@
             "primary_swell_direction": "SE",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "9 seconds",
-            "period": "Today 5/22"
+            "period": "Rest Of Today 5/22"
         },
         {
             "raw_text": "E winds 5 to 10 kt, becoming SE after midnight. Seas 3 to 5 ft. Wave detail: N 4 ft at 8 seconds and SE 4 ft at 9 seconds. A slight chance of showers in the evening, then a chance of showers after midnight.",
@@ -73,24 +72,24 @@
             "period": "Sat 5/23"
         },
         {
-            "raw_text": "S winds 10 to 15 kt. Seas 4 to 5 ft. Wave detail: NE 4 ft at 8 seconds and SE 4 ft at 8 seconds. Showers likely. A slight chance of tstms in the evening, then a chance of tstms after midnight.",
+            "raw_text": "S winds 10 to 15 kt. Seas 4 to 5 ft. Wave detail: SE 4 ft at 8 seconds and NE 4 ft at 8 seconds. Showers likely. A slight chance of tstms in the evening, then a chance of tstms after midnight.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
             "wave_height": "4 to 5 ft",
-            "wave_detail_string": "NE 4 ft at 8 seconds and SE 4 ft at 8 seconds",
+            "wave_detail_string": "SE 4 ft at 8 seconds and NE 4 ft at 8 seconds",
             "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "4 ft",
-                    "period": "8 seconds"
-                },
                 {
                     "direction": "SE",
                     "height": "4 ft",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "4 ft",
+                    "period": "8 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
+            "primary_swell_direction": "SE",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "8 seconds",
             "period": "Sat Night 5/23"
