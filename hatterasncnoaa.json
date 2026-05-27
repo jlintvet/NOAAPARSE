@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-27 22:26:37",
+    "timestamp": "2026-05-27 23:55:35",
     "forecasts": [
         {
             "raw_text": "SW winds 20 to 25 kt. Seas 4 to 6 ft. Wave detail: SW 6 ft at 6 seconds and SE 3 ft at 9 seconds. A chance of showers and tstms after midnight.",
@@ -49,24 +49,24 @@
             "period": "Thu 5/28"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt. Seas 3 to 5 ft. Wave detail: NE 3 ft at 7 seconds and S 3 ft at 7 seconds. A slight chance of showers in the evening.",
+            "raw_text": "NE winds 10 to 15 kt. Seas 3 to 5 ft. Wave detail: S 3 ft at 7 seconds and NE 3 ft at 7 seconds. A slight chance of showers in the evening.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
             "wave_height": "3 to 5 ft",
-            "wave_detail_string": "NE 3 ft at 7 seconds and S 3 ft at 7 seconds",
+            "wave_detail_string": "S 3 ft at 7 seconds and NE 3 ft at 7 seconds",
             "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "3 ft",
-                    "period": "7 seconds"
-                },
                 {
                     "direction": "S",
                     "height": "3 ft",
                     "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "3 ft",
+                    "period": "7 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
+            "primary_swell_direction": "S",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "7 seconds",
             "period": "Thu Night 5/28"
