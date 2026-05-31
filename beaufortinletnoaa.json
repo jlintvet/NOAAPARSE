@@ -1,43 +1,18 @@
 {
-    "timestamp": "2026-05-31 13:20:52",
+    "timestamp": "2026-05-31 15:13:57",
     "forecasts": [
         {
-            "raw_text": "NE winds 20 to 25 kt with gusts up to 30 kt. Seas 4 to 6 ft, except 2 to 4 ft near shore. Wave detail: E 5 ft at 7 seconds and NE 5 ft at 9 seconds. Adjacent sounds and rivers rough.",
+            "raw_text": "NE winds 15 to 20 kt, becoming E 10 to 15 kt this afternoon. Seas 4 to 6 ft, except 2 to 4 ft near shore. Wave detail: E 5 ft at 7 seconds and SE 4 ft at 8 seconds. Adjacent sounds and rivers choppy, diminishing to a moderate chop this afternoon.",
             "wind_direction": "NE",
-            "wind_speed": "20 to 25 kt",
-            "wind_gusts": "30 kt",
+            "wind_speed": "15 to 20 kt",
+            "wind_commentary": "becoming E 10 to 15 kt this afternoon",
             "wave_height": "4 to 6 ft",
-            "wave_detail_string": "E 5 ft at 7 seconds and NE 5 ft at 9 seconds",
+            "wave_detail_string": "E 5 ft at 7 seconds and SE 4 ft at 8 seconds",
             "swell_components": [
                 {
                     "direction": "E",
                     "height": "5 ft",
                     "period": "7 seconds"
-                },
-                {
-                    "direction": "NE",
-                    "height": "5 ft",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "5 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "Rest Of Tonight 5/31"
-        },
-        {
-            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt, becoming E 10 to 15 kt in the afternoon. Seas 4 to 6 ft, except 2 to 4 ft near shore. Wave detail: E 5 ft at 8 seconds and SE 4 ft at 8 seconds. Adjacent sounds and rivers choppy, diminishing to a moderate chop in the afternoon.",
-            "wind_direction": "NE",
-            "wind_speed": "15 to 20 kt",
-            "wind_commentary": "becoming E 10 to 15 kt in the afternoon",
-            "wind_gusts": "25 kt",
-            "wave_height": "4 to 6 ft",
-            "wave_detail_string": "E 5 ft at 8 seconds and SE 4 ft at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "5 ft",
-                    "period": "8 seconds"
                 },
                 {
                     "direction": "SE",
@@ -47,8 +22,8 @@
             ],
             "primary_swell_direction": "E",
             "primary_wave_height": "5 ft",
-            "primary_wave_period": "8 seconds",
-            "period": "Sun 5/31"
+            "primary_wave_period": "7 seconds",
+            "period": "Rest Of Today 5/31"
         },
         {
             "raw_text": "SE winds 10 to 15 kt. Seas 2 to 4 ft. Wave detail: E 4 ft at 10 seconds and SE 3 ft at 8 seconds. Adjacent sounds and rivers a moderate chop.",
@@ -71,7 +46,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "10 seconds",
-            "period": "Sun Night 5/31"
+            "period": "Tonight 5/31"
         },
         {
             "raw_text": "S winds 10 to 15 kt. Seas 3 to 5 ft, except 2 to 3 ft near shore. Wave detail: SE 3 ft at 7 seconds and E 3 ft at 11 seconds. Adjacent sounds and rivers a moderate chop. A chance of showers in the morning, then showers likely with a slight chance of tstms in the afternoon.",
@@ -121,7 +96,7 @@
             "period": "Mon Night 6/1"
         },
         {
-            "raw_text": "NE winds 15 to 20 kt, increasing to 20 to 25 kt in the afternoon. Gusts up to 30 kt. Seas 5 to 7 ft, except 3 to 4 ft near shore. Wave detail: NE 5 ft at 5 seconds and SE 4 ft at 7 seconds. Adjacent sounds and rivers choppy, increasing to rough in the afternoon. Showers likely, mainly in the morning.",
+            "raw_text": "NE winds 15 to 20 kt, increasing to 20 to 25 kt in the afternoon. Gusts up to 30 kt. Seas 5 to 7 ft, except 3 to 4 ft near shore. Wave detail: NE 5 ft at 5 seconds and SE 4 ft at 7 seconds. Adjacent sounds and rivers choppy, increasing to rough in the afternoon. A chance of showers with a slight chance of tstms.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
             "wind_commentary": "increasing to 20 to 25 kt in the afternoon",
@@ -146,11 +121,27 @@
             "period": "Tue 6/2"
         },
         {
-            "raw_text": "N winds 20 to 25 kt with gusts up to 30 kt. Seas 5 to 7 ft, except 2 to 4 ft near shore. Adjacent sounds and rivers rough. A chance of showers.",
+            "raw_text": "N winds 20 to 25 kt with gusts up to 30 kt. Seas 5 to 7 ft, except 2 to 4 ft near shore. Wave detail: E 6 ft at 7 seconds and NE 6 ft at 10 seconds. Adjacent sounds and rivers rough. A chance of showers.",
             "wind_direction": "N",
             "wind_speed": "20 to 25 kt",
             "wind_gusts": "30 kt",
             "wave_height": "5 to 7 ft",
+            "wave_detail_string": "E 6 ft at 7 seconds and NE 6 ft at 10 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "6 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "6 ft",
+                    "period": "10 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "6 ft",
+            "primary_wave_period": "7 seconds",
             "period": "Tue Night 6/2"
         },
         {
@@ -161,7 +152,7 @@
             "period": "Wed 6/3"
         },
         {
-            "raw_text": "N winds 15 to 20 kt. Seas 4 to 6 ft. Adjacent sounds and rivers choppy.",
+            "raw_text": "N winds 15 to 20 kt. Seas 4 to 6 ft. Adjacent sounds and rivers choppy. A chance of showers.",
             "wind_direction": "N",
             "wind_speed": "15 to 20 kt",
             "wave_height": "4 to 6 ft",
