@@ -4,6 +4,7 @@ import json
 import re
 from datetime import datetime, timedelta
 
+
 def get_forecast_date(period_text, run_date):
     """
     Calculates the date based on the period name.
@@ -17,30 +18,30 @@ def get_forecast_date(period_text, run_date):
         "sat": 5, "saturday": 5,
         "sun": 6, "sunday": 6
     }
-    
+
     period_lower = period_text.lower()
     target_date = run_date
     found_day = False
     target_day_index = -1
-
     for day_name, index in day_mapping.items():
         if day_name in period_lower:
             target_day_index = index
             found_day = True
-            break 
-    
+            break
+
     if found_day:
         current_day_index = run_date.weekday()
         days_ahead = (target_day_index - current_day_index) % 7
         target_date = run_date + timedelta(days=days_ahead)
-    
+
     date_str = target_date.strftime("%-m/%-d")
     return f"{period_text} {date_str}"
+
 
 def parse_marine_forecast(text):
     data = {}
     text = text.replace('\n', ' ').strip()
-    data['raw_text'] = text 
+    data['raw_text'] = text
 
     # --- 1. WIND EXTRACTION ---
     wind_match = re.search(r'(N|S|E|W|NE|SE|SW|NW)\s+winds?\s+(?:around|up\s+to|increasing\s+to)?\s*(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
@@ -82,14 +83,14 @@ def parse_marine_forecast(text):
 
     # --- 6. WAVE DETAIL & COMPONENT PARSING ---
     detail_match = re.search(r'Wave detail:\s+(.*?)(?=\.|$)', text, re.IGNORECASE)
-    
+
     if detail_match:
         full_detail_string = detail_match.group(1)
         data['wave_detail_string'] = full_detail_string
-        
+
         component_pattern = r'(N|S|E|W|NE|SE|SW|NW)\s+(\d+\s+ft)\s+at\s+(\d+\s+seconds?)'
         components = re.findall(component_pattern, full_detail_string, re.IGNORECASE)
-        
+
         if components:
             data['swell_components'] = []
             for comp in components:
@@ -98,12 +99,12 @@ def parse_marine_forecast(text):
                     "height": comp[1],
                     "period": comp[2]
                 })
-
             data['primary_swell_direction'] = components[0][0]
             data['primary_wave_height'] = components[0][1]
             data['primary_wave_period'] = components[0][2]
 
     return data
+
 
 def scrape_and_save(url, filename):
     """
@@ -116,31 +117,30 @@ def scrape_and_save(url, filename):
         print(f"Fetching data from {url}...")
         response = requests.get(url, headers=headers)
         response.raise_for_status()
-
         soup = BeautifulSoup(response.content, 'html.parser')
-        
+
         final_data = {
             "timestamp": run_date.strftime("%Y-%m-%d %H:%M:%S"),
             "forecasts": []
         }
 
         forecast_container = soup.find('div', id='detailed-forecast')
-        
+
         if forecast_container:
             rows = forecast_container.find_all('div', class_='row-forecast')
-            
+
             for row in rows:
                 period_div = row.find('div', class_='forecast-label')
                 desc_div = row.find('div', class_='forecast-text')
-                
+
                 if period_div and desc_div:
                     raw_text = desc_div.get_text(strip=True)
                     original_period_name = period_div.get_text(strip=True)
-                    
+
                     formatted_period = get_forecast_date(original_period_name, run_date)
                     parsed_info = parse_marine_forecast(raw_text)
                     parsed_info['period'] = formatted_period
-                    
+
                     final_data['forecasts'].append(parsed_info)
 
         if not final_data['forecasts']:
@@ -148,40 +148,50 @@ def scrape_and_save(url, filename):
 
         with open(filename, 'w') as f:
             json.dump(final_data, f, indent=4)
-        
+
         print(f"Success! Saved to {filename}")
 
     except Exception as e:
         print(f"Error scraping {url}: {e}")
 
+
 def main():
     # 1. Oregon Inlet (NWS office: MHX — Newport/Morehead City NC)
-    oregon_inlet_url = "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111"
-    scrape_and_save(oregon_inlet_url, 'weather_data.json')
-
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111",
+        'weather_data.json'
+    )
     # 2. Hatteras NC (NWS office: MHX)
-    hatteras_url = "https://forecast.weather.gov/MapClick.php?x=306&y=181&site=mhx&zmx=&zmy=&map_x=306&map_y=181"
-    scrape_and_save(hatteras_url, 'hatterasncnoaa.json')
-
-    # 3. Beaufort Inlet (NWS office: MHX) — added 2026-05-04
-    beaufort_url = "https://forecast.weather.gov/MapClick.php?x=195&y=256&site=mhx&zmx=&zmy=&map_x=194&map_y=256"
-    scrape_and_save(beaufort_url, 'beaufortinletnoaa.json')
-
-    # 4. Virginia Beach (NWS office: AKQ — Wakefield VA) — added 2026-05-04
-    virginia_beach_url = "https://forecast.weather.gov/MapClick.php?x=265&y=174&site=akq&zmx=&zmy=&map_x=264&map_y=173"
-    scrape_and_save(virginia_beach_url, 'virginiabeachnoaa.json')
-
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?x=306&y=181&site=mhx&zmx=&zmy=&map_x=306&map_y=181",
+        'hatterasncnoaa.json'
+    )
+    # 3. Beaufort Inlet (NWS office: MHX)
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?x=195&y=256&site=mhx&zmx=&zmy=&map_x=194&map_y=256",
+        'beaufortinletnoaa.json'
+    )
+    # 4. Virginia Beach (NWS office: AKQ — Wakefield VA)
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?x=265&y=174&site=akq&zmx=&zmy=&map_x=264&map_y=173",
+        'virginiabeachnoaa.json'
+    )
     # 5. Poquoson, VA — ANZ632 Chesapeake Bay New Point Comfort to Little Creek
-    poquoson_url = "https://forecast.weather.gov/MapClick.php?zoneid=ANZ632"
-    scrape_and_save(poquoson_url, 'poquosonnoaa.json')
-
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ632",
+        'poquosonnoaa.json'
+    )
     # 6. Bay Bridge Tunnel, VA — ANZ634 Chesapeake Bay Little Creek to Cape Henry
-    bbt_url = "https://forecast.weather.gov/MapClick.php?zoneid=ANZ634"
-    scrape_and_save(bbt_url, 'baybridgetunnelnoaa.json')
-
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ634",
+        'baybridgetunnelnoaa.json'
+    )
     # 7. Ocean City, MD — ANZ485 Cape May NJ to Fenwick Island DE 20-60 NM
-    ocean_city_url = "https://forecast.weather.gov/MapClick.php?zoneid=ANZ485"
-    scrape_and_save(ocean_city_url, 'oceancitynoaa.json')
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ485",
+        'oceancitynoaa.json'
+    )
+
 
 if __name__ == "__main__":
     main()
