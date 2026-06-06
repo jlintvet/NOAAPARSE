@@ -1,28 +1,28 @@
 {
-    "timestamp": "2026-06-06 13:14:30",
+    "timestamp": "2026-06-06 15:07:25",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 9 seconds and SW 3 ft at 5 seconds.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: SW 3 ft at 5 seconds and E 3 ft at 9 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "E 4 ft at 9 seconds and SW 3 ft at 5 seconds",
+            "wave_detail_string": "SW 3 ft at 5 seconds and E 3 ft at 9 seconds",
             "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "4 ft",
-                    "period": "9 seconds"
-                },
                 {
                     "direction": "SW",
                     "height": "3 ft",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "3 ft",
+                    "period": "9 seconds"
                 }
             ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "9 seconds",
-            "period": "Today 6/6"
+            "primary_swell_direction": "SW",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "5 seconds",
+            "period": "Rest Of Today 6/6"
         },
         {
             "raw_text": "SW winds 15 to 20 kt with gusts up to 25 kt. Seas 4 to 5 ft. Wave detail: SW 4 ft at 5 seconds and E 3 ft at 9 seconds.",
