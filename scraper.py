@@ -171,5 +171,17 @@ def main():
     virginia_beach_url = "https://forecast.weather.gov/MapClick.php?x=265&y=174&site=akq&zmx=&zmy=&map_x=264&map_y=173"
     scrape_and_save(virginia_beach_url, 'virginiabeachnoaa.json')
 
+    # 5. Poquoson, VA — ANZ632 Chesapeake Bay New Point Comfort to Little Creek
+    poquoson_url = "https://forecast.weather.gov/MapClick.php?zoneid=ANZ632"
+    scrape_and_save(poquoson_url, 'poquosonnoaa.json')
+
+    # 6. Bay Bridge Tunnel, VA — ANZ634 Chesapeake Bay Little Creek to Cape Henry
+    bbt_url = "https://forecast.weather.gov/MapClick.php?zoneid=ANZ634"
+    scrape_and_save(bbt_url, 'baybridgetunnelnoaa.json')
+
+    # 7. Ocean City, MD — ANZ485 Cape May NJ to Fenwick Island DE 20-60 NM
+    ocean_city_url = "https://forecast.weather.gov/MapClick.php?zoneid=ANZ485"
+    scrape_and_save(ocean_city_url, 'oceancitynoaa.json')
+
 if __name__ == "__main__":
     main()
