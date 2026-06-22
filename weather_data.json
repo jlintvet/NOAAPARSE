@@ -1,29 +1,6 @@
 {
-    "timestamp": "2026-06-22 19:18:59",
+    "timestamp": "2026-06-22 21:56:14",
     "forecasts": [
-        {
-            "raw_text": "S winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: S 3 ft at 4 seconds and SE 2 ft at 9 seconds.",
-            "wind_direction": "S",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "S 3 ft at 4 seconds and SE 2 ft at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "3 ft",
-                    "period": "4 seconds"
-                },
-                {
-                    "direction": "SE",
-                    "height": "2 ft",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "4 seconds",
-            "period": "This Afternoon 6/22"
-        },
         {
             "raw_text": "S winds 15 to 20 kt. Seas 2 to 3 ft. Wave detail: S 3 ft at 4 seconds and SE 1 ft at 9 seconds.",
             "wind_direction": "S",
@@ -144,10 +121,26 @@
             "period": "Wed Night 6/24"
         },
         {
-            "raw_text": "NE winds 5 to 10 kt. Seas 2 to 3 ft.",
+            "raw_text": "NE winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: NE 2 ft at 5 seconds and S 2 ft at 6 seconds.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
+            "wave_detail_string": "NE 2 ft at 5 seconds and S 2 ft at 6 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "2 ft",
+                    "period": "5 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "2 ft",
+                    "period": "6 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "2 ft",
+            "primary_wave_period": "5 seconds",
             "period": "Thu 6/25"
         },
         {
@@ -167,11 +160,25 @@
             "period": "Fri 6/26"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas around 3 ft. A chance of showers and tstms after midnight.winds and seas higher in and near tstms.",
+            "raw_text": "SW winds 10 to 15 kt. Seas around 3 ft. A chance of showers and tstms after midnight.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wave_height": "3 ft",
             "period": "Fri Night 6/26"
+        },
+        {
+            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. A chance of showers and tstms.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Sat 6/27"
+        },
+        {
+            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. A chance of showers and tstms.winds and seas higher in and near tstms.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Sat Night 6/27"
         }
     ]
 }
