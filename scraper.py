@@ -191,6 +191,16 @@ def main():
         "https://forecast.weather.gov/MapClick.php?zoneid=ANZ485",
         'oceancitynoaa.json'
     )
+    # 8. Horn Harbor, VA — ANZ631 Chesapeake Bay Sandy Point to Windmill Point
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ631",
+        'hornharbornoaa.json'
+    )
+    # 9. Cape Charles, VA — ANZ631 Chesapeake Bay Sandy Point to Windmill Point
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ631",
+        'capecharlesnoaa.json'
+    )
 
 
 if __name__ == "__main__":
