@@ -106,45 +106,54 @@ def parse_marine_forecast(text):
     return data
 
 
-def scrape_and_save_api(zone_id, filename):
+def scrape_and_save_latlon(lat, lon, filename):
     """
-    Fetches a marine zone forecast from the NWS API (api.weather.gov) and
-    saves it in the same JSON format as scrape_and_save().
+    Fetches a marine zone forecast from marine.weather.gov using a lat/lon
+    coordinate that falls within the desired zone. marine.weather.gov
+    auto-detects the appropriate zone from the coordinate.
 
-    Use this for zones that return 400 from marine.weather.gov/MapClick.php —
-    typically OPC-managed offshore zones (AMZ2xx, AMZ37x) that are not served
-    by the local WFO MapClick endpoint.
+    Use this for ILM and CHS AMZ zones that return 400 when queried by
+    zone ID (e.g. AMZ270-276, AMZ370-374). Pass an offshore coordinate
+    ~30nm from the port — inside the 20-40nm or 20-60nm zone.
+
+    This is the same underlying approach as the mid-atlantic MHX pixel-coord
+    entries (Oregon Inlet, Hatteras, Beaufort Inlet), just using lat/lon
+    instead of map pixel coordinates.
     """
-    url = f"https://api.weather.gov/zones/forecast/{zone_id}/forecast"
-    headers = {
-        'User-Agent': 'SSTFishingMap/1.0 (jlintvet@gmail.com)',
-        'Accept': 'application/geo+json',
-    }
+    url = f"https://marine.weather.gov/MapClick.php?lat={lat}&lon={lon}&unit=0&lg=english&FcstType=text"
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
     run_date = datetime.now()
 
     try:
-        print(f"Fetching {zone_id} via NWS API...")
+        print(f"Fetching marine forecast at ({lat},{lon}) for {filename}...")
         response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
-        data = response.json()
-
-        periods = data.get('properties', {}).get('periods', [])
+        soup = BeautifulSoup(response.content, 'html.parser')
 
         final_data = {
             "timestamp": run_date.strftime("%Y-%m-%d %H:%M:%S"),
             "forecasts": []
         }
 
-        for period in periods:
-            raw_text = period.get('detailedForecast', '')
-            period_name = period.get('name', '')
-            formatted_period = get_forecast_date(period_name, run_date)
-            parsed_info = parse_marine_forecast(raw_text)
-            parsed_info['period'] = formatted_period
-            final_data['forecasts'].append(parsed_info)
+        forecast_container = soup.find('div', id='detailed-forecast')
+
+        if forecast_container:
+            rows = forecast_container.find_all('div', class_='row-forecast')
+
+            for row in rows:
+                period_div = row.find('div', class_='forecast-label')
+                desc_div = row.find('div', class_='forecast-text')
+
+                if period_div and desc_div:
+                    raw_text = desc_div.get_text(strip=True)
+                    original_period_name = period_div.get_text(strip=True)
+                    formatted_period = get_forecast_date(original_period_name, run_date)
+                    parsed_info = parse_marine_forecast(raw_text)
+                    parsed_info['period'] = formatted_period
+                    final_data['forecasts'].append(parsed_info)
 
         if not final_data['forecasts']:
-            print(f"Warning: No forecast periods returned for {zone_id}.")
+            print(f"Warning: No forecast data found for {filename}. Check lat/lon falls in a valid marine zone.")
 
         with open(filename, 'w') as f:
             json.dump(final_data, f, indent=4)
@@ -152,7 +161,7 @@ def scrape_and_save_api(zone_id, filename):
         print(f"Success! Saved to {filename}")
 
     except Exception as e:
-        print(f"Error fetching {zone_id} via NWS API: {e}")
+        print(f"Error fetching ({lat},{lon}) for {filename}: {e}")
 
 
 
@@ -254,27 +263,33 @@ def main():
 
 
     # ── GA/SC Region ─────────────────────────────────────────────────────────
-    # ILM outer zones (AMZ270-276) and CHS outer zones (AMZ370-374) are
-    # OPC-managed and return 400 from marine.weather.gov/MapClick.php.
-    # Use scrape_and_save_api() which hits api.weather.gov instead.
-    # JAX zones (AMZ470, AMZ452, AMZ454) work via MapClick.php — kept as-is.
-    scrape_and_save_api("AMZ270", 'wrightsvillebeachnc_noaa.json')                                              # Wrightsville Beach, NC — 20-40nm
-    scrape_and_save_api("AMZ270", 'carolinabeachnc_noaa.json')                                                  # Carolina Beach, NC — 20-40nm
-    scrape_and_save_api("AMZ272", 'southportnc_noaa.json')                                                      # Southport, NC — 20-40nm
-    scrape_and_save_api("AMZ274", 'littleriversc_noaa.json')                                                    # Little River Inlet, SC — 20-40nm
-    scrape_and_save_api("AMZ274", 'myrtlebeachsc_noaa.json')                                                    # Myrtle Beach, SC — 20-40nm
-    scrape_and_save_api("AMZ276", 'murrellsinletsc_noaa.json')                                                  # Murrells Inlet, SC — 20-40nm
-    scrape_and_save_api("AMZ276", 'georgetownsc_noaa.json')                                                     # Georgetown, SC — 20-40nm
-    scrape_and_save_api("AMZ370", 'charlestonsc_noaa.json')                                                     # Charleston, SC — 20-40nm
-    scrape_and_save_api("AMZ372", 'beaufortsc_noaa.json')                                                       # Beaufort, SC — 20-40nm
-    scrape_and_save_api("AMZ372", 'hiltonheadsc_noaa.json')                                                     # Hilton Head, SC — 20-40nm
-    scrape_and_save_api("AMZ374", 'tybeega_noaa.json')                                                          # Tybee Island, GA — 20-60nm
-    scrape_and_save_api("AMZ374", 'darienga_noaa.json')                                                         # Darien, GA — 20-60nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'stsimonsgaga_noaa.json')          # St. Simons Island, GA — 20-60nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'jekyllga_noaa.json')              # Jekyll Island, GA — 20-60nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'fernandinafl_noaa.json')          # Fernandina Beach, FL — out 20nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'mayportfl_noaa.json')             # Mayport, FL — out 20nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ454", 'staugustinefl_noaa.json')         # St. Augustine, FL — out 20nm
+    # ILM outer zones (AMZ270-276) and CHS outer zones (AMZ370-374) return
+    # 400 when queried by zone ID from marine.weather.gov/MapClick.php, and
+    # 404 from api.weather.gov/zones/forecast/. Use scrape_and_save_latlon()
+    # instead: pass an offshore coordinate ~30nm from the port (inside the
+    # zone) and marine.weather.gov auto-detects the correct zone.
+    # JAX zones (AMZ470, AMZ452, AMZ454) work via zone ID — kept as-is.
+    #
+    # Offshore coordinate rationale: ~30nm east of the coast (midpoint of
+    # the 20-40nm zone), or ~40nm for 20-60nm zones. Adjust if zone
+    # boundary changes cause wrong zone detection.
+    scrape_and_save_latlon(34.1, -76.9, 'wrightsvillebeachnc_noaa.json')   # Wrightsville Beach NC — AMZ270 Surf City-Cape Fear 20-40nm
+    scrape_and_save_latlon(34.1, -76.9, 'carolinabeachnc_noaa.json')       # Carolina Beach NC — same zone as Wrightsville
+    scrape_and_save_latlon(33.7, -77.6, 'southportnc_noaa.json')           # Southport NC — AMZ272 Cape Fear-Little River 20-40nm
+    scrape_and_save_latlon(33.5, -78.2, 'littleriversc_noaa.json')         # Little River Inlet SC — AMZ274 Little River-Murrells 20-40nm
+    scrape_and_save_latlon(33.5, -78.2, 'myrtlebeachsc_noaa.json')         # Myrtle Beach SC — same zone as Little River
+    scrape_and_save_latlon(33.1, -78.7, 'murrellsinletsc_noaa.json')       # Murrells Inlet SC — AMZ276 Murrells-S Santee 20-40nm
+    scrape_and_save_latlon(33.1, -78.7, 'georgetownsc_noaa.json')          # Georgetown SC — same zone as Murrells Inlet
+    scrape_and_save_latlon(32.7, -79.2, 'charlestonsc_noaa.json')          # Charleston SC — AMZ370 S Santee-Edisto 20-40nm
+    scrape_and_save_latlon(32.1, -80.0, 'beaufortsc_noaa.json')            # Beaufort SC — AMZ372 Edisto-Savannah 20-40nm
+    scrape_and_save_latlon(32.1, -80.0, 'hiltonheadsc_noaa.json')          # Hilton Head SC — same zone as Beaufort
+    scrape_and_save_latlon(31.7, -80.3, 'tybeega_noaa.json')               # Tybee Island GA — AMZ374 Savannah-Altamaha 20-60nm
+    scrape_and_save_latlon(31.7, -80.3, 'darienga_noaa.json')              # Darien GA — same zone as Tybee
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'stsimonsgaga_noaa.json')  # St. Simons Island GA — 20-60nm
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'jekyllga_noaa.json')      # Jekyll Island GA — 20-60nm
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'fernandinafl_noaa.json')  # Fernandina Beach FL — out 20nm
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'mayportfl_noaa.json')     # Mayport FL — out 20nm
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ454", 'staugustinefl_noaa.json') # St. Augustine FL — out 20nm
 
 
 if __name__ == "__main__":
