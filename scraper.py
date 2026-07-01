@@ -127,7 +127,7 @@ def scrape_and_save_latlon(lat, lon, filename):
     entries (Oregon Inlet, Hatteras, Beaufort Inlet), just using lat/lon
     instead of map pixel coordinates.
     """
-    url = f"https://marine.weather.gov/MapClick.php?lat={lat}&lon={lon}&unit=0&lg=english&FcstType=text"
+    url = f"https://marine.weather.gov/MapClick.php?lat={lat}&lon={lon}"
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
     run_date = datetime.now()
 
