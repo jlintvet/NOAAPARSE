@@ -161,6 +161,9 @@ def scrape_and_save_latlon(lat, lon, filename):
 
         if not final_data['forecasts']:
             print(f"Warning: No forecast data found for {filename}. Check lat/lon falls in a valid marine zone.")
+            # DEBUG: print first 3000 chars of response to diagnose page structure
+            print(f"DEBUG HTML snippet for {filename}:")
+            print(response.text[:3000])
 
         with open(filename, 'w') as f:
             json.dump(final_data, f, indent=4)
