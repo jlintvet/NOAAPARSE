@@ -44,40 +44,46 @@ def parse_marine_forecast(text):
     data['raw_text'] = text
 
     # --- 1. WIND EXTRACTION ---
-    wind_match = re.search(r'(N|S|E|W|NE|SE|SW|NW)\s+winds?\s+(?:around|up\s+to|increasing\s+to)?\s*(\d+\s+to\s+\d+\s+kt|\d+\s+kt)', text, re.IGNORECASE)
+    # Compass direction — full words (Northeast) and abbreviations (NE, NNE, etc.)
+    _DIR = r'(?:North(?:east|west)?|South(?:east|west)?|East|West|NNE|NE|ENE|ESE|SE|SSE|SSW|SW|WSW|WNW|NW|NNW|N|S|E|W)'
+    _SPEED = r'(?:\d+\s+to\s+\d+\s+(?:kt|knots?)|\d+\s+(?:kt|knots?))'
+    _HEIGHT = r'(?:\d+\s+to\s+\d+\s+(?:ft|feet)|\d+\s+(?:ft|feet))'
+    _DIR_NORM = {'northeast':'NE','northwest':'NW','southeast':'SE','southwest':'SW','north':'N','south':'S','east':'E','west':'W'}
+    wind_match = re.search(rf'({_DIR})\s+winds?\s+(?:around\s+|up\s+to\s+|increasing\s+to\s+)?({_SPEED})', text, re.IGNORECASE)
     if wind_match:
-        data['wind_direction'] = wind_match.group(1)
+        raw_dir = wind_match.group(1)
+        data['wind_direction'] = _DIR_NORM.get(raw_dir.lower(), raw_dir.upper())
         data['wind_speed'] = wind_match.group(2)
 
     # --- 2. WIND COMMENTARY ---
     change_match = re.search(
         r'(becoming|increasing|decreasing|diminishing)\s+'
         r'(?!.*?\d+\s+to\s+\d+\s+nm)'
-        r'((?:N|S|E|W|NE|SE|SW|NW)+\s+)?.*?(?=\.|,)',
+        rf'(?:{_DIR}\s+)?.*?(?=\.|,)',
         text, re.IGNORECASE
     )
     if change_match:
         commentary = change_match.group(0)
-        has_knots = re.search(r'\d+\s+kt', commentary, re.IGNORECASE)
+        has_speed = re.search(r'\d+\s+(?:kt|knots?)', commentary, re.IGNORECASE)
         has_direction_change = re.search(
-            r'(becoming|increasing|decreasing|diminishing)\s+(N|S|E|W|NE|SE|SW|NW)\b',
+            rf'(becoming|increasing|decreasing|diminishing)\s+({_DIR})\b',
             commentary, re.IGNORECASE
         )
-        if has_knots or has_direction_change:
+        if has_speed or has_direction_change:
             data['wind_commentary'] = commentary
 
     # --- 3. GUSTS ---
-    gust_match = re.search(r'Gusts\s+up\s+to\s+(\d+\s+kt)', text, re.IGNORECASE)
+    gust_match = re.search(rf'[Gg]usts?\s+(?:up\s+to\s+)?({_SPEED})', text, re.IGNORECASE)
     if gust_match:
         data['wind_gusts'] = gust_match.group(1)
 
     # --- 4. WAVE HEIGHT ---
-    seas_match = re.search(r'(?:Seas|Waves)\s+(?:around|up\s+to)?\s*(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
+    seas_match = re.search(rf'(?:Seas|Waves)\s+(?:around\s+|up\s+to\s+)?({_HEIGHT})', text, re.IGNORECASE)
     if seas_match:
         data['wave_height'] = seas_match.group(1)
 
     # --- 5. WAVE COMMENTARY ---
-    wave_change_match = re.search(r'(building|subsiding)\s+to\s+(\d+\s+to\s+\d+\s+ft|\d+\s+ft)', text, re.IGNORECASE)
+    wave_change_match = re.search(rf'(building|subsiding)\s+to\s+({_HEIGHT})', text, re.IGNORECASE)
     if wave_change_match:
         data['wave_commentary'] = wave_change_match.group(0)
 
@@ -88,20 +94,21 @@ def parse_marine_forecast(text):
         full_detail_string = detail_match.group(1)
         data['wave_detail_string'] = full_detail_string
 
-        component_pattern = r'(N|S|E|W|NE|SE|SW|NW)\s+(\d+\s+ft)\s+at\s+(\d+\s+seconds?)'
+        component_pattern = rf'({_DIR})\s+(\d+\s+(?:ft|feet))\s+at\s+(\d+\s+seconds?)'
         components = re.findall(component_pattern, full_detail_string, re.IGNORECASE)
 
         if components:
             data['swell_components'] = []
             for comp in components:
+                direction = _DIR_NORM.get(comp[0].lower(), comp[0].upper())
                 data['swell_components'].append({
-                    "direction": comp[0],
+                    "direction": direction,
                     "height": comp[1],
                     "period": comp[2]
                 })
-            data['primary_swell_direction'] = components[0][0]
-            data['primary_wave_height'] = components[0][1]
-            data['primary_wave_period'] = components[0][2]
+            data['primary_swell_direction'] = data['swell_components'][0]['direction']
+            data['primary_wave_height'] = data['swell_components'][0]['height']
+            data['primary_wave_period'] = data['swell_components'][0]['period']
 
     return data
 
