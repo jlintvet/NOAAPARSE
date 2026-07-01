@@ -203,5 +203,29 @@ def main():
     )
 
 
+    # ── GA/SC Region ─────────────────────────────────────────────────────────
+    # ILM outer zones AMZ270-276: OPC-managed, 20-40nm
+    # CHS outer AMZ374: CHS-managed, 20-60nm; AMZ370/372: OPC-managed, 20-40nm
+    # JAX outer AMZ470-474: JAX-managed, 20-60nm
+    # FL inner zones AMZ452/454: <20nm per spec
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ270", 'wrightsvillebeachnc_noaa.json')   # Wrightsville Beach, NC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ270", 'carolinabeachnc_noaa.json')       # Carolina Beach, NC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ272", 'southportnc_noaa.json')           # Southport, NC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ274", 'littleriversc_noaa.json')         # Little River Inlet, SC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ274", 'myrtlebeachsc_noaa.json')         # Myrtle Beach, SC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ276", 'murrellsinletsc_noaa.json')       # Murrells Inlet, SC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ276", 'georgetownsc_noaa.json')          # Georgetown, SC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ370", 'charlestonsc_noaa.json')          # Charleston, SC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ372", 'beaufortsc_noaa.json')            # Beaufort, SC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ372", 'hiltonheadsc_noaa.json')          # Hilton Head, SC
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ374", 'tybeega_noaa.json')               # Tybee Island, GA
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ374", 'darienga_noaa.json')              # Darien, GA
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'stsimonsgaga_noaa.json')          # St. Simons Island, GA
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'jekyllga_noaa.json')              # Jekyll Island, GA
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'fernandinafl_noaa.json')          # Fernandina Beach, FL (inner <20nm)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'mayportfl_noaa.json')             # Mayport, FL (inner <20nm)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ454", 'staugustinefl_noaa.json')         # St. Augustine, FL (inner <20nm)
+
+
 if __name__ == "__main__":
     main()
