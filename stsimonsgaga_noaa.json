@@ -1,26 +1,8 @@
 {
-    "timestamp": "2026-07-02 09:54:26",
+    "timestamp": "2026-07-02 12:04:40",
     "forecasts": [
         {
-            "raw_text": "East winds 5 to 10 knots. Seas around 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 9 seconds.",
-            "wind_direction": "E",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "4 feet",
-            "wave_detail_string": "east 4 feet at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "4 feet",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "4 feet",
-            "primary_wave_period": "9 seconds",
-            "period": "Rest Of Tonight 7/2"
-        },
-        {
-            "raw_text": "Northeast winds 5 to 10 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 8 seconds. A slight chance of showers and thunderstorms.",
+            "raw_text": "Northeast winds 5 to 10 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 8 seconds. A slight chance of showers.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "3 to 4 feet",
@@ -35,12 +17,13 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "4 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Thursday 7/2"
+            "period": "Rest Of Today 7/2"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 3 feet at 8 seconds and northeast 3 feet at 8 seconds.",
+            "raw_text": "East winds 5 to 10 knots, diminishing to around 5 knots after midnight. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 3 feet at 8 seconds and northeast 3 feet at 8 seconds. A slight chance of showers.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 knots",
+            "wind_commentary": "diminishing to around 5 knots after midnight",
             "wave_height": "3 to 4 feet",
             "wave_detail_string": "east 3 feet at 8 seconds and northeast 3 feet at 8 seconds",
             "swell_components": [
@@ -58,7 +41,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "3 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Thursday Night 7/2"
+            "period": "Tonight 7/2"
         },
         {
             "raw_text": "East winds around 5 knots, increasing to 5 to 10 knots in the afternoon. Seas around 3 feet. Wave detail: northeast 3 feet at 7 seconds and east 3 feet at 8 seconds.",
@@ -128,10 +111,26 @@
             "period": "Saturday 7/4"
         },
         {
-            "raw_text": "South winds 10 to 15 knots. Seas 2 to 3 feet. A slight chance of showers and thunderstorms after midnight.",
+            "raw_text": "South winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: south 2 feet at 4 seconds and east 2 feet at 9 seconds. A slight chance of showers and thunderstorms after midnight.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
+            "wave_detail_string": "south 2 feet at 4 seconds and east 2 feet at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "4 seconds",
             "period": "Saturday Night 7/4"
         },
         {
