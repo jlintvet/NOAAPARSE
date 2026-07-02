@@ -222,24 +222,24 @@ def scrape_and_save(url, filename):
 
 
 def main():
-    # 1. Oregon Inlet (NWS office: MHX — Newport/Morehead City NC)
+    # 1. Oregon Inlet (NWS office: MHX — AMZ180, 20-60nm)
     scrape_and_save(
-        "https://forecast.weather.gov/MapClick.php?x=348&y=111&site=mhx&zmx=&zmy=&map_x=348&map_y=111",
+        "https://forecast.weather.gov/MapClick.php?zoneid=AMZ180",
         'weather_data.json'
     )
-    # 2. Hatteras NC (NWS office: MHX)
+    # 2. Hatteras NC (NWS office: MHX — AMZ184, 20-60nm)
     scrape_and_save(
-        "https://forecast.weather.gov/MapClick.php?x=306&y=181&site=mhx&zmx=&zmy=&map_x=306&map_y=181",
+        "https://forecast.weather.gov/MapClick.php?zoneid=AMZ184",
         'hatterasncnoaa.json'
     )
-    # 3. Beaufort Inlet (NWS office: MHX)
+    # 3. Beaufort Inlet (NWS office: MHX — AMZ186, 20-60nm)
     scrape_and_save(
-        "https://forecast.weather.gov/MapClick.php?x=195&y=256&site=mhx&zmx=&zmy=&map_x=194&map_y=256",
+        "https://forecast.weather.gov/MapClick.php?zoneid=AMZ186",
         'beaufortinletnoaa.json'
     )
-    # 4. Virginia Beach (NWS office: AKQ — Wakefield VA)
+    # 4. Virginia Beach (NWS office: AKQ — ANZ686, 20-60nm)
     scrape_and_save(
-        "https://forecast.weather.gov/MapClick.php?x=265&y=174&site=akq&zmx=&zmy=&map_x=264&map_y=173",
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ686",
         'virginiabeachnoaa.json'
     )
     # 5. Poquoson, VA — ANZ632 Chesapeake Bay New Point Comfort to Little Creek
@@ -275,26 +275,26 @@ def main():
     # 404 from api.weather.gov/zones/forecast/. Use scrape_and_save_latlon()
     # instead: pass an offshore coordinate ~30nm from the port (inside the
     # zone) and marine.weather.gov auto-detects the correct zone.
-    # JAX zones (AMZ470, AMZ452, AMZ454) work via zone ID — kept as-is.
+    # JAX zones (AMZ470, AMZ472, AMZ474) — all 20-60nm, marine.weather.gov zone ID approach.
     #
     # NC/SC/GA nearshore zones — forecast.weather.gov zone ID approach (same as mid-atlantic ANZ zones)
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ250", 'wrightsvillebeachnc_noaa.json')  # Surf City to Cape Fear NC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ250", 'carolinabeachnc_noaa.json')      # Surf City to Cape Fear NC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ252", 'southportnc_noaa.json')          # Cape Fear to Little River Inlet SC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ254", 'littleriversc_noaa.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ254", 'myrtlebeachsc_noaa.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ256", 'murrellsinletsc_noaa.json')      # Murrells Inlet to South Santee River SC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ256", 'georgetownsc_noaa.json')         # Murrells Inlet to South Santee River SC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ360", 'charlestonsc_noaa.json')         # South Santee River to Edisto Beach SC, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ362", 'beaufortsc_noaa.json')           # Edisto Beach SC to Savannah GA, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ362", 'hiltonheadsc_noaa.json')         # Edisto Beach SC to Savannah GA, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ364", 'tybeega_noaa.json')              # Savannah GA to Altamaha Sound GA, 0-20nm
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ364", 'darienga_noaa.json')             # Savannah GA to Altamaha Sound GA, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ280", 'wrightsvillebeachnc_noaa.json')  # Surf City to Cape Fear NC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ280", 'carolinabeachnc_noaa.json')      # Surf City to Cape Fear NC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ280", 'southportnc_noaa.json')          # Cape Fear to Little River Inlet SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ284", 'littleriversc_noaa.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ284", 'myrtlebeachsc_noaa.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ284", 'murrellsinletsc_noaa.json')      # Murrells Inlet to South Santee River SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ284", 'georgetownsc_noaa.json')         # Murrells Inlet to South Santee River SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ380", 'charlestonsc_noaa.json')         # South Santee River to Edisto Beach SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ382", 'beaufortsc_noaa.json')           # Edisto Beach SC to Savannah GA, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ382", 'hiltonheadsc_noaa.json')         # Edisto Beach SC to Savannah GA, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ384", 'tybeega_noaa.json')              # Savannah GA to Altamaha Sound GA, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ384", 'darienga_noaa.json')             # Savannah GA to Altamaha Sound GA, 0-20nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'stsimonsgaga_noaa.json')  # St. Simons Island GA — 20-60nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'jekyllga_noaa.json')      # Jekyll Island GA — 20-60nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'fernandinafl_noaa.json')  # Fernandina Beach FL — out 20nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'mayportfl_noaa.json')     # Mayport FL — out 20nm
-    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ454", 'staugustinefl_noaa.json') # St. Augustine FL — out 20nm
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'fernandinafl_noaa.json')  # Fernandina Beach FL — out 20nm
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ472", 'mayportfl_noaa.json')     # Mayport FL — out 20nm
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ474", 'staugustinefl_noaa.json') # St. Augustine FL — out 20nm
 
 
 def scrape_and_save_cwf(wfo, zone_keywords, filename):
