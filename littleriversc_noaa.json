@@ -1,12 +1,12 @@
 {
-    "timestamp": "2026-07-02 02:35:17",
+    "timestamp": "2026-07-02 06:33:35",
     "forecasts": [
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 8 seconds and E 2 ft at 4 seconds.",
+            "raw_text": "E winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 8 seconds and SE 2 ft at 4 seconds.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "E 4 ft at 8 seconds and E 2 ft at 4 seconds",
+            "wave_detail_string": "E 4 ft at 8 seconds and SE 2 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "E",
@@ -14,7 +14,7 @@
                     "period": "8 seconds"
                 },
                 {
-                    "direction": "E",
+                    "direction": "SE",
                     "height": "2 ft",
                     "period": "4 seconds"
                 }
@@ -22,7 +22,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "8 seconds",
-            "period": "Overnight 7/2"
+            "period": "Rest Of Tonight 7/2"
         },
         {
             "raw_text": "NE winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 8 seconds.",
@@ -43,16 +43,22 @@
             "period": "Thu 7/2"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 3 ft at 8 seconds.",
+            "raw_text": "E winds 5 to 10 kt, becoming SE after midnight. Seas 3 to 4 ft. Wave detail: E 3 ft at 8 seconds and SE 1 ft at 3 seconds.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming SE after midnight",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "E 3 ft at 8 seconds",
+            "wave_detail_string": "E 3 ft at 8 seconds and SE 1 ft at 3 seconds",
             "swell_components": [
                 {
                     "direction": "E",
                     "height": "3 ft",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 ft",
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "E",
@@ -61,10 +67,10 @@
             "period": "Thu Night 7/2"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: E 3 ft at 8 seconds.",
-            "wind_direction": "E",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "2 to 3 ft",
+            "raw_text": "NE winds 5 kt. Seas 3 ft. Wave detail: E 3 ft at 8 seconds.",
+            "wind_direction": "NE",
+            "wind_speed": "5 kt",
+            "wave_height": "3 ft",
             "wave_detail_string": "E 3 ft at 8 seconds",
             "swell_components": [
                 {
@@ -79,10 +85,9 @@
             "period": "Fri 7/3"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt, becoming SW after midnight. Seas 2 to 3 ft. Wave detail: E 3 ft at 8 seconds.",
-            "wind_direction": "SE",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW after midnight",
+            "raw_text": "S winds 5 kt. Seas 2 to 3 ft. Wave detail: E 3 ft at 8 seconds.",
+            "wind_direction": "S",
+            "wind_speed": "5 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "E 3 ft at 8 seconds",
             "swell_components": [
@@ -98,15 +103,15 @@
             "period": "Fri Night 7/3"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: E 2 ft at 8 seconds and S 1 ft at 2 seconds.",
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: E 3 ft at 8 seconds and S 1 ft at 2 seconds.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "E 2 ft at 8 seconds and S 1 ft at 2 seconds",
+            "wave_detail_string": "E 3 ft at 8 seconds and S 1 ft at 2 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "2 ft",
+                    "height": "3 ft",
                     "period": "8 seconds"
                 },
                 {
@@ -116,14 +121,14 @@
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "2 ft",
+            "primary_wave_height": "3 ft",
             "primary_wave_period": "8 seconds",
             "period": "Sat 7/4"
         },
         {
-            "raw_text": "S winds 10 kt. Seas 2 to 3 ft.",
+            "raw_text": "S winds 5 to 10 kt. Seas 2 to 3 ft.",
             "wind_direction": "S",
-            "wind_speed": "10 kt",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
             "period": "Sat Night 7/4"
         },
@@ -143,9 +148,10 @@
             "period": "Sun Night 7/5"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft.",
+            "raw_text": "SW winds 10 to 15 kt, increasing to 15 to 20 kt in the afternoon. Seas 3 to 4 ft.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
+            "wind_commentary": "increasing to 15 to 20 kt in the afternoon",
             "wave_height": "3 to 4 ft",
             "period": "Mon 7/6"
         },
