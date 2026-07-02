@@ -277,23 +277,19 @@ def main():
     # zone) and marine.weather.gov auto-detects the correct zone.
     # JAX zones (AMZ470, AMZ452, AMZ454) work via zone ID — kept as-is.
     #
-    # Offshore coordinate rationale: ~30nm east of the coast (midpoint of
-    # the 20-40nm zone), or ~40nm for 20-60nm zones. Adjust if zone
-    # boundary changes cause wrong zone detection.
-    # AMZ270-374: OPC-managed offshore zones — marine.weather.gov MapClick is client-rendered JS,
-    # zone IDs return 400. Use ILM/CHS WFO text products (OFF or CWF) instead.
-    scrape_and_save_cwf('ILM', ['AMZ270', 'SURF CITY', 'CAPE FEAR', '20 TO 40'], 'wrightsvillebeachnc_noaa.json')
-    scrape_and_save_cwf('ILM', ['AMZ270', 'SURF CITY', 'CAPE FEAR', '20 TO 40'], 'carolinabeachnc_noaa.json')
-    scrape_and_save_cwf('ILM', ['AMZ272', 'CAPE FEAR TO LITTLE RIVER', '20 TO 40'], 'southportnc_noaa.json')
-    scrape_and_save_cwf('ILM', ['AMZ274', 'LITTLE RIVER', 'MYRTLE', '20 TO 40'], 'littleriversc_noaa.json')
-    scrape_and_save_cwf('ILM', ['AMZ274', 'LITTLE RIVER', 'MYRTLE', '20 TO 40'], 'myrtlebeachsc_noaa.json')
-    scrape_and_save_cwf('ILM', ['AMZ276', 'SANTEE', 'MURRELLS', 'WINYAH', '20 TO 40'], 'murrellsinletsc_noaa.json')
-    scrape_and_save_cwf('ILM', ['AMZ276', 'SANTEE', 'MURRELLS', 'WINYAH', '20 TO 40'], 'georgetownsc_noaa.json')
-    scrape_and_save_cwf('CHS', ['AMZ370', 'SANTEE', 'EDISTO', '20 TO 40'], 'charlestonsc_noaa.json')
-    scrape_and_save_cwf('CHS', ['AMZ372', 'EDISTO', 'SAVANNAH', '20 TO 40'], 'beaufortsc_noaa.json')
-    scrape_and_save_cwf('CHS', ['AMZ372', 'EDISTO', 'SAVANNAH', '20 TO 40'], 'hiltonheadsc_noaa.json')
-    scrape_and_save_cwf('CHS', ['AMZ374', 'SAVANNAH', 'ALTAMAHA', '20 TO 60'], 'tybeega_noaa.json')
-    scrape_and_save_cwf('CHS', ['AMZ374', 'SAVANNAH', 'ALTAMAHA', '20 TO 60'], 'darienga_noaa.json')
+    # NC/SC/GA nearshore zones — forecast.weather.gov zone ID approach (same as mid-atlantic ANZ zones)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ250", 'wrightsvillebeachnc_noaa.json')  # Surf City to Cape Fear NC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ250", 'carolinabeachnc_noaa.json')      # Surf City to Cape Fear NC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ252", 'southportnc_noaa.json')          # Cape Fear to Little River Inlet SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ254", 'littleriversc_noaa.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ254", 'myrtlebeachsc_noaa.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ256", 'murrellsinletsc_noaa.json')      # Murrells Inlet to South Santee River SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ256", 'georgetownsc_noaa.json')         # Murrells Inlet to South Santee River SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ360", 'charlestonsc_noaa.json')         # South Santee River to Edisto Beach SC, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ362", 'beaufortsc_noaa.json')           # Edisto Beach SC to Savannah GA, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ362", 'hiltonheadsc_noaa.json')         # Edisto Beach SC to Savannah GA, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ364", 'tybeega_noaa.json')              # Savannah GA to Altamaha Sound GA, 0-20nm
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ364", 'darienga_noaa.json')             # Savannah GA to Altamaha Sound GA, 0-20nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'stsimonsgaga_noaa.json')  # St. Simons Island GA — 20-60nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'jekyllga_noaa.json')      # Jekyll Island GA — 20-60nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'fernandinafl_noaa.json')  # Fernandina Beach FL — out 20nm
