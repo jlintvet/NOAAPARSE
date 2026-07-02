@@ -160,10 +160,7 @@ def scrape_and_save_latlon(lat, lon, filename):
                     final_data['forecasts'].append(parsed_info)
 
         if not final_data['forecasts']:
-            print(f"Warning: No forecast data found for {filename}. Check lat/lon falls in a valid marine zone.")
-            # DEBUG: print first 3000 chars of response to diagnose page structure
-            print(f"DEBUG HTML snippet for {filename}:")
-            print(response.text[:3000])
+            print(f"Warning: No forecast data found for {filename}. marine.weather.gov lat/lon endpoint is client-rendered.")
 
         with open(filename, 'w') as f:
             json.dump(final_data, f, indent=4)
@@ -283,23 +280,125 @@ def main():
     # Offshore coordinate rationale: ~30nm east of the coast (midpoint of
     # the 20-40nm zone), or ~40nm for 20-60nm zones. Adjust if zone
     # boundary changes cause wrong zone detection.
-    scrape_and_save_latlon(34.1, -76.9, 'wrightsvillebeachnc_noaa.json')   # Wrightsville Beach NC — AMZ270 Surf City-Cape Fear 20-40nm
-    scrape_and_save_latlon(34.1, -76.9, 'carolinabeachnc_noaa.json')       # Carolina Beach NC — same zone as Wrightsville
-    scrape_and_save_latlon(33.7, -77.6, 'southportnc_noaa.json')           # Southport NC — AMZ272 Cape Fear-Little River 20-40nm
-    scrape_and_save_latlon(33.5, -78.2, 'littleriversc_noaa.json')         # Little River Inlet SC — AMZ274 Little River-Murrells 20-40nm
-    scrape_and_save_latlon(33.5, -78.2, 'myrtlebeachsc_noaa.json')         # Myrtle Beach SC — same zone as Little River
-    scrape_and_save_latlon(33.1, -78.7, 'murrellsinletsc_noaa.json')       # Murrells Inlet SC — AMZ276 Murrells-S Santee 20-40nm
-    scrape_and_save_latlon(33.1, -78.7, 'georgetownsc_noaa.json')          # Georgetown SC — same zone as Murrells Inlet
-    scrape_and_save_latlon(32.7, -79.2, 'charlestonsc_noaa.json')          # Charleston SC — AMZ370 S Santee-Edisto 20-40nm
-    scrape_and_save_latlon(32.1, -80.0, 'beaufortsc_noaa.json')            # Beaufort SC — AMZ372 Edisto-Savannah 20-40nm
-    scrape_and_save_latlon(32.1, -80.0, 'hiltonheadsc_noaa.json')          # Hilton Head SC — same zone as Beaufort
-    scrape_and_save_latlon(31.7, -80.3, 'tybeega_noaa.json')               # Tybee Island GA — AMZ374 Savannah-Altamaha 20-60nm
-    scrape_and_save_latlon(31.7, -80.3, 'darienga_noaa.json')              # Darien GA — same zone as Tybee
+    # AMZ270-374: OPC-managed offshore zones — marine.weather.gov MapClick is client-rendered JS,
+    # zone IDs return 400. Use ILM/CHS WFO text products (OFF or CWF) instead.
+    scrape_and_save_cwf('ILM', ['AMZ270', 'SURF CITY', 'CAPE FEAR', '20 TO 40'], 'wrightsvillebeachnc_noaa.json')
+    scrape_and_save_cwf('ILM', ['AMZ270', 'SURF CITY', 'CAPE FEAR', '20 TO 40'], 'carolinabeachnc_noaa.json')
+    scrape_and_save_cwf('ILM', ['AMZ272', 'CAPE FEAR TO LITTLE RIVER', '20 TO 40'], 'southportnc_noaa.json')
+    scrape_and_save_cwf('ILM', ['AMZ274', 'LITTLE RIVER', 'MYRTLE', '20 TO 40'], 'littleriversc_noaa.json')
+    scrape_and_save_cwf('ILM', ['AMZ274', 'LITTLE RIVER', 'MYRTLE', '20 TO 40'], 'myrtlebeachsc_noaa.json')
+    scrape_and_save_cwf('ILM', ['AMZ276', 'SANTEE', 'MURRELLS', 'WINYAH', '20 TO 40'], 'murrellsinletsc_noaa.json')
+    scrape_and_save_cwf('ILM', ['AMZ276', 'SANTEE', 'MURRELLS', 'WINYAH', '20 TO 40'], 'georgetownsc_noaa.json')
+    scrape_and_save_cwf('CHS', ['AMZ370', 'SANTEE', 'EDISTO', '20 TO 40'], 'charlestonsc_noaa.json')
+    scrape_and_save_cwf('CHS', ['AMZ372', 'EDISTO', 'SAVANNAH', '20 TO 40'], 'beaufortsc_noaa.json')
+    scrape_and_save_cwf('CHS', ['AMZ372', 'EDISTO', 'SAVANNAH', '20 TO 40'], 'hiltonheadsc_noaa.json')
+    scrape_and_save_cwf('CHS', ['AMZ374', 'SAVANNAH', 'ALTAMAHA', '20 TO 60'], 'tybeega_noaa.json')
+    scrape_and_save_cwf('CHS', ['AMZ374', 'SAVANNAH', 'ALTAMAHA', '20 TO 60'], 'darienga_noaa.json')
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'stsimonsgaga_noaa.json')  # St. Simons Island GA — 20-60nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ470", 'jekyllga_noaa.json')      # Jekyll Island GA — 20-60nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'fernandinafl_noaa.json')  # Fernandina Beach FL — out 20nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ452", 'mayportfl_noaa.json')     # Mayport FL — out 20nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ454", 'staugustinefl_noaa.json') # St. Augustine FL — out 20nm
+
+
+def scrape_and_save_cwf(wfo, zone_keywords, filename):
+    """
+    Fetch the Coastal/Offshore Waters Forecast text product for a WFO
+    and parse the zone section matching any of zone_keywords.
+
+    Used for AMZ270-374 (ILM/CHS OPC-managed zones) where the
+    marine.weather.gov MapClick endpoint doesn't serve parseable HTML.
+    Tries the Offshore (OFF) product first, then Coastal (CWF).
+
+    wfo: NWS WFO site code (e.g. 'ILM', 'CHS')
+    zone_keywords: list of strings — case-insensitive; any match selects the section
+    filename: output JSON filename
+    """
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36'}
+    run_date = datetime.now()
+    product_text = None
+
+    for product in ['OFF', 'CWF']:
+        url = (f'https://forecast.weather.gov/product.php?site={wfo}'
+               f'&product={product}&issuedby={wfo}&format=txt&version=1&glossary=0')
+        try:
+            print(f'Fetching {product} text product for {wfo} ({filename})...')
+            resp = requests.get(url, headers=headers, timeout=20)
+            resp.raise_for_status()
+            # The product page wraps the text in <pre> tags; extract it
+            from bs4 import BeautifulSoup as _BS
+            soup = _BS(resp.content, 'html.parser')
+            pre = soup.find('pre')
+            if pre and len(pre.get_text(strip=True)) > 100:
+                product_text = pre.get_text()
+                print(f'  Got {product} text ({len(product_text)} chars)')
+                break
+        except Exception as e:
+            print(f'  {product} fetch error: {e}')
+            continue
+
+    final_data = {'timestamp': run_date.strftime('%Y-%m-%d %H:%M:%S'), 'forecasts': []}
+
+    if not product_text:
+        print(f'Warning: Could not fetch any text product for {wfo}/{filename}')
+        with open(filename, 'w') as f:
+            json.dump(final_data, f, indent=4)
+        return
+
+    # Split into zone sections — each zone ends with $$ or starts with a new zone code line
+    # Zone sections are separated by $$ in NWS text products
+    sections = re.split(r'\$\$', product_text)
+
+    matched_section = None
+    kw_lower = [kw.lower() for kw in zone_keywords]
+    for section in sections:
+        section_lower = section.lower()
+        if any(kw in section_lower for kw in kw_lower):
+            matched_section = section
+            break
+
+    if not matched_section:
+        print(f'Warning: No matching zone section found for {zone_keywords} in {wfo} product')
+        # Debug: show first 1500 chars of product to help tune keywords
+        print(f'Product preview:\n{product_text[:1500]}')
+        with open(filename, 'w') as f:
+            json.dump(final_data, f, indent=4)
+        return
+
+    # Parse forecast periods from the matched section
+    # NWS text format: .PERIOD NAME... followed by forecast text
+    period_blocks = re.split(r'\.(?=[A-Z][A-Z])', matched_section)
+
+    for block in period_blocks:
+        block = block.strip()
+        if not block:
+            continue
+        # First line is the period name, rest is the forecast text
+        lines = block.split('\n')
+        period_name_raw = lines[0].strip().rstrip('.').rstrip('...').strip()
+        if not period_name_raw or len(period_name_raw) < 3:
+            continue
+        # Skip header/metadata lines
+        if re.match(r'^(FZUS|FZAK|NWS|NATIONAL|COASTAL|OFFSHORE|\d{3,})', period_name_raw, re.IGNORECASE):
+            continue
+
+        forecast_text = ' '.join(l.strip() for l in lines[1:] if l.strip())
+        if len(forecast_text) < 10:
+            continue
+
+        formatted_period = get_forecast_date(period_name_raw, run_date)
+        parsed = parse_marine_forecast(forecast_text)
+        parsed['period'] = formatted_period
+        final_data['forecasts'].append(parsed)
+
+    if not final_data['forecasts']:
+        print(f'Warning: Matched section but parsed 0 periods for {filename}')
+        print(f'Matched section preview:\n{matched_section[:800]}')
+    else:
+        print(f'Success! {len(final_data["forecasts"])} periods saved to {filename}')
+
+    with open(filename, 'w') as f:
+        json.dump(final_data, f, indent=4)
 
 
 if __name__ == "__main__":
