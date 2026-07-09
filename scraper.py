@@ -47,7 +47,7 @@ def parse_marine_forecast(text):
     # Compass direction — full words (Northeast) and abbreviations (NE, NNE, etc.)
     _DIR = r'(?:North(?:east|west)?|South(?:east|west)?|East|West|NNE|NE|ENE|ESE|SE|SSE|SSW|SW|WSW|WNW|NW|NNW|N|S|E|W)'
     _SPEED = r'(?:\d+\s+to\s+\d+\s+(?:kt|knots?)|\d+\s+(?:kt|knots?))'
-    _HEIGHT = r'(?:\d+\s+to\s+\d+\s+(?:ft|feet)|\d+\s+(?:ft|feet))'
+    _HEIGHT = r'(?:\d+\s+to\s+\d+\s+(?:ft|feet|foot)|\d+\s+(?:ft|feet|foot))'
     _DIR_NORM = {'northeast':'NE','northwest':'NW','southeast':'SE','southwest':'SW','north':'N','south':'S','east':'E','west':'W'}
     wind_match = re.search(rf'({_DIR})\s+winds?\s+(?:around\s+|up\s+to\s+|increasing\s+to\s+)?({_SPEED})', text, re.IGNORECASE)
     if wind_match:
