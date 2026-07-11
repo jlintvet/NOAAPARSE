@@ -296,6 +296,17 @@ def main():
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ472", 'mayportfl_noaa.json')     # Mayport FL — out 20nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ474", 'staugustinefl_noaa.json') # St. Augustine FL — out 20nm
 
+    # ── Northeast Florida Region ────────────────────────────────────────────
+    # MLB (Melbourne) zones AMZ570/572/575 and MFL (Miami) zones AMZ670/671,
+    # all 20-60nm, marine.weather.gov zone ID approach (verified live).
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ570", 'ponceinletfl_noaa.json')      # Flagler Beach to Volusia-Brevard County Line FL — 20-60nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ572", 'portcanaveralfl_noaa.json')   # Volusia-Brevard County Line to Sebastian Inlet FL — 20-60nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ575", 'sebastianinletfl_noaa.json')  # Sebastian Inlet to Jupiter Inlet FL — 20-60nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ575", 'fortpiercefl_noaa.json')      # Sebastian Inlet to Jupiter Inlet FL — 20-60nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ575", 'stuartfl_noaa.json')          # Sebastian Inlet to Jupiter Inlet FL — 20-60nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ670", 'lakeworthinletfl_noaa.json')  # Jupiter Inlet to Deerfield Beach FL — 20-60nm (MFL)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ671", 'fortlauderdalefl_noaa.json')  # Deerfield Beach to Ocean Reef FL — 20-60nm (MFL)
+
 
 def scrape_and_save_cwf(wfo, zone_keywords, filename):
     """
