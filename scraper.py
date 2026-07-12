@@ -307,6 +307,26 @@ def main():
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ670", 'lakeworthinletfl_noaa.json')  # Jupiter Inlet to Deerfield Beach FL — 20-60nm (MFL)
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ671", 'fortlauderdalefl_noaa.json')  # Deerfield Beach to Ocean Reef FL — 20-60nm (MFL)
 
+    # ── Virginia to Rhode Island Region ─────────────────────────────────────
+    # "Virginia Beach, VA" and "Ocean City, MD" reuse the existing
+    # virginiabeachnoaa.json / oceancitynoaa.json files above (same physical
+    # ports, same zones) — only the 15 new ports below need scrapes.
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ684", 'wachapreagueva_noaa.json')     # Parramore Island VA to Cape Charles Light, 20-60nm (AKQ)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ682", 'chincoteagueva_noaa.json')     # Chincoteague VA to Parramore Island VA, 20-60nm (AKQ)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ485", 'indianriverinletde_noaa.json') # Cape May NJ to Fenwick Island DE, 20-60nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ485", 'capemaynj_noaa.json')          # Cape May NJ to Fenwick Island DE, 20-60nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ482", 'atlanticcitynj_noaa.json')     # Little Egg Inlet NJ to Great Egg Inlet NJ, 20-60nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ481", 'barnegatlightnj_noaa.json')    # Manasquan Inlet NJ to Little Egg Inlet NJ, 20-60nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ480", 'manasquannj_noaa.json')        # Sandy Hook NJ to Manasquan Inlet NJ, 20-40nm only (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ385", 'sandyhooknj_noaa.json')        # Sandy Hook NJ to Fire Island Inlet NY, 20-60nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ385", 'freeportny_noaa.json')         # Sandy Hook NJ to Fire Island Inlet NY, 20-60nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ385", 'captreeny_noaa.json')          # Sandy Hook NJ to Fire Island Inlet NY, 20-60nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ380", 'shinnecockny_noaa.json')       # Moriches Inlet NY to Montauk Point NY, 20-60nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ380", 'montaukny_noaa.json')          # Moriches Inlet NY to Montauk Point NY, 20-60nm (OKX)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ237", 'stoningtonct_noaa.json')         # Block Island Sound, bay waters (BOX)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ283", 'pointjudithri_noaa.json')        # Montauk NY to Martha's Vineyard, 25-60nm (BOX)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ283", 'newportri_noaa.json')            # Montauk NY to Martha's Vineyard, 25-60nm (BOX)
+
 
 def scrape_and_save_cwf(wfo, zone_keywords, filename):
     """
