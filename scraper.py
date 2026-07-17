@@ -56,11 +56,15 @@ def parse_marine_forecast(text):
         data['wind_speed'] = wind_match.group(2)
 
     # --- 2. WIND COMMENTARY ---
+    # Only search before "Wave detail:" -- that clause describes swell
+    # direction/height changes (also using becoming/increasing), not wind,
+    # and searching the full text lets it steal a swell "becoming" clause.
+    _wind_commentary_text = re.split(r'Wave detail:', text, maxsplit=1, flags=re.IGNORECASE)[0]
     change_match = re.search(
         r'(becoming|increasing|decreasing|diminishing)\s+'
-        r'(?!.*?\d+\s+to\s+\d+\s+nm)'
+        r'(?![^.]*?\d+\s+to\s+\d+\s+nm)'
         rf'(?:{_DIR}\s+)?.*?(?=\.|,)',
-        text, re.IGNORECASE
+        _wind_commentary_text, re.IGNORECASE
     )
     if change_match:
         commentary = change_match.group(0)
@@ -83,7 +87,11 @@ def parse_marine_forecast(text):
         data['wave_height'] = seas_match.group(1)
 
     # --- 5. WAVE COMMENTARY ---
-    wave_change_match = re.search(rf'(building|subsiding)\s+to\s+({_HEIGHT})', text, re.IGNORECASE)
+    wave_change_match = re.search(
+        rf'(building|subsiding)\s+to\s+({_HEIGHT})'
+        rf'(?:,\s*occasionally\s+to\s+{_HEIGHT}(?:\s+in\s+the\s+\w+)?)?',
+        text, re.IGNORECASE
+    )
     if wave_change_match:
         data['wave_commentary'] = wave_change_match.group(0)
 
@@ -94,7 +102,7 @@ def parse_marine_forecast(text):
         full_detail_string = detail_match.group(1)
         data['wave_detail_string'] = full_detail_string
 
-        component_pattern = rf'({_DIR})\s+(\d+\s+(?:ft|feet))\s+at\s+(\d+\s+seconds?)'
+        component_pattern = rf'({_DIR})\s+(\d+\s+(?:ft|feet|foot))\s+at\s+(\d+\s+seconds?)'
         components = re.findall(component_pattern, full_detail_string, re.IGNORECASE)
 
         if components:
