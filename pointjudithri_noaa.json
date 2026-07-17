@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-17 23:44:38",
+    "timestamp": "2026-07-17 23:59:46",
     "forecasts": [
         {
             "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft. Wave detail: S 2 ft at 5 seconds and N 1 foot at 3 seconds. Areas of smoke this evening, then patchy smoke after midnight.",
@@ -12,6 +12,11 @@
                     "direction": "S",
                     "height": "2 ft",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "1 foot",
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -31,6 +36,11 @@
                     "direction": "SW",
                     "height": "3 ft",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "1 foot",
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
@@ -42,7 +52,6 @@
             "raw_text": "SW winds 20 to 25 kt with gusts up to 30 kt. Seas 3 to 5 ft, building to 5 to 7 ft after midnight. Wave detail: S 5 ft at 5 seconds and NW 1 foot at 5 seconds, becoming W 7 ft at 7 seconds and E 1 foot at 8 seconds. A chance of tstms. Showers likely. Some tstms may produce heavy rainfall.",
             "wind_direction": "SW",
             "wind_speed": "20 to 25 kt",
-            "wind_commentary": "becoming W 7 ft at 7 seconds and E 1 foot at 8 seconds",
             "wind_gusts": "30 kt",
             "wave_height": "3 to 5 ft",
             "wave_commentary": "building to 5 to 7 ft",
@@ -54,9 +63,19 @@
                     "period": "5 seconds"
                 },
                 {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "5 seconds"
+                },
+                {
                     "direction": "W",
                     "height": "7 ft",
                     "period": "7 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -77,6 +96,11 @@
                     "direction": "SW",
                     "height": "6 ft",
                     "period": "7 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "SW",

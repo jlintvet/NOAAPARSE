@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-17 23:44:22",
+    "timestamp": "2026-07-17 23:59:30",
     "forecasts": [
         {
             "raw_text": "S winds 10 kt. Seas 2 ft. Wave detail: S 2 ft at 3 seconds and E 1 foot at 8 seconds.",
@@ -12,6 +12,11 @@
                     "direction": "S",
                     "height": "2 ft",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -30,6 +35,11 @@
                     "direction": "S",
                     "height": "3 ft",
                     "period": "4 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -59,7 +69,6 @@
             "raw_text": "SW winds 15 to 20 kt with gusts to 25 kt. Seas 4 to 5 ft, subsiding to 3 to 4 ft in the afternoon. Wave detail: S 5 ft at 6 seconds, becoming SW 4 ft at 6 seconds.",
             "wind_direction": "SW",
             "wind_speed": "15 to 20 kt",
-            "wind_commentary": "becoming SW 4 ft at 6 seconds",
             "wave_height": "4 to 5 ft",
             "wave_commentary": "subsiding to 3 to 4 ft",
             "wave_detail_string": "S 5 ft at 6 seconds, becoming SW 4 ft at 6 seconds",

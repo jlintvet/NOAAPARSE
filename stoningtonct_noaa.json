@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-17 23:44:37",
+    "timestamp": "2026-07-17 23:59:45",
     "forecasts": [
         {
             "raw_text": "SW winds 5 to 10 kt. Gusts up to 20 kt this evening. Seas 2 to 3 ft. Wave detail: N 2 ft at 4 seconds and SW 2 ft at 4 seconds. Areas of smoke this evening, then patchy smoke after midnight.",
@@ -41,7 +41,17 @@
                 },
                 {
                     "direction": "SW",
+                    "height": "1 foot",
+                    "period": "2 seconds"
+                },
+                {
+                    "direction": "SW",
                     "height": "3 ft",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "1 foot",
                     "period": "4 seconds"
                 }
             ],
@@ -62,6 +72,11 @@
                     "direction": "SW",
                     "height": "5 ft",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
@@ -104,6 +119,11 @@
                     "direction": "S",
                     "height": "3 ft",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -122,6 +142,11 @@
                     "direction": "S",
                     "height": "3 ft",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "1 foot",
+                    "period": "2 seconds"
                 }
             ],
             "primary_swell_direction": "S",

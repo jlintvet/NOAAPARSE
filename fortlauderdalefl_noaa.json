@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-17 23:44:29",
+    "timestamp": "2026-07-17 23:59:38",
     "forecasts": [
         {
             "raw_text": "S winds 10 to 15 kt, diminishing to 5 to 10 kt after midnight. Seas less than 2 ft or less. Wave detail: S 1 foot at 3 seconds and N 1 foot at 5 seconds. Intracoastal waters light chop. A slight chance of showers and tstms early this evening. A slight chance of showers and tstms late.",
@@ -7,6 +7,21 @@
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "diminishing to 5 to 10 kt after midnight",
             "wave_detail_string": "S 1 foot at 3 seconds and N 1 foot at 5 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "1 foot",
+                    "period": "5 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Tonight 7/17"
         },
         {
@@ -15,6 +30,16 @@
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "SE 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Sat 7/18"
         },
         {
@@ -58,6 +83,16 @@
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "SE 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "4 seconds",
             "period": "Sun Night 7/19"
         },
         {

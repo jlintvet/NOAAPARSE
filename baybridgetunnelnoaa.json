@@ -1,13 +1,29 @@
 {
-    "timestamp": "2026-07-17 23:44:17",
+    "timestamp": "2026-07-17 23:59:25",
     "forecasts": [
         {
             "raw_text": "SE winds 5 to 10 kt with gusts up to 15 kt, becoming S late. Waves around 2 ft. Wave detail: E 1 foot at 2 seconds and E 1 foot at 8 seconds. Areas of smoke until early morning, then patchy smoke late. Vsby 1 to 3 nm until early morning.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming S late",
             "wind_gusts": "15 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "E 1 foot at 2 seconds and E 1 foot at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "2 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "2 seconds",
             "period": "Tonight 7/17"
         },
         {
@@ -22,6 +38,11 @@
                     "direction": "S",
                     "height": "2 ft",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -62,6 +83,11 @@
                     "direction": "W",
                     "height": "2 ft",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "5 seconds"
                 }
             ],
             "primary_swell_direction": "W",
@@ -75,6 +101,21 @@
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "NW 1 foot at 3 seconds and SE 1 foot at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "NW",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Sun Night 7/19"
         },
         {

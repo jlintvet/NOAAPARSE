@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-17 23:44:15",
+    "timestamp": "2026-07-17 23:59:24",
     "forecasts": [
         {
             "raw_text": "SE winds 5 to 10 kt, becoming S with gusts up to 15 kt after midnight. Seas around 2 ft. Wave detail: NE 1 foot at 3 seconds and S 1 foot at 4 seconds. Patchy smoke until early morning.",
@@ -9,6 +9,21 @@
             "wind_gusts": "15 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "NE 1 foot at 3 seconds and S 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Tonight 7/17"
         },
         {
@@ -18,7 +33,7 @@
             "wind_commentary": "increasing to 15 to 20 kt with gusts up to 30 kt in the afternoon",
             "wind_gusts": "20 kt",
             "wave_height": "2 ft",
-            "wave_commentary": "building to 3 to 4 ft",
+            "wave_commentary": "building to 3 to 4 ft, occasionally to 6 ft in the afternoon",
             "wave_detail_string": "S 2 ft at 4 seconds and NE 1 foot at 3 seconds, becoming S 4 ft at 4 seconds and SE 1 foot at 8 seconds",
             "swell_components": [
                 {
@@ -27,9 +42,19 @@
                     "period": "4 seconds"
                 },
                 {
+                    "direction": "NE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                },
+                {
                     "direction": "S",
                     "height": "4 ft",
                     "period": "4 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -49,6 +74,11 @@
                     "direction": "SW",
                     "height": "5 ft",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
@@ -92,6 +122,11 @@
                     "direction": "S",
                     "height": "3 ft",
                     "period": "7 seconds"
+                },
+                {
+                    "direction": "W",
+                    "height": "1 foot",
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -122,7 +157,7 @@
             "wind_commentary": "becoming S 20 to 25 kt with gusts up to 30 kt in the afternoon",
             "wind_gusts": "20 kt",
             "wave_height": "3 ft",
-            "wave_commentary": "building to 4 to 5 ft",
+            "wave_commentary": "building to 4 to 5 ft, occasionally to 7 ft in the afternoon",
             "period": "Tue 7/21"
         },
         {
