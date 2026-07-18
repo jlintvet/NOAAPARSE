@@ -276,6 +276,39 @@ def main():
         'capecharlesnoaa.json'
     )
 
+    # ── mid_atlantic nearshore (0-20nm) zones — feature: nearshore/offshore toggle ──
+    # Paired with the 20-60nm offshore zones above. Verified individually against
+    # live tgftp.nws.noaa.gov zone text (not pattern-guessed from the offshore ID —
+    # nearshore/offshore zone spans are not always the same coastline stretch or
+    # even the same WFO, e.g. Ocean City's ANZ485/ANZ650 pair below).
+    # 1n. Oregon Inlet nearshore — AMZ150, S of Currituck Beach Light to Oregon Inlet NC, 0-20nm (MHX)
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=AMZ150",
+        'weather_data_nearshore.json'
+    )
+    # 2n. Hatteras Inlet nearshore — AMZ154, S of Cape Hatteras to Ocracoke Inlet NC, 0-20nm (MHX)
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=AMZ154",
+        'hatterasncnoaa_nearshore.json'
+    )
+    # 3n. Beaufort Inlet nearshore — AMZ156, S of Ocracoke Inlet to Cape Lookout NC, 0-20nm (MHX)
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=AMZ156",
+        'beaufortinletnoaa_nearshore.json'
+    )
+    # 4n. Virginia Beach nearshore — ANZ656, Cape Charles Light to VA-NC border, 0-20nm (AKQ)
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ656",
+        'virginiabeachnoaa_nearshore.json'
+    )
+    # 5n. Ocean City Inlet nearshore — ANZ650, Fenwick Island DE to Chincoteague VA, 0-20nm (AKQ)
+    #     Note: offshore ANZ485 (Cape May NJ to Fenwick Island DE) is issued by KPHI;
+    #     nearshore ANZ650 is issued by KAKQ and starts where ANZ485 ends — not a mirrored span.
+    scrape_and_save(
+        "https://forecast.weather.gov/MapClick.php?zoneid=ANZ650",
+        'oceancitynoaa_nearshore.json'
+    )
+
 
     # ── GA/SC Region ─────────────────────────────────────────────────────────
     # ILM outer zones (AMZ270-276) and CHS outer zones (AMZ370-374) return
