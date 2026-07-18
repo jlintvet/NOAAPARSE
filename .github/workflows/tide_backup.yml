@@ -1,0 +1,51 @@
+name: Tide Predictions Backup
+
+# Regenerates tide_predictions_backup.json -- a rolling 60-day window of
+# hi/lo tide predictions for every departure location's tide station,
+# computed LOCALLY from NOAA's harmonic constituents (mdapi metadata API).
+# This does NOT call NOAA's live predictions/datagetter service, so it
+# keeps working even during an outage of that service (as happened
+# 2026-07-17/18, when predictions failed for every station/date/datum).
+#
+# Harmonic constituents themselves are cached in tide_constituents_cache.json
+# and only re-fetched when missing or older than 180 days (see
+# tide_predictions_backup.py), so even a failure of NOAA's metadata API on a
+# given run just reuses the existing cache and still produces a fresh
+# 60-day prediction window.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monthly on the 1st at 09:00 UTC -- constituents rarely change, and
+    # the 60-day window comfortably covers the gap between runs.
+    - cron: '0 9 1 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pytides2
+
+      - name: Run tide backup generator
+        run: python tide_predictions_backup.py
+
+      - name: Commit and push data
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add tide_predictions_backup.json tide_constituents_cache.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update tide predictions backup" && git push)
