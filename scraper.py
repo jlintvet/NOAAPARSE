@@ -337,6 +337,32 @@ def main():
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ472", 'mayportfl_noaa.json')     # Mayport FL — out 20nm
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ474", 'staugustinefl_noaa.json') # St. Augustine FL — out 20nm
 
+    # ── GA/SC nearshore (0-20nm) zones — feature: nearshore/offshore toggle ──
+    # Verified individually against live forecast.weather.gov CWF text products
+    # (ILM/CHS/JAX), not pattern-guessed. Two offshore zones split into two
+    # nearshore zones each based on port position within the offshore span:
+    # AMZ280 (Surf City-Little River Inlet) -> AMZ250 (Surf City-Cape Fear) north
+    # portion / AMZ252 (Cape Fear-Little River Inlet) south portion; AMZ284
+    # (Little River Inlet-S. Santee River) -> AMZ254 (Little River Inlet-Murrells
+    # Inlet) north portion / AMZ256 (Murrells Inlet-S. Santee River) south portion.
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ250", 'wrightsvillebeachnc_noaa_nearshore.json')  # Surf City to Cape Fear NC, 0-20nm (ILM)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ250", 'carolinabeachnc_noaa_nearshore.json')      # Surf City to Cape Fear NC, 0-20nm (ILM)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ252", 'southportnc_noaa_nearshore.json')          # Cape Fear to Little River Inlet SC, 0-20nm (ILM)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ254", 'littleriversc_noaa_nearshore.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm (ILM)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ254", 'myrtlebeachsc_noaa_nearshore.json')        # Little River Inlet to Murrells Inlet SC, 0-20nm (ILM)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ256", 'murrellsinletsc_noaa_nearshore.json')      # Murrells Inlet to S. Santee River SC, 0-20nm (ILM)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ256", 'georgetownsc_noaa_nearshore.json')         # Murrells Inlet to S. Santee River SC, 0-20nm (ILM)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ360", 'charlestonsc_noaa_nearshore.json')         # S. Santee River to Edisto Beach SC, 0-20nm (CHS)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ362", 'beaufortsc_noaa_nearshore.json')           # Edisto Beach SC to Savannah GA, 0-20nm (CHS)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ362", 'hiltonheadsc_noaa_nearshore.json')        # Edisto Beach SC to Savannah GA, 0-20nm (CHS)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ364", 'tybeega_noaa_nearshore.json')             # Savannah GA to Altamaha Sound GA, 0-20nm (CHS)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ364", 'darienga_noaa_nearshore.json')            # Savannah GA to Altamaha Sound GA, 0-20nm (CHS)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ450", 'stsimonsgaga_noaa_nearshore.json')        # Altamaha Sound GA to Fernandina Beach FL, 0-20nm (JAX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ450", 'jekyllga_noaa_nearshore.json')            # Altamaha Sound GA to Fernandina Beach FL, 0-20nm (JAX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ450", 'fernandinafl_noaa_nearshore.json')        # Altamaha Sound GA to Fernandina Beach FL, 0-20nm (JAX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ452", 'mayportfl_noaa_nearshore.json')           # Fernandina Beach to St. Augustine FL, 0-20nm (JAX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=AMZ454", 'staugustinefl_noaa_nearshore.json')       # St. Augustine to Flagler Beach FL, 0-20nm (JAX)
+
     # ── Northeast Florida Region ────────────────────────────────────────────
     # MLB (Melbourne) zones AMZ570/572/575 and MFL (Miami) zones AMZ670/671,
     # all 20-60nm, marine.weather.gov zone ID approach (verified live).
@@ -347,6 +373,19 @@ def main():
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ575", 'stuartfl_noaa.json')          # Sebastian Inlet to Jupiter Inlet FL — 20-60nm (MLB)
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ670", 'lakeworthinletfl_noaa.json')  # Jupiter Inlet to Deerfield Beach FL — 20-60nm (MFL)
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ671", 'fortlauderdalefl_noaa.json')  # Deerfield Beach to Ocean Reef FL — 20-60nm (MFL)
+
+    # ── Northeast Florida nearshore (0-20nm) zones — feature: nearshore/offshore toggle ──
+    # Verified individually against live forecast.weather.gov CWF text products
+    # (MLB/MFL), not pattern-guessed. Sebastian Inlet, Fort Pierce, and Stuart
+    # all fall within the same MLB nearshore span (AMZ555) as their shared
+    # offshore zone (AMZ575).
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ550", 'ponceinletfl_noaa_nearshore.json')      # Flagler Beach to Volusia-Brevard County Line FL, 0-20nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ552", 'portcanaveralfl_noaa_nearshore.json')   # Volusia-Brevard County Line to Sebastian Inlet FL, 0-20nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ555", 'sebastianinletfl_noaa_nearshore.json')  # Sebastian Inlet to Jupiter Inlet FL, 0-20nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ555", 'fortpiercefl_noaa_nearshore.json')      # Sebastian Inlet to Jupiter Inlet FL, 0-20nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ555", 'stuartfl_noaa_nearshore.json')         # Sebastian Inlet to Jupiter Inlet FL, 0-20nm (MLB)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ650", 'lakeworthinletfl_noaa_nearshore.json')  # Jupiter Inlet to Deerfield Beach FL, 0-20nm (MFL)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ651", 'fortlauderdalefl_noaa_nearshore.json')  # Deerfield Beach to Ocean Reef FL, 0-20nm (MFL)
 
     # ── Virginia to Rhode Island Region ─────────────────────────────────────
     # "Virginia Beach, VA" and "Ocean City, MD" reuse the existing
@@ -367,6 +406,30 @@ def main():
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ237", 'stoningtonct_noaa.json')         # Block Island Sound, bay waters (BOX)
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ283", 'pointjudithri_noaa.json')        # Montauk NY to Martha's Vineyard, 25-60nm (BOX)
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ283", 'newportri_noaa.json')            # Montauk NY to Martha's Vineyard, 25-60nm (BOX)
+
+    # ── Virginia to Rhode Island nearshore (0-20nm) zones — feature: nearshore/offshore toggle ──
+    # Verified individually against live forecast.weather.gov CWF text products
+    # (AKQ/PHI/OKX/BOX), not pattern-guessed. Cape May NJ and Indian River Inlet
+    # DE share offshore ANZ485 but have DIFFERENT nearshore zones (ANZ454 vs
+    # ANZ455) issued by the same PHI office — same pattern as Ocean City's
+    # ANZ485/ANZ650 split already noted above. Sandy Hook/Freeport/Captree
+    # share one nearshore zone (ANZ355); Shinnecock Inlet/Montauk share another
+    # (ANZ350); Point Judith/Newport share ANZ256 (BOX). Stonington, CT
+    # (ANZ237) is bay-only with no offshore equivalent — no nearshore scrape.
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ654", 'wachapreagueva_noaa_nearshore.json')     # Parramore Island to Cape Charles Light VA, 0-20nm (AKQ)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ652", 'chincoteagueva_noaa_nearshore.json')     # Chincoteague to Parramore Island VA, 0-20nm (AKQ)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ455", 'indianriverinletde_noaa_nearshore.json') # Cape Henlopen to Fenwick Island DE, 0-20nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ454", 'capemaynj_noaa_nearshore.json')         # Cape May NJ to Cape Henlopen DE, 0-20nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ452", 'atlanticcitynj_noaa_nearshore.json')    # Little Egg Inlet to Great Egg Inlet NJ, 0-20nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ451", 'barnegatlightnj_noaa_nearshore.json')   # Manasquan Inlet to Little Egg Inlet NJ, 0-20nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ450", 'manasquannj_noaa_nearshore.json')       # Sandy Hook to Manasquan Inlet NJ, 0-20nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ355", 'sandyhooknj_noaa_nearshore.json')       # Sandy Hook NJ to Fire Island Inlet NY, 0-20nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ355", 'freeportny_noaa_nearshore.json')        # Sandy Hook NJ to Fire Island Inlet NY, 0-20nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ355", 'captreeny_noaa_nearshore.json')         # Sandy Hook NJ to Fire Island Inlet NY, 0-20nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ350", 'shinnecockny_noaa_nearshore.json')      # Moriches Inlet NY to Montauk Point NY, 0-20nm (OKX)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ350", 'montaukny_noaa_nearshore.json')         # Moriches Inlet NY to Montauk Point NY, 0-20nm (OKX)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ256", 'pointjudithri_noaa_nearshore.json')       # Montauk NY to Martha's Vineyard, 0-20nm (BOX)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ256", 'newportri_noaa_nearshore.json')           # Montauk NY to Martha's Vineyard, 0-20nm (BOX)
 
 
 def scrape_and_save_cwf(wfo, zone_keywords, filename):
