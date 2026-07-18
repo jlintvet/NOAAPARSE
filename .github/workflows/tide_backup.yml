@@ -38,7 +38,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pytides2
+          # pytides2's own dependency pin drags in an old, unpinned numpy
+          # with no prebuilt wheel for this runner's Python version, so pip
+          # falls back to compiling numpy from source and fails. Install
+          # modern numpy/scipy first (prebuilt wheels), then pytides2
+          # --no-deps so it doesn't try to downgrade them.
+          pip install "numpy>=1.24" "scipy>=1.10"
+          pip install pytides2 --no-deps
+          pip install requests
 
       - name: Run tide backup generator
         run: python tide_predictions_backup.py
