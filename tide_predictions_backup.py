@@ -109,8 +109,25 @@ def fetch_station_constituents(station_id):
     r = requests.get(harcon_url, headers=HEADERS, timeout=20)
     r.raise_for_status()
     harcon = r.json().get("HarmonicConstituents", [])
-    if len(harcon) != 37:
-        raise ValueError(f"station {station_id}: expected 37 harmonic constituents, got {len(harcon)}")
+    if not harcon:
+        raise ValueError(f"station {station_id}: no harmonic constituents returned")
+
+    # NOAA's "number" field (1-37) is a fixed identity for each of the 37
+    # standard constituents, in the same order as pytides2's cons.noaa --
+    # NOT every station has all 37 analyzed. Weaker/subordinate stations
+    # (e.g. 8722588 came back with 29) have "unstable" ones deleted, with
+    # gaps in the number sequence rather than a clean prefix. Build a full
+    # 37-length array indexed by that number and default any missing
+    # constituent to zero amplitude -- the same treatment NOAA itself uses
+    # for unstable constituents it keeps but zeroes (e.g. MM/MSF/MF at many
+    # stations).
+    amplitudes = [0.0] * 37
+    phases_gmt = [0.0] * 37
+    for c in harcon:
+        idx = c["number"] - 1
+        if 0 <= idx < 37:
+            amplitudes[idx] = c["amplitude"]
+            phases_gmt[idx] = c["phase_GMT"]
 
     r = requests.get(datums_url, headers=HEADERS, timeout=20)
     r.raise_for_status()
@@ -119,9 +136,9 @@ def fetch_station_constituents(station_id):
         raise ValueError(f"station {station_id}: missing MSL/MLLW datum")
 
     return {
-        "amplitudes": [c["amplitude"] for c in harcon],
-        "phases_gmt": [c["phase_GMT"] for c in harcon],
-        "names": [c["name"] for c in harcon],
+        "amplitudes": amplitudes,
+        "phases_gmt": phases_gmt,
+        "n_constituents": len(harcon),
         "msl_minus_mllw": datums["MSL"] - datums["MLLW"],
         "fetched_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
     }
@@ -159,9 +176,7 @@ def predict_station(entry, start_date, days):
     Pure local computation, no network calls."""
     amplitudes = entry["amplitudes"]
     phases = entry["phases_gmt"]
-    constituents = list(cons.noaa)[:len(amplitudes)]
-
-    tide = Tide(constituents=constituents, amplitudes=amplitudes, phases=phases)
+    tide = Tide(constituents=list(cons.noaa), amplitudes=amplitudes, phases=phases)
 
     # phase_GMT is referenced to Greenwich equilibrium time, so t0/t1 and
     # the times pytides2 yields are UTC (naive datetimes representing UTC).
