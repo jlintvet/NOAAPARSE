@@ -206,7 +206,11 @@ def ensure_constituents(cache):
 
     def needs_refresh(station_id):
         entry = cache.get(station_id)
-        if not entry or not entry.get("fetched_at"):
+        if not entry or not entry.get("fetched_at") or "type" not in entry:
+            # Missing "type" means a pre-existing cache entry predates this
+            # schema (harmonic entries didn't always carry a type field) --
+            # force one refresh so it self-heals rather than getting
+            # silently treated as neither harmonic nor subordinate.
             return True
         age = now - datetime.strptime(entry["fetched_at"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
         return age > timedelta(days=REFRESH_DAYS)
