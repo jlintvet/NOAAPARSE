@@ -431,6 +431,18 @@ def main():
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ256", 'pointjudithri_noaa_nearshore.json')       # Montauk NY to Martha's Vineyard, 0-20nm (BOX)
     scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=ANZ256", 'newportri_noaa_nearshore.json')           # Montauk NY to Martha's Vineyard, 0-20nm (BOX)
 
+    # ── Southern Florida Region (offshore only -- no nearshore toggle yet) ──
+    # Fort Pierce, Stuart, Lake Worth Inlet, and Fort Lauderdale reuse the
+    # ne_fl scrapes above (same physical ports, same zones/files). Only the
+    # 7 new ports below need scrapes. All zones verified live 2026-07-19.
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=AMZ671", 'miamifl_noaa.json')          # Deerfield Beach to Ocean Reef FL, 20-60nm (MFL)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=GMZ072", 'islamoradafl_noaa.json')     # Straits of FL, Ocean Reef to Craig Key, 20-60nm (KEY)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=GMZ073", 'marathonfl_noaa.json')       # Straits of FL, Craig Key to west end of Seven Mile Bridge, 20-60nm (KEY)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=GMZ074", 'keywestfl_noaa.json')        # Straits of FL, Seven Mile Bridge to Halfmoon Shoal, 20-60nm (KEY)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=GMZ676", 'naplesfl_noaa.json')         # Chokoloskee to Bonita Beach FL, 20-60nm (MFL, Gulf side)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=GMZ676", 'marcoislandfl_noaa.json')    # Chokoloskee to Bonita Beach FL, 20-60nm (MFL, Gulf side -- same zone as Naples)
+    scrape_and_save("https://marine.weather.gov/MapClick.php?zoneid=GMZ876", 'ftmyersbeachfl_noaa.json')   # Bonita Beach to Englewood FL, 20-60nm (TBW, Gulf side)
+
 
 def scrape_and_save_cwf(wfo, zone_keywords, filename):
     """
