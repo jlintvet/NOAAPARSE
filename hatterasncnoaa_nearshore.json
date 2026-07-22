@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-07-22 21:59:16",
+    "timestamp": "2026-07-22 23:07:20",
     "forecasts": [
         {
-            "raw_text": "SW winds 20 to 25 kt with gusts up to 30 kt. Seas 5 to 6 ft. Wave detail: SW 6 ft at 6 seconds and SW 2 ft at 3 seconds.",
+            "raw_text": "SW winds 20 to 25 kt with gusts up to 30 kt. Seas 5 to 6 ft. Wave detail: S 5 ft at 7 seconds and SW 2 ft at 3 seconds.",
             "wind_direction": "SW",
             "wind_speed": "20 to 25 kt",
             "wind_gusts": "30 kt",
             "wave_height": "5 to 6 ft",
-            "wave_detail_string": "SW 6 ft at 6 seconds and SW 2 ft at 3 seconds",
+            "wave_detail_string": "S 5 ft at 7 seconds and SW 2 ft at 3 seconds",
             "swell_components": [
                 {
-                    "direction": "SW",
-                    "height": "6 ft",
-                    "period": "6 seconds"
+                    "direction": "S",
+                    "height": "5 ft",
+                    "period": "7 seconds"
                 },
                 {
                     "direction": "SW",
@@ -20,9 +20,9 @@
                     "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "SW",
-            "primary_wave_height": "6 ft",
-            "primary_wave_period": "6 seconds",
+            "primary_swell_direction": "S",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "7 seconds",
             "period": "Tonight 7/22"
         },
         {
@@ -120,11 +120,11 @@
             "period": "Fri Night 7/24"
         },
         {
-            "raw_text": "NW winds 5 to 10 kt. Seas 2 to 4 ft. Wave detail: E 3 ft at 7 seconds and SW 1 ft at 4 seconds. A chance of tstms. Showers.",
+            "raw_text": "NW winds 5 to 10 kt. Seas 2 to 4 ft. Wave detail: E 3 ft at 7 seconds and W 1 ft at 4 seconds. A chance of tstms. Showers.",
             "wind_direction": "NW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 4 ft",
-            "wave_detail_string": "E 3 ft at 7 seconds and SW 1 ft at 4 seconds",
+            "wave_detail_string": "E 3 ft at 7 seconds and W 1 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "E",
@@ -132,7 +132,7 @@
                     "period": "7 seconds"
                 },
                 {
-                    "direction": "SW",
+                    "direction": "W",
                     "height": "1 ft",
                     "period": "4 seconds"
                 }
