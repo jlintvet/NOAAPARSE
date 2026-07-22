@@ -1,27 +1,8 @@
 {
-    "timestamp": "2026-07-22 08:12:32",
+    "timestamp": "2026-07-22 11:00:50",
     "forecasts": [
         {
-            "raw_text": "SW winds 20 to 25 kt with gusts up to 30 kt. Seas 6 to 7 ft, occasionally to 10 ft. Wave detail: S 7 ft at 7 seconds. Showers with tstms likely, then showers with a chance of tstms late.",
-            "wind_direction": "SW",
-            "wind_speed": "20 to 25 kt",
-            "wind_gusts": "30 kt",
-            "wave_height": "6 to 7 ft",
-            "wave_detail_string": "S 7 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "7 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "7 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "Rest Of Tonight 7/22"
-        },
-        {
-            "raw_text": "SW winds 20 to 25 kt, diminishing to 15 to 20 kt late. Gusts up to 30 kt. Seas 6 to 7 ft, occasionally to 10 ft. Wave detail: S 7 ft at 7 seconds. A chance of tstms. Showers early in the morning, then showers likely in the late morning and afternoon.",
+            "raw_text": "SW winds 20 to 25 kt, diminishing to 15 to 20 kt late. Gusts up to 30 kt. Seas 6 to 7 ft, occasionally to 10 ft. Wave detail: S 7 ft at 7 seconds. A chance of tstms. Showers early this morning, then showers likely late this morning and afternoon.",
             "wind_direction": "SW",
             "wind_speed": "20 to 25 kt",
             "wind_commentary": "diminishing to 15 to 20 kt late",
@@ -38,13 +19,13 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "7 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Wed 7/22"
+            "period": "Today 7/22"
         },
         {
-            "raw_text": "SW winds 15 to 20 kt, becoming W 10 to 15 kt after midnight. Gusts up to 25 kt. Seas 4 to 5 ft, occasionally to 7 ft. Wave detail: S 5 ft at 7 seconds. Tstms likely. Showers.",
+            "raw_text": "SW winds 15 to 20 kt with gusts up to 25 kt, diminishing to 10 to 15 kt with gusts up to 20 kt in the late evening and early morning, then becoming NW with gusts up to 20 kt late. Seas 4 to 5 ft, occasionally to 7 ft. Wave detail: S 5 ft at 7 seconds. Showers with tstms likely.",
             "wind_direction": "SW",
             "wind_speed": "15 to 20 kt",
-            "wind_commentary": "becoming W 10 to 15 kt after midnight",
+            "wind_commentary": "diminishing to 10 to 15 kt with gusts up to 20 kt in the late evening and early morning",
             "wind_gusts": "25 kt",
             "wave_height": "4 to 5 ft",
             "wave_detail_string": "S 5 ft at 7 seconds",
@@ -58,7 +39,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "5 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Wed Night 7/22"
+            "period": "Tonight 7/22"
         },
         {
             "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: S 3 ft at 7 seconds and N 2 ft at 3 seconds. Showers likely, mainly in the morning.",
@@ -132,11 +113,22 @@
             "period": "Fri 7/24"
         },
         {
-            "raw_text": "E winds 10 to 15 kt, becoming NE 5 to 10 kt after midnight. Seas 3 to 4 ft, occasionally to 6 ft.",
+            "raw_text": "E winds 10 to 15 kt, becoming NE 5 to 10 kt after midnight. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: SE 3 ft at 6 seconds.",
             "wind_direction": "E",
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "becoming NE 5 to 10 kt after midnight",
             "wave_height": "3 to 4 ft",
+            "wave_detail_string": "SE 3 ft at 6 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "3 ft",
+                    "period": "6 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "6 seconds",
             "period": "Fri Night 7/24"
         },
         {
