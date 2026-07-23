@@ -1,26 +1,8 @@
 {
-    "timestamp": "2026-07-23 05:46:24",
+    "timestamp": "2026-07-23 08:15:47",
     "forecasts": [
         {
-            "raw_text": "E winds 10 to 15 kt. Seas around 2 ft. Wave detail: E 2 ft at 5 seconds. Intracoastal waters a moderate chop. A slight chance of showers and tstms late.",
-            "wind_direction": "E",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "2 ft",
-            "wave_detail_string": "E 2 ft at 5 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "2 ft",
-                    "period": "5 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "2 ft",
-            "primary_wave_period": "5 seconds",
-            "period": "Tonight 7/23"
-        },
-        {
-            "raw_text": "E winds 10 to 15 kt. Seas around 2 ft. Wave detail: E 2 ft at 4 seconds. Intracoastal waters a moderate chop. A chance of showers and tstms in the late morning and early afternoon.",
+            "raw_text": "E winds 10 to 15 kt. Seas around 2 ft. Wave detail: E 2 ft at 4 seconds. Intracoastal waters a moderate chop. A chance of showers and tstms.",
             "wind_direction": "E",
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 ft",
@@ -35,10 +17,10 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "4 seconds",
-            "period": "Thu 7/23"
+            "period": "Today 7/23"
         },
         {
-            "raw_text": "E winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: NE 2 ft at 4 seconds. Intracoastal waters a moderate chop. A chance of showers and tstms in the late evening and overnight.",
+            "raw_text": "E winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: NE 2 ft at 4 seconds. Intracoastal waters a moderate chop. A chance of showers and tstms.",
             "wind_direction": "E",
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
@@ -53,19 +35,24 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "4 seconds",
-            "period": "Thu Night 7/23"
+            "period": "Tonight 7/23"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas around 2 ft. Wave detail: SE 2 ft at 4 seconds. Intracoastal waters light chop. A chance of showers and tstms early in the morning.",
+            "raw_text": "SE winds 5 to 10 kt. Seas around 2 ft. Wave detail: SE 2 ft at 4 seconds and NW 1 foot at 5 seconds. Intracoastal waters light chop. A chance of showers and tstms until late afternoon.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "SE 2 ft at 4 seconds",
+            "wave_detail_string": "SE 2 ft at 4 seconds and NW 1 foot at 5 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "2 ft",
                     "period": "4 seconds"
+                },
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "5 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
@@ -74,58 +61,65 @@
             "period": "Fri 7/24"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: NW 1 foot at 3 seconds and SE 1 foot at 4 seconds. Intracoastal waters light chop. A chance of showers and tstms after midnight.",
+            "raw_text": "SE winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: E 1 foot at 4 seconds. Intracoastal waters light chop. A chance of showers and tstms after midnight.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
-            "wave_detail_string": "NW 1 foot at 3 seconds and SE 1 foot at 4 seconds",
+            "wave_detail_string": "E 1 foot at 4 seconds",
             "swell_components": [
                 {
-                    "direction": "NW",
-                    "height": "1 foot",
-                    "period": "3 seconds"
-                },
-                {
-                    "direction": "SE",
+                    "direction": "E",
                     "height": "1 foot",
                     "period": "4 seconds"
                 }
             ],
-            "primary_swell_direction": "NW",
+            "primary_swell_direction": "E",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "3 seconds",
+            "primary_wave_period": "4 seconds",
             "period": "Fri Night 7/24"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 4 seconds. Intracoastal waters light chop. A chance of showers and tstms early in the morning.",
-            "wind_direction": "SE",
+            "raw_text": "S winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 3 seconds. Intracoastal waters light chop. A chance of showers and tstms early in the morning. A chance of showers and tstms late.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wave_detail_string": "SE 1 foot at 4 seconds",
+            "wave_detail_string": "SE 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "1 foot",
-                    "period": "4 seconds"
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
+            "primary_wave_period": "3 seconds",
             "period": "Sat 7/25"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop.",
+            "raw_text": "S winds around 5 kt, increasing to 5 to 10 kt after midnight. Seas less than 2 ft or less. Wave detail: SE 1 foot at 3 seconds. Intracoastal waters light chop. A chance of showers and tstms late.",
             "wind_direction": "S",
-            "wind_speed": "5 to 10 kt",
+            "wind_speed": "5 kt",
+            "wind_commentary": "increasing to 5 to 10 kt after midnight",
+            "wave_detail_string": "SE 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Sat Night 7/25"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop. A chance of showers and tstms late.",
+            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop. A chance of showers and tstms early in the morning. A chance of showers and tstms in the afternoon.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "period": "Sun 7/26"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop. A chance of showers and tstms after midnight.",
+            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop. A chance of showers and tstms.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "period": "Sun Night 7/26"
@@ -138,10 +132,9 @@
             "period": "Mon 7/27"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt, diminishing to 5 to 10 kt after midnight. Seas less than 2 ft or less. Intracoastal waters light chop. A chance of showers and tstms early in the evening. A chance of showers and tstms after midnight.winds and seas higher in and near tstms.",
+            "raw_text": "SW winds 10 to 15 kt. Seas less than 2 ft or less. Intracoastal waters light chop. A chance of showers and tstms.winds and seas higher in and near tstms.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "diminishing to 5 to 10 kt after midnight",
             "period": "Mon Night 7/27"
         }
     ]
