@@ -1,35 +1,10 @@
 {
-    "timestamp": "2026-07-23 22:57:52",
+    "timestamp": "2026-07-23 23:59:13",
     "forecasts": [
         {
-            "raw_text": "S winds 15 kt with gusts up to 20 kt. Seas 3 ft. Wave detail: S 3 ft at 5 seconds and SE 2 ft at 8 seconds. A slight chance of showers and tstms.",
-            "wind_direction": "S",
-            "wind_speed": "15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "3 ft",
-            "wave_detail_string": "S 3 ft at 5 seconds and SE 2 ft at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "3 ft",
-                    "period": "5 seconds"
-                },
-                {
-                    "direction": "SE",
-                    "height": "2 ft",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "5 seconds",
-            "period": "This Afternoon 7/23"
-        },
-        {
-            "raw_text": "S winds 10 to 15 kt. Gusts up to 20 kt in the evening. Seas 2 to 3 ft. Wave detail: S 3 ft at 5 seconds and SE 2 ft at 8 seconds. A slight chance of showers and tstms in the evening, then a chance of showers and tstms after midnight.",
+            "raw_text": "S winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: S 3 ft at 5 seconds and SE 2 ft at 8 seconds. A slight chance of showers and tstms this evening, then a chance of showers and tstms after midnight.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "S 3 ft at 5 seconds and SE 2 ft at 8 seconds",
             "swell_components": [
@@ -50,34 +25,11 @@
             "period": "Tonight 7/23"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: S 2 ft at 4 seconds and SE 2 ft at 8 seconds. A slight chance of showers and tstms in the morning, then a chance of showers and tstms in the afternoon.",
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 8 seconds and S 2 ft at 4 seconds. A slight chance of showers and tstms in the morning, then a chance of showers and tstms in the afternoon.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "S 2 ft at 4 seconds and SE 2 ft at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "2 ft",
-                    "period": "4 seconds"
-                },
-                {
-                    "direction": "SE",
-                    "height": "2 ft",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "2 ft",
-            "primary_wave_period": "4 seconds",
-            "period": "Fri 7/24"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 8 seconds and S 1 ft at 4 seconds. A chance of tstms. A chance of showers in the evening, then showers likely after midnight.",
-            "wind_direction": "SW",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SE 3 ft at 8 seconds and S 1 ft at 4 seconds",
+            "wave_detail_string": "SE 3 ft at 8 seconds and S 2 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
@@ -86,6 +38,29 @@
                 },
                 {
                     "direction": "S",
+                    "height": "2 ft",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "8 seconds",
+            "period": "Fri 7/24"
+        },
+        {
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 8 seconds and SW 1 ft at 4 seconds. A chance of tstms. A chance of showers in the evening, then showers likely after midnight.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "wave_detail_string": "SE 3 ft at 8 seconds and SW 1 ft at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "3 ft",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "SW",
                     "height": "1 ft",
                     "period": "4 seconds"
                 }
@@ -119,11 +94,11 @@
             "period": "Sat 7/25"
         },
         {
-            "raw_text": "SW winds 5 kt. Seas 2 to 3 ft. Wave detail: SE 2 ft at 8 seconds and SW 1 ft at 3 seconds. A chance of tstms. Showers.",
+            "raw_text": "SW winds 5 kt. Seas 2 to 3 ft. Wave detail: SE 2 ft at 8 seconds and SW 1 ft at 4 seconds. A chance of tstms. Showers.",
             "wind_direction": "SW",
             "wind_speed": "5 kt",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SE 2 ft at 8 seconds and SW 1 ft at 3 seconds",
+            "wave_detail_string": "SE 2 ft at 8 seconds and SW 1 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
@@ -133,7 +108,7 @@
                 {
                     "direction": "SW",
                     "height": "1 ft",
-                    "period": "3 seconds"
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
@@ -142,11 +117,27 @@
             "period": "Sat Night 7/25"
         },
         {
-            "raw_text": "N winds 5 to 10 kt, becoming E in the afternoon. Seas 2 ft. A chance of tstms. Showers likely, mainly in the morning.",
+            "raw_text": "N winds 5 to 10 kt, becoming E in the afternoon. Seas 2 ft. Wave detail: SE 2 ft at 8 seconds and SW 1 ft at 4 seconds. A chance of tstms. Showers likely, mainly in the morning.",
             "wind_direction": "N",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming E in the afternoon",
             "wave_height": "2 ft",
+            "wave_detail_string": "SE 2 ft at 8 seconds and SW 1 ft at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "2 ft",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "1 ft",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "2 ft",
+            "primary_wave_period": "8 seconds",
             "period": "Sun 7/26"
         },
         {
@@ -166,11 +157,25 @@
             "period": "Mon 7/27"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Seas 2 ft.winds and seas higher in and near tstms.",
+            "raw_text": "S winds 5 to 10 kt. Seas 2 ft.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
             "period": "Mon Night 7/27"
+        },
+        {
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Tue 7/28"
+        },
+        {
+            "raw_text": "SW winds 15 to 20 kt. Seas 3 to 4 ft.winds and seas higher in and near tstms.",
+            "wind_direction": "SW",
+            "wind_speed": "15 to 20 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Tue Night 7/28"
         }
     ]
 }
