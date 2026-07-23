@@ -1,13 +1,12 @@
 {
-    "timestamp": "2026-07-23 15:50:11",
+    "timestamp": "2026-07-23 17:12:32",
     "forecasts": [
         {
-            "raw_text": "N winds around 10 kt, becoming E. Seas 4 to 5 ft. Wave detail: S 5 ft at 8 seconds and N 1 foot at 5 seconds.",
-            "wind_direction": "N",
-            "wind_speed": "10 kt",
-            "wind_commentary": "becoming E",
+            "raw_text": "W winds around 5 kt. Seas 4 to 5 ft. Wave detail: S 5 ft at 8 seconds and W 1 foot at 8 seconds.",
+            "wind_direction": "W",
+            "wind_speed": "5 kt",
             "wave_height": "4 to 5 ft",
-            "wave_detail_string": "S 5 ft at 8 seconds and N 1 foot at 5 seconds",
+            "wave_detail_string": "S 5 ft at 8 seconds and W 1 foot at 8 seconds",
             "swell_components": [
                 {
                     "direction": "S",
@@ -15,9 +14,9 @@
                     "period": "8 seconds"
                 },
                 {
-                    "direction": "N",
+                    "direction": "W",
                     "height": "1 foot",
-                    "period": "5 seconds"
+                    "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -26,11 +25,10 @@
             "period": "This Afternoon 7/23"
         },
         {
-            "raw_text": "SE winds around 5 kt, becoming N around 5 kt after midnight. Seas 3 to 5 ft. Wave detail: S 4 ft at 8 seconds and W 1 foot at 8 seconds.",
-            "wind_direction": "SE",
+            "raw_text": "S winds around 5 kt. Seas 3 to 4 ft. Wave detail: S 4 ft at 8 seconds and W 1 foot at 8 seconds.",
+            "wind_direction": "S",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming N around 5 kt after midnight",
-            "wave_height": "3 to 5 ft",
+            "wave_height": "3 to 4 ft",
             "wave_detail_string": "S 4 ft at 8 seconds and W 1 foot at 8 seconds",
             "swell_components": [
                 {
@@ -50,10 +48,11 @@
             "period": "Tonight 7/23"
         },
         {
-            "raw_text": "NE winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: S 4 ft at 7 seconds.",
+            "raw_text": "NE winds around 5 kt, becoming E in the afternoon. Seas 2 to 4 ft. Wave detail: S 4 ft at 7 seconds.",
             "wind_direction": "NE",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "3 to 4 ft",
+            "wind_speed": "5 kt",
+            "wind_commentary": "becoming E in the afternoon",
+            "wave_height": "2 to 4 ft",
             "wave_detail_string": "S 4 ft at 7 seconds",
             "swell_components": [
                 {
