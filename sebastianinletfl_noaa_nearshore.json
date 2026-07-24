@@ -1,19 +1,13 @@
 {
-    "timestamp": "2026-07-24 05:42:55",
+    "timestamp": "2026-07-24 08:11:52",
     "forecasts": [
         {
-            "raw_text": "East winds 10 to 15 knots, diminishing to 5 to 10 knots early this morning. Seas 2 to 3 feet. Wave detail: east 2 feet at 5 seconds and east 2 feet at 8 seconds. A light chop on the intracoastal waters. A slight chance of showers and thunderstorms this evening, then a chance of showers and thunderstorms.",
+            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds. A light chop on the intracoastal waters. A chance of showers and thunderstorms this morning, then a slight chance of showers and thunderstorms this afternoon.",
             "wind_direction": "E",
-            "wind_speed": "10 to 15 knots",
-            "wind_commentary": "diminishing to 5 to 10 knots early this morning",
+            "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
-            "wave_detail_string": "east 2 feet at 5 seconds and east 2 feet at 8 seconds",
+            "wave_detail_string": "east 2 feet at 8 seconds",
             "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "2 feet",
-                    "period": "5 seconds"
-                },
                 {
                     "direction": "E",
                     "height": "2 feet",
@@ -22,30 +16,12 @@
             ],
             "primary_swell_direction": "E",
             "primary_wave_height": "2 feet",
-            "primary_wave_period": "5 seconds",
-            "period": "Rest Of Tonight 7/24"
-        },
-        {
-            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: east 3 feet at 8 seconds. A light chop on the intracoastal waters. A chance of showers and thunderstorms.",
-            "wind_direction": "E",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "2 to 3 feet",
-            "wave_detail_string": "east 3 feet at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "3 feet",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "3 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Friday 7/24"
+            "period": "Today 7/24"
         },
         {
-            "raw_text": "East winds 5 to 10 knots, becoming south after midnight. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds. Mostly smooth on the intracoastal waters.",
-            "wind_direction": "E",
+            "raw_text": "Southeast winds 5 to 10 knots, becoming south after midnight. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds. Mostly smooth on the intracoastal waters. A slight chance of showers and thunderstorms after midnight.",
+            "wind_direction": "SE",
             "wind_speed": "5 to 10 knots",
             "wind_commentary": "becoming south after midnight",
             "wave_height": "2 to 3 feet",
@@ -60,20 +36,25 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "2 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Friday Night 7/24"
+            "period": "Tonight 7/24"
         },
         {
-            "raw_text": "Southwest winds around 5 knots, becoming southeast in the afternoon. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds. A light chop on the intracoastal waters. A chance of showers and thunderstorms in the afternoon.",
-            "wind_direction": "SW",
+            "raw_text": "South winds around 5 knots, becoming southeast in the afternoon. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds and southeast 1 foot at 3 seconds. A light chop on the intracoastal waters. A chance of showers and thunderstorms in the afternoon.",
+            "wind_direction": "S",
             "wind_speed": "5 knots",
             "wind_commentary": "becoming southeast in the afternoon",
             "wave_height": "2 to 3 feet",
-            "wave_detail_string": "east 2 feet at 8 seconds",
+            "wave_detail_string": "east 2 feet at 8 seconds and southeast 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "E",
                     "height": "2 feet",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "E",
@@ -82,17 +63,22 @@
             "period": "Saturday 7/25"
         },
         {
-            "raw_text": "South winds 5 to 10 knots, becoming southwest after midnight. Seas 2 feet. Wave detail: east 2 feet at 8 seconds. Mostly smooth on the intracoastal waters. A slight chance of showers and thunderstorms in the evening.",
+            "raw_text": "South winds 5 to 10 knots, becoming southwest after midnight. Seas 2 feet. Wave detail: east 2 feet at 8 seconds and southeast 1 foot at 3 seconds. Mostly smooth on the intracoastal waters. A slight chance of showers and thunderstorms.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
             "wind_commentary": "becoming southwest after midnight",
             "wave_height": "2 feet",
-            "wave_detail_string": "east 2 feet at 8 seconds",
+            "wave_detail_string": "east 2 feet at 8 seconds and southeast 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "E",
                     "height": "2 feet",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "E",
@@ -101,11 +87,12 @@
             "period": "Saturday Night 7/25"
         },
         {
-            "raw_text": "Southwest winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds and south 1 foot at 3 seconds. A light chop on the intracoastal waters. A chance of showers and thunderstorms in the morning, then showers and thunderstorms likely in the afternoon.",
-            "wind_direction": "SW",
+            "raw_text": "West winds 5 to 10 knots, becoming south in the afternoon. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds and southeast 1 foot at 3 seconds. A light chop on the intracoastal waters. A chance of showers with a slight chance of thunderstorms in the morning, then showers and thunderstorms likely in the afternoon.",
+            "wind_direction": "W",
             "wind_speed": "5 to 10 knots",
+            "wind_commentary": "becoming south in the afternoon",
             "wave_height": "2 to 3 feet",
-            "wave_detail_string": "east 2 feet at 8 seconds and south 1 foot at 3 seconds",
+            "wave_detail_string": "east 2 feet at 8 seconds and southeast 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "E",
@@ -113,7 +100,7 @@
                     "period": "8 seconds"
                 },
                 {
-                    "direction": "S",
+                    "direction": "SE",
                     "height": "1 foot",
                     "period": "3 seconds"
                 }
@@ -124,14 +111,30 @@
             "period": "Sunday 7/26"
         },
         {
-            "raw_text": "Southwest winds around 10 knots. Seas 2 to 3 feet. Mostly smooth on the intracoastal waters. A chance of showers and thunderstorms in the evening, then a slight chance of showers and thunderstorms after midnight.",
+            "raw_text": "Southwest winds around 10 knots. Seas 2 to 3 feet. Wave detail: southeast 2 feet at 3 seconds and east 2 feet at 8 seconds. Mostly smooth on the intracoastal waters. A chance of showers and thunderstorms in the evening, then a slight chance of showers and thunderstorms after midnight.",
             "wind_direction": "SW",
             "wind_speed": "10 knots",
             "wave_height": "2 to 3 feet",
+            "wave_detail_string": "southeast 2 feet at 3 seconds and east 2 feet at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "2 feet",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "3 seconds",
             "period": "Sunday Night 7/26"
         },
         {
-            "raw_text": "West winds 5 to 10 knots, becoming southwest in the afternoon. Seas 2 to 3 feet. A light chop on the intracoastal waters. A chance of showers and thunderstorms in the morning, then showers and thunderstorms likely in the afternoon.",
+            "raw_text": "West winds 5 to 10 knots, becoming southwest in the afternoon. Seas 2 to 3 feet. A light chop on the intracoastal waters. Showers and thunderstorms likely.",
             "wind_direction": "W",
             "wind_speed": "5 to 10 knots",
             "wind_commentary": "becoming southwest in the afternoon",
@@ -146,7 +149,7 @@
             "period": "Monday Night 7/27"
         },
         {
-            "raw_text": "Southwest winds 5 to 10 knots, becoming south in the afternoon. Seas 2 feet. A light chop on the intracoastal waters. A slight chance of showers and thunderstorms in the morning, then showers and thunderstorms likely in the afternoon.",
+            "raw_text": "Southwest winds 5 to 10 knots, becoming south in the afternoon. Seas 2 feet. A light chop on the intracoastal waters. A chance of showers and thunderstorms in the morning, then showers and thunderstorms likely in the afternoon.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 knots",
             "wind_commentary": "becoming south in the afternoon",
