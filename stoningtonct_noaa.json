@@ -1,11 +1,11 @@
 {
-    "timestamp": "2026-07-24 23:00:49",
+    "timestamp": "2026-07-25 00:10:44",
     "forecasts": [
         {
-            "raw_text": "SE winds 5 to 10 kt, becoming NE after midnight. Seas around 2 ft. Wave detail: SE 2 ft at 7 seconds.",
+            "raw_text": "SE winds around 5 kt, becoming E around 5 kt after midnight. Seas around 2 ft. Wave detail: SE 2 ft at 7 seconds.",
             "wind_direction": "SE",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming NE after midnight",
+            "wind_speed": "5 kt",
+            "wind_commentary": "becoming E around 5 kt after midnight",
             "wave_height": "2 ft",
             "wave_detail_string": "SE 2 ft at 7 seconds",
             "swell_components": [
@@ -18,12 +18,14 @@
             "primary_swell_direction": "SE",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Tonight 7/24"
+            "period": "Tonight 7/25"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 7 seconds.",
-            "wind_direction": "E",
+            "raw_text": "NE winds 5 to 10 kt, becoming E with gusts up to 20 kt in the afternoon. Seas 2 to 3 ft. Wave detail: SE 3 ft at 7 seconds.",
+            "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming E with gusts up to 20 kt in the afternoon",
+            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "SE 3 ft at 7 seconds",
             "swell_components": [
@@ -39,9 +41,11 @@
             "period": "Sat 7/25"
         },
         {
-            "raw_text": "NE winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 7 seconds.",
-            "wind_direction": "NE",
+            "raw_text": "E winds 5 to 10 kt, becoming NE with gusts up to 20 kt after midnight. Seas 2 to 3 ft. Wave detail: SE 3 ft at 7 seconds.",
+            "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming NE with gusts up to 20 kt after midnight",
+            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "SE 3 ft at 7 seconds",
             "swell_components": [
@@ -57,9 +61,10 @@
             "period": "Sat Night 7/25"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: E 3 ft at 7 seconds and S 2 ft at 8 seconds.",
+            "raw_text": "NE winds 5 to 10 kt. Gusts up to 20 kt in the morning. Seas 2 to 3 ft. Wave detail: E 3 ft at 7 seconds and S 2 ft at 8 seconds.",
             "wind_direction": "NE",
-            "wind_speed": "10 to 15 kt",
+            "wind_speed": "5 to 10 kt",
+            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "E 3 ft at 7 seconds and S 2 ft at 8 seconds",
             "swell_components": [
