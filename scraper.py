@@ -3,6 +3,13 @@ from bs4 import BeautifulSoup
 import json
 import re
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+
+# All scraped zones are US Atlantic coast marine zones (Eastern time).
+# GitHub Actions runners default to UTC, so run_date must be computed in
+# Eastern local time or evening scrapes get attributed to the wrong
+# calendar day (e.g. 'TONIGHT' rolling to tomorrow's date after 8pm ET).
+EASTERN = ZoneInfo("America/New_York")
 
 
 def get_forecast_date(period_text, run_date):
@@ -137,7 +144,7 @@ def scrape_and_save_latlon(lat, lon, filename):
     """
     url = f"https://marine.weather.gov/MapClick.php?lat={lat}&lon={lon}"
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
-    run_date = datetime.now()
+    run_date = datetime.now(EASTERN)
 
     try:
         print(f"Fetching marine forecast at ({lat},{lon}) for {filename}...")
@@ -185,7 +192,7 @@ def scrape_and_save(url, filename):
     Performs the actual scrape and saves to the specified JSON file.
     """
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
-    run_date = datetime.now()
+    run_date = datetime.now(EASTERN)
 
     try:
         print(f"Fetching data from {url}...")
@@ -460,7 +467,7 @@ def scrape_and_save_cwf(wfo, zone_keywords, filename):
     filename: output JSON filename
     """
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36'}
-    run_date = datetime.now()
+    run_date = datetime.now(EASTERN)
     product_text = None
 
     for product in ['OFF', 'CWF']:

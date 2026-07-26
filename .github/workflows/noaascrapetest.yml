@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 tzdata
           
       - name: Run Scraper
         run: python scraper.py
