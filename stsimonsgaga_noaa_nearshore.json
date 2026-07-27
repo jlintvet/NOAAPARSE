@@ -1,34 +1,11 @@
 {
-    "timestamp": "2026-07-27 02:20:42",
+    "timestamp": "2026-07-27 06:34:15",
     "forecasts": [
         {
-            "raw_text": "West winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: south 2 feet at 4 seconds and east 2 feet at 8 seconds. Intracoastal waters a moderate chop. A chance of showers and thunderstorms late this evening, then a slight chance of showers and thunderstorms.",
-            "wind_direction": "W",
-            "wind_speed": "10 to 15 knots",
-            "wave_height": "2 to 3 feet",
-            "wave_detail_string": "south 2 feet at 4 seconds and east 2 feet at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "2 feet",
-                    "period": "4 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "2 feet",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "2 feet",
-            "primary_wave_period": "4 seconds",
-            "period": "Rest Of Tonight 7/27"
-        },
-        {
-            "raw_text": "Northwest winds 5 to 10 knots, becoming southeast in the afternoon. Seas 2 to 3 feet. Wave detail: west 2 feet at 4 seconds and east 2 feet at 8 seconds. Intracoastal waters light chop. A slight chance of showers and thunderstorms.",
+            "raw_text": "Northwest winds 5 to 10 knots, becoming southeast this afternoon. Seas 2 to 3 feet. Wave detail: west 2 feet at 4 seconds and east 2 feet at 8 seconds. Intracoastal waters light chop.",
             "wind_direction": "NW",
             "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming southeast in the afternoon",
+            "wind_commentary": "becoming southeast this afternoon",
             "wave_height": "2 to 3 feet",
             "wave_detail_string": "west 2 feet at 4 seconds and east 2 feet at 8 seconds",
             "swell_components": [
@@ -46,7 +23,7 @@
             "primary_swell_direction": "W",
             "primary_wave_height": "2 feet",
             "primary_wave_period": "4 seconds",
-            "period": "Monday 7/27"
+            "period": "Today 7/27"
         },
         {
             "raw_text": "South winds around 10 knots, becoming southwest after midnight. Seas 2 to 3 feet. Wave detail: south 2 feet at 4 seconds and east 2 feet at 8 seconds. Intracoastal waters light chop. A slight chance of showers and thunderstorms in the evening.",
@@ -70,7 +47,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "2 feet",
             "primary_wave_period": "4 seconds",
-            "period": "Monday Night 7/27"
+            "period": "Tonight 7/27"
         },
         {
             "raw_text": "Southwest winds 5 to 10 knots, becoming south 10 to 15 knots in the afternoon. Seas 2 to 3 feet. Wave detail: southeast 2 feet at 4 seconds and east 2 feet at 8 seconds. Intracoastal waters a moderate chop. A slight chance of showers and thunderstorms in the afternoon.",
@@ -138,10 +115,21 @@
             "period": "Wednesday 7/29"
         },
         {
-            "raw_text": "Southwest winds 15 to 20 knots. Seas 2 to 4 feet, occasionally to 5 feet. Intracoastal waters choppy. A chance of showers and thunderstorms in the evening, then a slight chance of showers after midnight.",
+            "raw_text": "Southwest winds 15 to 20 knots. Seas 2 to 4 feet, occasionally to 5 feet. Wave detail: southwest 3 feet at 4 seconds. Intracoastal waters choppy. A chance of showers and thunderstorms in the evening, then a slight chance of showers after midnight.",
             "wind_direction": "SW",
             "wind_speed": "15 to 20 knots",
             "wave_height": "2 to 4 feet",
+            "wave_detail_string": "southwest 3 feet at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SW",
+                    "height": "3 feet",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SW",
+            "primary_wave_height": "3 feet",
+            "primary_wave_period": "4 seconds",
             "period": "Wednesday Night 7/29"
         },
         {
