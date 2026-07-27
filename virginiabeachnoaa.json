@@ -1,12 +1,23 @@
 {
-    "timestamp": "2026-07-27 12:09:36",
+    "timestamp": "2026-07-27 14:19:13",
     "forecasts": [
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas around 3 ft. Wave  detail: E 3 ft at 8 seconds. A slight chance of tstms. A chance of showers late this morning and early afternoon, then a slight  chance of showers late.",
-            "wind_direction": "SE",
+            "raw_text": "S winds 5 to 10 kt. Seas around 3 ft. Wave detail: E 3 ft at 8 seconds. A slight chance of tstms. A chance of showers early, then a slight chance of showers late.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 ft",
-            "period": "Rest Of Today 7/27"
+            "wave_detail_string": "E 3 ft at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "3 ft",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "8 seconds",
+            "period": "This Afternoon 7/27"
         },
         {
             "raw_text": "S winds 5 to 10 kt. Gusts up to 15 kt early in the evening, then 15 kt after midnight. Seas around 3 ft. Wave detail: E 3 ft at 7 seconds.",

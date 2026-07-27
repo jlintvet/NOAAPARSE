@@ -1,12 +1,23 @@
 {
-    "timestamp": "2026-07-27 12:10:25",
+    "timestamp": "2026-07-27 14:19:58",
     "forecasts": [
         {
-            "raw_text": "S winds 5 to 10 kt. Seas around 3 ft. Wave  detail: E 3 ft at 7 seconds. A slight chance of showers. A slight  chance of tstms this afternoon.",
+            "raw_text": "S winds 5 to 10 kt. Seas around 3 ft. Wave detail: E 3 ft at 7 seconds. A slight chance of showers and tstms.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 ft",
-            "period": "Rest Of Today 7/27"
+            "wave_detail_string": "E 3 ft at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "3 ft",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "7 seconds",
+            "period": "This Afternoon 7/27"
         },
         {
             "raw_text": "S winds 10 kt with gusts up to 15 kt. Seas around 3 ft. Wave detail: E 3 ft at 8 seconds.",
