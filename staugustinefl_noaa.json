@@ -1,29 +1,6 @@
 {
-    "timestamp": "2026-07-28 19:53:34",
+    "timestamp": "2026-07-28 21:53:57",
     "forecasts": [
-        {
-            "raw_text": "South winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: south 2 feet at 3 seconds and east 2 feet at 7 seconds.",
-            "wind_direction": "S",
-            "wind_speed": "10 to 15 knots",
-            "wave_height": "2 to 3 feet",
-            "wave_detail_string": "south 2 feet at 3 seconds and east 2 feet at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "2 feet",
-                    "period": "3 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "2 feet",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "2 feet",
-            "primary_wave_period": "3 seconds",
-            "period": "Rest Of Today 7/28"
-        },
         {
             "raw_text": "Southwest winds 15 to 20 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: south 4 feet at 4 seconds and east 2 feet at 8 seconds.",
             "wind_direction": "SW",
@@ -45,7 +22,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "4 feet",
             "primary_wave_period": "4 seconds",
-            "period": "Tonight 7/28"
+            "period": "Rest Of Tonight 7/28"
         },
         {
             "raw_text": "Southwest winds 10 to 15 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: southwest 4 feet at 5 seconds and east 2 feet at 8 seconds. A chance of showers and thunderstorms in the afternoon.",
@@ -89,8 +66,8 @@
             "period": "Wednesday Night 7/29"
         },
         {
-            "raw_text": "West winds 10 to 15 knots. Seas 2 to 4 feet, occasionally to 5 feet. Wave detail: west 3 feet at 5 seconds. Showers likely with a chance of thunderstorms.",
-            "wind_direction": "W",
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 4 feet, occasionally to 5 feet. Wave detail: west 3 feet at 5 seconds. A chance of thunderstorms. Showers likely, mainly in the morning.",
+            "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 4 feet",
             "wave_detail_string": "west 3 feet at 5 seconds",
@@ -104,33 +81,39 @@
             "primary_swell_direction": "W",
             "primary_wave_height": "3 feet",
             "primary_wave_period": "5 seconds",
-            "period": "Thursday And Thursday Night 7/30"
+            "period": "Thursday 7/30"
         },
         {
-            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: southwest 3 feet at 5 seconds. A chance of showers and thunderstorms.",
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: southwest 3 feet at 4 seconds. Showers likely. A chance of thunderstorms, mainly in the evening.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
-            "wave_detail_string": "southwest 3 feet at 5 seconds",
+            "wave_detail_string": "southwest 3 feet at 4 seconds",
             "swell_components": [
                 {
                     "direction": "SW",
                     "height": "3 feet",
-                    "period": "5 seconds"
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
             "primary_wave_height": "3 feet",
-            "primary_wave_period": "5 seconds",
-            "period": "Friday 7/31"
+            "primary_wave_period": "4 seconds",
+            "period": "Thursday Night 7/30"
         },
         {
-            "raw_text": "Southwest winds 10 to 15 knots, increasing to 15 to 20 knots. Seas 2 to 4 feet, occasionally to 5 feet. A chance of thunderstorms.winds and seas higher in and near thunderstorms.",
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. A chance of showers and thunderstorms.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
-            "wind_commentary": "increasing to 15 to 20 knots",
+            "wave_height": "2 to 3 feet",
+            "period": "Friday And Friday Night 7/31"
+        },
+        {
+            "raw_text": "South winds 15 to 20 knots. Seas 2 to 4 feet, occasionally to 5 feet. Showers likely with a chance of thunderstorms.winds and seas higher in and near thunderstorms.",
+            "wind_direction": "S",
+            "wind_speed": "15 to 20 knots",
             "wave_height": "2 to 4 feet",
-            "period": "Saturday 8/1"
+            "period": "Saturday Through Sunday 8/1"
         }
     ]
 }
