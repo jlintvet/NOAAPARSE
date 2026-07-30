@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-30 08:25:47",
+    "timestamp": "2026-07-30 11:05:32",
     "forecasts": [
         {
             "raw_text": "NW winds 15 to 20 kt, diminishing to 10 to 15 kt this afternoon. Seas 2 to 3 ft. Wave detail: NW 3 ft at 4 seconds and SE 2 ft at 8 seconds.",
@@ -26,9 +26,9 @@
             "period": "Today 7/30"
         },
         {
-            "raw_text": "NW winds around 5 kt. Seas around 2 ft. Wave detail: N 2 ft at 4 seconds and SE 2 ft at 8 seconds.",
+            "raw_text": "NW winds 5 to 10 kt. Seas around 2 ft. Wave detail: N 2 ft at 4 seconds and SE 2 ft at 8 seconds.",
             "wind_direction": "NW",
-            "wind_speed": "5 kt",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "N 2 ft at 4 seconds and SE 2 ft at 8 seconds",
             "swell_components": [
@@ -73,53 +73,53 @@
             "period": "Fri 7/31"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Seas around 2 ft. Wave detail: NE 2 ft at 7 seconds.",
+            "raw_text": "S winds 5 to 10 kt. Seas around 2 ft. Wave detail: SE 2 ft at 7 seconds.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "NE 2 ft at 7 seconds",
+            "wave_detail_string": "SE 2 ft at 7 seconds",
             "swell_components": [
                 {
-                    "direction": "NE",
+                    "direction": "SE",
                     "height": "2 ft",
                     "period": "7 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
+            "primary_swell_direction": "SE",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "7 seconds",
             "period": "Fri Night 7/31"
         },
         {
-            "raw_text": "S winds around 5 kt, increasing to around 10 kt in the afternoon. Seas around 2 ft. Wave detail: E 2 ft at 7 seconds and S 1 foot at 3 seconds.",
+            "raw_text": "S winds around 5 kt, increasing to around 10 kt in the afternoon. Seas around 2 ft. Wave detail: S 2 ft at 3 seconds and SE 2 ft at 7 seconds.",
             "wind_direction": "S",
             "wind_speed": "5 kt",
             "wind_commentary": "increasing to around 10 kt in the afternoon",
             "wave_height": "2 ft",
-            "wave_detail_string": "E 2 ft at 7 seconds and S 1 foot at 3 seconds",
+            "wave_detail_string": "S 2 ft at 3 seconds and SE 2 ft at 7 seconds",
             "swell_components": [
                 {
-                    "direction": "E",
+                    "direction": "S",
                     "height": "2 ft",
-                    "period": "7 seconds"
+                    "period": "3 seconds"
                 },
                 {
-                    "direction": "S",
-                    "height": "1 foot",
-                    "period": "3 seconds"
+                    "direction": "SE",
+                    "height": "2 ft",
+                    "period": "7 seconds"
                 }
             ],
-            "primary_swell_direction": "E",
+            "primary_swell_direction": "S",
             "primary_wave_height": "2 ft",
-            "primary_wave_period": "7 seconds",
+            "primary_wave_period": "3 seconds",
             "period": "Sat 8/1"
         },
         {
-            "raw_text": "S winds around 10 kt. Seas 2 to 3 ft. Wave detail: S 2 ft at 3 seconds and E 2 ft at 7 seconds.",
+            "raw_text": "S winds around 10 kt. Seas 2 to 3 ft. Wave detail: S 2 ft at 3 seconds and SE 2 ft at 7 seconds.",
             "wind_direction": "S",
             "wind_speed": "10 kt",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "S 2 ft at 3 seconds and E 2 ft at 7 seconds",
+            "wave_detail_string": "S 2 ft at 3 seconds and SE 2 ft at 7 seconds",
             "swell_components": [
                 {
                     "direction": "S",
@@ -127,7 +127,7 @@
                     "period": "3 seconds"
                 },
                 {
-                    "direction": "E",
+                    "direction": "SE",
                     "height": "2 ft",
                     "period": "7 seconds"
                 }
