@@ -1,29 +1,6 @@
 {
-    "timestamp": "2026-07-31 04:48:37",
+    "timestamp": "2026-07-31 07:23:40",
     "forecasts": [
-        {
-            "raw_text": "SW winds 5 kt. Seas 2 ft. Wave detail: NE 1 foot at 3 seconds and S 1 foot at 5 seconds.",
-            "wind_direction": "SW",
-            "wind_speed": "5 kt",
-            "wave_height": "2 ft",
-            "wave_detail_string": "NE 1 foot at 3 seconds and S 1 foot at 5 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "1 foot",
-                    "period": "3 seconds"
-                },
-                {
-                    "direction": "S",
-                    "height": "1 foot",
-                    "period": "5 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "3 seconds",
-            "period": "Rest Of Tonight 7/31"
-        },
         {
             "raw_text": "SE winds 5 to 10 kt. Seas 2 ft. Wave detail: S 2 ft at 5 seconds and SE 1 foot at 8 seconds.",
             "wind_direction": "SE",
@@ -45,7 +22,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Fri 7/31"
+            "period": "Today 7/31"
         },
         {
             "raw_text": "SE winds 5 to 10 kt. Seas 2 ft. Wave detail: S 2 ft at 5 seconds and SE 2 ft at 8 seconds.",
@@ -68,7 +45,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Fri Night 7/31"
+            "period": "Tonight 7/31"
         },
         {
             "raw_text": "SE winds 5 to 10 kt, increasing to 10 to 15 kt in the afternoon. Seas 2 ft. Wave detail: S 2 ft at 4 seconds and SE 2 ft at 7 seconds. A slight chance of tstms. A slight chance of showers.",
@@ -158,10 +135,21 @@
             "period": "Sun 8/2"
         },
         {
-            "raw_text": "SW winds 20 to 25 kt. Seas 5 to 6 ft. Showers with tstms likely.",
+            "raw_text": "SW winds 20 to 25 kt. Seas 5 to 6 ft. Wave detail: S 5 ft at 7 seconds. Showers with tstms likely.",
             "wind_direction": "SW",
             "wind_speed": "20 to 25 kt",
             "wave_height": "5 to 6 ft",
+            "wave_detail_string": "S 5 ft at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "5 ft",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "7 seconds",
             "period": "Sun Night 8/2"
         },
         {
