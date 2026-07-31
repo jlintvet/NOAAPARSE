@@ -1,31 +1,47 @@
 {
-    "timestamp": "2026-07-30 22:09:46",
+    "timestamp": "2026-07-31 01:58:54",
     "forecasts": [
         {
-            "raw_text": "Variable winds near 5 knots. Seas around 1 foot. Wave  detail: west to northwest 1 foot at 5 seconds.",
+            "raw_text": "Variable winds 5 to 10 knots, becoming southeast late. Seas around 1 foot. Wave detail: west to northwest 1 foot at 5  seconds.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 knots",
+            "wind_commentary": "becoming southeast late",
             "wave_height": "1 foot",
-            "period": "Tonight 7/30"
+            "wave_detail_string": "west to northwest 1 foot at 5  seconds",
+            "swell_components": [
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "5  seconds"
+                }
+            ],
+            "primary_swell_direction": "NW",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "5  seconds",
+            "period": "Overnight 7/31"
         },
         {
-            "raw_text": "East to southeast winds near 5 knots, becoming east.  seas around 1 foot. Wave detail: east to southeast 1 foot at 3  seconds and west to northwest 1 foot at 4 seconds. A slight chance of showers and thunderstorms.",
-            "wind_commentary": "becoming east",
+            "raw_text": "East to southeast winds 5 to 10 knots, becoming northeast to east. Seas around 1 foot. Wave detail: east to  southeast 1 foot at 3 seconds and west to northwest 1 foot at 4  seconds. A slight chance of showers and thunderstorms.",
+            "wind_direction": "SE",
+            "wind_speed": "5 to 10 knots",
+            "wind_commentary": "becoming northeast to east",
             "wave_height": "1 foot",
-            "wave_detail_string": "east to southeast 1 foot at 3  seconds and west to northwest 1 foot at 4 seconds",
+            "wave_detail_string": "east to  southeast 1 foot at 3 seconds and west to northwest 1 foot at 4  seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "1 foot",
-                    "period": "3  seconds"
+                    "period": "3 seconds"
                 },
                 {
                     "direction": "NW",
                     "height": "1 foot",
-                    "period": "4 seconds"
+                    "period": "4  seconds"
                 }
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "3  seconds",
+            "primary_wave_period": "3 seconds",
             "period": "Friday 7/31"
         },
         {
