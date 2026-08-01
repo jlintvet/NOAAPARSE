@@ -1,17 +1,27 @@
 {
-    "timestamp": "2026-07-31 22:05:54",
+    "timestamp": "2026-08-01 01:48:41",
     "forecasts": [
         {
-            "raw_text": "Variable winds near 5 knots. Seas around 1 foot. Wave  detail: east to southeast 1 foot at 3 seconds.",
+            "raw_text": "Variable winds near 5 knots. Seas around 1 foot.  wave detail: east to southeast 1 foot at 3 seconds.",
             "wave_height": "1 foot",
-            "period": "Tonight 7/31"
+            "wave_detail_string": "east to southeast 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
+            "period": "Overnight 8/1"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas around 1 foot, building to 1 to 2 feet. Wave detail: east 1 foot at 3 seconds. A slight  chance of showers and thunderstorms.",
+            "raw_text": "East winds 5 to 10 knots. Seas around 1 foot. Wave detail: east 1 foot at 3 seconds. A slight chance of showers and thunderstorms.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
-            "wave_commentary": "building to 1 to 2 feet",
             "wave_detail_string": "east 1 foot at 3 seconds",
             "swell_components": [
                 {
