@@ -1,27 +1,8 @@
 {
-    "timestamp": "2026-08-02 17:47:35",
+    "timestamp": "2026-08-02 18:47:46",
     "forecasts": [
         {
-            "raw_text": "SW winds 20 kt with gusts up to 30 kt. Seas 4 to 6 ft. Wave detail: S 5 ft at 6 seconds. A chance of tstms. Showers.",
-            "wind_direction": "SW",
-            "wind_speed": "20 kt",
-            "wind_gusts": "30 kt",
-            "wave_height": "4 to 6 ft",
-            "wave_detail_string": "S 5 ft at 6 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "5 ft",
-                    "period": "6 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "5 ft",
-            "primary_wave_period": "6 seconds",
-            "period": "This Afternoon 8/2"
-        },
-        {
-            "raw_text": "SW winds 20 to 25 kt with gusts up to 30 kt. Seas 4 to 6 ft. Wave detail: S 6 ft at 6 seconds. A chance of tstms. A chance of showers in the evening, then showers after midnight.",
+            "raw_text": "SW winds 20 to 25 kt with gusts up to 30 kt. Seas 4 to 6 ft. Wave detail: S 6 ft at 6 seconds. A chance of tstms. A chance of showers this evening, then showers after midnight.",
             "wind_direction": "SW",
             "wind_speed": "20 to 25 kt",
             "wind_gusts": "30 kt",
@@ -114,10 +95,21 @@
             "period": "Tue Night 8/4"
         },
         {
-            "raw_text": "S winds 10 kt. Seas 3 ft. Showers likely with a chance of tstms.",
+            "raw_text": "S winds 10 kt. Seas 3 ft. Wave detail: S 3 ft at 6 seconds. Showers likely with a chance of tstms.",
             "wind_direction": "S",
             "wind_speed": "10 kt",
             "wave_height": "3 ft",
+            "wave_detail_string": "S 3 ft at 6 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "3 ft",
+                    "period": "6 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "6 seconds",
             "period": "Wed 8/5"
         },
         {
@@ -135,11 +127,25 @@
             "period": "Thu 8/6"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Seas 2 to 3 ft.winds and seas higher in and near tstms.",
+            "raw_text": "S winds 5 to 10 kt. Seas 2 to 3 ft.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
             "period": "Thu Night 8/6"
+        },
+        {
+            "raw_text": "SE winds 5 to 10 kt. Seas 2 to 3 ft.",
+            "wind_direction": "SE",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Fri 8/7"
+        },
+        {
+            "raw_text": "SE winds 5 to 10 kt. Seas 2 to 3 ft. A chance of showers and tstms after midnight.winds and seas higher in and near tstms.",
+            "wind_direction": "SE",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Fri Night 8/7"
         }
     ]
 }
