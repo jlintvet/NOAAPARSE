@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-08-02 22:04:47",
+    "timestamp": "2026-08-03 02:13:26",
     "forecasts": [
         {
-            "raw_text": "S winds 10 to 15 kt with gusts up to 20 kt, increasing to 20 to 25 kt with gusts up to 30 kt. Seas around 3 ft, building to 4 to 6 ft, occasionally to 8 ft after midnight. Wave detail: S 3 ft at 7 seconds and S 2 ft at 4 seconds, becoming S 6 ft at 6 seconds and SE 1 ft at 9 seconds. Scattered showers and slight chance of tstms this evening, then showers likely with chance of tstms after midnight.",
+            "raw_text": "S winds 10 to 15 kt with gusts up to 20 kt, increasing to 20 to 25 kt with gusts up to 30 kt. Seas around 3 ft, building to 4 to 6 ft, occasionally to 8 ft. Wave detail: S 3 ft at 7 seconds and S 2 ft at 4 seconds, becoming S 6 ft at 6 seconds and SE 1 ft at 9 seconds. Scattered showers and slight chance of tstms late this evening, then showers likely with chance of tstms.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "increasing to 20 to 25 kt with gusts up to 30 kt",
@@ -35,7 +35,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Tonight 8/2"
+            "period": "Rest Of Tonight 8/3"
         },
         {
             "raw_text": "S winds 20 to 25 kt, becoming SW 15 to 20 kt in the afternoon. Seas 6 to 8 ft, occasionally to 10 ft. Wave detail: S 8 ft at 8 seconds. Slight chance of tstms. Showers.",
@@ -121,11 +121,22 @@
             "period": "Tue Night 8/4"
         },
         {
-            "raw_text": "S winds around 5 kt, increasing to 5 to 10 kt in the afternoon. Seas around 3 ft.",
+            "raw_text": "S winds around 5 kt, increasing to 5 to 10 kt in the afternoon. Seas around 3 ft. Wave detail: S 3 ft at 7 seconds.",
             "wind_direction": "S",
             "wind_speed": "5 kt",
             "wind_commentary": "increasing to 5 to 10 kt in the afternoon",
             "wave_height": "3 ft",
+            "wave_detail_string": "S 3 ft at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "3 ft",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "7 seconds",
             "period": "Wed 8/5"
         },
         {
