@@ -1,24 +1,28 @@
 {
-    "timestamp": "2026-08-05 11:56:27",
+    "timestamp": "2026-08-05 13:23:38",
     "forecasts": [
         {
-            "raw_text": "SE winds around 5 kt, becoming S late. Seas 3 to 4 ft, occasionally to 5 ft. Wave detail: S 3 ft at 7 seconds.",
-            "wind_direction": "SE",
+            "raw_text": "S winds around 5 kt. Seas around 3 ft. Wave detail: S 3 ft at 7 seconds and E 1 ft at 10 seconds.",
+            "wind_direction": "S",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming S late",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "S 3 ft at 7 seconds",
+            "wave_height": "3 ft",
+            "wave_detail_string": "S 3 ft at 7 seconds and E 1 ft at 10 seconds",
             "swell_components": [
                 {
                     "direction": "S",
                     "height": "3 ft",
                     "period": "7 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 ft",
+                    "period": "10 seconds"
                 }
             ],
             "primary_swell_direction": "S",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Today 8/5"
+            "period": "This Afternoon 8/5"
         },
         {
             "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: S 2 ft at 7 seconds and E 1 ft at 10 seconds.",
