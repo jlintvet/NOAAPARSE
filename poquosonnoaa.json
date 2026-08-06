@@ -1,35 +1,27 @@
 {
-    "timestamp": "2026-08-06 00:59:21",
+    "timestamp": "2026-08-06 03:41:50",
     "forecasts": [
         {
-            "raw_text": "S winds 10 to 15 kt with gusts up to 20 kt. Waves 1 to 2 ft.",
+            "raw_text": "SW winds 10 to 15 kt, becoming S 5 to 10 kt this afternoon. Waves 1 to 2 ft.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 kt",
+            "wind_commentary": "becoming S 5 to 10 kt this afternoon",
+            "wave_height": "1 to 2 ft",
+            "period": "Today 8/6"
+        },
+        {
+            "raw_text": "S winds 5 to 10 kt, becoming SW 10 to 15 kt in the late evening and overnight. Waves 1 to 2 ft.",
             "wind_direction": "S",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "1 to 2 ft",
-            "period": "Overnight 8/6"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt with gusts up to 15 kt. Waves 1 to 2 ft.",
-            "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wind_gusts": "15 kt",
+            "wind_commentary": "becoming SW 10 to 15 kt in the late evening and overnight",
             "wave_height": "1 to 2 ft",
-            "period": "Thu 8/6"
+            "period": "Tonight 8/6"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Waves 1 to 2 ft.",
+            "raw_text": "SW winds 10 to 15 kt, becoming S 5 to 10 kt in the afternoon. Waves 1 to 2 ft.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "1 to 2 ft",
-            "period": "Thu Night 8/6"
-        },
-        {
-            "raw_text": "SW winds 10 to 15 kt, diminishing to 5 to 10 kt in the afternoon. Waves 1 to 2 ft.",
-            "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "diminishing to 5 to 10 kt in the afternoon",
+            "wind_commentary": "becoming S 5 to 10 kt in the afternoon",
             "wave_height": "1 to 2 ft",
             "period": "Fri 8/7"
         },
@@ -58,25 +50,26 @@
             "period": "Sat Night 8/8"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt, diminishing to 5 to 10 kt in the afternoon. Waves 1 to 2 ft.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt, diminishing to 5 to 10 kt in the afternoon. Waves 1 to 2 ft.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "diminishing to 5 to 10 kt in the afternoon",
+            "wind_gusts": "20 kt",
             "wave_height": "1 to 2 ft",
             "period": "Sun 8/9"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt. Gusts up to 15 kt after midnight. Waves 1 foot.",
-            "wind_direction": "SW",
-            "wind_speed": "5 to 10 kt",
-            "wind_gusts": "15 kt",
-            "wave_height": "1 foot",
-            "period": "Sun Night 8/9"
         },
         {
             "raw_text": "SW winds 5 to 10 kt. Waves 1 foot.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
+            "wave_height": "1 foot",
+            "period": "Sun Night 8/9"
+        },
+        {
+            "raw_text": "SW winds 5 to 10 kt, becoming S in the afternoon. Waves 1 foot.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming S in the afternoon",
             "wave_height": "1 foot",
             "period": "Mon 8/10"
         },
