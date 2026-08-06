@@ -1,28 +1,11 @@
 {
-    "timestamp": "2026-08-06 03:42:42",
+    "timestamp": "2026-08-06 06:31:52",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas around 3 ft. Wave detail: SE 3 ft at 7 seconds.",
-            "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "3 ft",
-            "wave_detail_string": "SE 3 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "3 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "Rest Of Tonight 8/6"
-        },
-        {
-            "raw_text": "S winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 6 seconds.",
+            "raw_text": "S winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 6 seconds.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
+            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "SE 3 ft at 6 seconds",
             "swell_components": [
@@ -35,14 +18,14 @@
             "primary_swell_direction": "SE",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "6 seconds",
-            "period": "Thu 8/6"
+            "period": "Today 8/6"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft. Wave detail: S 3 ft at 5 seconds.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft. Wave detail: S 3 ft at 5 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
-            "wave_height": "2 to 4 ft",
+            "wave_height": "2 to 3 ft",
             "wave_detail_string": "S 3 ft at 5 seconds",
             "swell_components": [
                 {
@@ -54,7 +37,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Thu Night 8/6"
+            "period": "Tonight 8/6"
         },
         {
             "raw_text": "SW winds 5 to 10 kt, becoming S 10 to 15 kt with gusts up to 20 kt in the afternoon. Seas 2 to 3 ft. Wave detail: S 3 ft at 6 seconds and E 1 foot at 9 seconds.",
@@ -82,11 +65,11 @@
             "period": "Fri 8/7"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft. Wave detail: S 3 ft at 5 seconds and SE 1 foot at 8 seconds. A chance of showers and tstms.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas around 3 ft. Wave detail: S 3 ft at 5 seconds and SE 1 foot at 8 seconds. A chance of showers and tstms.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
-            "wave_height": "2 to 4 ft",
+            "wave_height": "3 ft",
             "wave_detail_string": "S 3 ft at 5 seconds and SE 1 foot at 8 seconds",
             "swell_components": [
                 {
@@ -106,10 +89,10 @@
             "period": "Fri Night 8/7"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: S 3 ft at 6 seconds and SE 2 ft at 9 seconds.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 4 ft. Wave detail: S 3 ft at 6 seconds and SE 2 ft at 9 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wave_height": "2 to 3 ft",
+            "wave_height": "2 to 4 ft",
             "wave_detail_string": "S 3 ft at 6 seconds and SE 2 ft at 9 seconds",
             "swell_components": [
                 {
@@ -129,11 +112,22 @@
             "period": "Sat 8/8"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt, diminishing to 5 to 10 kt after midnight. Seas 2 to 4 ft. A chance of showers.",
+            "raw_text": "SW winds 10 to 15 kt, diminishing to 5 to 10 kt after midnight. Seas 3 to 4 ft. Wave detail: SE 3 ft at 7 seconds. A chance of showers.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "diminishing to 5 to 10 kt after midnight",
-            "wave_height": "2 to 4 ft",
+            "wave_height": "3 to 4 ft",
+            "wave_detail_string": "SE 3 ft at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "3 ft",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "7 seconds",
             "period": "Sat Night 8/8"
         },
         {
@@ -144,24 +138,24 @@
             "period": "Sun 8/9"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft.",
+            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "2 to 3 ft",
+            "wave_height": "2 ft",
             "period": "Sun Night 8/9"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft.",
+            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "2 to 3 ft",
+            "wave_height": "2 ft",
             "period": "Mon 8/10"
         },
         {
-            "raw_text": "SW winds around 10 kt. Seas around 2 ft.winds and seas higher in and near tstms.",
+            "raw_text": "SW winds around 10 kt. Seas 2 to 3 ft.winds and seas higher in and near tstms.",
             "wind_direction": "SW",
             "wind_speed": "10 kt",
-            "wave_height": "2 ft",
+            "wave_height": "2 to 3 ft",
             "period": "Mon Night 8/10"
         }
     ]
