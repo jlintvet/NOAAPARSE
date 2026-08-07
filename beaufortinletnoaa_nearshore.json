@@ -1,29 +1,6 @@
 {
-    "timestamp": "2026-08-06 19:51:55",
+    "timestamp": "2026-08-06 22:13:58",
     "forecasts": [
-        {
-            "raw_text": "S winds around 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 7 seconds and SW 1 ft at 4 seconds. Adjacent sounds and rivers light chop.",
-            "wind_direction": "S",
-            "wind_speed": "10 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SE 3 ft at 7 seconds and SW 1 ft at 4 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "3 ft",
-                    "period": "7 seconds"
-                },
-                {
-                    "direction": "SW",
-                    "height": "1 ft",
-                    "period": "4 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "This Afternoon 8/6"
-        },
         {
             "raw_text": "S winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 7 seconds and SW 1 ft at 4 seconds. Adjacent sounds and rivers light chop.",
             "wind_direction": "S",
@@ -118,10 +95,10 @@
             "period": "Sat 8/8"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 4 ft. Wave detail: SE 3 ft at 8 seconds and SW 1 ft at 3 seconds. Adjacent sounds and rivers a moderate chop. A chance of showers and tstms after midnight.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 8 seconds and SW 1 ft at 3 seconds. Adjacent sounds and rivers a moderate chop. A slight chance of showers and tstms in the evening, then a chance of showers and tstms after midnight.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wave_height": "2 to 4 ft",
+            "wave_height": "2 to 3 ft",
             "wave_detail_string": "SE 3 ft at 8 seconds and SW 1 ft at 3 seconds",
             "swell_components": [
                 {
@@ -141,10 +118,26 @@
             "period": "Sat Night 8/8"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Adjacent sounds and rivers a moderate chop. A chance of showers in the morning.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: SE 3 ft at 8 seconds and SW 2 ft at 4 seconds. Adjacent sounds and rivers a moderate chop. A chance of showers in the morning.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
+            "wave_detail_string": "SE 3 ft at 8 seconds and SW 2 ft at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "3 ft",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "2 ft",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "8 seconds",
             "period": "Sun 8/9"
         },
         {
@@ -162,11 +155,25 @@
             "period": "Mon 8/10"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Adjacent sounds and rivers a moderate chop.winds and seas higher in and near tstms.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Adjacent sounds and rivers a moderate chop.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
             "period": "Mon Night 8/10"
+        },
+        {
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 4 ft. Adjacent sounds and rivers a moderate chop.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "2 to 4 ft",
+            "period": "Tue 8/11"
+        },
+        {
+            "raw_text": "SW winds around 15 kt. Seas 2 to 4 ft. Adjacent sounds and rivers a moderate chop.winds and seas higher in and near tstms.",
+            "wind_direction": "SW",
+            "wind_speed": "15 kt",
+            "wave_height": "2 to 4 ft",
+            "period": "Tue Night 8/11"
         }
     ]
 }
