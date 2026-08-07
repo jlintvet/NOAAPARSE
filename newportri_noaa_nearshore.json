@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-08-07 10:07:39",
+    "timestamp": "2026-08-07 11:48:33",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 6 seconds and W 1 foot at 3 seconds. Patchy fog. Vsby 1 to 3 nm this afternoon.",
+            "raw_text": "SW winds 10 to 15 kt. Seas around 3 ft. Wave detail: S 3 ft at 7 seconds and W 1 foot at 3 seconds. Patchy fog with vsby 1 to 3 nm.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "S 3 ft at 6 seconds and W 1 foot at 3 seconds",
+            "wave_height": "3 ft",
+            "wave_detail_string": "S 3 ft at 7 seconds and W 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "S",
                     "height": "3 ft",
-                    "period": "6 seconds"
+                    "period": "7 seconds"
                 },
                 {
                     "direction": "W",
@@ -21,8 +21,8 @@
             ],
             "primary_swell_direction": "S",
             "primary_wave_height": "3 ft",
-            "primary_wave_period": "6 seconds",
-            "period": "Today 8/7"
+            "primary_wave_period": "7 seconds",
+            "period": "This Afternoon 8/7"
         },
         {
             "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: W 3 ft at 4 seconds and SE 1 foot at 8 seconds. Patchy fog. Vsby 1 nm or less.",
@@ -120,13 +120,13 @@
             "period": "Sun 8/9"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt, becoming NW 5 to 10 kt after midnight. Seas 3 to 4 ft. Wave detail: W 4 ft at 6 seconds and SE 1 foot at 9 seconds.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt, becoming NW 5 to 10 kt after midnight. Seas 3 to 4 ft. Wave detail: W 4 ft at 6 seconds and E 1 foot at 9 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "becoming NW 5 to 10 kt after midnight",
             "wind_gusts": "20 kt",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "W 4 ft at 6 seconds and SE 1 foot at 9 seconds",
+            "wave_detail_string": "W 4 ft at 6 seconds and E 1 foot at 9 seconds",
             "swell_components": [
                 {
                     "direction": "W",
@@ -134,7 +134,7 @@
                     "period": "6 seconds"
                 },
                 {
-                    "direction": "SE",
+                    "direction": "E",
                     "height": "1 foot",
                     "period": "9 seconds"
                 }
