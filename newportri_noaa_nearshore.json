@@ -1,11 +1,12 @@
 {
-    "timestamp": "2026-08-08 03:42:41",
+    "timestamp": "2026-08-08 04:31:10",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas around 3 ft. Wave detail: SW 3 ft at 5 seconds and SE 1 foot at 8 seconds. Patchy fog. Vsby 1 to 3 nm.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: SW 3 ft at 5 seconds and SE 1 foot at 8 seconds. Patchy fog this morning with vsby 1 nm or less.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wave_height": "3 ft",
+            "wind_gusts": "20 kt",
+            "wave_height": "3 to 4 ft",
             "wave_detail_string": "SW 3 ft at 5 seconds and SE 1 foot at 8 seconds",
             "swell_components": [
                 {
@@ -22,45 +23,26 @@
             "primary_swell_direction": "SW",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Rest Of Tonight 8/8"
+            "period": "Today 8/8"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 7 seconds. Patchy fog in the morning with vsby 1 nm or less.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: S 4 ft at 7 seconds. Patchy fog. Vsby 1 to 3 nm, decreasing to 1 nm or less after midnight.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "S 3 ft at 7 seconds",
+            "wave_detail_string": "S 4 ft at 7 seconds",
             "swell_components": [
                 {
                     "direction": "S",
-                    "height": "3 ft",
+                    "height": "4 ft",
                     "period": "7 seconds"
                 }
             ],
             "primary_swell_direction": "S",
-            "primary_wave_height": "3 ft",
+            "primary_wave_height": "4 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Sat 8/8"
-        },
-        {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 7 seconds. Patchy fog. Vsby 1 to 3 nm, decreasing to 1 nm or less after midnight.",
-            "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "S 3 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "3 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "Sat Night 8/8"
+            "period": "Tonight 8/8"
         },
         {
             "raw_text": "SW winds 10 to 15 kt. Gusts up to 20 kt in the afternoon. Seas 3 to 4 ft. Wave detail: SW 4 ft at 7 seconds and E 1 foot at 9 seconds.",
@@ -135,19 +117,35 @@
             "period": "Mon And Mon Night 8/10"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft.",
-            "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "2 to 4 ft",
-            "period": "Tue 8/11"
-        },
-        {
-            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft. A chance of showers.seas are reported as significant wave height, which is the average of the highest third of the waves. Individual wave heights may be more than twice the significant wave height.",
+            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft. Wave detail: SW 3 ft at 6 seconds and SE 1 foot at 9 seconds.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
-            "wave_height": "2 to 4 ft",
+            "wave_height": "2 to 3 ft",
+            "wave_detail_string": "SW 3 ft at 6 seconds and SE 1 foot at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "SW",
+                    "height": "3 ft",
+                    "period": "6 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "SW",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "6 seconds",
+            "period": "Tue 8/11"
+        },
+        {
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft. A chance of showers.seas are reported as significant wave height, which is the average of the highest third of the waves. Individual wave heights may be more than twice the significant wave height.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 kt",
+            "wind_gusts": "20 kt",
+            "wave_height": "2 to 3 ft",
             "period": "Tue Night Through Wed Night 8/11"
         }
     ]
