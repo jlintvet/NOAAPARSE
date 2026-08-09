@@ -1,11 +1,12 @@
 {
-    "timestamp": "2026-08-09 06:25:07",
+    "timestamp": "2026-08-09 07:22:39",
     "forecasts": [
         {
-            "raw_text": "W winds 5 to 10 kt, becoming SW 10 to 15 kt this afternoon. Seas 2 to 3 ft. Wave detail: SW 3 ft at 6 seconds and SE 1 foot at 8 seconds.",
-            "wind_direction": "W",
+            "raw_text": "SW winds 5 to 10 kt, increasing to 10 to 15 kt with gusts up to 20 kt this afternoon. Seas 2 to 3 ft. Wave detail: SW 3 ft at 6 seconds and SE 1 foot at 8 seconds.",
+            "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW 10 to 15 kt this afternoon",
+            "wind_commentary": "increasing to 10 to 15 kt with gusts up to 20 kt this afternoon",
+            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "SW 3 ft at 6 seconds and SE 1 foot at 8 seconds",
             "swell_components": [
@@ -26,10 +27,11 @@
             "period": "Today 8/9"
         },
         {
-            "raw_text": "W winds 5 to 10 kt, becoming NW after midnight. Seas 2 to 3 ft. Wave detail: SW 3 ft at 6 seconds and SE 1 foot at 8 seconds.",
-            "wind_direction": "W",
+            "raw_text": "SW winds 5 to 10 kt with gusts up to 20 kt, becoming NW after midnight. Seas 2 to 3 ft. Wave detail: SW 3 ft at 6 seconds and SE 1 foot at 8 seconds.",
+            "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming NW after midnight",
+            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "SW 3 ft at 6 seconds and SE 1 foot at 8 seconds",
             "swell_components": [
@@ -50,10 +52,11 @@
             "period": "Tonight 8/9"
         },
         {
-            "raw_text": "W winds around 5 kt, becoming SW in the afternoon. Seas around 2 ft. Wave detail: S 2 ft at 6 seconds and SE 1 foot at 9 seconds.",
+            "raw_text": "W winds around 5 kt, becoming SW 10 to 15 kt with gusts up to 20 kt in the afternoon. Seas around 2 ft. Wave detail: S 2 ft at 6 seconds and SE 1 foot at 9 seconds.",
             "wind_direction": "W",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming SW in the afternoon",
+            "wind_commentary": "becoming SW 10 to 15 kt with gusts up to 20 kt in the afternoon",
+            "wind_gusts": "20 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "S 2 ft at 6 seconds and SE 1 foot at 9 seconds",
             "swell_components": [
@@ -74,9 +77,10 @@
             "period": "Mon 8/10"
         },
         {
-            "raw_text": "SW winds around 10 kt. Seas around 2 ft. Wave detail: S 2 ft at 7 seconds and SE 1 foot at 9 seconds.",
+            "raw_text": "SW winds 10 to 15 kt. Gusts up to 20 kt in the evening. Seas around 2 ft. Wave detail: S 2 ft at 7 seconds and SE 1 foot at 9 seconds.",
             "wind_direction": "SW",
-            "wind_speed": "10 kt",
+            "wind_speed": "10 to 15 kt",
+            "wind_gusts": "20 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "S 2 ft at 7 seconds and SE 1 foot at 9 seconds",
             "swell_components": [
