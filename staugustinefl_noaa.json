@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-08-09 13:23:26",
+    "timestamp": "2026-08-09 14:28:31",
     "forecasts": [
         {
-            "raw_text": "South winds 10 to 15 knots. Seas around 3 feet. Wave detail: east 3 feet at 8 seconds.",
-            "wind_direction": "S",
+            "raw_text": "Southeast winds 10 to 15 knots. Seas around 3 feet. Wave detail: east 3 feet at 8 seconds.",
+            "wind_direction": "SE",
             "wind_speed": "10 to 15 knots",
             "wave_height": "3 feet",
             "wave_detail_string": "east 3 feet at 8 seconds",
@@ -61,11 +61,11 @@
             "period": "Monday 8/10"
         },
         {
-            "raw_text": "South winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: southeast 3 feet at 7 seconds and south 2 feet at 4 seconds.",
+            "raw_text": "South winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: southeast 3 feet at 7 seconds and south 2 feet at 3 seconds.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
-            "wave_detail_string": "southeast 3 feet at 7 seconds and south 2 feet at 4 seconds",
+            "wave_detail_string": "southeast 3 feet at 7 seconds and south 2 feet at 3 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
@@ -75,7 +75,7 @@
                 {
                     "direction": "S",
                     "height": "2 feet",
-                    "period": "4 seconds"
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
@@ -108,7 +108,7 @@
             "period": "Tuesday 8/11"
         },
         {
-            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: south 2 feet at 4 seconds and southeast 2 feet at 7 seconds.",
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: south 2 feet at 4 seconds and southeast 2 feet at 7 seconds. A slight chance of showers and thunderstorms in the evening.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
@@ -131,11 +131,18 @@
             "period": "Tuesday Night 8/11"
         },
         {
-            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet.",
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. A slight chance of showers and thunderstorms after midnight.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
-            "period": "Wednesday Through Thursday 8/12"
+            "period": "Wednesday 8/12"
+        },
+        {
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet.winds and seas higher in and near thunderstorms.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 knots",
+            "wave_height": "2 to 3 feet",
+            "period": "Thursday 8/13"
         }
     ]
 }
