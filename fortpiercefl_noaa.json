@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-08-08 19:20:36",
+    "timestamp": "2026-08-08 21:07:00",
     "forecasts": [
         {
-            "raw_text": "Southeast winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: east 3 feet at 8 seconds and northwest 1 foot at 4 seconds. A slight chance of showers and thunderstorms after midnight.",
+            "raw_text": "Southeast winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: east 3 feet at 8 seconds and northwest 1 foot at 4 seconds. A slight chance of showers and thunderstorms.",
             "wind_direction": "SE",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
@@ -22,7 +22,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "3 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Tonight 8/8"
+            "period": "Rest Of Tonight 8/8"
         },
         {
             "raw_text": "Southeast winds around 10 knots. Seas 2 to 3 feet. Wave detail: east 3 feet at 8 seconds and south 1 foot at 4 seconds. A slight chance of showers and thunderstorms.",
@@ -117,24 +117,24 @@
             "period": "Monday Night 8/10"
         },
         {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: southwest 1 foot at 3 seconds and east 1 foot at 3 seconds.",
+            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: east 1 foot at 3 seconds and southwest 1 foot at 3 seconds.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 to 2 feet",
-            "wave_detail_string": "southwest 1 foot at 3 seconds and east 1 foot at 3 seconds",
+            "wave_detail_string": "east 1 foot at 3 seconds and southwest 1 foot at 3 seconds",
             "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "1 foot",
-                    "period": "3 seconds"
-                },
                 {
                     "direction": "E",
                     "height": "1 foot",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "1 foot",
+                    "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "SW",
+            "primary_swell_direction": "E",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
             "period": "Tuesday 8/11"
