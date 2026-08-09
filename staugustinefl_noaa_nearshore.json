@@ -1,29 +1,11 @@
 {
-    "timestamp": "2026-08-09 04:32:55",
+    "timestamp": "2026-08-09 05:31:57",
     "forecasts": [
         {
-            "raw_text": "South winds 5 to 10 knots. Seas around 3 feet. Wave detail: east 3 feet at 8 seconds. Intracoastal waters light chop. A slight chance of showers and thunderstorms.",
+            "raw_text": "South winds 5 to 10 knots, becoming southeast 10 to 15 knots this afternoon. Seas 2 to 3 feet. Wave detail: east 3 feet at 8 seconds. Intracoastal waters a moderate chop. A slight chance of showers and thunderstorms this afternoon.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
-            "wave_height": "3 feet",
-            "wave_detail_string": "east 3 feet at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "3 feet",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "3 feet",
-            "primary_wave_period": "8 seconds",
-            "period": "Rest Of Tonight 8/9"
-        },
-        {
-            "raw_text": "South winds 5 to 10 knots, becoming southeast 10 to 15 knots in the afternoon. Seas 2 to 3 feet. Wave detail: east 3 feet at 8 seconds. Intracoastal waters a moderate chop. A slight chance of showers and thunderstorms in the afternoon.",
-            "wind_direction": "S",
-            "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming southeast 10 to 15 knots in the afternoon",
+            "wind_commentary": "becoming southeast 10 to 15 knots this afternoon",
             "wave_height": "2 to 3 feet",
             "wave_detail_string": "east 3 feet at 8 seconds",
             "swell_components": [
@@ -36,7 +18,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "3 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Sunday 8/9"
+            "period": "Today 8/9"
         },
         {
             "raw_text": "South winds 10 to 15 knots, diminishing to 5 to 10 knots after midnight. Seas 2 to 3 feet. Wave detail: southeast 3 feet at 8 seconds. Intracoastal waters a moderate chop.",
@@ -55,7 +37,7 @@
             "primary_swell_direction": "SE",
             "primary_wave_height": "3 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Sunday Night 8/9"
+            "period": "Tonight 8/9"
         },
         {
             "raw_text": "South winds 5 to 10 knots, becoming southeast 10 to 15 knots in the afternoon. Seas 2 to 3 feet. Wave detail: east 2 feet at 7 seconds. Intracoastal waters a moderate chop.",
@@ -120,11 +102,27 @@
             "period": "Tuesday 8/11"
         },
         {
-            "raw_text": "South winds 10 to 15 knots, becoming southwest after midnight. Seas 2 to 3 feet. Intracoastal waters a moderate chop.",
+            "raw_text": "South winds 10 to 15 knots, becoming southwest after midnight. Seas 2 to 3 feet. Wave detail: southeast 2 feet at 4 seconds and southeast 2 feet at 7 seconds. Intracoastal waters a moderate chop.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 knots",
             "wind_commentary": "becoming southwest after midnight",
             "wave_height": "2 to 3 feet",
+            "wave_detail_string": "southeast 2 feet at 4 seconds and southeast 2 feet at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "2 feet",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "4 seconds",
             "period": "Tuesday Night 8/11"
         },
         {
