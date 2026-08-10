@@ -1,29 +1,11 @@
 {
-    "timestamp": "2026-08-10 03:16:06",
+    "timestamp": "2026-08-10 05:10:03",
     "forecasts": [
         {
-            "raw_text": "E winds 10 to 15 kt. Seas around 2 ft. Wave detail: E 2 ft at 4 seconds. Intracoastal waters a moderate chop.",
-            "wind_direction": "E",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "2 ft",
-            "wave_detail_string": "E 2 ft at 4 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "2 ft",
-                    "period": "4 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "2 ft",
-            "primary_wave_period": "4 seconds",
-            "period": "Tonight 8/10"
-        },
-        {
-            "raw_text": "SE winds 10 to 15 kt, becoming E 5 to 10 kt in the afternoon. Seas around 2 ft. Wave detail: SE 2 ft at 4 seconds. Intracoastal waters a moderate chop.",
+            "raw_text": "SE winds 10 to 15 kt, diminishing to 5 to 10 kt this afternoon. Seas around 2 ft. Wave detail: SE 2 ft at 4 seconds. Intracoastal waters a moderate chop.",
             "wind_direction": "SE",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming E 5 to 10 kt in the afternoon",
+            "wind_commentary": "diminishing to 5 to 10 kt this afternoon",
             "wave_height": "2 ft",
             "wave_detail_string": "SE 2 ft at 4 seconds",
             "swell_components": [
@@ -36,7 +18,7 @@
             "primary_swell_direction": "SE",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "4 seconds",
-            "period": "Mon 8/10"
+            "period": "Today 8/10"
         },
         {
             "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Wave detail: E 2 ft at 4 seconds. Intracoastal waters light chop.",
@@ -54,13 +36,12 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "4 seconds",
-            "period": "Mon Night 8/10"
+            "period": "Tonight 8/10"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft in the morning, then 1 foot or less. Wave detail: SE 1 foot at 4 seconds. Intracoastal waters light chop.",
+            "raw_text": "E winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 4 seconds. Intracoastal waters light chop.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "2 ft",
             "wave_detail_string": "SE 1 foot at 4 seconds",
             "swell_components": [
                 {
@@ -109,9 +90,20 @@
             "period": "Wed 8/12"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop.",
-            "wind_direction": "SE",
+            "raw_text": "S winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 3 seconds. Intracoastal waters light chop.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
+            "wave_detail_string": "SE 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Wed Night 8/12"
         },
         {
@@ -133,9 +125,10 @@
             "period": "Fri 8/14"
         },
         {
-            "raw_text": "SE winds 10 to 15 kt. Seas less than 2 ft or less, then around 2 ft after midnight. Intracoastal waters a moderate chop.",
+            "raw_text": "SE winds 10 to 15 kt. Seas around 2 ft. Intracoastal waters a moderate chop.",
             "wind_direction": "SE",
             "wind_speed": "10 to 15 kt",
+            "wave_height": "2 ft",
             "period": "Fri Night 8/14"
         }
     ]
