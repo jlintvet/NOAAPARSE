@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-11 13:52:30",
+    "timestamp": "2026-08-11 14:52:10",
     "forecasts": [
         {
             "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft. Wave detail: SW 2 ft at 6 seconds and SE 1 foot at 9 seconds.",
@@ -26,7 +26,7 @@
             "period": "This Afternoon 8/11"
         },
         {
-            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt, becoming NW 5 to 10 kt after midnight. Seas 2 to 3 ft. Wave detail: W 2 ft at 5 seconds and SE 1 foot at 9 seconds.",
+            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt, becoming NW 5 to 10 kt after midnight. Seas 2 to 3 ft. Wave detail: W 2 ft at 5 seconds and SE 1 foot at 9 seconds. A chance of showers after midnight.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
             "wind_commentary": "becoming NW 5 to 10 kt after midnight",
@@ -75,11 +75,11 @@
             "period": "Wed 8/12"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft. Wave detail: S 2 ft at 7 seconds and E 1 foot at 3 seconds.",
+            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft. Wave detail: S 2 ft at 7 seconds and W 1 foot at 3 seconds.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "S 2 ft at 7 seconds and E 1 foot at 3 seconds",
+            "wave_detail_string": "S 2 ft at 7 seconds and W 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "S",
@@ -87,7 +87,7 @@
                     "period": "7 seconds"
                 },
                 {
-                    "direction": "E",
+                    "direction": "W",
                     "height": "1 foot",
                     "period": "3 seconds"
                 }
@@ -98,68 +98,51 @@
             "period": "Wed Night 8/12"
         },
         {
-            "raw_text": "W winds 5 to 10 kt, becoming SW 10 to 15 kt with gusts up to 20 kt in the afternoon. Seas 2 to 3 ft. Wave detail: SW 3 ft at 7 seconds and S 1 foot at 3 seconds.",
+            "raw_text": "W winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: S 3 ft at 7 seconds and W 2 ft at 4 seconds.",
             "wind_direction": "W",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW 10 to 15 kt with gusts up to 20 kt in the afternoon",
-            "wind_gusts": "20 kt",
+            "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SW 3 ft at 7 seconds and S 1 foot at 3 seconds",
+            "wave_detail_string": "S 3 ft at 7 seconds and W 2 ft at 4 seconds",
             "swell_components": [
                 {
-                    "direction": "SW",
+                    "direction": "S",
                     "height": "3 ft",
                     "period": "7 seconds"
                 },
                 {
-                    "direction": "S",
-                    "height": "1 foot",
-                    "period": "3 seconds"
+                    "direction": "W",
+                    "height": "2 ft",
+                    "period": "4 seconds"
                 }
             ],
-            "primary_swell_direction": "SW",
+            "primary_swell_direction": "S",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Thu 8/13"
+            "period": "Thu And Thu Night 8/13"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt, becoming W after midnight. Seas 2 to 3 ft. Wave detail: SW 3 ft at 5 seconds and SE 1 foot at 8 seconds. A chance of showers.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft. Wave detail: N 3 ft at 4 seconds and S 3 ft at 9 seconds.seas are reported as significant wave height, which is the average of the highest third of the waves. Individual wave heights may be more than twice the significant wave height.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming W after midnight",
             "wind_gusts": "20 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SW 3 ft at 5 seconds and SE 1 foot at 8 seconds",
+            "wave_height": "2 to 4 ft",
+            "wave_detail_string": "N 3 ft at 4 seconds and S 3 ft at 9 seconds",
             "swell_components": [
                 {
-                    "direction": "SW",
+                    "direction": "N",
                     "height": "3 ft",
-                    "period": "5 seconds"
+                    "period": "4 seconds"
                 },
                 {
-                    "direction": "SE",
-                    "height": "1 foot",
-                    "period": "8 seconds"
+                    "direction": "S",
+                    "height": "3 ft",
+                    "period": "9 seconds"
                 }
             ],
-            "primary_swell_direction": "SW",
+            "primary_swell_direction": "N",
             "primary_wave_height": "3 ft",
-            "primary_wave_period": "5 seconds",
-            "period": "Thu Night 8/13"
-        },
-        {
-            "raw_text": "W winds 10 to 15 kt. Seas around 3 ft. A chance of showers.",
-            "wind_direction": "W",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "3 ft",
-            "period": "Fri 8/14"
-        },
-        {
-            "raw_text": "W winds 15 to 20 kt. Seas 2 to 3 ft.seas are reported as significant wave height, which is the average of the highest third of the waves. Individual wave heights may be more than twice the significant wave height.",
-            "wind_direction": "W",
-            "wind_speed": "15 to 20 kt",
-            "wave_height": "2 to 3 ft",
-            "period": "Fri Night Through Sat Night 8/14"
+            "primary_wave_period": "4 seconds",
+            "period": "Fri Through Sat Night 8/14"
         }
     ]
 }
