@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-12 18:33:06",
+    "timestamp": "2026-08-12 19:33:18",
     "forecasts": [
         {
             "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft. Wave detail: SW 2 ft at 4 seconds and E 1 foot at 3 seconds. A chance of showers with isolated tstms after midnight.",
@@ -120,24 +120,24 @@
             "period": "Fri Night 8/14"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: N 2 ft at 3 seconds and NW 2 ft at 3 seconds.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: NW 2 ft at 3 seconds and N 2 ft at 3 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "N 2 ft at 3 seconds and NW 2 ft at 3 seconds",
+            "wave_detail_string": "NW 2 ft at 3 seconds and N 2 ft at 3 seconds",
             "swell_components": [
-                {
-                    "direction": "N",
-                    "height": "2 ft",
-                    "period": "3 seconds"
-                },
                 {
                     "direction": "NW",
                     "height": "2 ft",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "2 ft",
+                    "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "N",
+            "primary_swell_direction": "NW",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "3 seconds",
             "period": "Sat And Sat Night 8/15"

@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-08-12 18:32:51",
+    "timestamp": "2026-08-12 19:33:05",
     "forecasts": [
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft. Wave detail: E 1 foot at 2 seconds and W 1 foot at 2 seconds. Isolated tstms. A slight chance of showers this evening, then a chance of showers after midnight.",
+            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft. Wave detail: W 1 foot at 2 seconds and E 1 foot at 2 seconds. Isolated tstms. A slight chance of showers this evening, then a chance of showers after midnight.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "E 1 foot at 2 seconds and W 1 foot at 2 seconds",
+            "wave_detail_string": "W 1 foot at 2 seconds and E 1 foot at 2 seconds",
             "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "1 foot",
-                    "period": "2 seconds"
-                },
                 {
                     "direction": "W",
                     "height": "1 foot",
                     "period": "2 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "2 seconds"
                 }
             ],
-            "primary_swell_direction": "E",
+            "primary_swell_direction": "W",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "2 seconds",
             "period": "Tonight 8/12"
@@ -58,12 +58,12 @@
             "period": "Thu 8/13"
         },
         {
-            "raw_text": "W winds 5 to 10 kt, becoming NW after midnight. Seas around 2 ft. Wave detail: S 2 ft at 5 seconds and N 1 foot at 2 seconds.",
+            "raw_text": "W winds 5 to 10 kt, becoming NW after midnight. Seas around 2 ft. Wave detail: S 2 ft at 5 seconds and W 1 foot at 2 seconds.",
             "wind_direction": "W",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming NW after midnight",
             "wave_height": "2 ft",
-            "wave_detail_string": "S 2 ft at 5 seconds and N 1 foot at 2 seconds",
+            "wave_detail_string": "S 2 ft at 5 seconds and W 1 foot at 2 seconds",
             "swell_components": [
                 {
                     "direction": "S",
@@ -71,7 +71,7 @@
                     "period": "5 seconds"
                 },
                 {
-                    "direction": "N",
+                    "direction": "W",
                     "height": "1 foot",
                     "period": "2 seconds"
                 }
