@@ -1,15 +1,8 @@
 {
-    "timestamp": "2026-08-12 15:58:10",
+    "timestamp": "2026-08-12 16:41:00",
     "forecasts": [
         {
-            "raw_text": "E winds around 5 kt, becoming NW this afternoon. Seas less than 2 ft or less. Bay and inland waters light chop. A slight chance of showers and tstms late.",
-            "wind_direction": "E",
-            "wind_speed": "5 kt",
-            "wind_commentary": "becoming NW this afternoon",
-            "period": "Today 8/12"
-        },
-        {
-            "raw_text": "N winds 5 to 10 kt, diminishing to around 5 kt after midnight. Seas less than 2 ft or less. Wave detail: NW 1 foot at 3 seconds. Bay and inland waters light chop. A chance of showers and tstms early in the evening.",
+            "raw_text": "N winds 5 to 10 kt, diminishing to around 5 kt after midnight. Seas less than 2 ft or less. Wave detail: NW 1 foot at 3 seconds. Bay and inland waters light chop. A chance of showers and tstms early this evening, then a slight chance of showers and tstms late this evening.",
             "wind_direction": "N",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "diminishing to around 5 kt after midnight",
@@ -27,10 +20,9 @@
             "period": "Tonight 8/12"
         },
         {
-            "raw_text": "NE winds around 5 kt, becoming N in the afternoon. Seas less than 2 ft or less. Wave detail: N 1 foot at 3 seconds. Bay and inland waters smooth.",
-            "wind_direction": "NE",
+            "raw_text": "N winds around 5 kt. Seas less than 2 ft or less. Wave detail: N 1 foot at 3 seconds. Bay and inland waters smooth. A chance of showers and tstms late.",
+            "wind_direction": "N",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming N in the afternoon",
             "wave_detail_string": "N 1 foot at 3 seconds",
             "swell_components": [
                 {
@@ -45,21 +37,21 @@
             "period": "Thu 8/13"
         },
         {
-            "raw_text": "N winds 5 to 10 kt, becoming E after midnight. Seas less than 2 ft or less. Wave detail: NW 1 foot at 4 seconds. Bay and inland waters light chop. A chance of showers and tstms early in the evening.",
+            "raw_text": "N winds 5 to 10 kt, becoming E after midnight. Seas less than 2 ft or less. Wave detail: NW 1 foot at 3 seconds. Bay and inland waters light chop. A chance of showers and tstms early in the evening. A chance of showers and tstms late.",
             "wind_direction": "N",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming E after midnight",
-            "wave_detail_string": "NW 1 foot at 4 seconds",
+            "wave_detail_string": "NW 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "NW",
                     "height": "1 foot",
-                    "period": "4 seconds"
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "NW",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
+            "primary_wave_period": "3 seconds",
             "period": "Thu Night 8/13"
         },
         {
@@ -103,13 +95,24 @@
             "period": "Fri Night 8/14"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas less than 2 ft or less. Bay and inland waters light chop. A chance of tstms.",
-            "wind_direction": "SE",
+            "raw_text": "E winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: E 1 foot at 3 seconds. Bay and inland waters light chop. A chance of tstms. Showers likely until late afternoon, then a chance of showers late.",
+            "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
+            "wave_detail_string": "E 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Sat 8/15"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas less than 2 ft or less. Bay and inland waters light chop.",
+            "raw_text": "E winds 5 to 10 kt. Seas less than 2 ft or less. Bay and inland waters light chop. A chance of showers and tstms early in the evening.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "period": "Sat Night 8/15"
@@ -121,11 +124,24 @@
             "period": "Sun 8/16"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming E after midnight. Seas less than 2 ft or less. Bay and inland waters light chop.winds and seas higher in and near tstms.",
-            "wind_direction": "SW",
+            "raw_text": "S winds 5 to 10 kt, becoming E after midnight. Seas less than 2 ft or less. Bay and inland waters light chop.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming E after midnight",
             "period": "Sun Night 8/16"
+        },
+        {
+            "raw_text": "NE winds around 5 kt, becoming NW in the afternoon. Seas less than 2 ft or less. Bay and inland waters light chop.",
+            "wind_direction": "NE",
+            "wind_speed": "5 kt",
+            "wind_commentary": "becoming NW in the afternoon",
+            "period": "Mon 8/17"
+        },
+        {
+            "raw_text": "N winds 5 to 10 kt. Seas less than 2 ft or less. Bay and inland waters light chop.winds and seas higher in and near tstms.",
+            "wind_direction": "N",
+            "wind_speed": "5 to 10 kt",
+            "period": "Mon Night 8/17"
         }
     ]
 }
