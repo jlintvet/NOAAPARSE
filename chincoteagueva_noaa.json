@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-08-14 05:01:08",
+    "timestamp": "2026-08-14 06:51:27",
     "forecasts": [
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming SE late this morning and afternoon. Seas 1 to 2 ft. Wave detail: S 1 foot at 4 seconds and SE 1 foot at 10 seconds. A chance of tstms with a slight chance of showers early this afternoon. A chance of showers and tstms late.",
-            "wind_direction": "SW",
+            "raw_text": "S winds 5 to 10 kt, becoming SE late. Seas 1 to 2 ft. Wave detail: S 1 foot at 4 seconds and SE 1 foot at 9 seconds. A chance of tstms with a slight chance of showers early this afternoon. A chance of showers and tstms late.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SE late this morning and afternoon",
+            "wind_commentary": "becoming SE late",
             "wave_height": "1 to 2 ft",
-            "wave_detail_string": "S 1 foot at 4 seconds and SE 1 foot at 10 seconds",
+            "wave_detail_string": "S 1 foot at 4 seconds and SE 1 foot at 9 seconds",
             "swell_components": [
                 {
                     "direction": "S",
@@ -17,7 +17,7 @@
                 {
                     "direction": "SE",
                     "height": "1 foot",
-                    "period": "10 seconds"
+                    "period": "9 seconds"
                 }
             ],
             "primary_swell_direction": "S",
@@ -26,11 +26,11 @@
             "period": "Today 8/14"
         },
         {
-            "raw_text": "NE winds 5 to 10 kt. Seas around 2 ft. Wave detail: S 2 ft at 4 seconds and NE 1 foot at 3 seconds. A chance of tstms early in the evening. A chance of showers until early morning.",
+            "raw_text": "NE winds 5 to 10 kt. Seas around 2 ft. Wave detail: S 2 ft at 4 seconds and SE 1 foot at 9 seconds. A chance of tstms early in the evening. A chance of showers until early morning.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "S 2 ft at 4 seconds and NE 1 foot at 3 seconds",
+            "wave_detail_string": "S 2 ft at 4 seconds and SE 1 foot at 9 seconds",
             "swell_components": [
                 {
                     "direction": "S",
@@ -38,9 +38,9 @@
                     "period": "4 seconds"
                 },
                 {
-                    "direction": "NE",
+                    "direction": "SE",
                     "height": "1 foot",
-                    "period": "3 seconds"
+                    "period": "9 seconds"
                 }
             ],
             "primary_swell_direction": "S",
