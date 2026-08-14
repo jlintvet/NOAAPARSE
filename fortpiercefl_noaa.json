@@ -1,34 +1,11 @@
 {
-    "timestamp": "2026-08-14 01:38:33",
+    "timestamp": "2026-08-14 03:13:19",
     "forecasts": [
         {
-            "raw_text": "South winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: east 1 foot at 4 seconds and east 1 foot at 9 seconds.",
+            "raw_text": "South winds 5 to 10 knots, becoming southeast this afternoon. Seas 1 to 2 feet. Wave detail: northwest 1 foot at 3 seconds and east 1 foot at 4 seconds. A slight chance of showers and thunderstorms this morning.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
-            "wave_height": "1 to 2 feet",
-            "wave_detail_string": "east 1 foot at 4 seconds and east 1 foot at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "1 foot",
-                    "period": "4 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "1 foot",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
-            "period": "Rest Of Tonight 8/14"
-        },
-        {
-            "raw_text": "South winds 5 to 10 knots, becoming southeast in the afternoon. Seas 1 to 2 feet. Wave detail: northwest 1 foot at 3 seconds and east 1 foot at 4 seconds. A slight chance of showers and thunderstorms in the morning.",
-            "wind_direction": "S",
-            "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming southeast in the afternoon",
+            "wind_commentary": "becoming southeast this afternoon",
             "wave_height": "1 to 2 feet",
             "wave_detail_string": "northwest 1 foot at 3 seconds and east 1 foot at 4 seconds",
             "swell_components": [
@@ -46,7 +23,7 @@
             "primary_swell_direction": "NW",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
-            "period": "Friday 8/14"
+            "period": "Today 8/14"
         },
         {
             "raw_text": "Southeast winds 5 to 10 knots. Seas 2 feet. Wave detail: southeast 2 feet at 3 seconds and northwest 1 foot at 3 seconds. A slight chance of showers and thunderstorms after midnight.",
@@ -69,7 +46,7 @@
             "primary_swell_direction": "SE",
             "primary_wave_height": "2 feet",
             "primary_wave_period": "3 seconds",
-            "period": "Friday Night 8/14"
+            "period": "Tonight 8/14"
         },
         {
             "raw_text": "Southeast winds 5 to 10 knots. Seas 2 feet. Wave detail: southeast 2 feet at 4 seconds and northwest 1 foot at 4 seconds. A chance of showers and thunderstorms in the morning.",
@@ -142,11 +119,27 @@
             "period": "Sunday 8/16"
         },
         {
-            "raw_text": "South winds 5 to 10 knots, becoming southwest after midnight. Seas 1 to 2 feet.",
+            "raw_text": "South winds 5 to 10 knots, becoming southwest after midnight. Seas 1 to 2 feet. Wave detail: west 1 foot at 3 seconds and southeast 1 foot at 4 seconds.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
             "wind_commentary": "becoming southwest after midnight",
             "wave_height": "1 to 2 feet",
+            "wave_detail_string": "west 1 foot at 3 seconds and southeast 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "W",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Sunday Night 8/16"
         },
         {
