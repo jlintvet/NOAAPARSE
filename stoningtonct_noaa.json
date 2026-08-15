@@ -1,16 +1,15 @@
 {
-    "timestamp": "2026-08-15 12:15:18",
+    "timestamp": "2026-08-15 13:14:07",
     "forecasts": [
         {
-            "raw_text": "NE winds 5 to 10 kt, becoming S. Seas around 2 ft. Wave detail: NE 1 foot at 3 seconds and S 1 foot at 6 seconds.",
-            "wind_direction": "NE",
+            "raw_text": "S winds 5 to 10 kt. Seas 1 foot or less. Wave detail: E 1 foot at 3 seconds and S 1 foot at 6 seconds.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming S",
-            "wave_height": "2 ft",
-            "wave_detail_string": "NE 1 foot at 3 seconds and S 1 foot at 6 seconds",
+            "wave_height": "1 foot",
+            "wave_detail_string": "E 1 foot at 3 seconds and S 1 foot at 6 seconds",
             "swell_components": [
                 {
-                    "direction": "NE",
+                    "direction": "E",
                     "height": "1 foot",
                     "period": "3 seconds"
                 },
@@ -20,7 +19,7 @@
                     "period": "6 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
+            "primary_swell_direction": "E",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
             "period": "This Afternoon 8/15"
@@ -50,11 +49,10 @@
             "period": "Tonight 8/15"
         },
         {
-            "raw_text": "NE winds around 5 kt, becoming S with gusts up to 20 kt in the afternoon. Seas 1 foot or less, then around 2 ft in the afternoon. Wave detail: E 1 foot at 3 seconds and S 1 foot at 6 seconds, becoming S 2 ft at 6 seconds and SE 1 foot at 2 seconds.",
+            "raw_text": "NE winds around 5 kt, becoming S in the afternoon. Seas 1 foot or less, then around 2 ft in the afternoon. Wave detail: E 1 foot at 3 seconds and S 1 foot at 6 seconds, becoming S 2 ft at 6 seconds and SE 1 foot at 2 seconds.",
             "wind_direction": "NE",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming S with gusts up to 20 kt in the afternoon",
-            "wind_gusts": "20 kt",
+            "wind_commentary": "becoming S in the afternoon",
             "wave_height": "1 foot",
             "wave_detail_string": "E 1 foot at 3 seconds and S 1 foot at 6 seconds, becoming S 2 ft at 6 seconds and SE 1 foot at 2 seconds",
             "swell_components": [
@@ -85,10 +83,10 @@
             "period": "Sun 8/16"
         },
         {
-            "raw_text": "S winds 10 to 15 kt, increasing to 15 to 20 kt after midnight. Gusts up to 25 kt. Seas 2 to 3 ft, building to 3 to 5 ft after midnight. Wave detail: SE 2 ft at 4 seconds and SE 1 foot at 9 seconds, becoming SE 5 ft at 5 seconds and SE 1 foot at 9 seconds. A chance of showers in the evening, then showers likely after midnight.",
+            "raw_text": "S winds 10 to 15 kt, increasing to 15 to 20 kt with gusts up to 25 kt after midnight. Seas 2 to 3 ft, building to 3 to 5 ft after midnight. Wave detail: SE 2 ft at 4 seconds and SE 1 foot at 9 seconds, becoming SE 5 ft at 5 seconds and SE 1 foot at 9 seconds. Showers likely after midnight.",
             "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "increasing to 15 to 20 kt after midnight",
+            "wind_commentary": "increasing to 15 to 20 kt with gusts up to 25 kt after midnight",
             "wind_gusts": "25 kt",
             "wave_height": "2 to 3 ft",
             "wave_commentary": "building to 3 to 5 ft",
