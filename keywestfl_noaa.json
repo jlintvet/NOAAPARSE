@@ -1,30 +1,9 @@
 {
-    "timestamp": "2026-08-16 16:14:01",
+    "timestamp": "2026-08-16 17:13:17",
     "forecasts": [
         {
-            "raw_text": "East to southeast winds 10 to 15 knots, decreasing to near 10 knots. Seas 2 to 3 feet. Wave detail: east  3 feet at 5 seconds.",
-            "wind_direction": "SE",
-            "wind_speed": "10 to 15 knots",
-            "wind_commentary": "decreasing to near 10 knots",
-            "wave_height": "2 to 3 feet",
-            "wave_detail_string": "east  3 feet at 5 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "3 feet",
-                    "period": "5 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "3 feet",
-            "primary_wave_period": "5 seconds",
-            "period": "This Afternoon 8/16"
-        },
-        {
-            "raw_text": "East winds 10 to 15 knots, decreasing to near 10 knots. Seas 2 to 3 feet, subsiding to 1 to 2 feet. Wave detail: east 3  feet at 5 seconds.",
-            "wind_direction": "E",
-            "wind_speed": "10 to 15 knots",
-            "wind_commentary": "decreasing to near 10 knots",
+            "raw_text": "East winds near 10 knots, decreasing to 5 to 10 knots. Seas 2 to 3 feet, subsiding to 1 to 2 feet. Wave detail: east 3  feet at 5 seconds.",
+            "wind_commentary": "decreasing to 5 to 10 knots",
             "wave_height": "2 to 3 feet",
             "wave_commentary": "subsiding to 1 to 2 feet",
             "wave_detail_string": "east 3  feet at 5 seconds",
@@ -41,17 +20,39 @@
             "period": "Tonight 8/16"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas around 2 feet. Wave  detail: east 2 feet at 5 seconds.",
-            "wind_direction": "E",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "2 feet",
-            "period": "Monday 8/17"
-        },
-        {
-            "raw_text": "East winds 5 to 10 knots. Seas 1 to 2 feet.",
+            "raw_text": "East winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: east 2 feet at 5 seconds.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 to 2 feet",
+            "wave_detail_string": "east 2 feet at 5 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "5 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "5 seconds",
+            "period": "Monday 8/17"
+        },
+        {
+            "raw_text": "East winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: east 2 feet at 4 seconds.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "1 to 2 feet",
+            "wave_detail_string": "east 2 feet at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "4 seconds",
             "period": "Monday Night 8/17"
         },
         {
@@ -60,25 +61,25 @@
             "period": "Tuesday 8/18"
         },
         {
-            "raw_text": "Northwest to north winds 5 to 10 knots. Seas around 1 foot.",
-            "wind_direction": "N",
-            "wind_speed": "5 to 10 knots",
+            "raw_text": "Variable winds near 5 knots, becoming northwest. Seas 1 foot or less.",
+            "wind_commentary": "becoming northwest",
             "wave_height": "1 foot",
             "period": "Tuesday Night 8/18"
         },
         {
-            "raw_text": "West to northwest winds near 5 knots. Seas around 1 foot.",
+            "raw_text": "Variable winds near 5 knots. Seas 1 foot or less.",
             "wave_height": "1 foot",
             "period": "Wednesday 8/19"
         },
         {
-            "raw_text": "West to northwest winds near 5 knots, becoming southeast. Seas around 1 foot.",
-            "wind_commentary": "becoming southeast",
+            "raw_text": "Variable winds near 5 knots, becoming  southeast to south. Seas 1 foot or less.",
+            "wind_commentary": "becoming  southeast to south",
             "wave_height": "1 foot",
             "period": "Wednesday Night 8/19"
         },
         {
-            "raw_text": "Southeast to south winds near 5 knots. Seas around 1 foot.",
+            "raw_text": "Southeast to south winds near 5 knots, becoming east to southeast. Seas 1 foot or less.",
+            "wind_commentary": "becoming east to southeast",
             "wave_height": "1 foot",
             "period": "Thursday 8/20"
         },
@@ -88,6 +89,18 @@
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
             "period": "Thursday Night 8/20"
+        },
+        {
+            "raw_text": "East to southeast winds near 5 knots. Seas around 1 foot.",
+            "wave_height": "1 foot",
+            "period": "Friday 8/21"
+        },
+        {
+            "raw_text": "East to southeast winds 5 to 10 knots. Seas 1 to 2 feet. A slight chance of showers.",
+            "wind_direction": "SE",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "1 to 2 feet",
+            "period": "Friday Night 8/21"
         }
     ]
 }
