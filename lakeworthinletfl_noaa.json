@@ -1,98 +1,81 @@
 {
-    "timestamp": "2026-08-16 03:24:26",
+    "timestamp": "2026-08-16 04:19:18",
     "forecasts": [
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas around 2 ft this evening, then 1 foot or less. Wave detail: SE 1 foot at 5 seconds. Intracoastal waters light chop.",
+            "raw_text": "SE winds around 5 kt, increasing to 5 to 10 kt this afternoon. Seas less than 2 ft or less. Wave detail: SE 1 foot at 4 seconds. Intracoastal waters light chop.",
             "wind_direction": "SE",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "2 ft",
-            "wave_detail_string": "SE 1 foot at 5 seconds",
+            "wind_speed": "5 kt",
+            "wind_commentary": "increasing to 5 to 10 kt this afternoon",
+            "wave_detail_string": "SE 1 foot at 4 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "1 foot",
-                    "period": "5 seconds"
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "5 seconds",
+            "primary_wave_period": "4 seconds",
+            "period": "Today 8/16"
+        },
+        {
+            "raw_text": "S winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 4 seconds. Intracoastal waters light chop.",
+            "wind_direction": "S",
+            "wind_speed": "5 to 10 kt",
+            "wave_detail_string": "SE 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "4 seconds",
             "period": "Tonight 8/16"
         },
         {
-            "raw_text": "SE winds around 5 kt, increasing to 5 to 10 kt in the afternoon. Seas less than 2 ft or less. Wave detail: SE 1 foot at 4 seconds. Intracoastal waters light chop.",
-            "wind_direction": "SE",
-            "wind_speed": "5 kt",
-            "wind_commentary": "increasing to 5 to 10 kt in the afternoon",
-            "wave_detail_string": "SE 1 foot at 4 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "1 foot",
-                    "period": "4 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
-            "period": "Sun 8/16"
-        },
-        {
-            "raw_text": "SE winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 4 seconds. Intracoastal waters light chop.",
-            "wind_direction": "SE",
-            "wind_speed": "5 to 10 kt",
-            "wave_detail_string": "SE 1 foot at 4 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "1 foot",
-                    "period": "4 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
-            "period": "Sun Night 8/16"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 3 seconds. Intracoastal waters light chop.",
+            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: SE 1 foot at 2 seconds. Intracoastal waters light chop.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wave_detail_string": "SE 1 foot at 3 seconds",
+            "wave_detail_string": "SE 1 foot at 2 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "1 foot",
-                    "period": "3 seconds"
+                    "period": "2 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "3 seconds",
+            "primary_wave_period": "2 seconds",
             "period": "Mon 8/17"
         },
         {
-            "raw_text": "S winds 5 to 10 kt, becoming SW 10 to 15 kt after midnight. Seas less than 2 ft or less. Wave detail: S 1 foot at 3 seconds. Intracoastal waters light chop.",
+            "raw_text": "S winds 5 to 10 kt, becoming SW 10 to 15 kt after midnight. Seas less than 2 ft or less. Wave detail: SW 1 foot at 3 seconds. Intracoastal waters light chop.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming SW 10 to 15 kt after midnight",
-            "wave_detail_string": "S 1 foot at 3 seconds",
+            "wave_detail_string": "SW 1 foot at 3 seconds",
             "swell_components": [
                 {
-                    "direction": "S",
+                    "direction": "SW",
                     "height": "1 foot",
                     "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "S",
+            "primary_swell_direction": "SW",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
             "period": "Mon Night 8/17"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: W 1 foot at 3 seconds. Intracoastal waters light chop.",
-            "wind_direction": "SW",
+            "raw_text": "W winds 5 to 10 kt. Seas around 2 ft in the morning, then 1 foot or less. Wave detail: W 1 foot at 3 seconds. Intracoastal waters light chop.",
+            "wind_direction": "W",
             "wind_speed": "5 to 10 kt",
+            "wave_height": "2 ft",
             "wave_detail_string": "W 1 foot at 3 seconds",
             "swell_components": [
                 {
@@ -107,17 +90,32 @@
             "period": "Tue 8/18"
         },
         {
-            "raw_text": "S winds 10 to 15 kt. Seas less than 2 ft or less, then around 2 ft after midnight. Intracoastal waters light chop.",
-            "wind_direction": "S",
-            "wind_speed": "10 to 15 kt",
+            "raw_text": "SW winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: NW 1 foot at 3 seconds and S 1 foot at 3 seconds. Intracoastal waters light chop.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 kt",
+            "wave_detail_string": "NW 1 foot at 3 seconds and S 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "NW",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Tue Night 8/18"
         },
         {
-            "raw_text": "W winds 5 to 10 kt, becoming S in the afternoon. Seas around 2 ft in the morning, then 1 foot or less. Intracoastal waters light chop.",
+            "raw_text": "W winds 5 to 10 kt, becoming S in the afternoon. Seas less than 2 ft or less. Intracoastal waters light chop.",
             "wind_direction": "W",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming S in the afternoon",
-            "wave_height": "2 ft",
             "period": "Wed 8/19"
         },
         {
@@ -133,9 +131,9 @@
             "period": "Thu 8/20"
         },
         {
-            "raw_text": "S winds 10 to 15 kt. Seas less than 2 ft or less. Intracoastal waters light chop.",
+            "raw_text": "S winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop.",
             "wind_direction": "S",
-            "wind_speed": "10 to 15 kt",
+            "wind_speed": "5 to 10 kt",
             "period": "Thu Night 8/20"
         }
     ]
