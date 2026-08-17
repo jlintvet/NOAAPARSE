@@ -1,13 +1,22 @@
 {
-    "timestamp": "2026-08-17 10:20:28",
+    "timestamp": "2026-08-17 11:19:14",
     "forecasts": [
         {
-            "raw_text": "East to southeast winds 10 to 15 knots, decreasing to 5  to 10 knots. Seas 2 to 3 feet, subsiding to around 2 feet. Wave  detail: east 3 feet at 5 seconds.",
-            "wind_direction": "SE",
-            "wind_speed": "10 to 15 knots",
-            "wind_commentary": "decreasing to 5  to 10 knots",
+            "raw_text": "East to southeast winds near 10 knots,  decreasing to 5 to 10 knots. Seas 2 to 3 feet, subsiding to around 2 feet. Wave detail: east 3 feet at 5 seconds.",
+            "wind_commentary": "decreasing to 5 to 10 knots",
             "wave_height": "2 to 3 feet",
-            "period": "Today 8/17"
+            "wave_detail_string": "east 3 feet at 5 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "3 feet",
+                    "period": "5 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "3 feet",
+            "primary_wave_period": "5 seconds",
+            "period": "This Afternoon 8/17"
         },
         {
             "raw_text": "East winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: east 2 feet at 4 seconds.",
