@@ -1,14 +1,12 @@
 {
-    "timestamp": "2026-08-18 12:22:41",
+    "timestamp": "2026-08-18 13:20:35",
     "forecasts": [
         {
-            "raw_text": "N winds 5 to 10 kt with gusts up to 20 kt, becoming SW. Seas around 3 ft. Wave detail: S 3 ft at 7 seconds and SE 3 ft at 8 seconds.",
-            "wind_direction": "N",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW",
-            "wind_gusts": "20 kt",
-            "wave_height": "3 ft",
-            "wave_detail_string": "S 3 ft at 7 seconds and SE 3 ft at 8 seconds",
+            "raw_text": "W winds around 5 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 7 seconds and E 2 ft at 8 seconds.",
+            "wind_direction": "W",
+            "wind_speed": "5 kt",
+            "wave_height": "3 to 4 ft",
+            "wave_detail_string": "S 3 ft at 7 seconds and E 2 ft at 8 seconds",
             "swell_components": [
                 {
                     "direction": "S",
@@ -16,8 +14,8 @@
                     "period": "7 seconds"
                 },
                 {
-                    "direction": "SE",
-                    "height": "3 ft",
+                    "direction": "E",
+                    "height": "2 ft",
                     "period": "8 seconds"
                 }
             ],
@@ -27,7 +25,7 @@
             "period": "This Afternoon 8/18"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas around 3 ft. Wave detail: S 3 ft at 7 seconds and SE 2 ft at 8 seconds. Patchy fog after midnight with vsby 1 nm or less.",
+            "raw_text": "SW winds 5 to 10 kt. Seas around 3 ft. Wave detail: S 3 ft at 7 seconds and SE 2 ft at 8 seconds. Patchy fog after midnight with vsby 1 to 3 nm.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 ft",
@@ -50,7 +48,7 @@
             "period": "Tonight 8/18"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: S 2 ft at 7 seconds and SE 2 ft at 8 seconds. Patchy fog in the morning with vsby 1 to 3 nm.",
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: S 2 ft at 7 seconds and SE 2 ft at 8 seconds.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
@@ -73,7 +71,7 @@
             "period": "Wed 8/19"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: W 2 ft at 3 seconds and SE 2 ft at 7 seconds.",
+            "raw_text": "SW winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: W 2 ft at 3 seconds and SE 2 ft at 7 seconds. Patchy fog after midnight with vsby 1 nm or less.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
@@ -96,7 +94,7 @@
             "period": "Wed Night 8/19"
         },
         {
-            "raw_text": "W winds 5 to 10 kt. Seas around 2 ft. Wave detail: E 2 ft at 5 seconds and SE 2 ft at 8 seconds.",
+            "raw_text": "W winds 5 to 10 kt. Seas around 2 ft. Wave detail: E 2 ft at 5 seconds and SE 2 ft at 8 seconds. Patchy fog in the morning with vsby 1 to 3 nm.",
             "wind_direction": "W",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
@@ -119,8 +117,8 @@
             "period": "Thu 8/20"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming NW after midnight. Seas around 2 ft. Wave detail: S 2 ft at 7 seconds and SW 1 foot at 4 seconds. A chance of showers.",
-            "wind_direction": "SW",
+            "raw_text": "W winds 5 to 10 kt, becoming NW after midnight. Seas around 2 ft. Wave detail: S 2 ft at 7 seconds and SW 1 foot at 4 seconds.",
+            "wind_direction": "W",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming NW after midnight",
             "wave_height": "2 ft",
@@ -143,18 +141,19 @@
             "period": "Thu Night 8/20"
         },
         {
-            "raw_text": "E winds 10 to 15 kt. Seas 2 to 3 ft. A chance of showers.",
-            "wind_direction": "E",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "2 to 3 ft",
-            "period": "Fri Through Sat 8/21"
+            "raw_text": "NE winds 5 to 10 kt. Seas around 2 ft.",
+            "wind_direction": "NE",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 ft",
+            "period": "Fri And Fri Night 8/21"
         },
         {
-            "raw_text": "E winds 10 to 15 kt. Seas around 3 ft. Showers likely.seas are reported as significant wave height, which is the average of the highest third of the waves. Individual wave heights may be more than twice the significant wave height.",
+            "raw_text": "E winds 10 to 15 kt. Gusts up to 20 kt. Seas 2 to 3 ft. Showers likely.seas are reported as significant wave height, which is the average of the highest third of the waves. Individual wave heights may be more than twice the significant wave height.",
             "wind_direction": "E",
             "wind_speed": "10 to 15 kt",
-            "wave_height": "3 ft",
-            "period": "Sat Night 8/22"
+            "wind_gusts": "20 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Sat And Sat Night 8/22"
         }
     ]
 }
