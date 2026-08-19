@@ -1,30 +1,6 @@
 {
-    "timestamp": "2026-08-18 19:14:50",
+    "timestamp": "2026-08-18 20:47:16",
     "forecasts": [
-        {
-            "raw_text": "West winds 5 to 10 knots, becoming southwest this afternoon. Seas 2 to 3 feet. Wave detail: west 2 feet at 4 seconds and east 2 feet at 8 seconds.",
-            "wind_direction": "W",
-            "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming southwest this afternoon",
-            "wave_height": "2 to 3 feet",
-            "wave_detail_string": "west 2 feet at 4 seconds and east 2 feet at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "W",
-                    "height": "2 feet",
-                    "period": "4 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "2 feet",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "W",
-            "primary_wave_height": "2 feet",
-            "primary_wave_period": "4 seconds",
-            "period": "Rest Of Today 8/18"
-        },
         {
             "raw_text": "West winds 10 to 15 knots. Seas around 3 feet. Wave detail: southwest 3 feet at 4 seconds and east 2 feet at 10 seconds.",
             "wind_direction": "W",
@@ -46,7 +22,7 @@
             "primary_swell_direction": "SW",
             "primary_wave_height": "3 feet",
             "primary_wave_period": "4 seconds",
-            "period": "Tonight 8/18"
+            "period": "Rest Of Tonight 8/18"
         },
         {
             "raw_text": "West winds 5 to 10 knots, becoming south in the afternoon. Seas 2 to 3 feet. Wave detail: west 2 feet at 4 seconds and east 2 feet at 10 seconds.",
@@ -143,18 +119,42 @@
             "period": "Thursday Night 8/20"
         },
         {
-            "raw_text": "South winds 10 to 15 knots. Seas 2 to 3 feet. A slight chance of showers and thunderstorms through the night.",
-            "wind_direction": "S",
-            "wind_speed": "10 to 15 knots",
+            "raw_text": "Southwest winds 5 to 10 knots, becoming south 10 to 15 knots in the afternoon. Seas 2 to 3 feet. Wave detail: south 2 feet at 4 seconds and east 2 feet at 8 seconds.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 knots",
+            "wind_commentary": "becoming south 10 to 15 knots in the afternoon",
             "wave_height": "2 to 3 feet",
+            "wave_detail_string": "south 2 feet at 4 seconds and east 2 feet at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "4 seconds",
             "period": "Friday 8/21"
         },
         {
-            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. A slight chance of showers and thunderstorms in the afternoon. A chance of showers and thunderstorms through the night.winds and seas higher in and near thunderstorms.",
+            "raw_text": "Southwest winds 10 to 15 knots. Seas around 3 feet. A slight chance of showers and thunderstorms.",
+            "wind_direction": "SW",
+            "wind_speed": "10 to 15 knots",
+            "wave_height": "3 feet",
+            "period": "Friday Night 8/21"
+        },
+        {
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. A chance of showers and thunderstorms.winds and seas higher in and near thunderstorms.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
-            "period": "Saturday 8/22"
+            "period": "Saturday Through Sunday 8/22"
         }
     ]
 }
