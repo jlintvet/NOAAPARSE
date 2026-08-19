@@ -1,24 +1,29 @@
 {
-    "timestamp": "2026-08-19 01:21:53",
+    "timestamp": "2026-08-19 02:29:38",
     "forecasts": [
         {
-            "raw_text": "SE winds 5 kt, becoming NW late. Seas around 2 ft. Wave detail: SE 2 ft at 9 seconds. Patchy fog late with vsby 1 to 3 nm.",
-            "wind_direction": "SE",
+            "raw_text": "NE winds 5 kt, becoming N late. Seas around 2 ft. Wave detail: SE 2 ft at 10 seconds and SE 1 foot at 6 seconds.",
+            "wind_direction": "NE",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming NW late",
+            "wind_commentary": "becoming N late",
             "wave_height": "2 ft",
-            "wave_detail_string": "SE 2 ft at 9 seconds",
+            "wave_detail_string": "SE 2 ft at 10 seconds and SE 1 foot at 6 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "2 ft",
-                    "period": "9 seconds"
+                    "period": "10 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "6 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "2 ft",
-            "primary_wave_period": "9 seconds",
-            "period": "Overnight 8/19"
+            "primary_wave_period": "10 seconds",
+            "period": "Rest Of Tonight 8/19"
         },
         {
             "raw_text": "NW winds 5 kt, becoming S in the afternoon. Seas around 2 ft. Wave detail: SE 2 ft at 9 seconds and S 1 foot at 5 seconds. Patchy fog early in the morning with vsby 1 to 3 nm.",
