@@ -1,17 +1,11 @@
 {
-    "timestamp": "2026-08-19 20:47:28",
+    "timestamp": "2026-08-19 22:13:21",
     "forecasts": [
         {
-            "raw_text": "S winds 5 to 10 kt. Seas around 2 ft.",
-            "wind_direction": "S",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "2 ft",
-            "period": "Rest Of Today 8/19"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft.",
+            "raw_text": "SW winds 5 to 10 kt, becoming W late. Seas around 2 ft.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming W late",
             "wave_height": "2 ft",
             "period": "Tonight 8/19"
         },
@@ -24,9 +18,10 @@
             "period": "Thu 8/20"
         },
         {
-            "raw_text": "E winds around 10 kt. Seas 2 to 3 ft. Showers with a chance of tstms in the evening, then a chance of showers after midnight.",
+            "raw_text": "E winds 10 to 15 kt, becoming NE after midnight. Seas 2 to 3 ft. Showers with a chance of tstms in the evening, then a chance of showers after midnight.",
             "wind_direction": "E",
-            "wind_speed": "10 kt",
+            "wind_speed": "10 to 15 kt",
+            "wind_commentary": "becoming NE after midnight",
             "wave_height": "2 to 3 ft",
             "period": "Thu Night 8/20"
         },
@@ -68,12 +63,26 @@
             "period": "Sun 8/23"
         },
         {
-            "raw_text": "SW winds around 10 kt, becoming W after midnight. Seas around 3 ft.winds and seas higher in and near tstms.",
+            "raw_text": "SW winds around 10 kt, becoming W after midnight. Seas around 3 ft.",
             "wind_direction": "SW",
             "wind_speed": "10 kt",
             "wind_commentary": "becoming W after midnight",
             "wave_height": "3 ft",
             "period": "Sun Night 8/23"
+        },
+        {
+            "raw_text": "W winds 5 to 10 kt. Seas 2 to 3 ft.",
+            "wind_direction": "W",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Mon 8/24"
+        },
+        {
+            "raw_text": "W winds around 10 kt. Seas 2 to 3 ft.winds and seas higher in and near tstms.",
+            "wind_direction": "W",
+            "wind_speed": "10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Mon Night 8/24"
         }
     ]
 }

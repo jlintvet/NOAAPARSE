@@ -1,13 +1,6 @@
 {
-    "timestamp": "2026-08-19 20:47:26",
+    "timestamp": "2026-08-19 22:13:18",
     "forecasts": [
-        {
-            "raw_text": "W winds around 5 kt. Seas around 2 ft.",
-            "wind_direction": "W",
-            "wind_speed": "5 kt",
-            "wave_height": "2 ft",
-            "period": "Rest Of Today 8/19"
-        },
         {
             "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft.",
             "wind_direction": "SW",
@@ -24,9 +17,11 @@
             "period": "Thu 8/20"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 2 to 3 ft. A chance of tstms. Showers likely, mainly in the evening.",
-            "wind_direction": "SW",
+            "raw_text": "S winds 10 to 15 kt with gusts up to 20 kt, becoming W after midnight. Seas 2 to 3 ft. A chance of tstms. Showers likely, mainly in the evening.",
+            "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
+            "wind_commentary": "becoming W after midnight",
+            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "period": "Thu Night 8/20"
         },
@@ -67,11 +62,25 @@
             "period": "Sun 8/23"
         },
         {
-            "raw_text": "W winds around 10 kt. Seas around 3 ft.winds and seas higher in and near tstms.",
+            "raw_text": "W winds around 10 kt. Seas around 3 ft.",
             "wind_direction": "W",
             "wind_speed": "10 kt",
             "wave_height": "3 ft",
             "period": "Sun Night 8/23"
+        },
+        {
+            "raw_text": "NW winds 5 to 10 kt. Seas 2 to 3 ft.",
+            "wind_direction": "NW",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Mon 8/24"
+        },
+        {
+            "raw_text": "NW winds 5 to 10 kt. Seas 2 to 3 ft.winds and seas higher in and near tstms.",
+            "wind_direction": "NW",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Mon Night 8/24"
         }
     ]
 }
