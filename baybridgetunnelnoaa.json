@@ -1,13 +1,14 @@
 {
-    "timestamp": "2026-08-20 15:24:32",
+    "timestamp": "2026-08-20 19:18:26",
     "forecasts": [
         {
-            "raw_text": "SE winds 10 to 15 kt with gusts up to 20 kt. Waves around 2 ft. Wave detail: SE 2 ft at 4 seconds and SE 1 foot at 8 seconds. A chance of showers and tstms.",
-            "wind_direction": "SE",
+            "raw_text": "S winds 10 to 15 kt, becoming W 5 to 10 kt after midnight. Gusts up to 20 kt. Waves 2 to 3 ft. Wave detail: SE 2 ft at 4 seconds and W 1 foot at 2 seconds. A chance of showers and tstms early, then showers with tstms likely.",
+            "wind_direction": "S",
             "wind_speed": "10 to 15 kt",
+            "wind_commentary": "becoming W 5 to 10 kt after midnight",
             "wind_gusts": "20 kt",
-            "wave_height": "2 ft",
-            "wave_detail_string": "SE 2 ft at 4 seconds and SE 1 foot at 8 seconds",
+            "wave_height": "2 to 3 ft",
+            "wave_detail_string": "SE 2 ft at 4 seconds and W 1 foot at 2 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
@@ -15,39 +16,14 @@
                     "period": "4 seconds"
                 },
                 {
-                    "direction": "SE",
+                    "direction": "W",
                     "height": "1 foot",
-                    "period": "8 seconds"
+                    "period": "2 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "4 seconds",
-            "period": "Through 7 Pm 8/20"
-        },
-        {
-            "raw_text": "S winds 10 to 15 kt, becoming W 5 to 10 kt after midnight. Gusts up to 20 kt. Waves around 2 ft. Wave detail: SW 2 ft at 3 seconds and SE 1 foot at 8 seconds. Tstms likely in the evening. Showers. A chance of tstms after midnight.",
-            "wind_direction": "S",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming W 5 to 10 kt after midnight",
-            "wind_gusts": "20 kt",
-            "wave_height": "2 ft",
-            "wave_detail_string": "SW 2 ft at 3 seconds and SE 1 foot at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "2 ft",
-                    "period": "3 seconds"
-                },
-                {
-                    "direction": "SE",
-                    "height": "1 foot",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "SW",
-            "primary_wave_height": "2 ft",
-            "primary_wave_period": "3 seconds",
             "period": "Tonight 8/20"
         },
         {

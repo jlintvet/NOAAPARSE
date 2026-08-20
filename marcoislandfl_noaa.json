@@ -1,34 +1,11 @@
 {
-    "timestamp": "2026-08-20 15:25:54",
+    "timestamp": "2026-08-20 19:19:25",
     "forecasts": [
         {
-            "raw_text": "NW winds around 5 kt, increasing to 5 to 10 kt this afternoon. Seas less than 2 ft or less, then 1 to 2 ft this afternoon. Wave detail: NW 1 foot at 5 seconds, then wave detail: NW 2 ft at 5 seconds. Bay and inland waters light chop. A slight chance of showers and tstms early this morning, then a chance of showers and tstms late this morning. A slight chance of showers and tstms this afternoon.",
-            "wind_direction": "NW",
-            "wind_speed": "5 kt",
-            "wind_commentary": "increasing to 5 to 10 kt this afternoon",
-            "wave_detail_string": "NW 1 foot at 5 seconds, then wave detail: NW 2 ft at 5 seconds",
-            "swell_components": [
-                {
-                    "direction": "NW",
-                    "height": "1 foot",
-                    "period": "5 seconds"
-                },
-                {
-                    "direction": "NW",
-                    "height": "2 ft",
-                    "period": "5 seconds"
-                }
-            ],
-            "primary_swell_direction": "NW",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "5 seconds",
-            "period": "Today 8/20"
-        },
-        {
-            "raw_text": "NW winds 5 to 10 kt, becoming SW after midnight. Seas around 2 ft in the evening, then 1 foot or less. Wave detail: NW 2 ft at 5 seconds. Bay and inland waters light chop. A chance of showers late.",
+            "raw_text": "NW winds 5 to 10 kt, becoming S. Seas around 2 ft early, then 1 foot or less. Wave detail: NW 2 ft at 5 seconds. Bay and inland waters light chop. A slight chance of showers and tstms early. A slight chance of showers and tstms late.",
             "wind_direction": "NW",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW after midnight",
+            "wind_commentary": "becoming S",
             "wave_height": "2 ft",
             "wave_detail_string": "NW 2 ft at 5 seconds",
             "swell_components": [
@@ -41,10 +18,10 @@
             "primary_swell_direction": "NW",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Tonight 8/20"
+            "period": "Overnight 8/20"
         },
         {
-            "raw_text": "SW winds around 5 kt. Seas less than 2 ft or less. Wave detail: NW 1 foot at 5 seconds. Bay and inland waters smooth. A chance of showers and tstms early in the morning.",
+            "raw_text": "SW winds around 5 kt. Seas less than 2 ft or less. Wave detail: NW 1 foot at 5 seconds. Bay and inland waters smooth. A chance of showers early in the morning.",
             "wind_direction": "SW",
             "wind_speed": "5 kt",
             "wave_detail_string": "NW 1 foot at 5 seconds",
@@ -78,28 +55,27 @@
             "period": "Fri Night 8/21"
         },
         {
-            "raw_text": "S winds around 5 kt, becoming SW in the afternoon. Seas less than 2 ft or less. Wave detail: W 1 foot at 4 seconds. Bay and inland waters light chop.",
+            "raw_text": "S winds around 5 kt, becoming SW in the afternoon. Seas less than 2 ft or less. Wave detail: NW 1 foot at 4 seconds. Bay and inland waters light chop.",
             "wind_direction": "S",
             "wind_speed": "5 kt",
             "wind_commentary": "becoming SW in the afternoon",
-            "wave_detail_string": "W 1 foot at 4 seconds",
+            "wave_detail_string": "NW 1 foot at 4 seconds",
             "swell_components": [
                 {
-                    "direction": "W",
+                    "direction": "NW",
                     "height": "1 foot",
                     "period": "4 seconds"
                 }
             ],
-            "primary_swell_direction": "W",
+            "primary_swell_direction": "NW",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "4 seconds",
             "period": "Sat 8/22"
         },
         {
-            "raw_text": "W winds 5 to 10 kt, becoming S after midnight. Seas less than 2 ft or less. Wave detail: NW 1 foot at 4 seconds. Bay and inland waters light chop.",
-            "wind_direction": "W",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming S after midnight",
+            "raw_text": "SW winds around 5 kt. Seas less than 2 ft or less. Wave detail: NW 1 foot at 4 seconds. Bay and inland waters smooth.",
+            "wind_direction": "SW",
+            "wind_speed": "5 kt",
             "wave_detail_string": "NW 1 foot at 4 seconds",
             "swell_components": [
                 {
@@ -114,30 +90,52 @@
             "period": "Sat Night 8/22"
         },
         {
-            "raw_text": "SW winds around 5 kt. Seas less than 2 ft or less. Bay and inland waters smooth. A chance of showers and tstms late.",
-            "wind_direction": "SW",
+            "raw_text": "S winds around 5 kt. Seas less than 2 ft or less. Wave detail: NW 1 foot at 4 seconds. Bay and inland waters smooth. A chance of showers and tstms late.",
+            "wind_direction": "S",
             "wind_speed": "5 kt",
+            "wave_detail_string": "NW 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "NW",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "4 seconds",
             "period": "Sun 8/23"
         },
         {
-            "raw_text": "W winds around 5 kt, becoming SE after midnight. Seas less than 2 ft or less. Bay and inland waters smooth.",
-            "wind_direction": "W",
+            "raw_text": "SW winds around 5 kt, becoming SE after midnight. Seas less than 2 ft or less. Bay and inland waters smooth.",
+            "wind_direction": "SW",
             "wind_speed": "5 kt",
             "wind_commentary": "becoming SE after midnight",
             "period": "Sun Night 8/23"
         },
         {
-            "raw_text": "SE winds around 5 kt. Seas less than 2 ft or less. Bay and inland waters smooth. A chance of showers and tstms in the late morning and afternoon.",
+            "raw_text": "SE winds around 5 kt. Seas less than 2 ft or less. Bay and inland waters smooth.",
             "wind_direction": "SE",
             "wind_speed": "5 kt",
             "period": "Mon 8/24"
         },
         {
-            "raw_text": "SE winds around 5 kt, becoming E after midnight. Seas less than 2 ft or less. Bay and inland waters light chop. A chance of showers and tstms until early morning.winds and seas higher in and near tstms.",
+            "raw_text": "SE winds around 5 kt. Seas less than 2 ft or less. Bay and inland waters smooth. A chance of showers and tstms in the evening.",
             "wind_direction": "SE",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming E after midnight",
             "period": "Mon Night 8/24"
+        },
+        {
+            "raw_text": "SE winds 5 to 10 kt. Seas less than 2 ft or less. Bay and inland waters light chop. A chance of showers and tstms in the afternoon.",
+            "wind_direction": "SE",
+            "wind_speed": "5 to 10 kt",
+            "period": "Tue 8/25"
+        },
+        {
+            "raw_text": "E winds 5 to 10 kt. Seas less than 2 ft or less. Bay and inland waters light chop. A chance of showers and tstms.winds and seas higher in and near tstms.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 kt",
+            "period": "Tue Night 8/25"
         }
     ]
 }
