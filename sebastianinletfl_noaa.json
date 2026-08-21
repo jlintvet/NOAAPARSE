@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-21 08:31:24",
+    "timestamp": "2026-08-21 09:39:10",
     "forecasts": [
         {
             "raw_text": "South winds 5 to 10 knots, becoming southeast late. Seas 1 to 2 feet. Wave detail: south 1 foot at 3 seconds and north 1 foot at 4 seconds. A slight chance of showers and thunderstorms.",
@@ -23,7 +23,7 @@
             "primary_swell_direction": "S",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
-            "period": "Today 8/21"
+            "period": "Rest Of Today 8/21"
         },
         {
             "raw_text": "South winds 10 to 15 knots. Seas 1 to 2 feet. Wave detail: south 2 feet at 3 seconds and north 1 foot at 3 seconds. A slight chance of showers and thunderstorms.",
@@ -120,24 +120,24 @@
             "period": "Sunday 8/23"
         },
         {
-            "raw_text": "South winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: south 1 foot at 3 seconds and northeast 1 foot at 3 seconds. A chance of showers and thunderstorms.",
+            "raw_text": "South winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: northeast 1 foot at 3 seconds and south 1 foot at 3 seconds. A chance of showers and thunderstorms.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 to 2 feet",
-            "wave_detail_string": "south 1 foot at 3 seconds and northeast 1 foot at 3 seconds",
+            "wave_detail_string": "northeast 1 foot at 3 seconds and south 1 foot at 3 seconds",
             "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "1 foot",
-                    "period": "3 seconds"
-                },
                 {
                     "direction": "NE",
                     "height": "1 foot",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "S",
+            "primary_swell_direction": "NE",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
             "period": "Sunday Night 8/23"
