@@ -1,13 +1,12 @@
 {
-    "timestamp": "2026-08-21 09:39:33",
+    "timestamp": "2026-08-21 10:26:46",
     "forecasts": [
         {
-            "raw_text": "N winds 10 to 15 kt, becoming NE 5 to 10 kt late. Seas around 2 ft. Wave detail: N 2 ft at 3 seconds and SE 2 ft at 4 seconds. A slight chance of showers early this morning. A slight chance of showers late.",
-            "wind_direction": "N",
+            "raw_text": "NE winds 10 to 15 kt. Seas around 2 ft. Wave detail: N 2 ft at 3 seconds and SE 1 foot at 4 seconds. A slight chance of showers late.",
+            "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming NE 5 to 10 kt late",
             "wave_height": "2 ft",
-            "wave_detail_string": "N 2 ft at 3 seconds and SE 2 ft at 4 seconds",
+            "wave_detail_string": "N 2 ft at 3 seconds and SE 1 foot at 4 seconds",
             "swell_components": [
                 {
                     "direction": "N",
@@ -16,42 +15,44 @@
                 },
                 {
                     "direction": "SE",
-                    "height": "2 ft",
+                    "height": "1 foot",
                     "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "N",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "3 seconds",
-            "period": "Today 8/21"
+            "period": "Rest Of Today 8/21"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Wave detail: SE 1 foot at 4 seconds and NE 1 foot at 4 seconds. A chance of showers in the evening. Showers after midnight.",
+            "raw_text": "E winds 5 to 10 kt. Gusts up to 15 kt late. Seas around 2 ft. Wave detail: NE 1 foot at 4 seconds and SE 1 foot at 4 seconds. A chance of showers in the evening. Showers after midnight.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
+            "wind_gusts": "15 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "SE 1 foot at 4 seconds and NE 1 foot at 4 seconds",
+            "wave_detail_string": "NE 1 foot at 4 seconds and SE 1 foot at 4 seconds",
             "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "1 foot",
-                    "period": "4 seconds"
-                },
                 {
                     "direction": "NE",
                     "height": "1 foot",
                     "period": "4 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "4 seconds"
                 }
             ],
-            "primary_swell_direction": "SE",
+            "primary_swell_direction": "NE",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "4 seconds",
             "period": "Tonight 8/21"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt with gusts up to 15 kt. Seas around 2 ft. Wave detail: SE 2 ft at 4 seconds and NE 2 ft at 6 seconds. Showers in the morning, then showers likely with a chance of tstms in the afternoon.",
-            "wind_direction": "SE",
+            "raw_text": "E winds 5 to 10 kt, becoming S in the afternoon. Gusts up to 15 kt. Seas around 2 ft. Wave detail: SE 2 ft at 4 seconds and NE 2 ft at 6 seconds. Showers in the morning, then showers likely with a chance of tstms in the afternoon.",
+            "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming S in the afternoon",
             "wind_gusts": "15 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "SE 2 ft at 4 seconds and NE 2 ft at 6 seconds",
