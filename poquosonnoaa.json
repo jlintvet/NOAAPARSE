@@ -1,53 +1,61 @@
 {
-    "timestamp": "2026-08-22 12:13:55",
+    "timestamp": "2026-08-22 13:13:19",
     "forecasts": [
         {
-            "raw_text": "SE winds 5 to 10 kt.waves 1 to 2 ft. Showers likely  early this morning, then a chance of showers and tstms late this  morning and afternoon.",
+            "raw_text": "SE winds 5 to 10 kt with gusts up to 15 kt.  waves 1 to 2 ft. A chance of showers and tstms.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
+            "wind_gusts": "15 kt",
             "wave_height": "1 to 2 ft",
-            "period": "Today 8/22"
+            "period": "This Afternoon 8/22"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt. Waves 1 to 2 ft. Showers likely  with a chance of tstms in the evening.",
-            "wind_direction": "SW",
+            "raw_text": "S winds 5 to 10 kt, becoming SW after midnight. Gusts up to 15 kt. Waves 1 to 2 ft. A chance of tstms early in the evening. A chance of showers until early morning.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming SW after midnight",
+            "wind_gusts": "15 kt",
             "wave_height": "1 to 2 ft",
             "period": "Tonight 8/22"
         },
         {
-            "raw_text": "W winds 5 to 10 kt. Waves 1 to 2 ft.",
+            "raw_text": "W winds 10 to 15 kt, diminishing to 5 to 10 kt in the afternoon. Waves 1 to 2 ft.",
             "wind_direction": "W",
-            "wind_speed": "5 to 10 kt",
+            "wind_speed": "10 to 15 kt",
+            "wind_commentary": "diminishing to 5 to 10 kt in the afternoon",
             "wave_height": "1 to 2 ft",
             "period": "Sun 8/23"
         },
         {
-            "raw_text": "W winds 5 to 10 kt. Waves 1 foot.",
+            "raw_text": "W winds 5 to 10 kt. Gusts up to 15 kt after midnight. Waves 1 foot.",
             "wind_direction": "W",
             "wind_speed": "5 to 10 kt",
+            "wind_gusts": "15 kt",
             "wave_height": "1 foot",
             "period": "Sun Night 8/23"
         },
         {
-            "raw_text": "W winds 5 to 10 kt. Waves 1 foot.",
-            "wind_direction": "W",
+            "raw_text": "NW winds 5 to 10 kt. Gusts up to 15 kt in the morning. Waves 1 foot.",
+            "wind_direction": "NW",
             "wind_speed": "5 to 10 kt",
+            "wind_gusts": "15 kt",
             "wave_height": "1 foot",
             "period": "Mon 8/24"
         },
         {
-            "raw_text": "W winds 5 to 10 kt, becoming NW after midnight. Waves 1 to 2 ft.",
-            "wind_direction": "W",
+            "raw_text": "SW winds 5 to 10 kt, becoming NW with gusts up to 15 kt after midnight. Waves 1 to 2 ft.",
+            "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming NW after midnight",
+            "wind_commentary": "becoming NW with gusts up to 15 kt after midnight",
+            "wind_gusts": "15 kt",
             "wave_height": "1 to 2 ft",
             "period": "Mon Night 8/24"
         },
         {
-            "raw_text": "N winds 5 to 10 kt. Waves 1 to 2 ft.",
-            "wind_direction": "N",
+            "raw_text": "NE winds 5 to 10 kt. Gusts up to 15 kt in the morning. Waves 1 to 2 ft.",
+            "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
+            "wind_gusts": "15 kt",
             "wave_height": "1 to 2 ft",
             "period": "Tue 8/25"
         },
@@ -67,9 +75,10 @@
             "period": "Wed 8/26"
         },
         {
-            "raw_text": "S winds 10 to 15 kt. Waves 1 to 2 ft.winds and waves higher in and near tstms.",
-            "wind_direction": "S",
+            "raw_text": "SE winds 10 to 15 kt, becoming S 5 to 10 kt after midnight. Waves 1 to 2 ft.winds and waves higher in and near tstms.",
+            "wind_direction": "SE",
             "wind_speed": "10 to 15 kt",
+            "wind_commentary": "becoming S 5 to 10 kt after midnight",
             "wave_height": "1 to 2 ft",
             "period": "Wed Night 8/26"
         }
