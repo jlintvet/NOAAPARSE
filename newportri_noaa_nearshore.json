@@ -1,28 +1,28 @@
 {
-    "timestamp": "2026-08-23 00:29:51",
+    "timestamp": "2026-08-23 01:22:41",
     "forecasts": [
         {
-            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Wave detail: S 1 foot at 4 seconds and NE 1 foot at 4 seconds. Patchy fog. Patchy drizzle. A slight chance of showers, then a chance of showers with vsby 1 to 3 nm.",
+            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Wave detail: NW 1 foot at 3 seconds and S 1 foot at 4 seconds. Patchy fog. A chance of showers with patchy drizzle. Vsby 1 to 3 nm.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "S 1 foot at 4 seconds and NE 1 foot at 4 seconds",
+            "wave_detail_string": "NW 1 foot at 3 seconds and S 1 foot at 4 seconds",
             "swell_components": [
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                },
                 {
                     "direction": "S",
                     "height": "1 foot",
                     "period": "4 seconds"
-                },
-                {
-                    "direction": "NE",
-                    "height": "1 foot",
-                    "period": "4 seconds"
                 }
             ],
-            "primary_swell_direction": "S",
+            "primary_swell_direction": "NW",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
-            "period": "Overnight 8/23"
+            "primary_wave_period": "3 seconds",
+            "period": "Rest Of Tonight 8/23"
         },
         {
             "raw_text": "SE winds around 10 kt, becoming S with gusts up to 20 kt in the afternoon. Seas 2 to 3 ft. Wave detail: SE 2 ft at 5 seconds and SE 2 ft at 12 seconds. Patchy fog in the morning. A chance of showers with patchy drizzle in the morning with vsby 1 to 3 nm.",
