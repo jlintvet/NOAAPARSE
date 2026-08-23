@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-08-23 11:14:39",
+    "timestamp": "2026-08-23 12:15:57",
     "forecasts": [
         {
-            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: southwest 3 feet at 4 seconds. A slight chance of showers and thunderstorms.",
+            "raw_text": "Southwest winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: southwest 3 feet at 4 seconds. A slight chance of thunderstorms. A chance of showers late this morning, then a slight chance of showers this afternoon.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
@@ -17,7 +17,7 @@
             "primary_swell_direction": "SW",
             "primary_wave_height": "3 feet",
             "primary_wave_period": "4 seconds",
-            "period": "Today 8/23"
+            "period": "Rest Of Today 8/23"
         },
         {
             "raw_text": "Southwest winds 10 to 15 knots. Seas around 3 feet. Wave detail: south 3 feet at 4 seconds.",
@@ -38,7 +38,7 @@
             "period": "Tonight 8/23"
         },
         {
-            "raw_text": "Southwest winds 10 to 15 knots, becoming south in the afternoon. Seas 2 to 3 feet. Wave detail: southwest 3 feet at 4 seconds. A slight chance of showers and thunderstorms in the afternoon.",
+            "raw_text": "Southwest winds 10 to 15 knots, becoming south in the afternoon. Seas 2 to 3 feet. Wave detail: southwest 3 feet at 4 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 knots",
             "wind_commentary": "becoming south in the afternoon",
@@ -57,39 +57,40 @@
             "period": "Monday 8/24"
         },
         {
-            "raw_text": "Southwest winds 10 to 15 knots. Seas around 3 feet. Wave detail: south 3 feet at 5 seconds. A slight chance of thunderstorms in the evening. A slight chance of showers.",
-            "wind_direction": "SW",
+            "raw_text": "South winds 10 to 15 knots, becoming southwest 5 to 10 knots after midnight. Seas 2 to 3 feet. Wave detail: south 2 feet at 4 seconds. A slight chance of showers and thunderstorms in the evening.",
+            "wind_direction": "S",
             "wind_speed": "10 to 15 knots",
-            "wave_height": "3 feet",
-            "wave_detail_string": "south 3 feet at 5 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "3 feet",
-                    "period": "5 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "3 feet",
-            "primary_wave_period": "5 seconds",
-            "period": "Monday Night 8/24"
-        },
-        {
-            "raw_text": "Southwest winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: south 2 feet at 5 seconds. A chance of showers and thunderstorms.",
-            "wind_direction": "SW",
-            "wind_speed": "5 to 10 knots",
+            "wind_commentary": "becoming southwest 5 to 10 knots after midnight",
             "wave_height": "2 to 3 feet",
-            "wave_detail_string": "south 2 feet at 5 seconds",
+            "wave_detail_string": "south 2 feet at 4 seconds",
             "swell_components": [
                 {
                     "direction": "S",
                     "height": "2 feet",
-                    "period": "5 seconds"
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "S",
             "primary_wave_height": "2 feet",
-            "primary_wave_period": "5 seconds",
+            "primary_wave_period": "4 seconds",
+            "period": "Monday Night 8/24"
+        },
+        {
+            "raw_text": "Southwest winds 5 to 10 knots. Seas around 2 feet. Wave detail: south 2 feet at 4 seconds. A chance of showers and thunderstorms.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "2 feet",
+            "wave_detail_string": "south 2 feet at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "4 seconds",
             "period": "Tuesday And Tuesday Night 8/25"
         },
         {
