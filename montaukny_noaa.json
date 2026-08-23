@@ -1,31 +1,8 @@
 {
-    "timestamp": "2026-08-22 22:20:53",
+    "timestamp": "2026-08-22 23:43:51",
     "forecasts": [
         {
-            "raw_text": "NE winds around 5 kt. Seas 2 to 3 ft. Wave detail: NE 3 ft at 6 seconds and SE 1 ft at 13 seconds. Chance of showers.",
-            "wind_direction": "NE",
-            "wind_speed": "5 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "NE 3 ft at 6 seconds and SE 1 ft at 13 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "3 ft",
-                    "period": "6 seconds"
-                },
-                {
-                    "direction": "SE",
-                    "height": "1 ft",
-                    "period": "13 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "6 seconds",
-            "period": "Rest Of Today 8/22"
-        },
-        {
-            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Wave detail: NE 2 ft at 6 seconds and SE 1 ft at 13 seconds. Chance of showers with patchy drizzle in the evening, then showers likely with slight chance of tstms after midnight.",
+            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Wave detail: NE 2 ft at 6 seconds and SE 1 ft at 13 seconds. Chance of showers with patchy drizzle this evening. Slight chance of tstms. Showers likely after midnight.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
@@ -142,18 +119,33 @@
             "period": "Mon Night 8/24"
         },
         {
-            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas around 3 ft.",
+            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas around 3 ft. Wave detail: W 3 ft at 4 seconds and SE 2 ft at 6 seconds.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
             "wave_height": "3 ft",
+            "wave_detail_string": "W 3 ft at 4 seconds and SE 2 ft at 6 seconds",
+            "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "3 ft",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "2 ft",
+                    "period": "6 seconds"
+                }
+            ],
+            "primary_swell_direction": "W",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "4 seconds",
             "period": "Tue 8/25"
         },
         {
-            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft.",
+            "raw_text": "W winds 10 to 15 kt. Seas 2 to 3 ft.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
             "wave_height": "2 to 3 ft",
             "period": "Tue Night 8/25"
         },
