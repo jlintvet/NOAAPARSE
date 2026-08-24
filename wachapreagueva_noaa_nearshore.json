@@ -1,29 +1,28 @@
 {
-    "timestamp": "2026-08-24 00:37:31",
+    "timestamp": "2026-08-24 01:31:58",
     "forecasts": [
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming NW late. Seas 1 to 2 ft. Wave detail: S 1 foot at 5 seconds and NE 1 foot at 5 seconds.",
+            "raw_text": "SW winds 5 to 10 kt. Seas around 2 ft. Wave detail: NE 1 foot at 5 seconds and S 1 foot at 6 seconds.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming NW late",
-            "wave_height": "1 to 2 ft",
-            "wave_detail_string": "S 1 foot at 5 seconds and NE 1 foot at 5 seconds",
+            "wave_height": "2 ft",
+            "wave_detail_string": "NE 1 foot at 5 seconds and S 1 foot at 6 seconds",
             "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "1 foot",
-                    "period": "5 seconds"
-                },
                 {
                     "direction": "NE",
                     "height": "1 foot",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "6 seconds"
                 }
             ],
-            "primary_swell_direction": "S",
+            "primary_swell_direction": "NE",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "5 seconds",
-            "period": "Overnight 8/24"
+            "period": "Rest Of Tonight 8/24"
         },
         {
             "raw_text": "NW winds 5 to 10 kt, becoming SW early in the afternoon, then becoming S late. Seas around 2 ft. Wave detail: SE 1 foot at 5 seconds and E 1 foot at 12 seconds.",

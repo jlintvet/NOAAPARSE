@@ -1,10 +1,10 @@
 {
-    "timestamp": "2026-08-24 00:37:39",
+    "timestamp": "2026-08-24 01:32:09",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: SE 4 ft at 7 seconds and W 1 foot at 3 seconds.",
+            "raw_text": "SW winds around 10 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: SE 4 ft at 7 seconds and W 1 foot at 3 seconds.",
             "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
+            "wind_speed": "10 kt",
             "wind_gusts": "20 kt",
             "wave_height": "3 to 4 ft",
             "wave_detail_string": "SE 4 ft at 7 seconds and W 1 foot at 3 seconds",
@@ -23,7 +23,7 @@
             "primary_swell_direction": "SE",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Overnight 8/24"
+            "period": "Rest Of Tonight 8/24"
         },
         {
             "raw_text": "SW winds 10 to 15 kt. Gusts up to 20 kt in the afternoon. Seas 3 to 4 ft. Wave detail: SE 4 ft at 7 seconds and W 2 ft at 4 seconds.",
@@ -98,25 +98,25 @@
             "period": "Tue 8/25"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft. Wave detail: SW 3 ft at 5 seconds and W 3 ft at 5 seconds.",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft. Wave detail: W 3 ft at 5 seconds and SW 3 ft at 5 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
             "wave_height": "2 to 4 ft",
-            "wave_detail_string": "SW 3 ft at 5 seconds and W 3 ft at 5 seconds",
+            "wave_detail_string": "W 3 ft at 5 seconds and SW 3 ft at 5 seconds",
             "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "3 ft",
-                    "period": "5 seconds"
-                },
                 {
                     "direction": "W",
                     "height": "3 ft",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "3 ft",
+                    "period": "5 seconds"
                 }
             ],
-            "primary_swell_direction": "SW",
+            "primary_swell_direction": "W",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "5 seconds",
             "period": "Tue Night Through Wed Night 8/25"
