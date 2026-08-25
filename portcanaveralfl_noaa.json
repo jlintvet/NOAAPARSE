@@ -1,36 +1,12 @@
 {
-    "timestamp": "2026-08-25 14:27:38",
+    "timestamp": "2026-08-25 15:24:49",
     "forecasts": [
         {
-            "raw_text": "South winds 5 to 10 knots, becoming southeast late. Seas 2 feet. Wave detail: south 1 foot at 4 seconds and east 1 foot at 9 seconds.",
-            "wind_direction": "S",
-            "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming southeast late",
-            "wave_height": "2 feet",
-            "wave_detail_string": "south 1 foot at 4 seconds and east 1 foot at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "1 foot",
-                    "period": "4 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "1 foot",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
-            "period": "Rest Of Today 8/25"
-        },
-        {
-            "raw_text": "South winds 5 to 10 knots. Seas 2 feet. Wave detail: southeast 1 foot at 3 seconds and east 1 foot at 10 seconds. A chance of showers and thunderstorms.",
+            "raw_text": "South winds 5 to 10 knots. Seas 2 feet. Wave detail: southeast 1 foot at 3 seconds and east 1 foot at 11 seconds. A slight chance of showers and thunderstorms this evening, then a chance of showers and thunderstorms after midnight.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 feet",
-            "wave_detail_string": "southeast 1 foot at 3 seconds and east 1 foot at 10 seconds",
+            "wave_detail_string": "southeast 1 foot at 3 seconds and east 1 foot at 11 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
@@ -40,7 +16,7 @@
                 {
                     "direction": "E",
                     "height": "1 foot",
-                    "period": "10 seconds"
+                    "period": "11 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
@@ -49,10 +25,9 @@
             "period": "Tonight 8/25"
         },
         {
-            "raw_text": "South winds 5 to 10 knots, becoming southeast in the afternoon. Seas 2 feet. Wave detail: southeast 1 foot at 3 seconds and east 1 foot at 10 seconds. A chance of showers and thunderstorms.",
+            "raw_text": "South winds 5 to 10 knots. Seas 2 feet. Wave detail: southeast 1 foot at 3 seconds and east 1 foot at 10 seconds. A chance of showers and thunderstorms in the morning, then a slight chance of showers and thunderstorms in the afternoon.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming southeast in the afternoon",
             "wave_height": "2 feet",
             "wave_detail_string": "southeast 1 foot at 3 seconds and east 1 foot at 10 seconds",
             "swell_components": [
@@ -73,15 +48,15 @@
             "period": "Wednesday 8/26"
         },
         {
-            "raw_text": "South winds 5 to 10 knots. Seas 2 feet. Wave detail: southeast 2 feet at 4 seconds and east 1 foot at 10 seconds. A chance of thunderstorms. A chance of showers in the evening, then showers likely after midnight.",
+            "raw_text": "South winds 5 to 10 knots. Seas 2 feet. Wave detail: southeast 1 foot at 4 seconds and east 1 foot at 10 seconds. A slight chance of showers and thunderstorms in the evening, then a chance of showers and thunderstorms after midnight.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 feet",
-            "wave_detail_string": "southeast 2 feet at 4 seconds and east 1 foot at 10 seconds",
+            "wave_detail_string": "southeast 1 foot at 4 seconds and east 1 foot at 10 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
-                    "height": "2 feet",
+                    "height": "1 foot",
                     "period": "4 seconds"
                 },
                 {
@@ -91,7 +66,7 @@
                 }
             ],
             "primary_swell_direction": "SE",
-            "primary_wave_height": "2 feet",
+            "primary_wave_height": "1 foot",
             "primary_wave_period": "4 seconds",
             "period": "Wednesday Night 8/26"
         },
@@ -142,10 +117,21 @@
             "period": "Thursday Night 8/27"
         },
         {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas 2 to 3 feet. A slight chance of showers and thunderstorms.",
-            "wind_direction": "SE",
+            "raw_text": "South winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: east 2 feet at 9 seconds. A slight chance of showers and thunderstorms in the morning.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
+            "wave_detail_string": "east 2 feet at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "9 seconds",
             "period": "Friday 8/28"
         },
         {
@@ -156,18 +142,32 @@
             "period": "Friday Night 8/28"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. A chance of showers and thunderstorms.",
-            "wind_direction": "E",
+            "raw_text": "Southeast winds 5 to 10 knots. Seas 2 to 3 feet. A chance of showers and thunderstorms.",
+            "wind_direction": "SE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
             "period": "Saturday 8/29"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. A slight chance of showers and thunderstorms in the evening, then a chance of showers and thunderstorms after midnight.winds and seas higher in and near thunderstorms.",
-            "wind_direction": "E",
+            "raw_text": "Southeast winds 5 to 10 knots. Seas 2 to 3 feet. A chance of showers and thunderstorms.",
+            "wind_direction": "SE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
             "period": "Saturday Night 8/29"
+        },
+        {
+            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. A chance of thunderstorms. Showers likely in the morning, then a chance of showers in the afternoon.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "2 to 3 feet",
+            "period": "Sunday 8/30"
+        },
+        {
+            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. A slight chance of showers and thunderstorms.winds and seas higher in and near thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "2 to 3 feet",
+            "period": "Sunday Night 8/30"
         }
     ]
 }
