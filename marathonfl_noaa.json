@@ -1,10 +1,23 @@
 {
-    "timestamp": "2026-08-25 09:42:22",
+    "timestamp": "2026-08-25 10:36:50",
     "forecasts": [
         {
-            "raw_text": "East winds near 10 knots. Seas around 2 feet. Wave  detail: east 2 feet at 4 seconds. A chance of showers and  thunderstorms.",
-            "wave_height": "2 feet",
-            "period": "Today 8/25"
+            "raw_text": "East winds 10 to 15 knots. Seas 2 to 3 feet.  wave detail: east 2 feet at 4 seconds. A chance of showers and  thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "10 to 15 knots",
+            "wave_height": "2 to 3 feet",
+            "wave_detail_string": "east 2 feet at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "4 seconds",
+            "period": "This Afternoon 8/25"
         },
         {
             "raw_text": "East winds 10 to 15 knots, becoming east to southeast. Seas 2 to 3 feet. Wave detail: east to southeast 3 feet at 4  seconds. A chance of showers and thunderstorms.",
