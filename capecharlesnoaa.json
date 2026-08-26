@@ -1,27 +1,20 @@
 {
-    "timestamp": "2026-08-25 20:50:52",
+    "timestamp": "2026-08-25 22:20:28",
     "forecasts": [
         {
-            "raw_text": "NE winds 5 kt. Waves 1 foot.",
-            "wind_direction": "NE",
+            "raw_text": "S winds 5 kt, becoming SW late. Waves 1 foot.",
+            "wind_direction": "S",
             "wind_speed": "5 kt",
+            "wind_commentary": "becoming SW late",
             "wave_height": "1 foot",
-            "period": "Through 7 Pm 8/25"
+            "period": "Overnight 8/25"
         },
         {
-            "raw_text": "NE winds 5 kt, becoming S in the late evening and early morning, then becoming SW late. Waves 1 foot.",
-            "wind_direction": "NE",
-            "wind_speed": "5 kt",
-            "wind_commentary": "becoming S in the late evening and early morning",
-            "wave_height": "1 foot",
-            "period": "Tonight 8/25"
-        },
-        {
-            "raw_text": "SW winds 5 kt, becoming S 10 to 15 kt with gusts up to 20 kt in the afternoon. Waves 1 to 2 ft.",
-            "wind_direction": "SW",
-            "wind_speed": "5 kt",
-            "wind_commentary": "becoming S 10 to 15 kt with gusts up to 20 kt in the afternoon",
-            "wind_gusts": "20 kt",
+            "raw_text": "S winds 5 to 10 kt with gusts up to 15 kt, becoming SE 10 to 15 kt with gusts up to 20 kt late. Waves 1 to 2 ft.",
+            "wind_direction": "S",
+            "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming SE 10 to 15 kt with gusts up to 20 kt late",
+            "wind_gusts": "15 kt",
             "wave_height": "1 to 2 ft",
             "period": "Wed 8/26"
         },
@@ -74,11 +67,26 @@
             "period": "Sat 8/29"
         },
         {
-            "raw_text": "E winds 5 kt. Waves 1 foot. A chance of showers in the evening.winds and waves higher in and near tstms.",
+            "raw_text": "E winds 5 kt. Waves 1 foot. A chance of showers in the evening.",
             "wind_direction": "E",
             "wind_speed": "5 kt",
             "wave_height": "1 foot",
             "period": "Sat Night 8/29"
+        },
+        {
+            "raw_text": "E winds 5 to 10 kt. Waves 1 foot.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "1 foot",
+            "period": "Sun 8/30"
+        },
+        {
+            "raw_text": "SE winds 5 to 10 kt, becoming S after midnight. Waves 1 foot.winds and waves higher in and near tstms.",
+            "wind_direction": "SE",
+            "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming S after midnight",
+            "wave_height": "1 foot",
+            "period": "Sun Night 8/30"
         }
     ]
 }
