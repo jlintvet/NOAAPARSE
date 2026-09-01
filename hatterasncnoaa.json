@@ -1,18 +1,12 @@
 {
-    "timestamp": "2026-09-01 15:04:26",
+    "timestamp": "2026-09-01 18:14:49",
     "forecasts": [
         {
-            "raw_text": "SW winds around 5 kt. Seas 2 to 3 ft.",
+            "raw_text": "SW winds around 5 kt, increasing to 5 to 10 kt. Seas 2 to 4 ft.",
             "wind_direction": "SW",
             "wind_speed": "5 kt",
-            "wave_height": "2 to 3 ft",
-            "period": "This Afternoon 9/1"
-        },
-        {
-            "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft.",
-            "wind_direction": "SW",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "3 to 4 ft",
+            "wind_commentary": "increasing to 5 to 10 kt",
+            "wave_height": "2 to 4 ft",
             "period": "Tonight 9/1"
         },
         {
@@ -52,9 +46,10 @@
             "period": "Fri 9/4"
         },
         {
-            "raw_text": "W winds 15 to 20 kt. Seas 3 to 5 ft. A chance of showers and tstms.",
+            "raw_text": "W winds 15 to 20 kt with gusts up to 25 kt. Seas 3 to 5 ft. A chance of showers and tstms.",
             "wind_direction": "W",
             "wind_speed": "15 to 20 kt",
+            "wind_gusts": "25 kt",
             "wave_height": "3 to 5 ft",
             "period": "Fri Night 9/4"
         },
@@ -67,11 +62,25 @@
             "period": "Sat 9/5"
         },
         {
-            "raw_text": "N winds around 10 kt. Seas 2 to 4 ft. A chance of showers and tstms.winds and seas higher in and near tstms.",
+            "raw_text": "N winds around 10 kt. Seas 2 to 4 ft. A chance of showers and tstms.",
             "wind_direction": "N",
             "wind_speed": "10 kt",
             "wave_height": "2 to 4 ft",
             "period": "Sat Night 9/5"
+        },
+        {
+            "raw_text": "NE winds 10 to 15 kt. Seas 3 to 5 ft. A chance of showers and tstms.",
+            "wind_direction": "NE",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "3 to 5 ft",
+            "period": "Sun 9/6"
+        },
+        {
+            "raw_text": "NE winds 10 to 15 kt. Seas 4 to 5 ft. A chance of showers. A chance of tstms after midnight.winds and seas higher in and near tstms.",
+            "wind_direction": "NE",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "4 to 5 ft",
+            "period": "Sun Night 9/6"
         }
     ]
 }
