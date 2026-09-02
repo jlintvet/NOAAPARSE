@@ -1,23 +1,27 @@
 {
-    "timestamp": "2026-09-02 06:18:47",
+    "timestamp": "2026-09-02 10:51:15",
     "forecasts": [
         {
-            "raw_text": "Southeast winds around 5 knots after midnight, becoming light, becoming east 5 to 10 knots late this morning and afternoon. Seas 1 to 2 feet. Wave detail: northeast 2 feet at 7 seconds. A light chop on the intracoastal waters. A chance of showers and thunderstorms.",
-            "wind_direction": "SE",
-            "wind_speed": "5 knots",
-            "wave_height": "1 to 2 feet",
-            "wave_detail_string": "northeast 2 feet at 7 seconds",
+            "raw_text": "Light winds, becoming east 5 to 10 knots late this morning and afternoon. Seas 2 feet. Wave detail: northeast 2 feet at 6 seconds and east 2 feet at 10 seconds. A light chop on the intracoastal waters. A chance of showers and thunderstorms.",
+            "wind_commentary": "becoming east 5 to 10 knots late this morning and afternoon",
+            "wave_height": "2 feet",
+            "wave_detail_string": "northeast 2 feet at 6 seconds and east 2 feet at 10 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
                     "height": "2 feet",
-                    "period": "7 seconds"
+                    "period": "6 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "10 seconds"
                 }
             ],
             "primary_swell_direction": "NE",
             "primary_wave_height": "2 feet",
-            "primary_wave_period": "7 seconds",
-            "period": "Today 9/2"
+            "primary_wave_period": "6 seconds",
+            "period": "Rest Of Today 9/2"
         },
         {
             "raw_text": "Southeast winds 5 to 10 knots. Seas 2 feet. Wave detail: east 2 feet at 10 seconds. Mostly smooth on the intracoastal waters. A chance of showers and thunderstorms.",

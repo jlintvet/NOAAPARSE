@@ -1,30 +1,29 @@
 {
-    "timestamp": "2026-09-02 06:18:49",
+    "timestamp": "2026-09-02 10:51:16",
     "forecasts": [
         {
-            "raw_text": "W winds 5 to 10 kt with gusts up to 15 kt, becoming NE with gusts up to 15 kt late this morning and afternoon. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: SW 3 ft at 4 seconds and SE 3 ft at 11 seconds.",
-            "wind_direction": "W",
+            "raw_text": "NE winds 5 to 10 kt. Gusts up to 15 kt early this afternoon. Seas around 3 ft. Wave detail: SE 3 ft at 11 seconds and S 2 ft at 5 seconds.",
+            "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming NE with gusts up to 15 kt late this morning and afternoon",
             "wind_gusts": "15 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "SW 3 ft at 4 seconds and SE 3 ft at 11 seconds",
+            "wave_height": "3 ft",
+            "wave_detail_string": "SE 3 ft at 11 seconds and S 2 ft at 5 seconds",
             "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "3 ft",
-                    "period": "4 seconds"
-                },
                 {
                     "direction": "SE",
                     "height": "3 ft",
                     "period": "11 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "2 ft",
+                    "period": "5 seconds"
                 }
             ],
-            "primary_swell_direction": "SW",
+            "primary_swell_direction": "SE",
             "primary_wave_height": "3 ft",
-            "primary_wave_period": "4 seconds",
-            "period": "Today 9/2"
+            "primary_wave_period": "11 seconds",
+            "period": "Rest Of Today 9/2"
         },
         {
             "raw_text": "E winds 5 to 10 kt, becoming SE after midnight. Seas around 3 ft. Wave detail: NE 3 ft at 9 seconds and S 1 foot at 4 seconds.",
