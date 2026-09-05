@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-09-05 12:26:18",
+    "timestamp": "2026-09-05 14:42:40",
     "forecasts": [
         {
-            "raw_text": "N winds 10 to 15 kt. Gusts up to 20 kt. Seas around 3 ft. Wave detail: NE 3 ft at 7 seconds and NW 2 ft at 4 seconds.",
-            "wind_direction": "N",
+            "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Seas around 3 ft. Wave detail: NE 3 ft at 7 seconds and SW 2 ft at 5 seconds.",
+            "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
             "wave_height": "3 ft",
-            "wave_detail_string": "NE 3 ft at 7 seconds and NW 2 ft at 4 seconds",
+            "wave_detail_string": "NE 3 ft at 7 seconds and SW 2 ft at 5 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
@@ -15,9 +15,9 @@
                     "period": "7 seconds"
                 },
                 {
-                    "direction": "NW",
+                    "direction": "SW",
                     "height": "2 ft",
-                    "period": "4 seconds"
+                    "period": "5 seconds"
                 }
             ],
             "primary_swell_direction": "NE",
