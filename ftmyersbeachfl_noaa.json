@@ -1,26 +1,8 @@
 {
-    "timestamp": "2026-09-10 12:48:44",
+    "timestamp": "2026-09-10 15:24:26",
     "forecasts": [
         {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Wave detail: east 1 foot at 3 seconds. Scattered showers and thunderstorms late this morning and early afternoon, then isolated showers and thunderstorms late.",
-            "wind_direction": "SE",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "1 foot",
-            "wave_detail_string": "east 1 foot at 3 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "1 foot",
-                    "period": "3 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "3 seconds",
-            "period": "Rest Of Today 9/10"
-        },
-        {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 4 seconds. Scattered showers and thunderstorms.",
+            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 4 seconds. Isolated showers and thunderstorms until early morning, then scattered showers and thunderstorms late.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
@@ -56,7 +38,7 @@
             "period": "Friday 9/11"
         },
         {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 4 seconds. Scattered thunderstorms. Scattered showers in the evening, then numerous showers after midnight.",
+            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 4 seconds. Isolated showers and thunderstorms in the evening, then scattered showers and thunderstorms after midnight.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
@@ -74,7 +56,7 @@
             "period": "Friday Night 9/11"
         },
         {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 4 seconds. Numerous showers and scattered thunderstorms.",
+            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 4 seconds. Scattered thunderstorms. Scattered showers in the morning, then numerous showers in the afternoon.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
@@ -110,25 +92,51 @@
             "period": "Saturday Night 9/12"
         },
         {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas 1 foot or less. Numerous showers and scattered thunderstorms.",
+            "raw_text": "Southeast winds around 5 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 4 seconds. Numerous showers. Scattered thunderstorms in the morning, then numerous thunderstorms in the afternoon.",
             "wind_direction": "SE",
-            "wind_speed": "5 to 10 knots",
+            "wind_speed": "5 knots",
             "wave_height": "1 foot",
+            "wave_detail_string": "southeast 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "4 seconds",
             "period": "Sunday 9/13"
         },
         {
-            "raw_text": "Southeast winds around 5 knots. Seas 1 foot or less. Scattered thunderstorms. Numerous showers, mainly in the evening.",
+            "raw_text": "Southeast winds around 5 knots. Seas 1 foot or less. Numerous showers and thunderstorms, mainly in the evening.",
             "wind_direction": "SE",
             "wind_speed": "5 knots",
             "wave_height": "1 foot",
             "period": "Sunday Night 9/13"
         },
         {
-            "raw_text": "East winds around 5 knots. Seas 1 foot or less. Scattered showers and thunderstorms.winds and seas higher in and near thunderstorms.",
+            "raw_text": "East winds around 5 knots. Seas 1 foot or less. Scattered showers and thunderstorms.",
             "wind_direction": "E",
             "wind_speed": "5 knots",
             "wave_height": "1 foot",
             "period": "Monday 9/14"
+        },
+        {
+            "raw_text": "Northeast winds 5 to 10 knots, becoming east after midnight. Seas 1 foot or less. Scattered showers and thunderstorms.",
+            "wind_direction": "NE",
+            "wind_speed": "5 to 10 knots",
+            "wind_commentary": "becoming east after midnight",
+            "wave_height": "1 foot",
+            "period": "Monday Night 9/14"
+        },
+        {
+            "raw_text": "East winds 5 to 10 knots. Seas around 2 feet. Scattered showers and thunderstorms.winds and seas higher in and near thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "2 feet",
+            "period": "Tuesday 9/15"
         }
     ]
 }
