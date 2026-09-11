@@ -1,29 +1,29 @@
 {
-    "timestamp": "2026-09-11 06:21:00",
+    "timestamp": "2026-09-11 10:45:35",
     "forecasts": [
         {
-            "raw_text": "N winds 5 to 10 kt, becoming SW this afternoon. Seas 2 to 3 ft. Wave detail: N 3 ft at 5 seconds and S 3 ft at 7 seconds.",
+            "raw_text": "N winds 5 to 10 kt, becoming SW. Seas 2 to 3 ft. Wave detail: S 2 ft at 7 seconds and NW 1 foot at 2 seconds.",
             "wind_direction": "N",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW this afternoon",
+            "wind_commentary": "becoming SW",
             "wave_height": "2 to 3 ft",
-            "wave_detail_string": "N 3 ft at 5 seconds and S 3 ft at 7 seconds",
+            "wave_detail_string": "S 2 ft at 7 seconds and NW 1 foot at 2 seconds",
             "swell_components": [
                 {
-                    "direction": "N",
-                    "height": "3 ft",
-                    "period": "5 seconds"
+                    "direction": "S",
+                    "height": "2 ft",
+                    "period": "7 seconds"
                 },
                 {
-                    "direction": "S",
-                    "height": "3 ft",
-                    "period": "7 seconds"
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "2 seconds"
                 }
             ],
-            "primary_swell_direction": "N",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "5 seconds",
-            "period": "Today 9/11"
+            "primary_swell_direction": "S",
+            "primary_wave_height": "2 ft",
+            "primary_wave_period": "7 seconds",
+            "period": "This Afternoon 9/11"
         },
         {
             "raw_text": "W winds 5 to 10 kt, becoming N after midnight. Seas around 2 ft. Wave detail: S 2 ft at 6 seconds and N 1 foot at 2 seconds.",
