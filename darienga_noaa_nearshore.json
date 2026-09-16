@@ -1,40 +1,12 @@
 {
-    "timestamp": "2026-09-16 16:43:25",
+    "timestamp": "2026-09-16 19:27:28",
     "forecasts": [
         {
-            "raw_text": "NE winds 20 kt. Seas 4 to 5 ft. Wave detail: E 5 ft at 7 seconds.",
+            "raw_text": "NE winds 15 to 20 kt. Gusts to 25 kt through early morning. Seas 4 to 6 ft, subsiding to 3 to 5 ft late. Wave  detail: E 5 ft at 6 seconds.",
             "wind_direction": "NE",
-            "wind_speed": "20 kt",
-            "wave_height": "4 to 5 ft",
-            "wave_detail_string": "E 5 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "5 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "5 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "This Afternoon 9/16"
-        },
-        {
-            "raw_text": "E winds 15 to 20 kt with gusts to 25 kt. Seas 4 to 5 ft. Wave detail: E 5 ft at 6 seconds.",
-            "wind_direction": "E",
             "wind_speed": "15 to 20 kt",
-            "wave_height": "4 to 5 ft",
-            "wave_detail_string": "E 5 ft at 6 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "5 ft",
-                    "period": "6 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "5 ft",
-            "primary_wave_period": "6 seconds",
+            "wave_height": "4 to 6 ft",
+            "wave_commentary": "subsiding to 3 to 5 ft",
             "period": "Tonight 9/16"
         },
         {
@@ -121,14 +93,26 @@
             "period": "Fri Night 9/18"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 2 ft.",
-            "wind_direction": "E",
-            "wind_speed": "5 to 10 kt",
+            "raw_text": "NE winds 5 kt, becoming E in the afternoon. Seas 2 ft. Wave detail: E 2 ft at 7 seconds.",
+            "wind_direction": "NE",
+            "wind_speed": "5 kt",
+            "wind_commentary": "becoming E in the afternoon",
             "wave_height": "2 ft",
+            "wave_detail_string": "E 2 ft at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 ft",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 ft",
+            "primary_wave_period": "7 seconds",
             "period": "Sat 9/19"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 2 ft. A chance of showers and tstms.",
+            "raw_text": "E winds 5 to 10 kt. Seas 2 ft. A slight chance of showers and tstms in the evening, then a chance of showers and tstms after midnight.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
@@ -142,11 +126,25 @@
             "period": "Sun 9/20"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 2 ft. A chance of showers and tstms.winds and seas higher in and near tstms.",
+            "raw_text": "E winds 5 to 10 kt. Seas 2 ft. A chance of showers and tstms.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
             "period": "Sun Night 9/20"
+        },
+        {
+            "raw_text": "E winds 5 to 10 kt. Seas 2 ft. Showers likely with a chance of tstms.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 ft",
+            "period": "Mon 9/21"
+        },
+        {
+            "raw_text": "E winds 5 to 10 kt. Seas 2 ft. Showers likely with a chance of tstms.winds and seas higher in and near tstms.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 ft",
+            "period": "Mon Night 9/21"
         }
     ]
 }
