@@ -1,10 +1,11 @@
 {
-    "timestamp": "2026-09-16 19:27:44",
+    "timestamp": "2026-09-16 22:45:12",
     "forecasts": [
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: E 3 ft at 7 seconds.",
+            "raw_text": "SE winds 5 kt, becoming S late this evening and overnight. Seas 2 to 3 ft. Wave detail: E 3 ft at 7 seconds.",
             "wind_direction": "SE",
-            "wind_speed": "5 to 10 kt",
+            "wind_speed": "5 kt",
+            "wind_commentary": "becoming S late this evening and overnight",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "E 3 ft at 7 seconds",
             "swell_components": [
@@ -20,11 +21,11 @@
             "period": "Tonight 9/16"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Gusts up to 15 kt late. Seas 2 to 3 ft. Wave detail: E 2 ft at 7 seconds.",
+            "raw_text": "S winds 5 to 10 kt. Gusts up to 15 kt late. Seas around 2 ft. Wave detail: E 2 ft at 7 seconds.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wind_gusts": "15 kt",
-            "wave_height": "2 to 3 ft",
+            "wave_height": "2 ft",
             "wave_detail_string": "E 2 ft at 7 seconds",
             "swell_components": [
                 {
@@ -87,17 +88,17 @@
             "period": "Fri 9/18"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: NE 3 ft at 7 seconds and S 1 foot at 4 seconds.",
+            "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft. Wave detail: NE 3 ft at 5 seconds and S 1 foot at 4 seconds.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "NE 3 ft at 7 seconds and S 1 foot at 4 seconds",
+            "wave_height": "2 to 3 ft",
+            "wave_detail_string": "NE 3 ft at 5 seconds and S 1 foot at 4 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
                     "height": "3 ft",
-                    "period": "7 seconds"
+                    "period": "5 seconds"
                 },
                 {
                     "direction": "S",
@@ -107,21 +108,26 @@
             ],
             "primary_swell_direction": "NE",
             "primary_wave_height": "3 ft",
-            "primary_wave_period": "7 seconds",
+            "primary_wave_period": "5 seconds",
             "period": "Fri Night 9/18"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: NE 3 ft at 5 seconds.",
+            "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 3 ft. Wave detail: NE 3 ft at 5 seconds and SE 1 foot at 12 seconds.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "NE 3 ft at 5 seconds",
+            "wave_height": "2 to 3 ft",
+            "wave_detail_string": "NE 3 ft at 5 seconds and SE 1 foot at 12 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
                     "height": "3 ft",
                     "period": "5 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "12 seconds"
                 }
             ],
             "primary_swell_direction": "NE",
