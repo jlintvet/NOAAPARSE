@@ -1,24 +1,29 @@
 {
-    "timestamp": "2026-09-18 08:34:26",
+    "timestamp": "2026-09-18 12:52:24",
     "forecasts": [
         {
-            "raw_text": "East winds 10 to 15 knots, becoming northeast 5 to 10 knots late. Seas 2 to 4 feet, occasionally to 5 feet. Wave detail: northeast 3 feet at 6 seconds. Scattered showers. Isolated thunderstorms early this morning, then scattered thunderstorms late this morning and afternoon.",
+            "raw_text": "East winds 10 to 15 knots, becoming northeast 5 to 10 knots late. Seas 2 to 3 feet. Wave detail: east 3 feet at 5 seconds and northwest 1 foot at 5 seconds. Scattered showers and thunderstorms.",
             "wind_direction": "E",
             "wind_speed": "10 to 15 knots",
             "wind_commentary": "becoming northeast 5 to 10 knots late",
-            "wave_height": "2 to 4 feet",
-            "wave_detail_string": "northeast 3 feet at 6 seconds",
+            "wave_height": "2 to 3 feet",
+            "wave_detail_string": "east 3 feet at 5 seconds and northwest 1 foot at 5 seconds",
             "swell_components": [
                 {
-                    "direction": "NE",
+                    "direction": "E",
                     "height": "3 feet",
-                    "period": "6 seconds"
+                    "period": "5 seconds"
+                },
+                {
+                    "direction": "NW",
+                    "height": "1 foot",
+                    "period": "5 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
+            "primary_swell_direction": "E",
             "primary_wave_height": "3 feet",
-            "primary_wave_period": "6 seconds",
-            "period": "Today 9/18"
+            "primary_wave_period": "5 seconds",
+            "period": "This Afternoon 9/18"
         },
         {
             "raw_text": "Northeast winds 5 to 10 knots. Seas around 2 feet. Wave detail: north 2 feet at 5 seconds. Scattered showers and thunderstorms.",
