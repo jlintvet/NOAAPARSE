@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-18 15:21:51",
+    "timestamp": "2026-09-18 18:08:19",
     "forecasts": [
         {
             "raw_text": "East winds 5 to 10 knots. Seas around 2 feet. Wave detail: north 2 feet at 5 seconds. Scattered thunderstorms.",
@@ -76,28 +76,39 @@
             "period": "Sunday 9/20"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas 1 foot or less. Wave detail: northeast 1 foot at 2 seconds. Scattered thunderstorms. Showers.",
+            "raw_text": "East winds 5 to 10 knots. Seas 1 foot or less. Wave detail: east 1 foot at 2 seconds. Scattered thunderstorms. Showers.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
-            "wave_detail_string": "northeast 1 foot at 2 seconds",
+            "wave_detail_string": "east 1 foot at 2 seconds",
             "swell_components": [
                 {
-                    "direction": "NE",
+                    "direction": "E",
                     "height": "1 foot",
                     "period": "2 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
+            "primary_swell_direction": "E",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "2 seconds",
             "period": "Sunday Night 9/20"
         },
         {
-            "raw_text": "South winds around 5 knots. Seas 1 foot or less. Scattered thunderstorms. Showers.",
+            "raw_text": "South winds around 5 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 2 seconds. Scattered thunderstorms. Showers.",
             "wind_direction": "S",
             "wind_speed": "5 knots",
             "wave_height": "1 foot",
+            "wave_detail_string": "southeast 1 foot at 2 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "2 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "2 seconds",
             "period": "Monday 9/21"
         },
         {
