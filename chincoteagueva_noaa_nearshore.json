@@ -1,30 +1,28 @@
 {
-    "timestamp": "2026-09-18 12:52:15",
+    "timestamp": "2026-09-18 15:21:41",
     "forecasts": [
         {
-            "raw_text": "W winds 5 to 10 kt with gusts up to 15 kt, becoming NE this afternoon. Seas 2 to 3 ft. Wave detail: S 2 ft at 4 seconds and E 2 ft at 8 seconds. A slight chance of showers early this afternoon. A slight chance of showers and tstms late.",
-            "wind_direction": "W",
+            "raw_text": "NE winds 5 to 10 kt. Seas around 2 ft. Wave detail: E 2 ft at 8 seconds and S 1 foot at 4 seconds. A chance of showers and tstms.",
+            "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming NE this afternoon",
-            "wind_gusts": "15 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "S 2 ft at 4 seconds and E 2 ft at 8 seconds",
+            "wave_height": "2 ft",
+            "wave_detail_string": "E 2 ft at 8 seconds and S 1 foot at 4 seconds",
             "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "2 ft",
-                    "period": "4 seconds"
-                },
                 {
                     "direction": "E",
                     "height": "2 ft",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "4 seconds"
                 }
             ],
-            "primary_swell_direction": "S",
+            "primary_swell_direction": "E",
             "primary_wave_height": "2 ft",
-            "primary_wave_period": "4 seconds",
-            "period": "Today 9/18"
+            "primary_wave_period": "8 seconds",
+            "period": "This Afternoon 9/18"
         },
         {
             "raw_text": "NE winds 5 to 10 kt, increasing to 10 to 15 kt late. Gusts up to 20 kt. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: NE 2 ft at 4 seconds and S 1 foot at 4 seconds.",
