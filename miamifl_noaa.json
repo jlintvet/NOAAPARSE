@@ -1,24 +1,6 @@
 {
-    "timestamp": "2026-09-19 10:05:22",
+    "timestamp": "2026-09-19 13:38:47",
     "forecasts": [
-        {
-            "raw_text": "E winds around 5 kt. Seas around 2 ft. Wave detail: E 1 foot at 3 seconds. Intracoastal waters smooth. A chance of showers and tstms.",
-            "wind_direction": "E",
-            "wind_speed": "5 kt",
-            "wave_height": "2 ft",
-            "wave_detail_string": "E 1 foot at 3 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "1 foot",
-                    "period": "3 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "3 seconds",
-            "period": "Today 9/19"
-        },
         {
             "raw_text": "E winds around 5 kt, becoming SE after midnight. Seas around 2 ft. Wave detail: E 1 foot at 3 seconds. Intracoastal waters smooth. A chance of tstms.",
             "wind_direction": "E",
@@ -113,9 +95,20 @@
             "period": "Mon Night 9/21"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Seas less than 2 ft or less. Intracoastal waters light chop. Showers likely with a chance of tstms.",
+            "raw_text": "S winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: S 1 foot at 3 seconds. Intracoastal waters light chop. Showers likely with a chance of tstms.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
+            "wave_detail_string": "S 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
             "period": "Tue 9/22"
         },
         {
@@ -131,10 +124,23 @@
             "period": "Wed 9/23"
         },
         {
-            "raw_text": "E winds around 5 kt. Seas less than 2 ft or less. Intracoastal waters smooth. Showers likely with a chance of tstms.winds and seas higher in and near tstms.",
+            "raw_text": "E winds around 5 kt. Seas less than 2 ft or less. Intracoastal waters smooth. Showers likely with a chance of tstms.",
             "wind_direction": "E",
             "wind_speed": "5 kt",
             "period": "Wed Night 9/23"
+        },
+        {
+            "raw_text": "E winds around 5 kt. Seas less than 2 ft or less. Intracoastal waters smooth. Showers likely with a chance of tstms.",
+            "wind_direction": "E",
+            "wind_speed": "5 kt",
+            "period": "Thu 9/24"
+        },
+        {
+            "raw_text": "E winds around 5 kt. Seas 2 to 3 ft. Intracoastal waters smooth. Showers likely with a chance of tstms.winds and seas higher in and near tstms.",
+            "wind_direction": "E",
+            "wind_speed": "5 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Thu Night 9/24"
         }
     ]
 }
