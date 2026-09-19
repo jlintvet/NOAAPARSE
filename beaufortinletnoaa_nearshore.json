@@ -1,35 +1,34 @@
 {
-    "timestamp": "2026-09-18 20:51:12",
+    "timestamp": "2026-09-19 01:21:54",
     "forecasts": [
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming NW late. Seas 2 to 3 ft. Wave detail: SW 2 ft at 3 seconds and E 2 ft at 8 seconds. Adjacent sounds and rivers light chop, diminishing to flat late. A slight chance of showers and tstms early this evening, then a chance of showers and tstms late this evening and early morning. A slight chance of showers and tstms late.",
+            "raw_text": "SW winds 5 to 10 kt, diminishing to around 5 kt, then becoming N late. Seas around 2 ft. Wave detail: E 2 ft at 8 seconds and SW 1 ft at 3 seconds. Adjacent sounds and rivers light chop, diminishing to flat. A chance of showers and tstms late this evening and early morning, then a slight chance of showers and tstms late.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming NW late",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SW 2 ft at 3 seconds and E 2 ft at 8 seconds",
+            "wind_commentary": "diminishing to around 5 kt",
+            "wave_height": "2 ft",
+            "wave_detail_string": "E 2 ft at 8 seconds and SW 1 ft at 3 seconds",
             "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "2 ft",
-                    "period": "3 seconds"
-                },
                 {
                     "direction": "E",
                     "height": "2 ft",
                     "period": "8 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "1 ft",
+                    "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "SW",
+            "primary_swell_direction": "E",
             "primary_wave_height": "2 ft",
-            "primary_wave_period": "3 seconds",
-            "period": "Tonight 9/18"
+            "primary_wave_period": "8 seconds",
+            "period": "Overnight 9/19"
         },
         {
-            "raw_text": "NE winds 5 to 10 kt, increasing to 10 to 15 kt in the afternoon. Seas 2 to 3 ft. Wave detail: NE 2 ft at 4 seconds and E 2 ft at 8 seconds. Adjacent sounds and rivers light chop, increasing to a moderate chop in the afternoon. A slight chance of showers and tstms.",
+            "raw_text": "NE winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: NE 2 ft at 4 seconds and E 2 ft at 8 seconds. Adjacent sounds and rivers a moderate chop. A slight chance of showers and tstms.",
             "wind_direction": "NE",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "increasing to 10 to 15 kt in the afternoon",
+            "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "NE 2 ft at 4 seconds and E 2 ft at 8 seconds",
             "swell_components": [
@@ -50,11 +49,11 @@
             "period": "Sat 9/19"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt, becoming E 5 to 10 kt after midnight. Seas 2 to 3 ft. Wave detail: NE 3 ft at 4 seconds and E 3 ft at 7 seconds. Adjacent sounds and rivers a moderate chop, diminishing to light chop after midnight. A chance of showers and tstms.",
+            "raw_text": "NE winds 15 to 20 kt, diminishing to 10 to 15 kt after midnight. Seas 2 to 4 ft. Wave detail: NE 3 ft at 4 seconds and E 3 ft at 7 seconds. Adjacent sounds and rivers choppy, diminishing to a moderate chop after midnight. A chance of showers and tstms.",
             "wind_direction": "NE",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming E 5 to 10 kt after midnight",
-            "wave_height": "2 to 3 ft",
+            "wind_speed": "15 to 20 kt",
+            "wind_commentary": "diminishing to 10 to 15 kt after midnight",
+            "wave_height": "2 to 4 ft",
             "wave_detail_string": "NE 3 ft at 4 seconds and E 3 ft at 7 seconds",
             "swell_components": [
                 {
@@ -74,15 +73,15 @@
             "period": "Sat Night 9/19"
         },
         {
-            "raw_text": "E winds 5 to 10 kt. Seas 2 to 4 ft. Wave detail: E 4 ft at 8 seconds and SE 2 ft at 11 seconds. Adjacent sounds and rivers light chop. A chance of showers. A chance of tstms, mainly in the morning.",
-            "wind_direction": "E",
+            "raw_text": "NE winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: E 3 ft at 8 seconds and SE 2 ft at 11 seconds. Adjacent sounds and rivers light chop. A chance of showers. A chance of tstms, mainly in the morning.",
+            "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "2 to 4 ft",
-            "wave_detail_string": "E 4 ft at 8 seconds and SE 2 ft at 11 seconds",
+            "wave_height": "2 to 3 ft",
+            "wave_detail_string": "E 3 ft at 8 seconds and SE 2 ft at 11 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "4 ft",
+                    "height": "3 ft",
                     "period": "8 seconds"
                 },
                 {
@@ -92,14 +91,15 @@
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "4 ft",
+            "primary_wave_height": "3 ft",
             "primary_wave_period": "8 seconds",
             "period": "Sun 9/20"
         },
         {
-            "raw_text": "S winds around 5 kt. Seas 2 to 4 ft. Wave detail: E 4 ft at 8 seconds and SE 3 ft at 9 seconds. Adjacent sounds and rivers flat.",
-            "wind_direction": "S",
+            "raw_text": "SE winds around 5 kt, becoming SW after midnight. Seas 2 to 4 ft. Wave detail: E 4 ft at 8 seconds and SE 3 ft at 9 seconds. Adjacent sounds and rivers flat.",
+            "wind_direction": "SE",
             "wind_speed": "5 kt",
+            "wind_commentary": "becoming SW after midnight",
             "wave_height": "2 to 4 ft",
             "wave_detail_string": "E 4 ft at 8 seconds and SE 3 ft at 9 seconds",
             "swell_components": [
