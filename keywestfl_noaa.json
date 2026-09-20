@@ -1,23 +1,21 @@
 {
-    "timestamp": "2026-09-20 09:26:42",
+    "timestamp": "2026-09-20 13:12:09",
     "forecasts": [
         {
-            "raw_text": "South to southwest winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: southeast 1 foot at 4 seconds. Showers likely with a chance of thunderstorms.",
-            "wind_direction": "SW",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "1 to 2 feet",
-            "wave_detail_string": "southeast 1 foot at 4 seconds",
+            "raw_text": "South to southwest winds near 5 knots. Seas around 1 foot. Wave detail: southeast 1 foot at 3 seconds. Showers likely with a chance of thunderstorms.",
+            "wave_height": "1 foot",
+            "wave_detail_string": "southeast 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "SE",
                     "height": "1 foot",
-                    "period": "4 seconds"
+                    "period": "3 seconds"
                 }
             ],
             "primary_swell_direction": "SE",
             "primary_wave_height": "1 foot",
-            "primary_wave_period": "4 seconds",
-            "period": "Today 9/20"
+            "primary_wave_period": "3 seconds",
+            "period": "This Afternoon 9/20"
         },
         {
             "raw_text": "South winds 5 to 10 knots. Seas 1 to 2 feet. Wave  detail: southeast to south 1 foot at 3 seconds. Showers likely  with a chance of thunderstorms.",
@@ -34,11 +32,12 @@
             "period": "Monday 9/21"
         },
         {
-            "raw_text": "Southeast to south winds 5 to 10 knots, increasing to 10 to 15 knots. Seas 1 to 2 feet. Showers likely  with a chance of thunderstorms.",
+            "raw_text": "Southeast to south winds 5 to 10 knots, increasing to 10 to 15 knots. Seas 1 to 2 feet, building to 2 to 3 feet. Showers likely with a chance of thunderstorms.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 knots",
             "wind_commentary": "increasing to 10 to 15 knots",
             "wave_height": "1 to 2 feet",
+            "wave_commentary": "building to 2 to 3 feet",
             "period": "Monday Night 9/21"
         },
         {
