@@ -1,45 +1,61 @@
 {
-    "timestamp": "2026-09-23 03:05:10",
+    "timestamp": "2026-09-23 09:11:43",
     "forecasts": [
         {
-            "raw_text": "Southeast to south winds 10 to 15 knots. Seas 2 to 3 feet. Showers likely with a chance of thunderstorms.",
-            "wind_direction": "S",
-            "wind_speed": "10 to 15 knots",
-            "wave_height": "2 to 3 feet",
-            "period": "Overnight 9/23"
+            "raw_text": "Southwest to west winds 5 to 10 knots. Seas 1 to 2 feet. Wave detail: south 1 foot at 4 seconds. Showers likely with a  chance of thunderstorms.",
+            "wind_direction": "W",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "1 to 2 feet",
+            "wave_detail_string": "south 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "S",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "4 seconds",
+            "period": "Today 9/23"
         },
         {
-            "raw_text": "South to southwest winds near 10 knots. Seas 1 to 2  feet. Showers likely with a chance of thunderstorms.",
-            "wave_height": "1 to 2  feet",
-            "period": "Wednesday 9/23"
-        },
-        {
-            "raw_text": "South to southwest winds 5 to 10 knots. Seas  around 1 foot. A chance of showers and thunderstorms.",
+            "raw_text": "Southwest winds 5 to 10 knots. Seas around 1 foot. Wave detail: south to southwest 1 foot at 4 seconds. A chance of showers and thunderstorms.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
-            "period": "Wednesday Night 9/23"
+            "wave_detail_string": "south to southwest 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SW",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SW",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "4 seconds",
+            "period": "Tonight 9/23"
         },
         {
-            "raw_text": "West winds 5 to 10 knots. Seas 1 foot or less. Showers likely with a chance of thunderstorms.",
+            "raw_text": "West winds 5 to 10 knots. Seas around 1 foot. Wave  detail: southwest 1 foot at 3 seconds. A chance of showers and  thunderstorms.",
             "wind_direction": "W",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 foot",
             "period": "Thursday 9/24"
         },
         {
-            "raw_text": "Southwest to west winds 5 to 10 knots, becoming west to northwest near 10 knots. Seas around 1 foot, except building to 1 to 2 feet off the upper keys due to a northerly swell. A chance of showers and thunderstorms.",
-            "wind_direction": "W",
+            "raw_text": "West to northwest winds 5 to 10 knots. Seas 1 to 2 feet. A chance of showers and thunderstorms.",
+            "wind_direction": "NW",
             "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming west to northwest near 10 knots",
-            "wave_height": "1 foot",
-            "wave_commentary": "building to 1 to 2 feet",
+            "wave_height": "1 to 2 feet",
             "period": "Thursday Night 9/24"
         },
         {
-            "raw_text": "North to northeast winds near 10 knots, decreasing to 5 to 10 knots. Seas 1 to 3 feet, except 3 to 4 feet, occasionally  to 5 feet off the upper keys due to northerly swell. A chance of  showers and thunderstorms.",
-            "wind_commentary": "decreasing to 5 to 10 knots",
-            "wave_height": "1 to 3 feet",
+            "raw_text": "North to northeast winds 5 to 10 knots. Seas 1 to 3  feet, except 3 to 4 feet, occasionally to 5 feet off the upper  keys due to northerly swell. Showers likely with a chance of  thunderstorms.",
+            "wind_direction": "NE",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "1 to 3  feet",
             "period": "Friday 9/25"
         },
         {
@@ -57,14 +73,14 @@
             "period": "Saturday 9/26"
         },
         {
-            "raw_text": "Northeast winds 5 to 10 knots. Seas 2 to 3 feet, except 3 to 4 feet, occasionally to 5 feet off the upper  keys due to northerly swell. A chance of showers and  thunderstorms.",
+            "raw_text": "North to northeast winds 5 to 10 knots. Seas 2 to 3 feet, except 3 to 4 feet off the upper keys due to northerly swells. A chance of showers with a slight chance of  thunderstorms.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
             "period": "Saturday Night 9/26"
         },
         {
-            "raw_text": "Northeast winds 5 to 10 knots. Seas 1 to 2 feet, except 2 to 3 feet off the upper keys due to northerly swells. A chance  of showers and thunderstorms.",
+            "raw_text": "North to northeast winds 5 to 10 knots. Seas 1 to 2 feet, except 2 to 3 feet off the upper keys due to northerly  swells. A chance of showers with a slight chance of thunderstorms.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "1 to 2 feet",
