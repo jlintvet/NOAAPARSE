@@ -1,12 +1,12 @@
 {
-    "timestamp": "2026-09-23 09:11:42",
+    "timestamp": "2026-09-23 14:07:16",
     "forecasts": [
         {
-            "raw_text": "NE winds 25 to 30 kt with gusts up to 40 kt. Seas 7 to 10 ft. Wave detail: E 10 ft at 8 seconds and SE 10 ft at 9 seconds.",
+            "raw_text": "NE winds 25 to 30 kt with gusts up to 35 kt. Seas 8 to 10 ft. Wave detail: E 10 ft at 8 seconds and SE 10 ft at 9 seconds.",
             "wind_direction": "NE",
             "wind_speed": "25 to 30 kt",
-            "wind_gusts": "40 kt",
-            "wave_height": "7 to 10 ft",
+            "wind_gusts": "35 kt",
+            "wave_height": "8 to 10 ft",
             "wave_detail_string": "E 10 ft at 8 seconds and SE 10 ft at 9 seconds",
             "swell_components": [
                 {
@@ -23,41 +23,30 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "10 ft",
             "primary_wave_period": "8 seconds",
-            "period": "Today 9/23"
+            "period": "This Afternoon 9/23"
         },
         {
-            "raw_text": "NE winds 25 to 30 kt with gusts up to 35 kt. Seas 8 to 10 ft, building to 9 to 12 ft after midnight. Wave detail: NE 10 ft at 8 seconds and E 10 ft at 9 seconds, becoming E 11 ft at 10 seconds and N 5 ft at 6 seconds.",
+            "raw_text": "NE winds 25 to 30 kt with gusts up to 35 kt. Seas 9 to 12 ft. Wave detail: E 11 ft at 10 seconds and NE 10 ft at 8 seconds.",
             "wind_direction": "NE",
             "wind_speed": "25 to 30 kt",
             "wind_gusts": "35 kt",
-            "wave_height": "8 to 10 ft",
-            "wave_commentary": "building to 9 to 12 ft",
-            "wave_detail_string": "NE 10 ft at 8 seconds and E 10 ft at 9 seconds, becoming E 11 ft at 10 seconds and N 5 ft at 6 seconds",
+            "wave_height": "9 to 12 ft",
+            "wave_detail_string": "E 11 ft at 10 seconds and NE 10 ft at 8 seconds",
             "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "10 ft",
-                    "period": "8 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "10 ft",
-                    "period": "9 seconds"
-                },
                 {
                     "direction": "E",
                     "height": "11 ft",
                     "period": "10 seconds"
                 },
                 {
-                    "direction": "N",
-                    "height": "5 ft",
-                    "period": "6 seconds"
+                    "direction": "NE",
+                    "height": "10 ft",
+                    "period": "8 seconds"
                 }
             ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "10 ft",
-            "primary_wave_period": "8 seconds",
+            "primary_swell_direction": "E",
+            "primary_wave_height": "11 ft",
+            "primary_wave_period": "10 seconds",
             "period": "Tonight 9/23"
         },
         {
