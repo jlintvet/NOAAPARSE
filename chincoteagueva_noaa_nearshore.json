@@ -1,27 +1,27 @@
 {
-    "timestamp": "2026-09-24 11:38:34",
+    "timestamp": "2026-09-24 15:40:45",
     "forecasts": [
         {
-            "raw_text": "NE winds 25 to 30 kt with gusts up to 40 kt. Seas 11 to 13 ft, occasionally to 19 ft. Wave detail: E 13 ft at 12 seconds. A slight chance of rain this afternoon.",
+            "raw_text": "NE winds 25 to 30 kt with gusts up to 40 kt. Seas 12 to 14 ft, occasionally to 20 ft. Wave detail: E 14 ft at 12 seconds. A slight chance of showers.",
             "wind_direction": "NE",
             "wind_speed": "25 to 30 kt",
             "wind_gusts": "40 kt",
-            "wave_height": "11 to 13 ft",
-            "wave_detail_string": "E 13 ft at 12 seconds",
+            "wave_height": "12 to 14 ft",
+            "wave_detail_string": "E 14 ft at 12 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "13 ft",
+                    "height": "14 ft",
                     "period": "12 seconds"
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "13 ft",
+            "primary_wave_height": "14 ft",
             "primary_wave_period": "12 seconds",
-            "period": "Rest Of Today 9/24"
+            "period": "Through 7 Pm 9/24"
         },
         {
-            "raw_text": "NE winds 25 to 30 kt with gusts up to 40 kt. Seas 11 to 13 ft, occasionally to 19 ft. Wave detail: E 13 ft at 12 seconds.",
+            "raw_text": "NE winds 25 to 30 kt with gusts up to 40 kt. Seas 11 to 13 ft, occasionally to 19 ft. Wave detail: E 13 ft at 12 seconds. A chance of showers late.",
             "wind_direction": "NE",
             "wind_speed": "25 to 30 kt",
             "wind_gusts": "40 kt",
@@ -40,7 +40,7 @@
             "period": "Tonight 9/24"
         },
         {
-            "raw_text": "N winds 25 to 30 kt with gusts up to 40 kt. Seas 10 to 12 ft, occasionally to 17 ft. Wave detail: E 12 ft at 12 seconds. A chance of showers in the afternoon.",
+            "raw_text": "N winds 25 to 30 kt with gusts up to 40 kt. Seas 10 to 12 ft, occasionally to 17 ft. Wave detail: E 12 ft at 12 seconds. A chance of showers.",
             "wind_direction": "N",
             "wind_speed": "25 to 30 kt",
             "wind_gusts": "40 kt",
@@ -59,10 +59,10 @@
             "period": "Fri 9/25"
         },
         {
-            "raw_text": "N winds 25 to 30 kt with gusts up to 35 kt. Seas 9 to 11 ft, occasionally to 16 ft. Wave detail: NE 11 ft at 12 seconds. A chance of showers in the evening.",
+            "raw_text": "N winds 25 to 30 kt with gusts up to 40 kt. Seas 9 to 11 ft, occasionally to 16 ft. Wave detail: NE 11 ft at 12 seconds. A chance of showers.",
             "wind_direction": "N",
             "wind_speed": "25 to 30 kt",
-            "wind_gusts": "35 kt",
+            "wind_gusts": "40 kt",
             "wave_height": "9 to 11 ft",
             "wave_detail_string": "NE 11 ft at 12 seconds",
             "swell_components": [
@@ -78,7 +78,7 @@
             "period": "Fri Night 9/25"
         },
         {
-            "raw_text": "N winds 25 to 30 kt, becoming NW 20 to 25 kt in the afternoon. Gusts up to 35 kt. Seas 8 to 10 ft, occasionally to 15 ft. Wave detail: NE 10 ft at 12 seconds.",
+            "raw_text": "N winds 25 to 30 kt, becoming NW 20 to 25 kt in the afternoon. Gusts up to 35 kt. Seas 8 to 10 ft, occasionally to 15 ft. Wave detail: NE 10 ft at 12 seconds. A chance of showers.",
             "wind_direction": "N",
             "wind_speed": "25 to 30 kt",
             "wind_commentary": "becoming NW 20 to 25 kt in the afternoon",
@@ -98,16 +98,26 @@
             "period": "Sat 9/26"
         },
         {
-            "raw_text": "NW winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Gusts up to 30 kt. Seas 6 to 8 ft, occasionally to 12 ft.",
+            "raw_text": "NW winds 20 to 25 kt with gusts up to 30 kt. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: NE 8 ft at 11 seconds.",
             "wind_direction": "NW",
             "wind_speed": "20 to 25 kt",
-            "wind_commentary": "diminishing to 15 to 20 kt after midnight",
             "wind_gusts": "30 kt",
             "wave_height": "6 to 8 ft",
+            "wave_detail_string": "NE 8 ft at 11 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "8 ft",
+                    "period": "11 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "8 ft",
+            "primary_wave_period": "11 seconds",
             "period": "Sat Night 9/26"
         },
         {
-            "raw_text": "NW winds 15 to 20 kt with gusts up to 25 kt. Seas 5 to 6 ft, occasionally to 9 ft.",
+            "raw_text": "NW winds 15 to 20 kt with gusts up to 25 kt. Seas 5 to 6 ft, occasionally to 9 ft. A chance of showers.",
             "wind_direction": "NW",
             "wind_speed": "15 to 20 kt",
             "wind_gusts": "25 kt",
@@ -115,26 +125,25 @@
             "period": "Sun 9/27"
         },
         {
-            "raw_text": "NW winds 10 to 15 kt with gusts up to 20 kt. Seas 4 to 5 ft, occasionally to 7 ft, subsiding to 3 ft after midnight.",
+            "raw_text": "NW winds 15 to 20 kt, diminishing to 10 to 15 kt after midnight. Seas 4 to 5 ft, occasionally to 7 ft, subsiding to 3 ft after midnight.",
             "wind_direction": "NW",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
+            "wind_speed": "15 to 20 kt",
+            "wind_commentary": "diminishing to 10 to 15 kt after midnight",
             "wave_height": "4 to 5 ft",
             "wave_commentary": "subsiding to 3 ft",
             "period": "Sun Night 9/27"
         },
         {
-            "raw_text": "NW winds 5 to 10 kt with gusts up to 15 kt. Seas 3 to 4 ft, occasionally to 6 ft.",
+            "raw_text": "NW winds 10 to 15 kt. Seas 3 to 4 ft, occasionally to 6 ft.",
             "wind_direction": "NW",
-            "wind_speed": "5 to 10 kt",
-            "wind_gusts": "15 kt",
+            "wind_speed": "10 to 15 kt",
             "wave_height": "3 to 4 ft",
             "period": "Mon 9/28"
         },
         {
-            "raw_text": "W winds 5 kt. Seas around 3 ft.",
+            "raw_text": "W winds 5 to 10 kt. Seas around 3 ft.",
             "wind_direction": "W",
-            "wind_speed": "5 kt",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "3 ft",
             "period": "Mon Night 9/28"
         }
