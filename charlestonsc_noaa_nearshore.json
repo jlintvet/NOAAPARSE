@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-24 18:53:04",
+    "timestamp": "2026-09-24 21:03:42",
     "forecasts": [
         {
             "raw_text": "N winds 25 to 30 kt, diminishing to 20 to 25 kt late. Seas 8 to 10 ft, subsiding to 7 to 9 ft after midnight. Wave detail: NE 8 ft at 8 seconds, becoming NE 8 ft at 9 seconds. A chance of showers early this evening. A slight chance of tstms this evening. A slight chance of showers late this evening.",
@@ -27,22 +27,27 @@
             "period": "Tonight 9/24"
         },
         {
-            "raw_text": "N winds 20 to 25 kt, diminishing to 15 to 20 kt in the afternoon. Seas 6 to 8 ft. Wave detail: NE 8 ft at 11 seconds.",
+            "raw_text": "N winds 20 to 25 kt, diminishing to 15 to 20 kt in the afternoon. Seas 6 to 8 ft. Wave detail: NE 8 ft at 10 seconds and S 1 foot at 6 seconds.",
             "wind_direction": "N",
             "wind_speed": "20 to 25 kt",
             "wind_commentary": "diminishing to 15 to 20 kt in the afternoon",
             "wave_height": "6 to 8 ft",
-            "wave_detail_string": "NE 8 ft at 11 seconds",
+            "wave_detail_string": "NE 8 ft at 10 seconds and S 1 foot at 6 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
                     "height": "8 ft",
-                    "period": "11 seconds"
+                    "period": "10 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "6 seconds"
                 }
             ],
             "primary_swell_direction": "NE",
             "primary_wave_height": "8 ft",
-            "primary_wave_period": "11 seconds",
+            "primary_wave_period": "10 seconds",
             "period": "Fri 9/25"
         },
         {
@@ -93,12 +98,12 @@
             "period": "Sat 9/26"
         },
         {
-            "raw_text": "NW winds 5 to 10 kt. Seas 4 to 5 ft, subsiding to 3 to 4 ft after midnight. Wave detail: E 4 ft at 12 seconds and S 1 foot at 6 seconds, becoming E 4 ft at 12 seconds and S 1 foot at 5 seconds.",
+            "raw_text": "NW winds 5 to 10 kt. Seas 4 to 5 ft, subsiding to 3 to 4 ft after midnight. Wave detail: E 4 ft at 12 seconds and S 1 foot at 6 seconds.",
             "wind_direction": "NW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "4 to 5 ft",
             "wave_commentary": "subsiding to 3 to 4 ft",
-            "wave_detail_string": "E 4 ft at 12 seconds and S 1 foot at 6 seconds, becoming E 4 ft at 12 seconds and S 1 foot at 5 seconds",
+            "wave_detail_string": "E 4 ft at 12 seconds and S 1 foot at 6 seconds",
             "swell_components": [
                 {
                     "direction": "E",
@@ -109,16 +114,6 @@
                     "direction": "S",
                     "height": "1 foot",
                     "period": "6 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "4 ft",
-                    "period": "12 seconds"
-                },
-                {
-                    "direction": "S",
-                    "height": "1 foot",
-                    "period": "5 seconds"
                 }
             ],
             "primary_swell_direction": "E",
