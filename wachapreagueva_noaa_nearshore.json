@@ -1,31 +1,12 @@
 {
-    "timestamp": "2026-09-25 13:41:07",
+    "timestamp": "2026-09-25 16:56:44",
     "forecasts": [
         {
-            "raw_text": "N winds 25 to 30 kt with gusts up to 40 kt. Seas 11 to 13 ft, occasionally to 19 ft. Wave detail: NE 13 ft at 13 seconds. A slight chance of rain.",
+            "raw_text": "N winds 25 to 30 kt, increasing to 30 to 35 kt late this evening and overnight. Gusts up to 45 kt. Seas 11 to 13 ft, occasionally to 19 ft. Wave detail: NE 13 ft at 13 seconds. A slight chance of showers early, then a slight chance of rain this evening. A chance of rain after midnight.",
             "wind_direction": "N",
             "wind_speed": "25 to 30 kt",
-            "wind_gusts": "40 kt",
-            "wave_height": "11 to 13 ft",
-            "wave_detail_string": "NE 13 ft at 13 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "13 ft",
-                    "period": "13 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "13 ft",
-            "primary_wave_period": "13 seconds",
-            "period": "This Afternoon 9/25"
-        },
-        {
-            "raw_text": "N winds 25 to 30 kt, increasing to 30 to 35 kt in the late evening and overnight. Gusts up to 40 kt. Seas 11 to 13 ft, occasionally to 19 ft. Wave detail: NE 13 ft at 13 seconds. A chance of rain after midnight.",
-            "wind_direction": "N",
-            "wind_speed": "25 to 30 kt",
-            "wind_commentary": "increasing to 30 to 35 kt in the late evening and overnight",
-            "wind_gusts": "40 kt",
+            "wind_commentary": "increasing to 30 to 35 kt late this evening and overnight",
+            "wind_gusts": "45 kt",
             "wave_height": "11 to 13 ft",
             "wave_detail_string": "NE 13 ft at 13 seconds",
             "swell_components": [
@@ -41,10 +22,10 @@
             "period": "Tonight 9/25"
         },
         {
-            "raw_text": "N winds 30 to 35 kt, diminishing to 25 to 30 kt in the afternoon. Gusts up to 40 kt. Seas 10 to 12 ft, occasionally to 17 ft. Wave detail: NE 12 ft at 12 seconds. A chance of rain.",
+            "raw_text": "N winds 30 to 35 kt, diminishing to 25 to 30 kt in the late morning and afternoon. Gusts up to 40 kt. Seas 10 to 12 ft, occasionally to 17 ft. Wave detail: NE 12 ft at 12 seconds. A chance of rain.",
             "wind_direction": "N",
             "wind_speed": "30 to 35 kt",
-            "wind_commentary": "diminishing to 25 to 30 kt in the afternoon",
+            "wind_commentary": "diminishing to 25 to 30 kt in the late morning and afternoon",
             "wind_gusts": "40 kt",
             "wave_height": "10 to 12 ft",
             "wave_detail_string": "NE 12 ft at 12 seconds",
@@ -61,7 +42,7 @@
             "period": "Sat 9/26"
         },
         {
-            "raw_text": "N winds 25 to 30 kt, becoming NW 20 to 25 kt after midnight. Gusts up to 35 kt. Seas 8 to 10 ft, occasionally to 15 ft. Wave detail: NE 10 ft at 11 seconds. A chance of rain in the evening, then a chance of showers after midnight.",
+            "raw_text": "N winds 25 to 30 kt, becoming NW 20 to 25 kt after midnight. Gusts up to 35 kt. Seas 8 to 10 ft, occasionally to 15 ft. Wave detail: NE 10 ft at 11 seconds. A chance of rain.",
             "wind_direction": "N",
             "wind_speed": "25 to 30 kt",
             "wind_commentary": "becoming NW 20 to 25 kt after midnight",
@@ -81,7 +62,7 @@
             "period": "Sat Night 9/26"
         },
         {
-            "raw_text": "NW winds 20 to 25 kt, increasing to 25 to 30 kt in the afternoon. Gusts up to 35 kt. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: NE 8 ft at 11 seconds and NW 5 ft at 4 seconds. A chance of showers.",
+            "raw_text": "NW winds 20 to 25 kt, increasing to 25 to 30 kt in the afternoon. Gusts up to 35 kt. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: NE 8 ft at 11 seconds and NW 5 ft at 4 seconds. A chance of rain.",
             "wind_direction": "NW",
             "wind_speed": "20 to 25 kt",
             "wind_commentary": "increasing to 25 to 30 kt in the afternoon",
@@ -131,11 +112,27 @@
             "period": "Sun Night 9/27"
         },
         {
-            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft, occasionally to 6 ft.",
+            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft, occasionally to 6 ft. Wave detail: W 3 ft at 3 seconds and NE 2 ft at 9 seconds.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
             "wave_height": "3 to 4 ft",
+            "wave_detail_string": "W 3 ft at 3 seconds and NE 2 ft at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "3 ft",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "2 ft",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "W",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "3 seconds",
             "period": "Mon 9/28"
         },
         {
@@ -160,6 +157,21 @@
             "wind_speed": "5 kt",
             "wave_height": "2 ft",
             "period": "Tue Night 9/29"
+        },
+        {
+            "raw_text": "E winds 5 kt, becoming SE in the afternoon. Seas around 2 ft.",
+            "wind_direction": "E",
+            "wind_speed": "5 kt",
+            "wind_commentary": "becoming SE in the afternoon",
+            "wave_height": "2 ft",
+            "period": "Wed 9/30"
+        },
+        {
+            "raw_text": "S winds 5 to 10 kt. Seas 2 to 3 ft.",
+            "wind_direction": "S",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Wed Night 9/30"
         }
     ]
 }
