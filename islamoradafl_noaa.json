@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-09-25 08:29:16",
+    "timestamp": "2026-09-25 13:41:15",
     "forecasts": [
         {
-            "raw_text": "North to northeast winds 10 to 15 knots, decreasing to 5 to 10 knots. Seas 2 to 3 feet, except 3 to 5 feet off of the  upper keys due to a northerly swell. Wave detail: north 1 foot at  3 seconds. A chance of showers with a slight chance of  thunderstorms.",
+            "raw_text": "North to northeast winds 10 to 15 knots,  decreasing to near 10 knots. Seas 2 to 3 feet, except 3 to 5 feet off of the upper keys due to a northerly swell. Wave detail:  north 1 foot at 3 seconds. A chance of showers with a slight  chance of thunderstorms.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 knots",
-            "wind_commentary": "decreasing to 5 to 10 knots",
+            "wind_commentary": "decreasing to near 10 knots",
             "wave_height": "2 to 3 feet",
-            "wave_detail_string": "north 1 foot at  3 seconds",
+            "wave_detail_string": "north 1 foot at 3 seconds",
             "swell_components": [
                 {
                     "direction": "N",
@@ -18,13 +18,24 @@
             "primary_swell_direction": "N",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
-            "period": "Today 9/25"
+            "period": "This Afternoon 9/25"
         },
         {
-            "raw_text": "North to northeast winds 5 to 10 knots. Seas 2 to 3 feet, except 3 to 5 feet off of the upper keys due to a northerly swell. A chance of showers with a slight chance of  thunderstorms.",
+            "raw_text": "North to northeast winds 5 to 10 knots. Seas 2 to 3 feet, except 3 to 5 feet off of the upper keys due to a northerly swell. Wave detail: northeast 2 feet at 9 seconds. A  chance of showers with a slight chance of thunderstorms.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
+            "wave_detail_string": "northeast 2 feet at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "2 feet",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "9 seconds",
             "period": "Tonight 9/25"
         },
         {
