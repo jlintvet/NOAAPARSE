@@ -1,12 +1,23 @@
 {
-    "timestamp": "2026-09-26 09:35:50",
+    "timestamp": "2026-09-26 13:33:16",
     "forecasts": [
         {
-            "raw_text": "North to northeast winds near 10 knots, decreasing to 5  to 10 knots. Seas around 2 feet, subsiding to 1 to 2 feet. Wave  detail: north to northeast 2 feet at 5 seconds. A slight chance of showers.",
-            "wind_commentary": "decreasing to 5  to 10 knots",
+            "raw_text": "North to northeast winds near 10 knots,  decreasing to 5 to 10 knots. Seas around 2 feet, subsiding to 1 to 2 feet. Wave detail: north to northeast 2 feet at 5 seconds. A  slight chance of showers.",
+            "wind_commentary": "decreasing to 5 to 10 knots",
             "wave_height": "2 feet",
             "wave_commentary": "subsiding to 1 to 2 feet",
-            "period": "Today 9/26"
+            "wave_detail_string": "north to northeast 2 feet at 5 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "2 feet",
+                    "period": "5 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "5 seconds",
+            "period": "This Afternoon 9/26"
         },
         {
             "raw_text": "Northwest to north winds near 5 knots. Seas 1 to 2 feet. Wave detail: northwest to north 2 feet at 5 seconds and northeast to east 1 foot at 5 seconds.",
