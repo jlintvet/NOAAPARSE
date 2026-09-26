@@ -1,24 +1,6 @@
 {
-    "timestamp": "2026-09-26 13:33:14",
+    "timestamp": "2026-09-26 16:28:11",
     "forecasts": [
-        {
-            "raw_text": "North to northeast winds near 10 knots,  decreasing to 5 to 10 knots. Seas around 2 feet, subsiding to 1 to 2 feet. Wave detail: north to northeast 2 feet at 5 seconds. A  slight chance of showers.",
-            "wind_commentary": "decreasing to 5 to 10 knots",
-            "wave_height": "2 feet",
-            "wave_commentary": "subsiding to 1 to 2 feet",
-            "wave_detail_string": "north to northeast 2 feet at 5 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "2 feet",
-                    "period": "5 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "2 feet",
-            "primary_wave_period": "5 seconds",
-            "period": "This Afternoon 9/26"
-        },
         {
             "raw_text": "Northwest to north winds near 5 knots. Seas 1 to 2 feet. Wave detail: northwest to north 2 feet at 5 seconds and northeast to east 1 foot at 5 seconds.",
             "wave_height": "1 to 2 feet",
@@ -46,8 +28,19 @@
             "period": "Sunday 9/27"
         },
         {
-            "raw_text": "Variable winds near 5 knots. Seas around 1 foot.  a slight chance of showers.",
+            "raw_text": "Variable winds near 5 knots. Seas around 1 foot. Wave detail: north to northeast 1 foot at 4 seconds. A slight  chance of showers.",
             "wave_height": "1 foot",
+            "wave_detail_string": "north to northeast 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "4 seconds",
             "period": "Sunday Night 9/27"
         },
         {
@@ -85,6 +78,16 @@
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 4 feet",
             "period": "Wednesday Night 9/30"
+        },
+        {
+            "raw_text": "East to southeast winds near 15 knots. Seas 3 to 4 feet, occasionally to 5 feet. Showers likely with a chance of thunderstorms.",
+            "wave_height": "3 to 4 feet",
+            "period": "Thursday 10/1"
+        },
+        {
+            "raw_text": "East to southeast winds near 15 knots. Seas 3 to 4 feet, occasionally to 5 feet. A chance of showers and thunderstorms.",
+            "wave_height": "3 to 4 feet",
+            "period": "Thursday Night 10/1"
         }
     ]
 }
