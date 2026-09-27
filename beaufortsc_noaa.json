@@ -1,16 +1,27 @@
 {
-    "timestamp": "2026-09-26 19:17:33",
+    "timestamp": "2026-09-26 22:52:15",
     "forecasts": [
         {
-            "raw_text": "NW winds 5 to 10 kt. Seas 4 to 5 ft. Wave detail: NE 5 ft at 12 seconds and S 2 ft at 6 seconds.",
+            "raw_text": "NW winds 5 to 10 kt. Seas 4 to 5 ft, subsiding to 3 to 4 ft after midnight. Wave detail: NE 5 ft at 12 seconds and S 2 ft at 6 seconds, becoming NE 4 ft at 12 seconds and S 2 ft at 6 seconds.",
             "wind_direction": "NW",
             "wind_speed": "5 to 10 kt",
             "wave_height": "4 to 5 ft",
-            "wave_detail_string": "NE 5 ft at 12 seconds and S 2 ft at 6 seconds",
+            "wave_commentary": "subsiding to 3 to 4 ft",
+            "wave_detail_string": "NE 5 ft at 12 seconds and S 2 ft at 6 seconds, becoming NE 4 ft at 12 seconds and S 2 ft at 6 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
                     "height": "5 ft",
+                    "period": "12 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "2 ft",
+                    "period": "6 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "4 ft",
                     "period": "12 seconds"
                 },
                 {
@@ -48,16 +59,16 @@
             "period": "Sun 9/27"
         },
         {
-            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: SW 3 ft at 6 seconds and NE 3 ft at 11 seconds.",
+            "raw_text": "SW winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: SW 3 ft at 5 seconds and NE 3 ft at 11 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wave_height": "3 to 4 ft",
-            "wave_detail_string": "SW 3 ft at 6 seconds and NE 3 ft at 11 seconds",
+            "wave_detail_string": "SW 3 ft at 5 seconds and NE 3 ft at 11 seconds",
             "swell_components": [
                 {
                     "direction": "SW",
                     "height": "3 ft",
-                    "period": "6 seconds"
+                    "period": "5 seconds"
                 },
                 {
                     "direction": "NE",
@@ -67,7 +78,7 @@
             ],
             "primary_swell_direction": "SW",
             "primary_wave_height": "3 ft",
-            "primary_wave_period": "6 seconds",
+            "primary_wave_period": "5 seconds",
             "period": "Sun Night 9/27"
         },
         {
