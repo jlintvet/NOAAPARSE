@@ -1,30 +1,6 @@
 {
-    "timestamp": "2026-09-28 10:47:35",
+    "timestamp": "2026-09-28 16:58:22",
     "forecasts": [
-        {
-            "raw_text": "SW winds 10 to 15 kt, diminishing to 5 kt. Seas 3 to 4 ft. Wave detail: S 3 ft at 5 seconds and E 3 ft at 11 seconds.",
-            "wind_direction": "SW",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "diminishing to 5 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "S 3 ft at 5 seconds and E 3 ft at 11 seconds",
-            "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "3 ft",
-                    "period": "5 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "3 ft",
-                    "period": "11 seconds"
-                }
-            ],
-            "primary_swell_direction": "S",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "5 seconds",
-            "period": "Today 9/28"
-        },
         {
             "raw_text": "SW winds 5 kt. Seas 2 to 3 ft. Wave detail: S 2 ft at 5 seconds and E 2 ft at 10 seconds.",
             "wind_direction": "SW",
@@ -49,8 +25,8 @@
             "period": "Tonight 9/28"
         },
         {
-            "raw_text": "E winds 5 kt. Seas 2 ft. Wave detail: S 2 ft at 5 seconds and E 2 ft at 10 seconds.",
-            "wind_direction": "E",
+            "raw_text": "NE winds 5 kt. Seas 2 ft. Wave detail: S 2 ft at 5 seconds and E 2 ft at 10 seconds.",
+            "wind_direction": "NE",
             "wind_speed": "5 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "S 2 ft at 5 seconds and E 2 ft at 10 seconds",
@@ -118,9 +94,9 @@
             "period": "Wed 9/30"
         },
         {
-            "raw_text": "E winds 10 kt. Seas 2 to 3 ft. Wave detail: E 2 ft at 4 seconds and E 2 ft at 11 seconds. A slight chance of showers and tstms after midnight.",
+            "raw_text": "E winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: E 2 ft at 4 seconds and E 2 ft at 11 seconds. A slight chance of showers.",
             "wind_direction": "E",
-            "wind_speed": "10 kt",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "E 2 ft at 4 seconds and E 2 ft at 11 seconds",
             "swell_components": [
@@ -141,10 +117,26 @@
             "period": "Wed Night 9/30"
         },
         {
-            "raw_text": "E winds 10 kt. Seas 3 ft. A chance of showers with a slight chance of tstms.",
+            "raw_text": "E winds 5 to 10 kt. Seas 2 to 3 ft. Wave detail: E 2 ft at 4 seconds and E 2 ft at 11 seconds. A slight chance of showers. A slight chance of tstms in the afternoon.",
             "wind_direction": "E",
-            "wind_speed": "10 kt",
-            "wave_height": "3 ft",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "wave_detail_string": "E 2 ft at 4 seconds and E 2 ft at 11 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 ft",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "2 ft",
+                    "period": "11 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 ft",
+            "primary_wave_period": "4 seconds",
             "period": "Thu 10/1"
         },
         {
@@ -162,11 +154,25 @@
             "period": "Fri 10/2"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas 3 ft. A chance of showers and tstms.winds and seas higher in and near tstms.",
+            "raw_text": "SE winds 5 to 10 kt. Seas 2 to 3 ft. A chance of showers and tstms.",
+            "wind_direction": "SE",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Fri Night 10/2"
+        },
+        {
+            "raw_text": "SE winds 5 to 10 kt. Seas 3 ft. A chance of showers and tstms.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 ft",
-            "period": "Fri Night 10/2"
+            "period": "Sat 10/3"
+        },
+        {
+            "raw_text": "SE winds 10 kt. Seas 3 ft. A chance of showers and tstms.winds and seas higher in and near tstms.",
+            "wind_direction": "SE",
+            "wind_speed": "10 kt",
+            "wave_height": "3 ft",
+            "period": "Sat Night 10/3"
         }
     ]
 }
