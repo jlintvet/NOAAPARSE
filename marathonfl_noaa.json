@@ -1,11 +1,22 @@
 {
-    "timestamp": "2026-10-02 09:24:42",
+    "timestamp": "2026-10-02 14:51:16",
     "forecasts": [
         {
-            "raw_text": "East to southeast winds near 20 knots, decreasing to 15  to 20 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave  detail: east to southeast 4 feet at 5 seconds. A chance of  showers and thunderstorms.",
-            "wind_commentary": "decreasing to 15  to 20 knots",
+            "raw_text": "East to southeast winds near 20 knots early,  decreasing to 15 to 20 knots. Seas 3 to 4 feet, occasionally to 5  feet. Winds stronger and seas higher in and around showers and thunderstorms. Wave detail: east to southeast 4 feet at 5  seconds. A chance of showers and thunderstorms.",
+            "wind_commentary": "decreasing to 15 to 20 knots",
             "wave_height": "3 to 4 feet",
-            "period": "Today 10/2"
+            "wave_detail_string": "east to southeast 4 feet at 5  seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "4 feet",
+                    "period": "5  seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "4 feet",
+            "primary_wave_period": "5  seconds",
+            "period": "This Afternoon 10/2"
         },
         {
             "raw_text": "East to southeast winds 15 to 20 knots, decreasing to near 15 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave  detail: east 3 feet at 5 seconds. A chance of showers and  thunderstorms.",
