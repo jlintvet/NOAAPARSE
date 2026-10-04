@@ -1,11 +1,12 @@
 {
-    "timestamp": "2026-10-03 18:34:52",
+    "timestamp": "2026-10-03 22:18:02",
     "forecasts": [
         {
-            "raw_text": "NE winds 15 to 20 kt. Seas 3 to 4 ft. Wave detail: N 4 ft at 4 seconds and E 2 ft at 11 seconds. Showers likely.",
+            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 4 to 5 ft. Wave detail: N 4 ft at 4 seconds and E 2 ft at 11 seconds. Showers likely.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
-            "wave_height": "3 to 4 ft",
+            "wind_gusts": "25 kt",
+            "wave_height": "4 to 5 ft",
             "wave_detail_string": "N 4 ft at 4 seconds and E 2 ft at 11 seconds",
             "swell_components": [
                 {
@@ -25,34 +26,34 @@
             "period": "Tonight 10/3"
         },
         {
-            "raw_text": "E winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 6 seconds and E 4 ft at 10 seconds. Showers likely.",
+            "raw_text": "E winds 15 to 20 kt, diminishing to 10 to 15 kt in the afternoon. Seas 4 to 5 ft. Wave detail: E 5 ft at 10 seconds and E 4 ft at 6 seconds. Showers likely.",
             "wind_direction": "E",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "E 4 ft at 6 seconds and E 4 ft at 10 seconds",
+            "wind_speed": "15 to 20 kt",
+            "wind_commentary": "diminishing to 10 to 15 kt in the afternoon",
+            "wave_height": "4 to 5 ft",
+            "wave_detail_string": "E 5 ft at 10 seconds and E 4 ft at 6 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "4 ft",
-                    "period": "6 seconds"
+                    "height": "5 ft",
+                    "period": "10 seconds"
                 },
                 {
                     "direction": "E",
                     "height": "4 ft",
-                    "period": "10 seconds"
+                    "period": "6 seconds"
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "6 seconds",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "10 seconds",
             "period": "Sun 10/4"
         },
         {
-            "raw_text": "N winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 7 seconds. A chance of showers.",
+            "raw_text": "N winds 5 to 10 kt. Seas 2 to 4 ft. Wave detail: E 4 ft at 7 seconds. A chance of showers.",
             "wind_direction": "N",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "3 to 4 ft",
+            "wave_height": "2 to 4 ft",
             "wave_detail_string": "E 4 ft at 7 seconds",
             "swell_components": [
                 {
@@ -67,11 +68,11 @@
             "period": "Sun Night 10/4"
         },
         {
-            "raw_text": "NW winds 10 to 15 kt with gusts up to 20 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 7 seconds and NW 2 ft at 3 seconds.",
+            "raw_text": "NW winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft. Wave detail: E 4 ft at 7 seconds and NW 2 ft at 3 seconds.",
             "wind_direction": "NW",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
-            "wave_height": "3 to 4 ft",
+            "wave_height": "2 to 4 ft",
             "wave_detail_string": "E 4 ft at 7 seconds and NW 2 ft at 3 seconds",
             "swell_components": [
                 {
@@ -91,24 +92,24 @@
             "period": "Mon 10/5"
         },
         {
-            "raw_text": "N winds 15 to 20 kt. Seas 3 to 4 ft. Wave detail: N 3 ft at 4 seconds and E 3 ft at 8 seconds.",
+            "raw_text": "N winds 15 to 20 kt. Seas 2 to 4 ft. Wave detail: NW 3 ft at 4 seconds and SE 3 ft at 7 seconds.",
             "wind_direction": "N",
             "wind_speed": "15 to 20 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "N 3 ft at 4 seconds and E 3 ft at 8 seconds",
+            "wave_height": "2 to 4 ft",
+            "wave_detail_string": "NW 3 ft at 4 seconds and SE 3 ft at 7 seconds",
             "swell_components": [
                 {
-                    "direction": "N",
+                    "direction": "NW",
                     "height": "3 ft",
                     "period": "4 seconds"
                 },
                 {
-                    "direction": "E",
+                    "direction": "SE",
                     "height": "3 ft",
-                    "period": "8 seconds"
+                    "period": "7 seconds"
                 }
             ],
-            "primary_swell_direction": "N",
+            "primary_swell_direction": "NW",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "4 seconds",
             "period": "Mon Night 10/5"
@@ -138,17 +139,17 @@
             "period": "Tue 10/6"
         },
         {
-            "raw_text": "NW winds around 5 kt. Seas 2 to 3 ft.",
+            "raw_text": "NW winds around 5 kt. Seas around 2 ft.",
             "wind_direction": "NW",
             "wind_speed": "5 kt",
-            "wave_height": "2 to 3 ft",
+            "wave_height": "2 ft",
             "period": "Tue Night 10/6"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas around 2 ft.",
+            "raw_text": "SE winds 5 to 10 kt. Seas 1 foot or less.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "2 ft",
+            "wave_height": "1 foot",
             "period": "Wed 10/7"
         },
         {
@@ -166,7 +167,7 @@
             "period": "Thu 10/8"
         },
         {
-            "raw_text": "W winds around 5 kt. Seas around 2 ft in the evening.",
+            "raw_text": "W winds around 5 kt. Seas around 2 ft.",
             "wind_direction": "W",
             "wind_speed": "5 kt",
             "wave_height": "2 ft",
