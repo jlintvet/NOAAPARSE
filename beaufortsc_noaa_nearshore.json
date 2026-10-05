@@ -1,23 +1,28 @@
 {
-    "timestamp": "2026-10-05 04:01:32",
+    "timestamp": "2026-10-05 13:38:43",
     "forecasts": [
         {
-            "raw_text": "NE winds 5 to 10 kt, increasing to 10 to 15 kt with gusts to 20 kt late this morning. Seas 2 to 3 ft. Wave detail: E 3 ft at 6 seconds. Showers with a chance of tstms until late afternoon, then showers likely with a slight chance of tstms late.",
+            "raw_text": "NE winds 5 to 10 kt, increasing to 10 to 15 kt. Seas 2  to 3 ft. Wave detail: E 2 ft at 5 seconds and E 1 foot at 10  seconds. Showers with a chance of tstms until late afternoon, then showers likely with a slight chance of tstms late.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "increasing to 10 to 15 kt with gusts to 20 kt late this morning",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "E 3 ft at 6 seconds",
+            "wind_commentary": "increasing to 10 to 15 kt",
+            "wave_height": "2  to 3 ft",
+            "wave_detail_string": "E 2 ft at 5 seconds and E 1 foot at 10  seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "3 ft",
-                    "period": "6 seconds"
+                    "height": "2 ft",
+                    "period": "5 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "1 foot",
+                    "period": "10  seconds"
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "6 seconds",
+            "primary_wave_height": "2 ft",
+            "primary_wave_period": "5 seconds",
             "period": "Today 10/5"
         },
         {
