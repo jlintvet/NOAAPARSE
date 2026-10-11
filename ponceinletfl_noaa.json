@@ -1,13 +1,29 @@
 {
-    "timestamp": "2026-10-11 02:41:36",
+    "timestamp": "2026-10-11 09:41:24",
     "forecasts": [
         {
-            "raw_text": "Southwest winds 15 to 20 knots this morning, decreasing to 10 to 15 knots and becoming west late. Seas 3 to 4 feet. Wave  detail: southeast 4 feet at 8 seconds and southwest 2 feet at 4  seconds. Showers likely. A chance of thunderstorms this morning,  then a slight chance of thunderstorms this afternoon.",
+            "raw_text": "Southwest winds 10 to 15 knots, becoming west late. Seas 3 to 4 feet. Wave detail: southeast 4 feet at 8 seconds and southwest 2 feet at 4 seconds. Showers likely. A chance of thunderstorms this morning, then a slight chance of thunderstorms this afternoon.",
             "wind_direction": "SW",
-            "wind_speed": "15 to 20 knots",
-            "wind_commentary": "decreasing to 10 to 15 knots and becoming west late",
+            "wind_speed": "10 to 15 knots",
+            "wind_commentary": "becoming west late",
             "wave_height": "3 to 4 feet",
-            "period": "Today 10/11"
+            "wave_detail_string": "southeast 4 feet at 8 seconds and southwest 2 feet at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "SE",
+                    "height": "4 feet",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "4 feet",
+            "primary_wave_period": "8 seconds",
+            "period": "Rest Of Today 10/11"
         },
         {
             "raw_text": "West winds 5 to 10 knots, becoming northwest 10 to 15 knots after midnight. Seas 3 to 4 feet. Wave detail: east 3 feet at 8 seconds and northwest 2 feet at 4 seconds. A slight chance of showers and thunderstorms in the evening.",
