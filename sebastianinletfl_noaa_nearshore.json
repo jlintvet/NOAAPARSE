@@ -1,34 +1,11 @@
 {
-    "timestamp": "2026-10-11 18:37:19",
+    "timestamp": "2026-10-11 21:57:41",
     "forecasts": [
         {
-            "raw_text": "South winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: southeast 2 feet at 4 seconds and northeast 2 feet at 7 seconds. A light chop on the intracoastal waters. Showers likely with a chance of thunderstorms.",
-            "wind_direction": "S",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "2 to 3 feet",
-            "wave_detail_string": "southeast 2 feet at 4 seconds and northeast 2 feet at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "SE",
-                    "height": "2 feet",
-                    "period": "4 seconds"
-                },
-                {
-                    "direction": "NE",
-                    "height": "2 feet",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "SE",
-            "primary_wave_height": "2 feet",
-            "primary_wave_period": "4 seconds",
-            "period": "Rest Of Today 10/11"
-        },
-        {
-            "raw_text": "Southwest winds around 5 knots, becoming west after midnight. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds and southeast 1 foot at 4 seconds. Mostly smooth on the intracoastal waters. A chance of showers and thunderstorms in the evening, then a slight chance of showers and thunderstorms after midnight.",
+            "raw_text": "Southwest winds around 5 knots, becoming northwest early this morning. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds and southeast 1 foot at 4 seconds. Mostly smooth on the intracoastal waters. A chance of showers and thunderstorms this evening, then a slight chance of showers and thunderstorms.",
             "wind_direction": "SW",
             "wind_speed": "5 knots",
-            "wind_commentary": "becoming west after midnight",
+            "wind_commentary": "becoming northwest early this morning",
             "wave_height": "2 to 3 feet",
             "wave_detail_string": "east 2 feet at 8 seconds and southeast 1 foot at 4 seconds",
             "swell_components": [
@@ -46,10 +23,10 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "2 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Tonight 10/11"
+            "period": "Rest Of Tonight 10/11"
         },
         {
-            "raw_text": "North winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: north 2 feet at 4 seconds and northeast 2 feet at 8 seconds. A moderate chop on the intracoastal waters. A slight chance of showers in the morning.",
+            "raw_text": "North winds 10 to 15 knots. Seas 2 to 3 feet. Wave detail: north 2 feet at 4 seconds and northeast 2 feet at 8 seconds. A moderate chop on the intracoastal waters. A slight chance of showers and thunderstorms in the morning.",
             "wind_direction": "N",
             "wind_speed": "10 to 15 knots",
             "wave_height": "2 to 3 feet",
@@ -95,8 +72,8 @@
             "period": "Monday Night 10/12"
         },
         {
-            "raw_text": "North winds around 10 knots. Seas 2 to 3 feet. Wave detail: northeast 2 feet at 7 seconds and east 1 foot at 4 seconds. A light chop on the intracoastal waters.",
-            "wind_direction": "N",
+            "raw_text": "Northeast winds around 10 knots. Seas 2 to 3 feet. Wave detail: northeast 2 feet at 7 seconds and east 1 foot at 4 seconds. A light chop on the intracoastal waters.",
+            "wind_direction": "NE",
             "wind_speed": "10 knots",
             "wave_height": "2 to 3 feet",
             "wave_detail_string": "northeast 2 feet at 7 seconds and east 1 foot at 4 seconds",
@@ -118,7 +95,7 @@
             "period": "Tuesday 10/13"
         },
         {
-            "raw_text": "Northeast winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: northeast 2 feet at 8 seconds and east 1 foot at 4 seconds. Mostly smooth on the intracoastal waters. A slight chance of showers in the evening.",
+            "raw_text": "Northeast winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: northeast 2 feet at 8 seconds and east 1 foot at 4 seconds. Mostly smooth on the intracoastal waters.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
@@ -141,32 +118,62 @@
             "period": "Tuesday Night 10/13"
         },
         {
-            "raw_text": "Northeast winds 5 to 10 knots. Seas 2 to 3 feet. A light chop on the intracoastal waters. A chance of showers in the morning, then a slight chance of showers and thunderstorms in the afternoon.",
+            "raw_text": "Northeast winds 5 to 10 knots. Seas 2 to 3 feet. Wave detail: east 2 feet at 8 seconds and southeast 1 foot at 3 seconds. A light chop on the intracoastal waters. A slight chance of showers.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
+            "wave_detail_string": "east 2 feet at 8 seconds and southeast 1 foot at 3 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "1 foot",
+                    "period": "3 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 feet",
+            "primary_wave_period": "8 seconds",
             "period": "Wednesday 10/14"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. Mostly smooth on the intracoastal waters. A slight chance of showers.",
+            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. Mostly smooth on the intracoastal waters. A slight chance of showers and thunderstorms.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
             "period": "Wednesday Night 10/14"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. A light chop on the intracoastal waters. A chance of showers with a slight chance of thunderstorms.",
+            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. A light chop on the intracoastal waters. A chance of showers. A slight chance of thunderstorms in the morning, then a chance of thunderstorms in the afternoon.",
             "wind_direction": "E",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 to 3 feet",
             "period": "Thursday 10/15"
         },
         {
-            "raw_text": "East winds 10 to 15 knots. Seas 3 feet. A light chop on the intracoastal waters. A slight chance of thunderstorms in the evening. A chance of showers.winds and waves higher in and near thunderstorms.",
+            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. Mostly smooth on the intracoastal waters. A chance of showers with a slight chance of thunderstorms.",
             "wind_direction": "E",
-            "wind_speed": "10 to 15 knots",
-            "wave_height": "3 feet",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "2 to 3 feet",
             "period": "Thursday Night 10/15"
+        },
+        {
+            "raw_text": "East winds 5 to 10 knots. Seas 2 to 3 feet. A light chop on the intracoastal waters. A chance of showers with a slight chance of thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 knots",
+            "wave_height": "2 to 3 feet",
+            "period": "Friday 10/16"
+        },
+        {
+            "raw_text": "East winds around 5 knots. Seas 2 to 3 feet. Smooth on the intracoastal waters. A slight chance of thunderstorms in the evening. A chance of showers.winds and waves higher in and near thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "5 knots",
+            "wave_height": "2 to 3 feet",
+            "period": "Friday Night 10/16"
         }
     ]
 }
