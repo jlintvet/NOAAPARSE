@@ -1,29 +1,22 @@
 {
-    "timestamp": "2026-10-12 21:03:10",
+    "timestamp": "2026-10-13 04:46:41",
     "forecasts": [
         {
-            "raw_text": "N winds 10 to 15 kt, becoming NW 5 to 10 kt late this evening and overnight. Waves 2 to 3 ft.",
-            "wind_direction": "N",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming NW 5 to 10 kt late this evening and overnight",
-            "wave_height": "2 to 3 ft",
-            "period": "Tonight 10/12"
-        },
-        {
-            "raw_text": "W winds 5 kt, becoming S early in the afternoon, then becoming SE late. Waves 1 foot.",
+            "raw_text": "W winds 5 kt, becoming S early this afternoon, then becoming SE late. Waves 1 foot.",
             "wind_direction": "W",
             "wind_speed": "5 kt",
-            "wind_commentary": "becoming S early in the afternoon",
+            "wind_commentary": "becoming S early this afternoon",
             "wave_height": "1 foot",
-            "period": "Tue 10/13"
+            "period": "Today 10/13"
         },
         {
-            "raw_text": "S winds 5 to 10 kt, becoming SW 10 to 15 kt after midnight. Waves 1 to 2 ft.",
+            "raw_text": "S winds 5 to 10 kt, becoming SW 10 to 15 kt with gusts up to 20 kt in the late evening and overnight. Waves 1 to 2 ft.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW 10 to 15 kt after midnight",
+            "wind_commentary": "becoming SW 10 to 15 kt with gusts up to 20 kt in the late evening and overnight",
+            "wind_gusts": "20 kt",
             "wave_height": "1 to 2 ft",
-            "period": "Tue Night 10/13"
+            "period": "Tonight 10/13"
         },
         {
             "raw_text": "SW winds 10 to 15 kt, diminishing to 5 to 10 kt in the afternoon. Waves 1 to 2 ft.",
@@ -42,9 +35,10 @@
             "period": "Wed Night 10/14"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt. Waves 1 to 2 ft.",
+            "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Waves 1 to 2 ft.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
+            "wind_gusts": "20 kt",
             "wave_height": "1 to 2 ft",
             "period": "Thu 10/15"
         },
@@ -57,19 +51,18 @@
             "period": "Thu Night 10/15"
         },
         {
-            "raw_text": "S winds 10 to 15 kt, becoming SW 15 to 20 kt with gusts up to 25 kt in the afternoon. Waves 1 to 2 ft.",
-            "wind_direction": "S",
+            "raw_text": "SW winds 10 to 15 kt with gusts up to 20 kt. Waves 1 to 2 ft. A chance of showers in the afternoon.",
+            "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming SW 15 to 20 kt with gusts up to 25 kt in the afternoon",
-            "wind_gusts": "25 kt",
+            "wind_gusts": "20 kt",
             "wave_height": "1 to 2 ft",
             "period": "Fri 10/16"
         },
         {
-            "raw_text": "NW winds 25 to 30 kt with gusts up to 40 kt. Waves 4 to 5 ft, occasionally to 6 ft. A chance of showers.",
+            "raw_text": "NW winds 25 to 30 kt with gusts up to 35 kt. Waves 4 to 5 ft, occasionally to 6 ft. A chance of showers.",
             "wind_direction": "NW",
             "wind_speed": "25 to 30 kt",
-            "wind_gusts": "40 kt",
+            "wind_gusts": "35 kt",
             "wave_height": "4 to 5 ft",
             "period": "Fri Night 10/16"
         },
@@ -82,9 +75,10 @@
             "period": "Sat 10/17"
         },
         {
-            "raw_text": "N winds 20 to 25 kt with gusts up to 30 kt. Waves 4 to 5 ft, occasionally to 6 ft.",
+            "raw_text": "N winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Gusts up to 30 kt. Waves 4 to 5 ft, occasionally to 6 ft.",
             "wind_direction": "N",
             "wind_speed": "20 to 25 kt",
+            "wind_commentary": "diminishing to 15 to 20 kt after midnight",
             "wind_gusts": "30 kt",
             "wave_height": "4 to 5 ft",
             "period": "Sat Night 10/17"
