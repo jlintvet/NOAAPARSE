@@ -1,19 +1,11 @@
 {
-    "timestamp": "2026-10-13 12:37:47",
+    "timestamp": "2026-10-13 17:40:13",
     "forecasts": [
         {
-            "raw_text": "W winds around 5 kt, becoming SW late. Seas around 3 ft.",
-            "wind_direction": "W",
-            "wind_speed": "5 kt",
-            "wind_commentary": "becoming SW late",
-            "wave_height": "3 ft",
-            "period": "Rest Of Today 10/13"
-        },
-        {
-            "raw_text": "S winds 5 to 10 kt, becoming SW 10 to 15 kt after midnight. Seas around 3 ft.",
+            "raw_text": "S winds 5 to 10 kt, becoming SW 10 to 15 kt late. Seas around 3 ft.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW 10 to 15 kt after midnight",
+            "wind_commentary": "becoming SW 10 to 15 kt late",
             "wave_height": "3 ft",
             "period": "Tonight 10/13"
         },
@@ -48,34 +40,52 @@
             "period": "Thu Night 10/15"
         },
         {
-            "raw_text": "SW winds 15 to 20 kt. Seas 4 to 6 ft.",
+            "raw_text": "SW winds 15 to 20 kt. Gusts up to 25 kt in the afternoon. Seas 3 to 5 ft.",
             "wind_direction": "SW",
             "wind_speed": "15 to 20 kt",
-            "wave_height": "4 to 6 ft",
+            "wind_gusts": "25 kt",
+            "wave_height": "3 to 5 ft",
             "period": "Fri 10/16"
         },
         {
-            "raw_text": "SW winds 25 to 30 kt, becoming NW after midnight. Seas 5 to 8 ft. Showers likely.",
+            "raw_text": "SW winds 25 to 30 kt, becoming NW after midnight. Gusts up to 35 kt. Seas 4 to 6 ft, building to 6 to 9 ft after midnight. Showers likely.",
             "wind_direction": "SW",
             "wind_speed": "25 to 30 kt",
             "wind_commentary": "becoming NW after midnight",
-            "wave_height": "5 to 8 ft",
+            "wind_gusts": "35 kt",
+            "wave_height": "4 to 6 ft",
+            "wave_commentary": "building to 6 to 9 ft",
             "period": "Fri Night 10/16"
         },
         {
-            "raw_text": "N winds 25 to 30 kt. Seas 7 to 9 ft.",
+            "raw_text": "N winds 25 to 30 kt. Seas 8 to 10 ft.",
             "wind_direction": "N",
             "wind_speed": "25 to 30 kt",
-            "wave_height": "7 to 9 ft",
+            "wave_height": "8 to 10 ft",
             "period": "Sat 10/17"
         },
         {
-            "raw_text": "N winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Seas 6 to 9 ft.",
+            "raw_text": "N winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Seas 7 to 10 ft.",
             "wind_direction": "N",
             "wind_speed": "20 to 25 kt",
             "wind_commentary": "diminishing to 15 to 20 kt after midnight",
-            "wave_height": "6 to 9 ft",
+            "wave_height": "7 to 10 ft",
             "period": "Sat Night 10/17"
+        },
+        {
+            "raw_text": "NE winds 15 to 20 kt, diminishing to 10 to 15 kt in the afternoon. Seas 5 to 8 ft.",
+            "wind_direction": "NE",
+            "wind_speed": "15 to 20 kt",
+            "wind_commentary": "diminishing to 10 to 15 kt in the afternoon",
+            "wave_height": "5 to 8 ft",
+            "period": "Sun 10/18"
+        },
+        {
+            "raw_text": "NE winds 5 to 10 kt. Seas 4 to 5 ft.",
+            "wind_direction": "NE",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "4 to 5 ft",
+            "period": "Sun Night 10/18"
         }
     ]
 }
