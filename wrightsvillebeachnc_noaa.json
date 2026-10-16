@@ -1,31 +1,8 @@
 {
-    "timestamp": "2026-10-16 03:45:07",
+    "timestamp": "2026-10-16 08:54:36",
     "forecasts": [
         {
-            "raw_text": "SW winds 10 kt. Seas 2 to 3 ft. Wave detail: SW 2 ft at 3 seconds and E 2 ft at 9 seconds.",
-            "wind_direction": "SW",
-            "wind_speed": "10 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "SW 2 ft at 3 seconds and E 2 ft at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "2 ft",
-                    "period": "3 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "2 ft",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "SW",
-            "primary_wave_height": "2 ft",
-            "primary_wave_period": "3 seconds",
-            "period": "Rest Of Tonight 10/16"
-        },
-        {
-            "raw_text": "SW winds 10 to 15 kt. Gusts up to 20 kt in the afternoon. Seas 2 to 3 ft. Wave detail: SW 2 ft at 4 seconds and E 2 ft at 9 seconds.",
+            "raw_text": "SW winds 10 to 15 kt. Gusts up to 20 kt this afternoon. Seas 2 to 3 ft. Wave detail: SW 2 ft at 4 seconds and E 2 ft at 9 seconds.",
             "wind_direction": "SW",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
@@ -46,7 +23,7 @@
             "primary_swell_direction": "SW",
             "primary_wave_height": "2 ft",
             "primary_wave_period": "4 seconds",
-            "period": "Fri 10/16"
+            "period": "Today 10/16"
         },
         {
             "raw_text": "SW winds 15 to 20 kt with gusts up to 25 kt. Seas 3 to 4 ft. Wave detail: SW 4 ft at 5 seconds and E 2 ft at 9 seconds. A slight chance of showers in the evening.",
@@ -70,7 +47,7 @@
             "primary_swell_direction": "SW",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Fri Night 10/16"
+            "period": "Tonight 10/16"
         },
         {
             "raw_text": "NW winds 20 to 25 kt with gusts up to 30 kt, becoming N 25 to 30 kt with gusts up to 40 kt in the afternoon. Seas 4 to 5 ft, building to 5 to 8 ft in the afternoon. Wave detail: NW 5 ft at 5 seconds and E 2 ft at 10 seconds, becoming E 8 ft at 9 seconds and NW 7 ft at 6 seconds. A chance of showers in the morning, then showers likely in the afternoon.",
@@ -153,11 +130,27 @@
             "period": "Sun 10/18"
         },
         {
-            "raw_text": "NE winds 30 to 40 kt with gusts up to 45 kt. Seas 12 to 17 ft. A chance of rain.",
+            "raw_text": "NE winds 30 to 40 kt with gusts up to 45 kt. Seas 12 to 17 ft. Wave detail: NE 17 ft at 12 seconds and NE 14 ft at 9 seconds. A chance of rain.",
             "wind_direction": "NE",
             "wind_speed": "30 to 40 kt",
             "wind_gusts": "45 kt",
             "wave_height": "12 to 17 ft",
+            "wave_detail_string": "NE 17 ft at 12 seconds and NE 14 ft at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "17 ft",
+                    "period": "12 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "14 ft",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "17 ft",
+            "primary_wave_period": "12 seconds",
             "period": "Sun Night 10/18"
         },
         {
