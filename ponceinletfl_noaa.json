@@ -1,12 +1,23 @@
 {
-    "timestamp": "2026-10-19 07:43:16",
+    "timestamp": "2026-10-19 14:03:35",
     "forecasts": [
         {
-            "raw_text": "Northeast winds around 25 knots with frequent gusts to  gale force. Seas 11 to 14 feet, occasionally to 18 feet. Wave  detail: northeast 13 feet at 12 seconds. A chance of showers this morning, then a slight chance of showers this afternoon.",
+            "raw_text": "Northeast winds 20 to 25 knots. Seas 11 to 14 feet, occasionally to 18 feet. Wave detail: northeast 13 feet at 12 seconds. A chance of showers this morning, then a slight chance of showers this afternoon.",
             "wind_direction": "NE",
-            "wind_speed": "25 knots",
+            "wind_speed": "20 to 25 knots",
             "wave_height": "11 to 14 feet",
-            "period": "Today 10/19"
+            "wave_detail_string": "northeast 13 feet at 12 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "13 feet",
+                    "period": "12 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "13 feet",
+            "primary_wave_period": "12 seconds",
+            "period": "Rest Of Today 10/19"
         },
         {
             "raw_text": "North winds 15 to 20 knots. Seas 10 to 12 feet, occasionally to 15 feet. Wave detail: northeast 11 feet at 12 seconds.",
