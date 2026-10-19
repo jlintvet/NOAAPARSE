@@ -1,29 +1,6 @@
 {
-    "timestamp": "2026-10-19 01:32:43",
+    "timestamp": "2026-10-19 07:44:06",
     "forecasts": [
-        {
-            "raw_text": "Northeast to east winds 20 to 25 knots. Seas 6 to 9 feet, occasionally to 11 feet, except 8 to 10 feet, occasionally to 13 feet eastern straits. Wave detail: northeast to east 8 feet at 7 seconds and west to northwest 3 feet at 8 seconds. Showers  with a chance of thunderstorms.",
-            "wind_direction": "E",
-            "wind_speed": "20 to 25 knots",
-            "wave_height": "6 to 9 feet",
-            "wave_detail_string": "northeast to east 8 feet at 7 seconds and west to northwest 3 feet at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "8 feet",
-                    "period": "7 seconds"
-                },
-                {
-                    "direction": "NW",
-                    "height": "3 feet",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "8 feet",
-            "primary_wave_period": "7 seconds",
-            "period": "Overnight 10/19"
-        },
         {
             "raw_text": "Northeast to east winds 20 to 25 knots. Seas 6 to 9 feet, occasionally to 11 feet, except 7 to 10 feet,  occasionally to 13 feet in the eastern straits. Wave detail:  northeast to east 9 feet at 8 seconds. Showers likely with a  slight chance of thunderstorms.",
             "wind_direction": "E",
@@ -40,7 +17,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "9 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Monday 10/19"
+            "period": "Today 10/19"
         },
         {
             "raw_text": "Northeast winds 20 to 25 knots. Seas 6 to 9 feet, occasionally to 11 feet. Wave detail: northeast 8 feet at 8 seconds. A chance of showers with a slight chance of thunderstorms.",
@@ -58,15 +35,26 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "8 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Monday Night 10/19"
+            "period": "Tonight 10/19"
         },
         {
-            "raw_text": "Northeast winds 20 to 25 knots, decreasing to near 20 knots. Seas 6 to 9 feet, occasionally to 11 feet, subsiding to 5 to 7 feet, occasionally to 9 feet. A chance of showers with a  slight chance of thunderstorms.",
+            "raw_text": "Northeast winds 20 to 25 knots, decreasing to near 20 knots. Seas 6 to 9 feet, occasionally to 11 feet, subsiding to 5 to 7 feet, occasionally to 9 feet. Wave detail: northeast 8 feet at 7 seconds. A chance of showers with a slight chance of  thunderstorms.",
             "wind_direction": "NE",
             "wind_speed": "20 to 25 knots",
             "wind_commentary": "decreasing to near 20 knots",
             "wave_height": "6 to 9 feet",
             "wave_commentary": "subsiding to 5 to 7 feet, occasionally to 9 feet",
+            "wave_detail_string": "northeast 8 feet at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "8 feet",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "8 feet",
+            "primary_wave_period": "7 seconds",
             "period": "Tuesday 10/20"
         },
         {
