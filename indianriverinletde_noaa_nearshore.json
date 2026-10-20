@@ -1,68 +1,49 @@
 {
-    "timestamp": "2026-10-20 13:40:46",
+    "timestamp": "2026-10-20 17:04:45",
     "forecasts": [
         {
-            "raw_text": "N winds 20 to 25 kt with gusts up to 35 kt. Seas 8 to 10 ft. Wave detail: E 9 ft at 11 seconds.",
-            "wind_direction": "N",
-            "wind_speed": "20 to 25 kt",
-            "wind_gusts": "35 kt",
-            "wave_height": "8 to 10 ft",
-            "wave_detail_string": "E 9 ft at 11 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "9 ft",
-                    "period": "11 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "9 ft",
-            "primary_wave_period": "11 seconds",
-            "period": "Rest Of Today 10/20"
-        },
-        {
-            "raw_text": "NE winds 20 to 25 kt, increasing to 25 to 30 kt after midnight. Seas 8 to 11 ft. Wave detail: E 11 ft at 10 seconds.",
+            "raw_text": "NE winds 20 to 25 kt with gusts up to 35 kt. Seas 8 to 11 ft. Wave detail: E 10 ft at 10 seconds.",
             "wind_direction": "NE",
             "wind_speed": "20 to 25 kt",
-            "wind_commentary": "increasing to 25 to 30 kt after midnight",
+            "wind_gusts": "35 kt",
             "wave_height": "8 to 11 ft",
-            "wave_detail_string": "E 11 ft at 10 seconds",
+            "wave_detail_string": "E 10 ft at 10 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "11 ft",
+                    "height": "10 ft",
                     "period": "10 seconds"
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "11 ft",
+            "primary_wave_height": "10 ft",
             "primary_wave_period": "10 seconds",
             "period": "Tonight 10/20"
         },
         {
-            "raw_text": "N winds 25 to 30 kt, diminishing to 20 to 25 kt in the afternoon. Seas 9 to 11 ft. Wave detail: E 11 ft at 10 seconds.",
+            "raw_text": "N winds 20 to 25 kt with gusts up to 35 kt. Seas 9 to 11 ft. Wave detail: E 11 ft at 11 seconds.",
             "wind_direction": "N",
-            "wind_speed": "25 to 30 kt",
-            "wind_commentary": "diminishing to 20 to 25 kt in the afternoon",
+            "wind_speed": "20 to 25 kt",
+            "wind_gusts": "35 kt",
             "wave_height": "9 to 11 ft",
-            "wave_detail_string": "E 11 ft at 10 seconds",
+            "wave_detail_string": "E 11 ft at 11 seconds",
             "swell_components": [
                 {
                     "direction": "E",
                     "height": "11 ft",
-                    "period": "10 seconds"
+                    "period": "11 seconds"
                 }
             ],
             "primary_swell_direction": "E",
             "primary_wave_height": "11 ft",
-            "primary_wave_period": "10 seconds",
+            "primary_wave_period": "11 seconds",
             "period": "Wed 10/21"
         },
         {
-            "raw_text": "N winds 20 to 25 kt with gusts up to 30 kt. Seas 9 to 11 ft. Wave detail: E 11 ft at 11 seconds.",
+            "raw_text": "N winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Seas 9 to 11 ft. Wave detail: E 11 ft at 11 seconds.",
             "wind_direction": "N",
             "wind_speed": "20 to 25 kt",
-            "wind_gusts": "30 kt",
+            "wind_commentary": "diminishing to 15 to 20 kt after midnight",
             "wave_height": "9 to 11 ft",
             "wave_detail_string": "E 11 ft at 11 seconds",
             "swell_components": [
@@ -78,17 +59,22 @@
             "period": "Wed Night 10/21"
         },
         {
-            "raw_text": "N winds 15 to 20 kt with gusts up to 30 kt. Seas 7 to 10 ft. Wave detail: E 10 ft at 11 seconds.",
+            "raw_text": "N winds 15 to 20 kt, diminishing to 10 to 15 kt in the afternoon. Seas 7 to 10 ft. Wave detail: E 10 ft at 11 seconds and N 2 ft at 4 seconds.",
             "wind_direction": "N",
             "wind_speed": "15 to 20 kt",
-            "wind_gusts": "30 kt",
+            "wind_commentary": "diminishing to 10 to 15 kt in the afternoon",
             "wave_height": "7 to 10 ft",
-            "wave_detail_string": "E 10 ft at 11 seconds",
+            "wave_detail_string": "E 10 ft at 11 seconds and N 2 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "E",
                     "height": "10 ft",
                     "period": "11 seconds"
+                },
+                {
+                    "direction": "N",
+                    "height": "2 ft",
+                    "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "E",
@@ -97,57 +83,88 @@
             "period": "Thu 10/22"
         },
         {
-            "raw_text": "N winds 15 to 20 kt, increasing to 20 to 25 kt after midnight. Seas 6 to 8 ft. Wave detail: E 7 ft at 10 seconds and N 3 ft at 4 seconds.",
+            "raw_text": "N winds 15 to 20 kt, increasing to 20 to 25 kt after midnight. Seas 6 to 8 ft. Wave detail: E 8 ft at 10 seconds and NW 2 ft at 4 seconds.",
             "wind_direction": "N",
             "wind_speed": "15 to 20 kt",
             "wind_commentary": "increasing to 20 to 25 kt after midnight",
             "wave_height": "6 to 8 ft",
-            "wave_detail_string": "E 7 ft at 10 seconds and N 3 ft at 4 seconds",
+            "wave_detail_string": "E 8 ft at 10 seconds and NW 2 ft at 4 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "7 ft",
+                    "height": "8 ft",
                     "period": "10 seconds"
                 },
                 {
-                    "direction": "N",
-                    "height": "3 ft",
+                    "direction": "NW",
+                    "height": "2 ft",
                     "period": "4 seconds"
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "7 ft",
+            "primary_wave_height": "8 ft",
             "primary_wave_period": "10 seconds",
             "period": "Thu Night 10/22"
         },
         {
-            "raw_text": "N winds 20 to 25 kt, diminishing to 15 to 20 kt in the afternoon. Seas 6 to 8 ft.",
-            "wind_direction": "N",
+            "raw_text": "NE winds 20 to 25 kt, diminishing to 15 to 20 kt in the afternoon. Seas 6 to 8 ft. Wave detail: NE 8 ft at 10 seconds and NW 2 ft at 4 seconds.",
+            "wind_direction": "NE",
             "wind_speed": "20 to 25 kt",
             "wind_commentary": "diminishing to 15 to 20 kt in the afternoon",
             "wave_height": "6 to 8 ft",
+            "wave_detail_string": "NE 8 ft at 10 seconds and NW 2 ft at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "8 ft",
+                    "period": "10 seconds"
+                },
+                {
+                    "direction": "NW",
+                    "height": "2 ft",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "8 ft",
+            "primary_wave_period": "10 seconds",
             "period": "Fri 10/23"
         },
         {
-            "raw_text": "NE winds around 15 kt. Seas 6 to 8 ft.",
+            "raw_text": "NE winds 10 to 15 kt. Seas 5 to 7 ft.",
             "wind_direction": "NE",
-            "wind_speed": "15 kt",
-            "wave_height": "6 to 8 ft",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "5 to 7 ft",
             "period": "Fri Night 10/23"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt. Seas 6 to 7 ft.",
+            "raw_text": "NE winds 5 to 10 kt. Seas 4 to 5 ft.",
             "wind_direction": "NE",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "6 to 7 ft",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "4 to 5 ft",
             "period": "Sat 10/24"
         },
         {
-            "raw_text": "NE winds 5 to 10 kt. Seas 5 to 6 ft.",
+            "raw_text": "NE winds 5 to 10 kt. Seas 4 to 5 ft.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
-            "wave_height": "5 to 6 ft",
+            "wave_height": "4 to 5 ft",
             "period": "Sat Night 10/24"
+        },
+        {
+            "raw_text": "NE winds 5 to 10 kt. Seas 3 to 4 ft.",
+            "wind_direction": "NE",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Sun 10/25"
+        },
+        {
+            "raw_text": "E winds around 5 kt, becoming W after midnight. Seas 3 to 4 ft.",
+            "wind_direction": "E",
+            "wind_speed": "5 kt",
+            "wind_commentary": "becoming W after midnight",
+            "wave_height": "3 to 4 ft",
+            "period": "Sun Night 10/25"
         }
     ]
 }
