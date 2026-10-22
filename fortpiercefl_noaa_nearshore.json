@@ -1,31 +1,8 @@
 {
-    "timestamp": "2026-10-22 13:47:03",
+    "timestamp": "2026-10-22 17:02:46",
     "forecasts": [
         {
-            "raw_text": "North winds around 15 knots. Seas 6 to 8 feet, occasionally to 10 feet. Wave detail: northeast 7 feet at 12 seconds and southeast 2 feet at 5 seconds. A moderate chop on the intracoastal waters. A chance of showers. A slight chance of thunderstorms this afternoon.",
-            "wind_direction": "N",
-            "wind_speed": "15 knots",
-            "wave_height": "6 to 8 feet",
-            "wave_detail_string": "northeast 7 feet at 12 seconds and southeast 2 feet at 5 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "7 feet",
-                    "period": "12 seconds"
-                },
-                {
-                    "direction": "SE",
-                    "height": "2 feet",
-                    "period": "5 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "7 feet",
-            "primary_wave_period": "12 seconds",
-            "period": "Rest Of Today 10/22"
-        },
-        {
-            "raw_text": "Northeast winds 10 to 15 knots. Seas 6 to 8 feet, occasionally to 10 feet. Wave detail: northeast 7 feet at 12 seconds and southeast 2 feet at 5 seconds. A light chop on the intracoastal waters. A chance of showers.",
+            "raw_text": "Northeast winds 10 to 15 knots. Seas 6 to 8 feet, occasionally to 10 feet. Wave detail: northeast 7 feet at 12 seconds and southeast 2 feet at 5 seconds. A light chop on the intracoastal waters. A slight chance of showers this evening, then a chance of showers after midnight.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 knots",
             "wave_height": "6 to 8 feet",
@@ -48,10 +25,10 @@
             "period": "Tonight 10/22"
         },
         {
-            "raw_text": "Northeast winds 15 to 20 knots. Seas 6 to 8 feet, occasionally to 10 feet. Wave detail: northeast 7 feet at 12 seconds and southeast 2 feet at 5 seconds. Choppy on the intracoastal waters. A chance of showers.",
+            "raw_text": "Northeast winds 15 to 20 knots. Seas 5 to 7 feet, occasionally to 9 feet. Wave detail: northeast 7 feet at 12 seconds and southeast 2 feet at 5 seconds. Choppy on the intracoastal waters. A chance of showers.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 knots",
-            "wave_height": "6 to 8 feet",
+            "wave_height": "5 to 7 feet",
             "wave_detail_string": "northeast 7 feet at 12 seconds and southeast 2 feet at 5 seconds",
             "swell_components": [
                 {
@@ -94,86 +71,112 @@
             "period": "Friday Night 10/23"
         },
         {
-            "raw_text": "Northeast winds 15 to 20 knots, increasing to 20 to 25 knots in the afternoon. Seas 6 to 8 feet, occasionally to 10 feet. Wave detail: northeast 8 feet at 8 seconds and northeast 6 feet at 11 seconds. Rough on the intracoastal waters. Showers likely with a slight chance of thunderstorms.",
+            "raw_text": "Northeast winds 15 to 20 knots. Seas 5 to 7 feet, occasionally to 9 feet. Wave detail: northeast 6 feet at 11 seconds and southeast 1 foot at 5 seconds. Choppy on the intracoastal waters. A chance of showers in the morning, then showers likely with a slight chance of thunderstorms in the afternoon.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 knots",
-            "wind_commentary": "increasing to 20 to 25 knots in the afternoon",
-            "wave_height": "6 to 8 feet",
-            "wave_detail_string": "northeast 8 feet at 8 seconds and northeast 6 feet at 11 seconds",
+            "wave_height": "5 to 7 feet",
+            "wave_detail_string": "northeast 6 feet at 11 seconds and southeast 1 foot at 5 seconds",
             "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "8 feet",
-                    "period": "8 seconds"
-                },
                 {
                     "direction": "NE",
                     "height": "6 feet",
                     "period": "11 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "8 feet",
-            "primary_wave_period": "8 seconds",
-            "period": "Saturday 10/24"
-        },
-        {
-            "raw_text": "Northeast winds 25 to 30 knots. Seas 9 to 11 feet, occasionally to 14 feet, building to 11 to 14 feet, occasionally to 18 feet after midnight. Wave detail: northeast 11 feet at 9 seconds and southeast 1 foot at 5 seconds, becoming northeast 13 feet at 10 seconds after midnight. Very rough on the intracoastal waters. Showers with a chance of thunderstorms.",
-            "wind_direction": "NE",
-            "wind_speed": "25 to 30 knots",
-            "wave_height": "9 to 11 feet",
-            "wave_commentary": "building to 11 to 14 feet, occasionally to 18 feet",
-            "wave_detail_string": "northeast 11 feet at 9 seconds and southeast 1 foot at 5 seconds, becoming northeast 13 feet at 10 seconds after midnight",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "11 feet",
-                    "period": "9 seconds"
                 },
                 {
                     "direction": "SE",
                     "height": "1 foot",
                     "period": "5 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "6 feet",
+            "primary_wave_period": "11 seconds",
+            "period": "Saturday 10/24"
+        },
+        {
+            "raw_text": "Northeast winds 20 to 25 knots, increasing to 25 to 30 knots after midnight. Seas 6 to 8 feet, occasionally to 10 feet, building to 10 to 12 feet, occasionally to 15 feet after midnight. Wave detail: northeast 7 feet at 8 seconds and northeast 3 feet at 11 seconds, becoming northeast 12 feet at 10 seconds after midnight. Very rough on the intracoastal waters. A slight chance of thunderstorms. Showers.",
+            "wind_direction": "NE",
+            "wind_speed": "20 to 25 knots",
+            "wind_commentary": "increasing to 25 to 30 knots after midnight",
+            "wave_height": "6 to 8 feet",
+            "wave_commentary": "building to 10 to 12 feet, occasionally to 15 feet",
+            "wave_detail_string": "northeast 7 feet at 8 seconds and northeast 3 feet at 11 seconds, becoming northeast 12 feet at 10 seconds after midnight",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "7 feet",
+                    "period": "8 seconds"
                 },
                 {
                     "direction": "NE",
-                    "height": "13 feet",
+                    "height": "3 feet",
+                    "period": "11 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "12 feet",
                     "period": "10 seconds"
                 }
             ],
             "primary_swell_direction": "NE",
-            "primary_wave_height": "11 feet",
-            "primary_wave_period": "9 seconds",
+            "primary_wave_height": "7 feet",
+            "primary_wave_period": "8 seconds",
             "period": "Saturday Night 10/24"
         },
         {
-            "raw_text": "Northeast winds 25 to 30 knots. Seas 11 to 15 feet, occasionally to 19 feet. Very rough on the intracoastal waters. Showers. A slight chance of thunderstorms in the morning, then a chance of thunderstorms in the afternoon.",
+            "raw_text": "Northeast winds 25 to 30 knots. Seas 11 to 15 feet, occasionally to 19 feet. Wave detail: northeast 14 feet at 11 seconds. Very rough on the intracoastal waters. Showers with a chance of thunderstorms.",
             "wind_direction": "NE",
             "wind_speed": "25 to 30 knots",
             "wave_height": "11 to 15 feet",
+            "wave_detail_string": "northeast 14 feet at 11 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "14 feet",
+                    "period": "11 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "14 feet",
+            "primary_wave_period": "11 seconds",
             "period": "Sunday 10/25"
         },
         {
-            "raw_text": "Northeast winds around 25 knots. Seas 12 to 15 feet, occasionally to 19 feet. Rough on the intracoastal waters. Showers likely. A chance of thunderstorms in the evening, then a slight chance of thunderstorms after midnight.",
+            "raw_text": "Northeast winds 25 to 30 knots. Seas 12 to 15 feet, occasionally to 19 feet. Very rough on the intracoastal waters. A slight chance of thunderstorms. Showers.",
             "wind_direction": "NE",
-            "wind_speed": "25 knots",
+            "wind_speed": "25 to 30 knots",
             "wave_height": "12 to 15 feet",
             "period": "Sunday Night 10/25"
         },
         {
-            "raw_text": "Northeast winds around 25 knots. Seas 12 to 15 feet, occasionally to 19 feet. Rough on the intracoastal waters. Showers likely with a slight chance of thunderstorms.",
+            "raw_text": "Northeast winds 25 to 30 knots. Seas 12 to 15 feet, occasionally to 19 feet. Very rough on the intracoastal waters. Showers likely with a slight chance of thunderstorms.",
             "wind_direction": "NE",
-            "wind_speed": "25 knots",
+            "wind_speed": "25 to 30 knots",
             "wave_height": "12 to 15 feet",
             "period": "Monday 10/26"
         },
         {
-            "raw_text": "Northeast winds 20 to 25 knots. Seas 12 to 15 feet, occasionally to 19 feet, subsiding to 11 to 13 feet, occasionally to 17 feet after midnight. Rough on the intracoastal waters. A slight chance of thunderstorms. A chance of showers in the evening, then a slight chance of showers after midnight.winds and waves higher in and near thunderstorms.",
+            "raw_text": "Northeast winds 25 to 30 knots. Seas 13 to 15 feet, occasionally to 19 feet. Very rough on the intracoastal waters. A slight chance of thunderstorms in the evening. A chance of showers.",
             "wind_direction": "NE",
-            "wind_speed": "20 to 25 knots",
-            "wave_height": "12 to 15 feet",
-            "wave_commentary": "subsiding to 11 to 13 feet, occasionally to 17 feet",
+            "wind_speed": "25 to 30 knots",
+            "wave_height": "13 to 15 feet",
             "period": "Monday Night 10/26"
+        },
+        {
+            "raw_text": "Northeast winds around 25 knots. Seas 12 to 14 feet, occasionally to 18 feet. Rough on the intracoastal waters. A chance of showers with a slight chance of thunderstorms.",
+            "wind_direction": "NE",
+            "wind_speed": "25 knots",
+            "wave_height": "12 to 14 feet",
+            "period": "Tuesday 10/27"
+        },
+        {
+            "raw_text": "Northeast winds 25 to 30 knots, diminishing to 20 to 25 knots after midnight. Seas 11 to 14 feet, occasionally to 18 feet, subsiding to 10 to 12 feet, occasionally to 15 feet after midnight. Very rough on the intracoastal waters. A slight chance of thunderstorms in the evening. A chance of showers.winds and waves higher in and near thunderstorms.",
+            "wind_direction": "NE",
+            "wind_speed": "25 to 30 knots",
+            "wind_commentary": "diminishing to 20 to 25 knots after midnight",
+            "wave_height": "11 to 14 feet",
+            "wave_commentary": "subsiding to 10 to 12 feet, occasionally to 15 feet",
+            "period": "Tuesday Night 10/27"
         }
     ]
 }
