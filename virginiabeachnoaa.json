@@ -1,27 +1,8 @@
 {
-    "timestamp": "2026-10-23 01:36:38",
+    "timestamp": "2026-10-23 06:47:27",
     "forecasts": [
         {
-            "raw_text": "N winds 15 to 20 kt with gusts up to 25 kt. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: NE 7 ft at 11 seconds.",
-            "wind_direction": "N",
-            "wind_speed": "15 to 20 kt",
-            "wind_gusts": "25 kt",
-            "wave_height": "6 to 8 ft",
-            "wave_detail_string": "NE 7 ft at 11 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "7 ft",
-                    "period": "11 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "7 ft",
-            "primary_wave_period": "11 seconds",
-            "period": "Overnight 10/23"
-        },
-        {
-            "raw_text": "NE winds 15 to 20 kt. Gusts up to 30 kt in the afternoon. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: NE 6 ft at 10 seconds.",
+            "raw_text": "NE winds 15 to 20 kt with gusts up to 30 kt. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: NE 6 ft at 10 seconds.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
             "wind_gusts": "30 kt",
@@ -37,14 +18,15 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "6 ft",
             "primary_wave_period": "10 seconds",
-            "period": "Fri 10/23"
+            "period": "Today 10/23"
         },
         {
-            "raw_text": "NE winds 15 to 20 kt with gusts up to 30 kt. Seas 7 to 9 ft, occasionally to 13 ft. Wave detail: NE 7 ft at 10 seconds.",
+            "raw_text": "NE winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Gusts up to 30 kt. Seas 7 to 8 ft, occasionally to 12 ft. Wave detail: NE 7 ft at 10 seconds.",
             "wind_direction": "NE",
-            "wind_speed": "15 to 20 kt",
+            "wind_speed": "20 to 25 kt",
+            "wind_commentary": "diminishing to 15 to 20 kt after midnight",
             "wind_gusts": "30 kt",
-            "wave_height": "7 to 9 ft",
+            "wave_height": "7 to 8 ft",
             "wave_detail_string": "NE 7 ft at 10 seconds",
             "swell_components": [
                 {
@@ -56,7 +38,7 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "7 ft",
             "primary_wave_period": "10 seconds",
-            "period": "Fri Night 10/23"
+            "period": "Tonight 10/23"
         },
         {
             "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: NE 7 ft at 10 seconds.",
@@ -97,35 +79,70 @@
             "period": "Sat Night 10/24"
         },
         {
-            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 6 to 8 ft, occasionally to 12 ft.",
+            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 6 to 7 ft, occasionally to 10 ft. Wave detail: NE 6 ft at 13 seconds and E 5 ft at 6 seconds.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
             "wind_gusts": "25 kt",
-            "wave_height": "6 to 8 ft",
+            "wave_height": "6 to 7 ft",
+            "wave_detail_string": "NE 6 ft at 13 seconds and E 5 ft at 6 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "6 ft",
+                    "period": "13 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "5 ft",
+                    "period": "6 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "6 ft",
+            "primary_wave_period": "13 seconds",
             "period": "Sun 10/25"
         },
         {
-            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 6 to 8 ft, occasionally to 12 ft.",
+            "raw_text": "NE winds 15 to 20 kt, diminishing to 10 to 15 kt after midnight. Gusts up to 25 kt. Seas 6 to 7 ft, occasionally to 10 ft.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
+            "wind_commentary": "diminishing to 10 to 15 kt after midnight",
             "wind_gusts": "25 kt",
-            "wave_height": "6 to 8 ft",
+            "wave_height": "6 to 7 ft",
             "period": "Sun Night 10/25"
         },
         {
-            "raw_text": "N winds 10 to 15 kt with gusts up to 20 kt. Seas 6 to 7 ft, occasionally to 10 ft.",
+            "raw_text": "N winds 10 to 15 kt with gusts up to 25 kt. Seas 6 to 7 ft, occasionally to 10 ft.",
             "wind_direction": "N",
             "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
+            "wind_gusts": "25 kt",
             "wave_height": "6 to 7 ft",
             "period": "Mon 10/26"
         },
         {
-            "raw_text": "N winds 5 to 10 kt. Seas 6 to 7 ft, occasionally to  10 ft.",
+            "raw_text": "N winds 5 to 10 kt with gusts up to 15 kt. Seas 6 to 7 ft, occasionally to 10 ft.",
             "wind_direction": "N",
             "wind_speed": "5 to 10 kt",
+            "wind_gusts": "15 kt",
             "wave_height": "6 to 7 ft",
             "period": "Mon Night 10/26"
+        },
+        {
+            "raw_text": "N winds 10 to 15 kt, becoming NE 15 to 20 kt in the afternoon. Gusts up to 25 kt. Seas 6 to 7 ft, occasionally to 10 ft.",
+            "wind_direction": "N",
+            "wind_speed": "10 to 15 kt",
+            "wind_commentary": "becoming NE 15 to 20 kt in the afternoon",
+            "wind_gusts": "25 kt",
+            "wave_height": "6 to 7 ft",
+            "period": "Tue 10/27"
+        },
+        {
+            "raw_text": "NE winds 20 kt with gusts up to 30 kt. Seas 6 to 7 ft, occasionally to 10 ft.",
+            "wind_direction": "NE",
+            "wind_speed": "20 kt",
+            "wind_gusts": "30 kt",
+            "wave_height": "6 to 7 ft",
+            "period": "Tue Night 10/27"
         }
     ]
 }
