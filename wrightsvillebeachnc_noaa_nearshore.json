@@ -1,24 +1,6 @@
 {
-    "timestamp": "2026-10-23 06:47:39",
+    "timestamp": "2026-10-23 11:33:57",
     "forecasts": [
-        {
-            "raw_text": "N winds 10 to 15 kt. Seas 3 to 4 ft. Wave detail: NE 4 ft at 12 seconds.",
-            "wind_direction": "N",
-            "wind_speed": "10 to 15 kt",
-            "wave_height": "3 to 4 ft",
-            "wave_detail_string": "NE 4 ft at 12 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "4 ft",
-                    "period": "12 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "12 seconds",
-            "period": "Rest Of Tonight 10/23"
-        },
         {
             "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 3 to 4 ft. Wave detail: NE 4 ft at 10 seconds.",
             "wind_direction": "NE",
@@ -36,7 +18,7 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "10 seconds",
-            "period": "Fri 10/23"
+            "period": "Today 10/23"
         },
         {
             "raw_text": "NE winds 25 to 30 kt. Seas 5 to 7 ft. Wave detail: E 7 ft at 6 seconds.",
@@ -54,7 +36,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "7 ft",
             "primary_wave_period": "6 seconds",
-            "period": "Fri Night 10/23"
+            "period": "Tonight 10/23"
         },
         {
             "raw_text": "NE winds 20 to 25 kt, increasing to 25 to 30 kt in the afternoon. Seas 5 to 8 ft. Wave detail: E 8 ft at 7 seconds.",
@@ -113,11 +95,22 @@
             "period": "Sun 10/25"
         },
         {
-            "raw_text": "NE winds 25 to 30 kt with gusts up to 35 kt. Seas 7 to 10 ft.",
+            "raw_text": "NE winds 25 to 30 kt with gusts up to 35 kt. Seas 7 to 10 ft. Wave detail: E 9 ft at 9 seconds.",
             "wind_direction": "NE",
             "wind_speed": "25 to 30 kt",
             "wind_gusts": "35 kt",
             "wave_height": "7 to 10 ft",
+            "wave_detail_string": "E 9 ft at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "9 ft",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "9 ft",
+            "primary_wave_period": "9 seconds",
             "period": "Sun Night 10/25"
         },
         {
