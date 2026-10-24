@@ -1,29 +1,11 @@
 {
-    "timestamp": "2026-10-24 17:21:30",
+    "timestamp": "2026-10-24 19:53:55",
     "forecasts": [
         {
-            "raw_text": "NE winds 30 kt with gusts to 40 kt. Seas 7 to 9 ft. Wave detail: NE 9 ft at 7 seconds.",
-            "wind_direction": "NE",
-            "wind_speed": "30 kt",
-            "wave_height": "7 to 9 ft",
-            "wave_detail_string": "NE 9 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "9 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "9 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "This Afternoon 10/24"
-        },
-        {
-            "raw_text": "NE winds 30 to 35 kt, diminishing to 25 to 30 kt after midnight. Seas 9 to 11 ft. Wave detail: NE 10 ft at 8 seconds. A slight chance of showers in the evening.",
+            "raw_text": "NE winds 30 to 35 kt, diminishing to 25 to 30 kt late. Seas 9 to 11 ft. Wave detail: NE 10 ft at 8 seconds. A slight chance of showers early this evening.",
             "wind_direction": "NE",
             "wind_speed": "30 to 35 kt",
-            "wind_commentary": "diminishing to 25 to 30 kt after midnight",
+            "wind_commentary": "diminishing to 25 to 30 kt late",
             "wave_height": "9 to 11 ft",
             "wave_detail_string": "NE 10 ft at 8 seconds",
             "swell_components": [
@@ -127,10 +109,21 @@
             "period": "Mon Night 10/26"
         },
         {
-            "raw_text": "NE winds 20 to 25 kt. Seas 6 to 8 ft.",
+            "raw_text": "NE winds 20 to 25 kt. Seas 6 to 8 ft. Wave detail: E 7 ft at 11 seconds.",
             "wind_direction": "NE",
             "wind_speed": "20 to 25 kt",
             "wave_height": "6 to 8 ft",
+            "wave_detail_string": "E 7 ft at 11 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "7 ft",
+                    "period": "11 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "7 ft",
+            "primary_wave_period": "11 seconds",
             "period": "Tue 10/27"
         },
         {
@@ -153,6 +146,20 @@
             "wind_speed": "25 to 30 kt",
             "wave_height": "7 to 9 ft",
             "period": "Wed Night 10/28"
+        },
+        {
+            "raw_text": "NE winds 25 to 30 kt. Seas 7 to 9 ft. A slight chance of showers.",
+            "wind_direction": "NE",
+            "wind_speed": "25 to 30 kt",
+            "wave_height": "7 to 9 ft",
+            "period": "Thu 10/29"
+        },
+        {
+            "raw_text": "NE winds 25 to 30 kt. Seas 7 to 9 ft.",
+            "wind_direction": "NE",
+            "wind_speed": "25 to 30 kt",
+            "wave_height": "7 to 9 ft",
+            "period": "Thu Night 10/29"
         }
     ]
 }
