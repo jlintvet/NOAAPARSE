@@ -403,7 +403,7 @@ def main():
     scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ485", 'indianriverinletde_noaa.json') # Cape May NJ to Fenwick Island DE, 20-60nm (PHI)
     scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ485", 'capemaynj_noaa.json')          # Cape May NJ to Fenwick Island DE, 20-60nm (PHI)
     scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ482", 'atlanticcitynj_noaa.json')     # Little Egg Inlet NJ to Great Egg Inlet NJ, 20-60nm (PHI)
-    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ481", 'barnegatlightnj_noaa.json')    # Manasquan Inlet NJ to Little Egg Inlet NJ, 20-60nm (PHI)
+    scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ482", 'barnegatlightnj_noaa.json')    # Little Egg Inlet to Great Egg Inlet NJ, 20-60nm (PHI). Uses ANZ482, not Barnegat's own ANZ481, because PHI never issues Wave Detail (swell) for ANZ481
     scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ480", 'manasquannj_noaa.json')        # Sandy Hook NJ to Manasquan Inlet NJ, 20-40nm only (PHI)
     scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ385", 'sandyhooknj_noaa.json')        # Sandy Hook NJ to Fire Island Inlet NY, 20-60nm (OKX)
     scrape_and_save("https://forecast.weather.gov/MapClick.php?zoneid=ANZ385", 'freeportny_noaa.json')         # Sandy Hook NJ to Fire Island Inlet NY, 20-60nm (OKX)
