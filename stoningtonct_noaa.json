@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-31 18:12:06",
+    "timestamp": "2026-10-31 21:44:08",
     "forecasts": [
         {
             "raw_text": "N winds 5 to 10 kt. Seas around 2 ft. Wave detail: W 1 foot at 2 seconds and NE 1 foot at 3 seconds.",
@@ -49,24 +49,24 @@
             "period": "Sun 11/1"
         },
         {
-            "raw_text": "W winds around 10 kt. Seas around 2 ft. Wave detail: W 1 foot at 3 seconds and NE 1 foot at 3 seconds.",
+            "raw_text": "W winds around 10 kt. Seas around 2 ft. Wave detail: NE 1 foot at 3 seconds and W 1 foot at 3 seconds.",
             "wind_direction": "W",
             "wind_speed": "10 kt",
             "wave_height": "2 ft",
-            "wave_detail_string": "W 1 foot at 3 seconds and NE 1 foot at 3 seconds",
+            "wave_detail_string": "NE 1 foot at 3 seconds and W 1 foot at 3 seconds",
             "swell_components": [
-                {
-                    "direction": "W",
-                    "height": "1 foot",
-                    "period": "3 seconds"
-                },
                 {
                     "direction": "NE",
                     "height": "1 foot",
                     "period": "3 seconds"
+                },
+                {
+                    "direction": "W",
+                    "height": "1 foot",
+                    "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "W",
+            "primary_swell_direction": "NE",
             "primary_wave_height": "1 foot",
             "primary_wave_period": "3 seconds",
             "period": "Sun Night 11/1"
