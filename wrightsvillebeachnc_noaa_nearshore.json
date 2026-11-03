@@ -1,27 +1,8 @@
 {
-    "timestamp": "2026-11-02 16:12:14",
+    "timestamp": "2026-11-02 22:13:51",
     "forecasts": [
         {
-            "raw_text": "NE winds 15 kt with gusts up to 20 kt. Seas 4 to 5 ft. Wave detail: E 4 ft at 7 seconds.",
-            "wind_direction": "NE",
-            "wind_speed": "15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "4 to 5 ft",
-            "wave_detail_string": "E 4 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "4 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "This Afternoon 11/2"
-        },
-        {
-            "raw_text": "NE winds 10 to 15 kt. Gusts up to 20 kt in the evening. Seas 3 to 5 ft. Wave detail: E 4 ft at 7 seconds.",
+            "raw_text": "NE winds 10 to 15 kt. Gusts up to 20 kt early this evening. Seas 3 to 5 ft. Wave detail: E 4 ft at 7 seconds.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
@@ -114,10 +95,21 @@
             "period": "Wed Night 11/4"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas 3 to 4 ft.",
+            "raw_text": "SE winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 10 seconds.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
             "wave_height": "3 to 4 ft",
+            "wave_detail_string": "E 4 ft at 10 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "4 ft",
+                    "period": "10 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "4 ft",
+            "primary_wave_period": "10 seconds",
             "period": "Thu 11/5"
         },
         {
@@ -135,12 +127,27 @@
             "period": "Fri 11/6"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming NW after midnight. Seas 3 to 4 ft. A chance of showers in the evening.winds and seas higher in and near tstms.",
+            "raw_text": "SW winds 5 to 10 kt, becoming NW after midnight. Seas 3 to 4 ft. A chance of showers in the evening.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
             "wind_commentary": "becoming NW after midnight",
             "wave_height": "3 to 4 ft",
             "period": "Fri Night 11/6"
+        },
+        {
+            "raw_text": "NW winds 5 to 10 kt. Seas 3 to 4 ft.",
+            "wind_direction": "NW",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Sat 11/7"
+        },
+        {
+            "raw_text": "W winds 5 to 10 kt, becoming NW after midnight. Seas 3 to 4 ft.winds and seas higher in and near tstms.",
+            "wind_direction": "W",
+            "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming NW after midnight",
+            "wave_height": "3 to 4 ft",
+            "period": "Sat Night 11/7"
         }
     ]
 }
