@@ -1,11 +1,12 @@
 {
-    "timestamp": "2026-11-03 06:30:57",
+    "timestamp": "2026-11-03 13:53:47",
     "forecasts": [
         {
-            "raw_text": "Variable winds less than 5 kt, becoming SE 5 kt late this morning and afternoon. Waves 1 foot.",
-            "wind_commentary": "becoming SE 5 kt late this morning and afternoon",
+            "raw_text": "SE winds 5 kt. Waves 1 foot.",
+            "wind_direction": "SE",
+            "wind_speed": "5 kt",
             "wave_height": "1 foot",
-            "period": "Today 11/3"
+            "period": "This Afternoon 11/3"
         },
         {
             "raw_text": "SE winds 5 kt. Waves 1 foot.",
@@ -15,23 +16,21 @@
             "period": "Tonight 11/3"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Gusts up to 15 kt in the afternoon. Waves 1 foot.",
+            "raw_text": "SE winds 5 to 10 kt. Waves 1 foot.",
             "wind_direction": "SE",
             "wind_speed": "5 to 10 kt",
-            "wind_gusts": "15 kt",
             "wave_height": "1 foot",
             "period": "Wed 11/4"
         },
         {
-            "raw_text": "S winds 5 to 10 kt with gusts up to 15 kt. Waves 1 foot.",
+            "raw_text": "S winds 5 to 10 kt. Waves 1 to 2 ft.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wind_gusts": "15 kt",
-            "wave_height": "1 foot",
+            "wave_height": "1 to 2 ft",
             "period": "Wed Night 11/4"
         },
         {
-            "raw_text": "S winds 5 to 10 kt. Gusts up to 15 kt in the afternoon. Waves 1 to 2 ft.",
+            "raw_text": "S winds 5 to 10 kt with gusts up to 15 kt. Waves 1 to 2 ft.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wind_gusts": "15 kt",
@@ -39,41 +38,42 @@
             "period": "Thu 11/5"
         },
         {
-            "raw_text": "S winds 10 to 15 kt. Waves 1 to 2 ft. A chance of showers and tstms after midnight.",
+            "raw_text": "S winds 10 kt with gusts up to 15 kt. Waves 1 to 2 ft. A chance of showers after midnight.",
             "wind_direction": "S",
-            "wind_speed": "10 to 15 kt",
+            "wind_speed": "10 kt",
+            "wind_gusts": "15 kt",
             "wave_height": "1 to 2 ft",
             "period": "Thu Night 11/5"
         },
         {
-            "raw_text": "S winds 5 to 10 kt with gusts up to 15 kt. Waves 1 foot. A chance of tstms. Showers.",
+            "raw_text": "S winds 5 to 10 kt with gusts up to 15 kt. Waves 1 to 2 ft. Showers.",
             "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
             "wind_gusts": "15 kt",
-            "wave_height": "1 foot",
+            "wave_height": "1 to 2 ft",
             "period": "Fri 11/6"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt, becoming W after midnight. Waves 1 foot. Showers likely, mainly in the evening.",
+            "raw_text": "SW winds 5 to 10 kt, becoming NW after midnight. Waves 1 to 2 ft. Showers likely, mainly in the evening.",
             "wind_direction": "SW",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming W after midnight",
-            "wave_height": "1 foot",
+            "wind_commentary": "becoming NW after midnight",
+            "wave_height": "1 to 2 ft",
             "period": "Fri Night 11/6"
         },
         {
-            "raw_text": "N winds 5 to 10 kt with gusts up to 15 kt. Waves 1 foot.",
-            "wind_direction": "N",
+            "raw_text": "NW winds 5 to 10 kt with gusts up to 15 kt. Waves 1 to 2 ft.",
+            "wind_direction": "NW",
             "wind_speed": "5 to 10 kt",
             "wind_gusts": "15 kt",
-            "wave_height": "1 foot",
+            "wave_height": "1 to 2 ft",
             "period": "Sat 11/7"
         },
         {
-            "raw_text": "N winds 5 to 10 kt. Gusts up to 15 kt after midnight. Waves 1 to 2 ft.winds and waves higher in and near tstms.",
+            "raw_text": "N winds 5 to 10 kt, becoming NW 10 to 15 kt after midnight. Waves 1 to 2 ft.",
             "wind_direction": "N",
             "wind_speed": "5 to 10 kt",
-            "wind_gusts": "15 kt",
+            "wind_commentary": "becoming NW 10 to 15 kt after midnight",
             "wave_height": "1 to 2 ft",
             "period": "Sat Night 11/7"
         }
