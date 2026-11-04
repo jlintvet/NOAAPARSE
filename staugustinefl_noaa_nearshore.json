@@ -1,28 +1,29 @@
 {
-    "timestamp": "2026-11-03 23:12:37",
+    "timestamp": "2026-11-04 07:42:40",
     "forecasts": [
         {
-            "raw_text": "East winds 10 to 15 knots. Seas 4 to 6 feet, occasionally to 8 feet. Wave detail: east 6 feet at 8 seconds. Intracoastal waters a moderate chop.",
+            "raw_text": "East winds 10 to 15 knots. Seas 4 to 5 feet, occasionally to 6 feet. Wave detail: east 5 feet at 8 seconds. Intracoastal waters a moderate chop.",
             "wind_direction": "E",
             "wind_speed": "10 to 15 knots",
-            "wave_height": "4 to 6 feet",
-            "wave_detail_string": "east 6 feet at 8 seconds",
+            "wave_height": "4 to 5 feet",
+            "wave_detail_string": "east 5 feet at 8 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "6 feet",
+                    "height": "5 feet",
                     "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "6 feet",
+            "primary_wave_height": "5 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Rest Of Tonight 11/3"
+            "period": "Rest Of Tonight 11/4"
         },
         {
-            "raw_text": "East winds 5 to 10 knots. Seas 4 to 5 feet, occasionally to 6 feet. Wave detail: east 5 feet at 8 seconds and northeast 2 feet at 7 seconds. Intracoastal waters light chop.",
+            "raw_text": "East winds 10 to 15 knots, diminishing to 5 to 10 knots in the afternoon. Seas 4 to 5 feet, occasionally to 6 feet. Wave detail: east 5 feet at 8 seconds and northeast 2 feet at 7 seconds. Intracoastal waters a moderate chop.",
             "wind_direction": "E",
-            "wind_speed": "5 to 10 knots",
+            "wind_speed": "10 to 15 knots",
+            "wind_commentary": "diminishing to 5 to 10 knots in the afternoon",
             "wave_height": "4 to 5 feet",
             "wave_detail_string": "east 5 feet at 8 seconds and northeast 2 feet at 7 seconds",
             "swell_components": [
@@ -67,10 +68,9 @@
             "period": "Wednesday Night 11/4"
         },
         {
-            "raw_text": "East winds around 5 knots, increasing to 5 to 10 knots in the afternoon. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 8 seconds. Intracoastal waters light chop.",
+            "raw_text": "East winds around 5 knots. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 8 seconds. Intracoastal waters smooth.",
             "wind_direction": "E",
             "wind_speed": "5 knots",
-            "wind_commentary": "increasing to 5 to 10 knots in the afternoon",
             "wave_height": "3 to 4 feet",
             "wave_detail_string": "east 4 feet at 8 seconds",
             "swell_components": [
@@ -86,10 +86,29 @@
             "period": "Thursday 11/5"
         },
         {
-            "raw_text": "Southeast winds around 5 knots, becoming south after midnight. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 9 seconds. Intracoastal waters smooth.",
+            "raw_text": "Southeast winds around 5 knots, becoming south around 5 knots after midnight. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 3 feet at 9 seconds. Intracoastal waters smooth.",
             "wind_direction": "SE",
             "wind_speed": "5 knots",
-            "wind_commentary": "becoming south after midnight",
+            "wind_commentary": "becoming south around 5 knots after midnight",
+            "wave_height": "3 to 4 feet",
+            "wave_detail_string": "east 3 feet at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "3 feet",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "3 feet",
+            "primary_wave_period": "9 seconds",
+            "period": "Thursday Night 11/5"
+        },
+        {
+            "raw_text": "Southwest winds around 5 knots, becoming south in the afternoon. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 9 seconds. Intracoastal waters smooth. A slight chance of showers in the afternoon.",
+            "wind_direction": "SW",
+            "wind_speed": "5 knots",
+            "wind_commentary": "becoming south in the afternoon",
             "wave_height": "3 to 4 feet",
             "wave_detail_string": "east 4 feet at 9 seconds",
             "swell_components": [
@@ -102,49 +121,22 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "4 feet",
             "primary_wave_period": "9 seconds",
-            "period": "Thursday Night 11/5"
-        },
-        {
-            "raw_text": "Southwest winds around 5 knots, becoming southeast in the afternoon. Seas 3 to 4 feet, occasionally to 5 feet. Wave detail: east 4 feet at 10 seconds. Intracoastal waters smooth. A slight chance of showers and thunderstorms in the afternoon.",
-            "wind_direction": "SW",
-            "wind_speed": "5 knots",
-            "wind_commentary": "becoming southeast in the afternoon",
-            "wave_height": "3 to 4 feet",
-            "wave_detail_string": "east 4 feet at 10 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "4 feet",
-                    "period": "10 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "4 feet",
-            "primary_wave_period": "10 seconds",
             "period": "Friday 11/6"
         },
         {
-            "raw_text": "South winds 5 to 10 knots, becoming west after midnight. Seas 3 to 4 feet, occasionally to 5 feet. Intracoastal waters light chop.",
-            "wind_direction": "S",
-            "wind_speed": "5 to 10 knots",
-            "wind_commentary": "becoming west after midnight",
+            "raw_text": "Southwest winds around 5 knots, becoming northwest after midnight. Seas 3 to 4 feet, occasionally to 5 feet. Intracoastal waters light chop.",
+            "wind_direction": "SW",
+            "wind_speed": "5 knots",
+            "wind_commentary": "becoming northwest after midnight",
             "wave_height": "3 to 4 feet",
             "period": "Friday Night 11/6"
         },
         {
-            "raw_text": "North winds 5 to 10 knots. Seas 3 to 4 feet, occasionally to 5 feet. Intracoastal waters light chop.",
+            "raw_text": "North winds 10 to 15 knots. Seas 3 to 5 feet, occasionally to 6 feet. Intracoastal waters a moderate chop.",
             "wind_direction": "N",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "3 to 4 feet",
-            "period": "Saturday 11/7"
-        },
-        {
-            "raw_text": "North winds 5 to 10 knots, increasing to 15 to 20 knots. Seas 4 to 6 feet, occasionally to 8 feet. Intracoastal waters choppy. A slight chance of showers after midnight.winds and waves higher in and near thunderstorms.",
-            "wind_direction": "N",
-            "wind_speed": "5 to 10 knots",
-            "wind_commentary": "increasing to 15 to 20 knots",
-            "wave_height": "4 to 6 feet",
-            "period": "Sunday 11/8"
+            "wind_speed": "10 to 15 knots",
+            "wave_height": "3 to 5 feet",
+            "period": "Saturday Through Sunday 11/7"
         }
     ]
 }
