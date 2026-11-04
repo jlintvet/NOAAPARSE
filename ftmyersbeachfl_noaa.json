@@ -1,28 +1,23 @@
 {
-    "timestamp": "2026-11-04 07:42:57",
+    "timestamp": "2026-11-04 15:12:35",
     "forecasts": [
         {
-            "raw_text": "Southeast winds 5 to 10 knots. Seas around 2 feet this morning, then 1 foot or less. Wave detail: east 2 feet at 4 seconds, becoming southeast 1 foot at 3 seconds.",
+            "raw_text": "Southeast winds around 5 knots. Seas 1 foot or less. Wave detail: southeast 1 foot at 3 seconds.",
             "wind_direction": "SE",
-            "wind_speed": "5 to 10 knots",
-            "wave_height": "2 feet",
-            "wave_detail_string": "east 2 feet at 4 seconds, becoming southeast 1 foot at 3 seconds",
+            "wind_speed": "5 knots",
+            "wave_height": "1 foot",
+            "wave_detail_string": "southeast 1 foot at 3 seconds",
             "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "2 feet",
-                    "period": "4 seconds"
-                },
                 {
                     "direction": "SE",
                     "height": "1 foot",
                     "period": "3 seconds"
                 }
             ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "2 feet",
-            "primary_wave_period": "4 seconds",
-            "period": "Today 11/4"
+            "primary_swell_direction": "SE",
+            "primary_wave_height": "1 foot",
+            "primary_wave_period": "3 seconds",
+            "period": "This Afternoon 11/4"
         },
         {
             "raw_text": "East winds around 5 knots. Seas 1 foot or less. Wave detail: east 1 foot at 3 seconds.",
@@ -131,8 +126,8 @@
             "period": "Saturday Night 11/7"
         },
         {
-            "raw_text": "North winds 5 to 10 knots. Seas around 2 feet.",
-            "wind_direction": "N",
+            "raw_text": "Northeast winds 5 to 10 knots. Seas around 2 feet.",
+            "wind_direction": "NE",
             "wind_speed": "5 to 10 knots",
             "wave_height": "2 feet",
             "period": "Sunday 11/8"
