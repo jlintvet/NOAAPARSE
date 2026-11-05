@@ -1,12 +1,23 @@
 {
-    "timestamp": "2026-11-05 03:49:15",
+    "timestamp": "2026-11-05 11:59:55",
     "forecasts": [
         {
-            "raw_text": "Northeast winds 5 to 10 knots. Seas 3 to 4 feet. Wave  detail: east 4 feet at 8 seconds. Smooth on the intracoastal  waters.",
+            "raw_text": "Northeast winds around 5 knots. Seas 3 to 4 feet. Wave detail: east 4 feet at 8 seconds. Smooth on the intracoastal waters. A slight chance of showers early this morning.",
             "wind_direction": "NE",
-            "wind_speed": "5 to 10 knots",
+            "wind_speed": "5 knots",
             "wave_height": "3 to 4 feet",
-            "period": "Today 11/5"
+            "wave_detail_string": "east 4 feet at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "4 feet",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "4 feet",
+            "primary_wave_period": "8 seconds",
+            "period": "Rest Of Today 11/5"
         },
         {
             "raw_text": "Northeast winds 5 to 10 knots. Seas 3 to 5 feet, occasionally to 6 feet. Wave detail: east 4 feet at 10 seconds. Mostly smooth on the intracoastal waters.",

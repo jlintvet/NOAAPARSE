@@ -1,24 +1,6 @@
 {
-    "timestamp": "2026-11-05 03:49:03",
+    "timestamp": "2026-11-05 11:59:36",
     "forecasts": [
-        {
-            "raw_text": "SE winds 5 to 10 kt. Seas 4 ft. Wave detail: E 4 ft at 8 seconds.",
-            "wind_direction": "SE",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "4 ft",
-            "wave_detail_string": "E 4 ft at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "4 ft",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "4 ft",
-            "primary_wave_period": "8 seconds",
-            "period": "Rest Of Tonight 11/5"
-        },
         {
             "raw_text": "SE winds 5 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 8 seconds.",
             "wind_direction": "SE",
@@ -35,7 +17,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "8 seconds",
-            "period": "Thu 11/5"
+            "period": "Today 11/5"
         },
         {
             "raw_text": "S winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 8 seconds.",
@@ -53,7 +35,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "4 ft",
             "primary_wave_period": "8 seconds",
-            "period": "Thu Night 11/5"
+            "period": "Tonight 11/5"
         },
         {
             "raw_text": "SW winds 5 to 10 kt. Seas 3 to 4 ft. Wave detail: E 4 ft at 9 seconds. A chance of showers in the afternoon.",
@@ -127,10 +109,21 @@
             "period": "Sat 11/7"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt. Seas 4 to 5 ft.",
+            "raw_text": "NE winds 10 to 15 kt. Seas 4 to 5 ft. Wave detail: NE 5 ft at 9 seconds.",
             "wind_direction": "NE",
             "wind_speed": "10 to 15 kt",
             "wave_height": "4 to 5 ft",
+            "wave_detail_string": "NE 5 ft at 9 seconds",
+            "swell_components": [
+                {
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "9 seconds"
+                }
+            ],
+            "primary_swell_direction": "NE",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "9 seconds",
             "period": "Sat Night 11/7"
         },
         {
