@@ -1,34 +1,11 @@
 {
-    "timestamp": "2026-11-08 13:41:56",
+    "timestamp": "2026-11-08 17:36:42",
     "forecasts": [
         {
-            "raw_text": "NE winds 10 kt. Seas 2 to 3 ft. Wave detail: NE 3 ft at 5 seconds and E 3 ft at 10 seconds.",
-            "wind_direction": "NE",
-            "wind_speed": "10 kt",
-            "wave_height": "2 to 3 ft",
-            "wave_detail_string": "NE 3 ft at 5 seconds and E 3 ft at 10 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "3 ft",
-                    "period": "5 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "3 ft",
-                    "period": "10 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "3 ft",
-            "primary_wave_period": "5 seconds",
-            "period": "This Afternoon 11/8"
-        },
-        {
-            "raw_text": "NE winds 5 to 10 kt, becoming N after midnight. Seas 2 to 3 ft. Wave detail: NE 3 ft at 6 seconds and E 3 ft at 11 seconds.",
+            "raw_text": "NE winds 5 to 10 kt, diminishing to 5 kt after midnight, then becoming NW late. Seas 2 to 3 ft. Wave detail: NE 3 ft at 6 seconds and E 3 ft at 11 seconds.",
             "wind_direction": "NE",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming N after midnight",
+            "wind_commentary": "diminishing to 5 kt after midnight",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "NE 3 ft at 6 seconds and E 3 ft at 11 seconds",
             "swell_components": [
@@ -129,16 +106,33 @@
             "period": "Tue Night 11/10"
         },
         {
-            "raw_text": "W winds 5 to 10 kt. Seas 2 ft.",
+            "raw_text": "W winds 5 to 10 kt. Seas 2 ft. Wave detail: E 2 ft at 11 seconds and S 1 foot at 4 seconds.",
             "wind_direction": "W",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
+            "wave_detail_string": "E 2 ft at 11 seconds and S 1 foot at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "2 ft",
+                    "period": "11 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 foot",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "2 ft",
+            "primary_wave_period": "11 seconds",
             "period": "Wed 11/11"
         },
         {
-            "raw_text": "W winds 10 to 15 kt. Seas 2 to 3 ft.",
-            "wind_direction": "W",
-            "wind_speed": "10 to 15 kt",
+            "raw_text": "SW winds 5 to 10 kt, becoming W 10 to 15 kt after midnight. Seas 2 to 3 ft.",
+            "wind_direction": "SW",
+            "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming W 10 to 15 kt after midnight",
             "wave_height": "2 to 3 ft",
             "period": "Wed Night 11/11"
         },
@@ -150,11 +144,25 @@
             "period": "Thu 11/12"
         },
         {
-            "raw_text": "W winds 20 to 25 kt with gusts to 30 kt. Seas 3 to  4 ft.",
+            "raw_text": "W winds 20 to 25 kt. Seas 3 to 4 ft.",
             "wind_direction": "W",
             "wind_speed": "20 to 25 kt",
-            "wave_height": "3 to  4 ft",
+            "wave_height": "3 to 4 ft",
             "period": "Thu Night 11/12"
+        },
+        {
+            "raw_text": "W winds 20 to 25 kt. Seas 3 to 4 ft.",
+            "wind_direction": "W",
+            "wind_speed": "20 to 25 kt",
+            "wave_height": "3 to 4 ft",
+            "period": "Fri 11/13"
+        },
+        {
+            "raw_text": "NW winds 20 to 25 kt. Seas 4 to 5 ft.",
+            "wind_direction": "NW",
+            "wind_speed": "20 to 25 kt",
+            "wave_height": "4 to 5 ft",
+            "period": "Fri Night 11/13"
         }
     ]
 }
