@@ -1,14 +1,6 @@
 {
-    "timestamp": "2026-11-09 16:13:25",
+    "timestamp": "2026-11-09 22:54:23",
     "forecasts": [
-        {
-            "raw_text": "NW winds 10 to 15 kt with gusts up to 20 kt. Waves 2 to 3 ft.",
-            "wind_direction": "NW",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "2 to 3 ft",
-            "period": "Through 7 Pm 11/9"
-        },
         {
             "raw_text": "NW winds 10 to 15 kt, diminishing to 5 kt. Waves 1 to 2 ft.",
             "wind_direction": "NW",
@@ -18,9 +10,10 @@
             "period": "Tonight 11/9"
         },
         {
-            "raw_text": "SW winds 5 to 10 kt with gusts up to 15 kt. Waves 1 to 2 ft.",
+            "raw_text": "SW winds 5 kt, increasing to 5 to 10 kt with gusts up to 15 kt in the late morning and afternoon. Waves 1 to 2 ft.",
             "wind_direction": "SW",
-            "wind_speed": "5 to 10 kt",
+            "wind_speed": "5 kt",
+            "wind_commentary": "increasing to 5 to 10 kt with gusts up to 15 kt in the late morning and afternoon",
             "wind_gusts": "15 kt",
             "wave_height": "1 to 2 ft",
             "period": "Tue 11/10"
@@ -50,39 +43,54 @@
             "period": "Wed Night 11/11"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt, becoming SW in the afternoon. Gusts up to 15 kt. Waves 1 foot. A chance of showers in the afternoon.",
-            "wind_direction": "SE",
+            "raw_text": "S winds 5 to 10 kt with gusts up to 15 kt. Waves 1 to 2 ft. A chance of showers in the afternoon.",
+            "wind_direction": "S",
             "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SW in the afternoon",
             "wind_gusts": "15 kt",
-            "wave_height": "1 foot",
+            "wave_height": "1 to 2 ft",
             "period": "Thu 11/12"
         },
         {
-            "raw_text": "W winds 10 to 15 kt, increasing to 15 to 20 kt with gusts up to 25 kt after midnight. Waves 3 to 4 ft, occasionally to 5 ft. A chance of showers.",
+            "raw_text": "W winds 10 to 15 kt, increasing to 15 to 20 kt after midnight. Gusts up to 25 kt. Waves 3 to 4 ft, occasionally to 5 ft. A chance of showers.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "increasing to 15 to 20 kt with gusts up to 25 kt after midnight",
+            "wind_commentary": "increasing to 15 to 20 kt after midnight",
             "wind_gusts": "25 kt",
             "wave_height": "3 to 4 ft",
             "period": "Thu Night 11/12"
         },
         {
-            "raw_text": "NW winds 20 to 25 kt, increasing to 25 to 30 kt in the afternoon. Gusts up to 35 kt. Waves 4 to 5 ft, occasionally to 6 ft. A chance of showers.",
+            "raw_text": "NW winds 20 to 25 kt with gusts up to 30 kt, increasing to 25 to 30 kt with gusts up to 40 kt in the afternoon. Waves 4 to 5 ft, occasionally to 6 ft. A chance of showers.",
             "wind_direction": "NW",
             "wind_speed": "20 to 25 kt",
-            "wind_commentary": "increasing to 25 to 30 kt in the afternoon",
-            "wind_gusts": "35 kt",
+            "wind_commentary": "increasing to 25 to 30 kt with gusts up to 40 kt in the afternoon",
+            "wind_gusts": "30 kt",
             "wave_height": "4 to 5 ft",
             "period": "Fri 11/13"
         },
         {
-            "raw_text": "NW winds 25 to 30 kt with gusts up to 35 kt. Waves around 5 ft, occasionally to 6 ft. A chance of showers in the evening.",
+            "raw_text": "NW winds 25 to 30 kt with gusts up to 40 kt. Waves around 5 ft, occasionally to 6 ft. A chance of showers in the evening.",
             "wind_direction": "NW",
             "wind_speed": "25 to 30 kt",
-            "wind_gusts": "35 kt",
+            "wind_gusts": "40 kt",
             "wave_height": "5 ft",
             "period": "Fri Night 11/13"
+        },
+        {
+            "raw_text": "NW winds 25 to 30 kt with gusts up to 40 kt. Waves 4 to 5 ft, occasionally to 6 ft.",
+            "wind_direction": "NW",
+            "wind_speed": "25 to 30 kt",
+            "wind_gusts": "40 kt",
+            "wave_height": "4 to 5 ft",
+            "period": "Sat 11/14"
+        },
+        {
+            "raw_text": "NW winds 20 to 25 kt with gusts up to 35 kt. Waves 4 to 5 ft, occasionally to 6 ft.",
+            "wind_direction": "NW",
+            "wind_speed": "20 to 25 kt",
+            "wind_gusts": "35 kt",
+            "wave_height": "4 to 5 ft",
+            "period": "Sat Night 11/14"
         }
     ]
 }
