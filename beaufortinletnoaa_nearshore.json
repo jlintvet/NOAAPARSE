@@ -1,33 +1,11 @@
 {
-    "timestamp": "2026-11-12 15:34:06",
+    "timestamp": "2026-11-12 20:35:10",
     "forecasts": [
         {
-            "raw_text": "SW winds 20 to 25 kt. Seas 3 to 5 ft. Wave detail: SW 5 ft at 7 seconds and E 1 ft at 10 seconds. Adjacent sounds and rivers rough.",
-            "wind_direction": "SW",
-            "wind_speed": "20 to 25 kt",
-            "wave_height": "3 to 5 ft",
-            "wave_detail_string": "SW 5 ft at 7 seconds and E 1 ft at 10 seconds",
-            "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "5 ft",
-                    "period": "7 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "1 ft",
-                    "period": "10 seconds"
-                }
-            ],
-            "primary_swell_direction": "SW",
-            "primary_wave_height": "5 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "This Afternoon 11/12"
-        },
-        {
-            "raw_text": "W winds 15 to 20 kt with gusts up to 25 kt. Seas 3 to 5 ft. Wave detail: SW 5 ft at 8 seconds and E 1 ft at 10 seconds. Adjacent sounds and rivers choppy. A slight chance of showers in the evening.",
+            "raw_text": "W winds 15 to 20 kt with gusts up to 25 kt, becoming NW with gusts up to 25 kt late this evening and overnight. Seas 3 to 5 ft. Wave detail: SW 5 ft at 8 seconds and E 1 ft at 10 seconds. Adjacent sounds and rivers choppy.",
             "wind_direction": "W",
             "wind_speed": "15 to 20 kt",
+            "wind_commentary": "becoming NW with gusts up to 25 kt late this evening and overnight",
             "wind_gusts": "25 kt",
             "wave_height": "3 to 5 ft",
             "wave_detail_string": "SW 5 ft at 8 seconds and E 1 ft at 10 seconds",
@@ -143,10 +121,26 @@
             "period": "Sat Night 11/14"
         },
         {
-            "raw_text": "NW winds 10 to 15 kt. Seas 2 to 3 ft. Adjacent sounds and rivers a moderate chop.",
+            "raw_text": "NW winds 10 to 15 kt. Seas 2 to 3 ft. Wave detail: NW 3 ft at 4 seconds and E 2 ft at 10 seconds. Adjacent sounds and rivers a moderate chop.",
             "wind_direction": "NW",
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
+            "wave_detail_string": "NW 3 ft at 4 seconds and E 2 ft at 10 seconds",
+            "swell_components": [
+                {
+                    "direction": "NW",
+                    "height": "3 ft",
+                    "period": "4 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "2 ft",
+                    "period": "10 seconds"
+                }
+            ],
+            "primary_swell_direction": "NW",
+            "primary_wave_height": "3 ft",
+            "primary_wave_period": "4 seconds",
             "period": "Sun 11/15"
         },
         {
@@ -169,6 +163,20 @@
             "wind_speed": "10 to 15 kt",
             "wave_height": "2 to 3 ft",
             "period": "Mon Night 11/16"
+        },
+        {
+            "raw_text": "NE winds 10 to 15 kt. Seas 2 to 4 ft. Adjacent sounds and rivers a moderate chop.",
+            "wind_direction": "NE",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "2 to 4 ft",
+            "period": "Tue 11/17"
+        },
+        {
+            "raw_text": "NE winds around 15 kt. Seas 2 to 4 ft. Adjacent sounds and rivers a moderate chop.",
+            "wind_direction": "NE",
+            "wind_speed": "15 kt",
+            "wave_height": "2 to 4 ft",
+            "period": "Tue Night 11/17"
         }
     ]
 }
