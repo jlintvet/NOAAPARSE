@@ -1,28 +1,11 @@
 {
-    "timestamp": "2026-11-12 20:35:40",
+    "timestamp": "2026-11-13 03:57:01",
     "forecasts": [
         {
-            "raw_text": "NW winds 5 to 10 kt. Seas less than 2 ft or less. Wave detail: NW 1 foot at 2 seconds. Bay and inland waters light chop.",
-            "wind_direction": "NW",
-            "wind_speed": "5 to 10 kt",
-            "wave_detail_string": "NW 1 foot at 2 seconds",
-            "swell_components": [
-                {
-                    "direction": "NW",
-                    "height": "1 foot",
-                    "period": "2 seconds"
-                }
-            ],
-            "primary_swell_direction": "NW",
-            "primary_wave_height": "1 foot",
-            "primary_wave_period": "2 seconds",
-            "period": "Tonight 11/12"
-        },
-        {
-            "raw_text": "N winds 10 to 15 kt, increasing to 15 to 20 kt in the afternoon. Seas 2 to 3 ft. Wave detail: NW 3 ft at 5 seconds. Bay and inland waters a moderate chop.",
+            "raw_text": "N winds 10 to 15 kt, increasing to 15 to 20 kt this afternoon. Seas 2 to 3 ft. Wave detail: NW 3 ft at 5 seconds. Bay and inland waters a moderate chop. A slight chance of showers early this morning.",
             "wind_direction": "N",
             "wind_speed": "10 to 15 kt",
-            "wind_commentary": "increasing to 15 to 20 kt in the afternoon",
+            "wind_commentary": "increasing to 15 to 20 kt this afternoon",
             "wave_height": "2 to 3 ft",
             "wave_detail_string": "NW 3 ft at 5 seconds",
             "swell_components": [
@@ -35,31 +18,32 @@
             "primary_swell_direction": "NW",
             "primary_wave_height": "3 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Fri 11/13"
+            "period": "Today 11/13"
         },
         {
-            "raw_text": "N winds 15 to 20 kt. Seas 2 to 4 ft, occasionally to 5 ft. Wave detail: NW 3 ft at 5 seconds. Bay and inland waters a moderate chop.",
+            "raw_text": "N winds 15 to 20 kt. Seas 2 to 4 ft, occasionally to 5 ft. Wave detail: NW 4 ft at 5 seconds. Bay and inland waters a moderate chop.",
             "wind_direction": "N",
             "wind_speed": "15 to 20 kt",
             "wave_height": "2 to 4 ft",
-            "wave_detail_string": "NW 3 ft at 5 seconds",
+            "wave_detail_string": "NW 4 ft at 5 seconds",
             "swell_components": [
                 {
                     "direction": "NW",
-                    "height": "3 ft",
+                    "height": "4 ft",
                     "period": "5 seconds"
                 }
             ],
             "primary_swell_direction": "NW",
-            "primary_wave_height": "3 ft",
+            "primary_wave_height": "4 ft",
             "primary_wave_period": "5 seconds",
-            "period": "Fri Night 11/13"
+            "period": "Tonight 11/13"
         },
         {
-            "raw_text": "N winds 15 to 20 kt. Seas 2 to 4 ft, occasionally to 5 ft. Wave detail: N 4 ft at 5 seconds. Bay and inland waters a moderate chop.",
+            "raw_text": "N winds 15 to 20 kt with gusts up to 25 kt. Seas 3 to 5 ft, occasionally to 6 ft. Wave detail: N 4 ft at 5 seconds. Bay and inland waters a moderate chop.",
             "wind_direction": "N",
             "wind_speed": "15 to 20 kt",
-            "wave_height": "2 to 4 ft",
+            "wind_gusts": "25 kt",
+            "wave_height": "3 to 5 ft",
             "wave_detail_string": "N 4 ft at 5 seconds",
             "swell_components": [
                 {
@@ -74,10 +58,10 @@
             "period": "Sat 11/14"
         },
         {
-            "raw_text": "NE winds 10 to 15 kt with gusts up to 20 kt. Seas 2 to 4 ft, occasionally to 5 ft. Wave detail: N 3 ft at 5 seconds. Bay and inland waters light chop.",
+            "raw_text": "NE winds 15 to 20 kt, diminishing to 10 to 15 kt after midnight. Seas 2 to 4 ft, occasionally to 5 ft. Wave detail: N 3 ft at 5 seconds. Bay and inland waters a moderate chop.",
             "wind_direction": "NE",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
+            "wind_speed": "15 to 20 kt",
+            "wind_commentary": "diminishing to 10 to 15 kt after midnight",
             "wave_height": "2 to 4 ft",
             "wave_detail_string": "N 3 ft at 5 seconds",
             "swell_components": [
@@ -112,19 +96,29 @@
             "period": "Sun 11/15"
         },
         {
-            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 2 to 4 ft, occasionally to 5 ft. Bay and inland waters a moderate chop.",
+            "raw_text": "NE winds 15 to 20 kt. Seas 2 to 4 ft, occasionally to 5 ft. Wave detail: N 4 ft at 5 seconds. Bay and inland waters a moderate chop.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
-            "wind_gusts": "25 kt",
             "wave_height": "2 to 4 ft",
+            "wave_detail_string": "N 4 ft at 5 seconds",
+            "swell_components": [
+                {
+                    "direction": "N",
+                    "height": "4 ft",
+                    "period": "5 seconds"
+                }
+            ],
+            "primary_swell_direction": "N",
+            "primary_wave_height": "4 ft",
+            "primary_wave_period": "5 seconds",
             "period": "Sun Night 11/15"
         },
         {
-            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 2 to 4 ft, occasionally to 5 ft. Bay and inland waters a moderate chop.",
+            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 3 to 5 ft, occasionally to 6 ft. Bay and inland waters a moderate chop.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
             "wind_gusts": "25 kt",
-            "wave_height": "2 to 4 ft",
+            "wave_height": "3 to 5 ft",
             "period": "Mon 11/16"
         },
         {
@@ -142,10 +136,11 @@
             "period": "Tue 11/17"
         },
         {
-            "raw_text": "NE winds 20 to 25 kt. Seas 4 to 6 ft, occasionally to 8 ft. Bay and inland waters a moderate chop.",
+            "raw_text": "NE winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Seas 3 to 5 ft, occasionally to 6 ft. Bay and inland waters a moderate chop.",
             "wind_direction": "NE",
             "wind_speed": "20 to 25 kt",
-            "wave_height": "4 to 6 ft",
+            "wind_commentary": "diminishing to 15 to 20 kt after midnight",
+            "wave_height": "3 to 5 ft",
             "period": "Tue Night 11/17"
         }
     ]
