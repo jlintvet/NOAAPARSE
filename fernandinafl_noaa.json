@@ -1,11 +1,11 @@
 {
-    "timestamp": "2026-11-16 20:22:06",
+    "timestamp": "2026-11-17 04:56:57",
     "forecasts": [
         {
-            "raw_text": "Northeast winds 20 to 25 knots. Seas 5 to 7 feet, occasionally to 9 feet. Wave detail: northeast 7 feet at 7 seconds. A chance of showers.",
-            "wind_direction": "NE",
+            "raw_text": "East winds 20 to 25 knots. Seas 6 to 7 feet, occasionally to 9 feet. Wave detail: northeast 7 feet at 7 seconds. A chance of showers.",
+            "wind_direction": "E",
             "wind_speed": "20 to 25 knots",
-            "wave_height": "5 to 7 feet",
+            "wave_height": "6 to 7 feet",
             "wave_detail_string": "northeast 7 feet at 7 seconds",
             "swell_components": [
                 {
@@ -17,15 +17,21 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "7 feet",
             "primary_wave_period": "7 seconds",
-            "period": "Tonight 11/16"
+            "period": "Rest Of Tonight 11/17"
         },
         {
-            "raw_text": "East winds 20 to 25 knots. Seas 6 to 8 feet, occasionally to 10 feet. Wave detail: east 8 feet at 7 seconds. A chance of showers in the morning, then showers in the afternoon.",
+            "raw_text": "East winds 20 to 25 knots. Seas 6 to 7 feet, occasionally to 9 feet, building to 7 to 9 feet, occasionally to 11 feet in the afternoon. Wave detail: east 7 feet at 7 seconds, becoming east 8 feet at 7 seconds. A chance of showers in the morning, then showers likely in the afternoon.",
             "wind_direction": "E",
             "wind_speed": "20 to 25 knots",
-            "wave_height": "6 to 8 feet",
-            "wave_detail_string": "east 8 feet at 7 seconds",
+            "wave_height": "6 to 7 feet",
+            "wave_commentary": "building to 7 to 9 feet, occasionally to 11 feet in the afternoon",
+            "wave_detail_string": "east 7 feet at 7 seconds, becoming east 8 feet at 7 seconds",
             "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "7 feet",
+                    "period": "7 seconds"
+                },
                 {
                     "direction": "E",
                     "height": "8 feet",
@@ -33,32 +39,81 @@
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "8 feet",
+            "primary_wave_height": "7 feet",
             "primary_wave_period": "7 seconds",
             "period": "Tuesday 11/17"
         },
         {
-            "raw_text": "East winds 25 to 30 knots. Seas 8 to 10 feet, occasionally to 13 feet. Wave detail: east 10 feet at 8 seconds. Showers.",
+            "raw_text": "East winds 25 to 30 knots, diminishing to 20 to 25 knots after midnight. Seas 8 to 10 feet, occasionally to 13 feet. Wave detail: east 9 feet at 7 seconds and east 2 feet at 4 seconds. Showers likely with a slight chance of thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "25 to 30 knots",
+            "wind_commentary": "diminishing to 20 to 25 knots after midnight",
+            "wave_height": "8 to 10 feet",
+            "wave_detail_string": "east 9 feet at 7 seconds and east 2 feet at 4 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "9 feet",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "2 feet",
+                    "period": "4 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "9 feet",
+            "primary_wave_period": "7 seconds",
+            "period": "Tuesday Night 11/17"
+        },
+        {
+            "raw_text": "East winds 25 to 30 knots. Seas 8 to 10 feet, occasionally to 13 feet, building to 9 to 12 feet, occasionally to 15 feet in the afternoon. Wave detail: east 10 feet at 8 seconds, becoming east 11 feet at 8 seconds. Showers likely with a slight chance of thunderstorms in the morning, then showers with a chance of thunderstorms in the afternoon.",
             "wind_direction": "E",
             "wind_speed": "25 to 30 knots",
             "wave_height": "8 to 10 feet",
-            "wave_detail_string": "east 10 feet at 8 seconds",
+            "wave_commentary": "building to 9 to 12 feet, occasionally to 15 feet in the afternoon",
+            "wave_detail_string": "east 10 feet at 8 seconds, becoming east 11 feet at 8 seconds",
             "swell_components": [
                 {
                     "direction": "E",
                     "height": "10 feet",
+                    "period": "8 seconds"
+                },
+                {
+                    "direction": "E",
+                    "height": "11 feet",
                     "period": "8 seconds"
                 }
             ],
             "primary_swell_direction": "E",
             "primary_wave_height": "10 feet",
             "primary_wave_period": "8 seconds",
-            "period": "Tuesday Night 11/17"
+            "period": "Wednesday 11/18"
         },
         {
-            "raw_text": "East winds 25 to 30 knots. Seas 9 to 12 feet, occasionally to 15 feet. Wave detail: east 12 feet at 9 seconds. Showers with a slight chance of thunderstorms.",
+            "raw_text": "East winds 25 to 30 knots. Seas 9 to 13 feet, occasionally to 17 feet. Wave detail: east 12 feet at 8 seconds. Showers. A chance of thunderstorms, mainly in the evening.",
             "wind_direction": "E",
             "wind_speed": "25 to 30 knots",
+            "wave_height": "9 to 13 feet",
+            "wave_detail_string": "east 12 feet at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "12 feet",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "12 feet",
+            "primary_wave_period": "8 seconds",
+            "period": "Wednesday Night 11/18"
+        },
+        {
+            "raw_text": "East winds 25 to 30 knots, diminishing to 20 to 25 knots in the afternoon. Seas 9 to 12 feet, occasionally to 15 feet. Wave detail: east 12 feet at 9 seconds. Showers with a slight chance of thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "25 to 30 knots",
+            "wind_commentary": "diminishing to 20 to 25 knots in the afternoon",
             "wave_height": "9 to 12 feet",
             "wave_detail_string": "east 12 feet at 9 seconds",
             "swell_components": [
@@ -71,58 +126,27 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "12 feet",
             "primary_wave_period": "9 seconds",
-            "period": "Wednesday 11/18"
+            "period": "Thursday 11/19"
         },
         {
-            "raw_text": "East winds 25 to 30 knots. Seas 10 to 14 feet, occasionally to 18 feet. Wave detail: east 13 feet at 9 seconds. A slight chance of thunderstorms in the evening. Showers.",
-            "wind_direction": "E",
-            "wind_speed": "25 to 30 knots",
-            "wave_height": "10 to 14 feet",
-            "wave_detail_string": "east 13 feet at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "13 feet",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "13 feet",
-            "primary_wave_period": "9 seconds",
-            "period": "Wednesday Night 11/18"
-        },
-        {
-            "raw_text": "East winds 25 to 30 knots. Seas 9 to 13 feet, occasionally to 17 feet. Wave detail: east 13 feet at 9 seconds. Showers with a chance of thunderstorms.",
-            "wind_direction": "E",
-            "wind_speed": "25 to 30 knots",
-            "wave_height": "9 to 13 feet",
-            "wave_detail_string": "east 13 feet at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "13 feet",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "13 feet",
-            "primary_wave_period": "9 seconds",
-            "period": "Thursday And Thursday Night 11/19"
-        },
-        {
-            "raw_text": "East winds 20 to 25 knots. Seas 9 to 12 feet, occasionally to 15 feet. Showers likely with a chance of thunderstorms.",
+            "raw_text": "East winds 20 to 25 knots. Seas 8 to 11 feet, occasionally to 14 feet. Showers likely with a chance of thunderstorms.",
             "wind_direction": "E",
             "wind_speed": "20 to 25 knots",
-            "wave_height": "9 to 12 feet",
+            "wave_height": "8 to 11 feet",
+            "period": "Thursday Night 11/19"
+        },
+        {
+            "raw_text": "East winds 20 to 25 knots. Seas 8 to 11 feet, occasionally to 14 feet. Showers likely with a chance of thunderstorms.",
+            "wind_direction": "E",
+            "wind_speed": "20 to 25 knots",
+            "wave_height": "8 to 11 feet",
             "period": "Friday 11/20"
         },
         {
-            "raw_text": "Northeast winds 15 to 20 knots, becoming northwest. Seas 9 to 12 feet, occasionally to 15 feet, subsiding to 8 to 10 feet, occasionally to 13 feet. A slight chance of thunderstorms through the day. A chance of showers, then a slight chance of showers after midnight.winds and seas higher in and near thunderstorms.",
+            "raw_text": "Northeast winds 15 to 20 knots. Seas 7 to 10 feet, occasionally to 13 feet. A chance of thunderstorms in the morning. Showers likely through the day. A slight chance of thunderstorms in the afternoon, then a chance of showers in the evening. A slight chance of showers after midnight.winds and seas higher in and near thunderstorms.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 knots",
-            "wind_commentary": "becoming northwest",
-            "wave_height": "9 to 12 feet",
-            "wave_commentary": "subsiding to 8 to 10 feet, occasionally to 13 feet",
+            "wave_height": "7 to 10 feet",
             "period": "Saturday 11/21"
         }
     ]
