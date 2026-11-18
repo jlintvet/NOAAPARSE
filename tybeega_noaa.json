@@ -1,26 +1,8 @@
 {
-    "timestamp": "2026-11-18 04:33:01",
+    "timestamp": "2026-11-18 13:31:27",
     "forecasts": [
         {
-            "raw_text": "NE winds 20 to 25 kt with gusts to 30 kt. Seas 7 to 8 ft. Wave detail: NE 8 ft at 7 seconds. A chance of showers, then showers likely late.",
-            "wind_direction": "NE",
-            "wind_speed": "20 to 25 kt",
-            "wave_height": "7 to 8 ft",
-            "wave_detail_string": "NE 8 ft at 7 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "8 ft",
-                    "period": "7 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "8 ft",
-            "primary_wave_period": "7 seconds",
-            "period": "Rest Of Tonight 11/18"
-        },
-        {
-            "raw_text": "NE winds 20 to 25 kt with gusts to 30 kt. Seas 7 to 8 ft, building to 8 to 9 ft in the afternoon. Wave detail: NE 8 ft at 8 seconds, becoming E 9 ft at 8 seconds. A chance of showers.",
+            "raw_text": "NE winds 20 to 25 kt with gusts to 30 kt. Seas 7 to 8 ft, building to 8 to 9 ft this afternoon. Wave detail: NE 8 ft at 8 seconds, becoming E 9 ft at 8 seconds. A chance of showers this morning, then showers likely early this afternoon. A chance of showers late.",
             "wind_direction": "NE",
             "wind_speed": "20 to 25 kt",
             "wave_height": "7 to 8 ft",
@@ -41,7 +23,7 @@
             "primary_swell_direction": "NE",
             "primary_wave_height": "8 ft",
             "primary_wave_period": "8 seconds",
-            "period": "Wed 11/18"
+            "period": "Today 11/18"
         },
         {
             "raw_text": "E winds 20 to 25 kt with gusts to 30 kt. Seas 8 to 10 ft. Wave detail: E 10 ft at 8 seconds. A chance of showers.",
@@ -59,7 +41,7 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "10 ft",
             "primary_wave_period": "8 seconds",
-            "period": "Wed Night 11/18"
+            "period": "Tonight 11/18"
         },
         {
             "raw_text": "E winds 20 to 25 kt with gusts to 30 kt. Seas 8 to 10 ft. Wave detail: E 10 ft at 9 seconds. A chance of showers in the morning, then showers in the afternoon.",
@@ -116,10 +98,21 @@
             "period": "Fri 11/20"
         },
         {
-            "raw_text": "NE winds 20 to 25 kt with gusts to 35 kt. Seas 9 to 12 ft. Showers likely.",
+            "raw_text": "NE winds 20 to 25 kt with gusts to 35 kt. Seas 9 to 12 ft. Wave detail: E 12 ft at 10 seconds. Showers likely.",
             "wind_direction": "NE",
             "wind_speed": "20 to 25 kt",
             "wave_height": "9 to 12 ft",
+            "wave_detail_string": "E 12 ft at 10 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "12 ft",
+                    "period": "10 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "12 ft",
+            "primary_wave_period": "10 seconds",
             "period": "Fri Night 11/20"
         },
         {
