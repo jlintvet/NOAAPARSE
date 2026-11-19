@@ -1,13 +1,24 @@
 {
-    "timestamp": "2026-11-18 19:52:48",
+    "timestamp": "2026-11-19 03:14:23",
     "forecasts": [
         {
-            "raw_text": "East winds 20 to 25 knots early, becoming east to  southeast 15 to 20 knots in the evening, then decreasing to 10 to 15 knots late. Seas 5 to 8 feet, occasionally to 10 feet. Wave  detail: east 7 feet at 7 seconds. A chance of showers and a slight chance of thunderstorms. Winds and seas higher in and around showers and thunderstorms.",
+            "raw_text": "East winds 20 to 25 knots, becoming east to  southeast 15 to 20 knots early, then decreasing to 10 to 15 knots  late. Seas 5 to 8 feet, occasionally to 10 feet. Wave detail: east 7 feet at 7 seconds. A chance of showers and a slight chance of  thunderstorms. Winds and seas higher in and around showers and  thunderstorms.",
             "wind_direction": "E",
             "wind_speed": "20 to 25 knots",
-            "wind_commentary": "becoming east to  southeast 15 to 20 knots in the evening",
+            "wind_commentary": "becoming east to  southeast 15 to 20 knots early",
             "wave_height": "5 to 8 feet",
-            "period": "Tonight 11/18"
+            "wave_detail_string": "east 7 feet at 7 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "7 feet",
+                    "period": "7 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "7 feet",
+            "primary_wave_period": "7 seconds",
+            "period": "Overnight 11/19"
         },
         {
             "raw_text": "East winds 5 to 10 knots. Seas 4 to 7 feet, occasionally to 8 feet, subsiding to 3 to 5 feet, occasionally to 6 feet due to a north to northeast swell. Wave detail: northeast  to east 6 feet at 7 seconds. A slight chance of showers and  thunderstorms.",
