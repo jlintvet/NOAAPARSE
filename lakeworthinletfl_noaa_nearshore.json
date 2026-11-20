@@ -1,12 +1,13 @@
 {
-    "timestamp": "2026-11-19 12:52:24",
+    "timestamp": "2026-11-19 19:05:34",
     "forecasts": [
         {
-            "raw_text": "E winds 20 to 25 kt with gusts up to 30 kt. Seas 6 to 9 ft, occasionally to 11 ft. Wave detail: E 8 ft at 7 seconds and NW 2 ft at 9 seconds. Intracoastal waters rough in exposed areas. A chance of tstms. Showers.",
+            "raw_text": "E winds 25 to 30 kt, becoming NE 15 to 20 kt after midnight. Seas 6 to 9 ft, occasionally to 11 ft, subsiding to 5 to 7 ft, occasionally to 9 ft after midnight. Wave detail: E 8 ft at 7 seconds and NW 2 ft at 9 seconds. Intracoastal waters very rough in exposed areas. A slight chance of tstms.",
             "wind_direction": "E",
-            "wind_speed": "20 to 25 kt",
-            "wind_gusts": "30 kt",
+            "wind_speed": "25 to 30 kt",
+            "wind_commentary": "becoming NE 15 to 20 kt after midnight",
             "wave_height": "6 to 9 ft",
+            "wave_commentary": "subsiding to 5 to 7 ft, occasionally to 9 ft",
             "wave_detail_string": "E 8 ft at 7 seconds and NW 2 ft at 9 seconds",
             "swell_components": [
                 {
@@ -23,38 +24,13 @@
             "primary_swell_direction": "E",
             "primary_wave_height": "8 ft",
             "primary_wave_period": "7 seconds",
-            "period": "Today 11/19"
-        },
-        {
-            "raw_text": "E winds 20 to 25 kt, diminishing to 15 to 20 kt after midnight. Seas 6 to 9 ft, occasionally to 11 ft, subsiding to 5 to 7 ft, occasionally to 9 ft after midnight. Wave detail: E 8 ft at 7 seconds and NW 2 ft at 8 seconds. Intracoastal waters rough in exposed areas. A chance of tstms early in the evening. Showers likely in the evening. A chance of showers after midnight.",
-            "wind_direction": "E",
-            "wind_speed": "20 to 25 kt",
-            "wind_commentary": "diminishing to 15 to 20 kt after midnight",
-            "wave_height": "6 to 9 ft",
-            "wave_commentary": "subsiding to 5 to 7 ft, occasionally to 9 ft",
-            "wave_detail_string": "E 8 ft at 7 seconds and NW 2 ft at 8 seconds",
-            "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "8 ft",
-                    "period": "7 seconds"
-                },
-                {
-                    "direction": "NW",
-                    "height": "2 ft",
-                    "period": "8 seconds"
-                }
-            ],
-            "primary_swell_direction": "E",
-            "primary_wave_height": "8 ft",
-            "primary_wave_period": "7 seconds",
             "period": "Tonight 11/19"
         },
         {
-            "raw_text": "NE winds 15 to 20 kt with gusts up to 25 kt. Seas 4 to 6 ft, occasionally to 8 ft. Wave detail: N 5 ft at 7 seconds. Intracoastal waters choppy in exposed areas. A chance of showers early in the morning, then showers in the late morning and afternoon.",
+            "raw_text": "NE winds 15 to 20 kt, becoming N 10 to 15 kt in the afternoon. Seas 4 to 6 ft, occasionally to 8 ft. Wave detail: N 5 ft at 7 seconds. Intracoastal waters a moderate chop. A chance of showers.",
             "wind_direction": "NE",
             "wind_speed": "15 to 20 kt",
-            "wind_gusts": "25 kt",
+            "wind_commentary": "becoming N 10 to 15 kt in the afternoon",
             "wave_height": "4 to 6 ft",
             "wave_detail_string": "N 5 ft at 7 seconds",
             "swell_components": [
@@ -70,78 +46,96 @@
             "period": "Fri 11/20"
         },
         {
-            "raw_text": "N winds 15 to 20 kt with gusts up to 25 kt. Seas 5 to 7 ft, occasionally to 9 ft, building to 6 to 9 ft, occasionally to 11 ft after midnight. Wave detail: N 6 ft at 8 seconds and NE 6 ft at 9 seconds. Intracoastal waters a moderate chop. A chance of showers.",
-            "wind_direction": "N",
+            "raw_text": "NW winds 10 to 15 kt, becoming W 15 to 20 kt after midnight. Seas 4 to 6 ft, occasionally to 8 ft. Wave detail: W 5 ft at 7 seconds and NE 5 ft at 8 seconds. Intracoastal waters a moderate chop. A chance of showers until early morning.",
+            "wind_direction": "NW",
+            "wind_speed": "10 to 15 kt",
+            "wind_commentary": "becoming W 15 to 20 kt after midnight",
+            "wave_height": "4 to 6 ft",
+            "wave_detail_string": "W 5 ft at 7 seconds and NE 5 ft at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "5 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "5 ft",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "W",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "7 seconds",
+            "period": "Fri Night 11/20"
+        },
+        {
+            "raw_text": "W winds 15 to 20 kt. Seas 4 to 6 ft, occasionally to 8 ft. Wave detail: W 5 ft at 7 seconds and NE 3 ft at 8 seconds. Intracoastal waters a moderate chop. A chance of showers in the afternoon.",
+            "wind_direction": "W",
             "wind_speed": "15 to 20 kt",
-            "wind_gusts": "25 kt",
+            "wave_height": "4 to 6 ft",
+            "wave_detail_string": "W 5 ft at 7 seconds and NE 3 ft at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "5 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "3 ft",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "W",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "7 seconds",
+            "period": "Sat 11/21"
+        },
+        {
+            "raw_text": "W winds 10 to 15 kt. Seas 4 to 6 ft, occasionally to 8 ft. Wave detail: W 5 ft at 7 seconds and NE 4 ft at 8 seconds. Intracoastal waters light chop. A chance of showers early in the evening.",
+            "wind_direction": "W",
+            "wind_speed": "10 to 15 kt",
+            "wave_height": "4 to 6 ft",
+            "wave_detail_string": "W 5 ft at 7 seconds and NE 4 ft at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "5 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "4 ft",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "W",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "7 seconds",
+            "period": "Sat Night 11/21"
+        },
+        {
+            "raw_text": "W winds 10 to 15 kt. Seas 5 to 7 ft, occasionally to 9 ft. Wave detail: N 6 ft at 9 seconds and W 4 ft at 6 seconds. Intracoastal waters light chop.",
+            "wind_direction": "W",
+            "wind_speed": "10 to 15 kt",
             "wave_height": "5 to 7 ft",
-            "wave_commentary": "building to 6 to 9 ft, occasionally to 11 ft",
-            "wave_detail_string": "N 6 ft at 8 seconds and NE 6 ft at 9 seconds",
+            "wave_detail_string": "N 6 ft at 9 seconds and W 4 ft at 6 seconds",
             "swell_components": [
                 {
                     "direction": "N",
                     "height": "6 ft",
-                    "period": "8 seconds"
+                    "period": "9 seconds"
                 },
                 {
-                    "direction": "NE",
-                    "height": "6 ft",
-                    "period": "9 seconds"
+                    "direction": "W",
+                    "height": "4 ft",
+                    "period": "6 seconds"
                 }
             ],
             "primary_swell_direction": "N",
             "primary_wave_height": "6 ft",
-            "primary_wave_period": "8 seconds",
-            "period": "Fri Night 11/20"
-        },
-        {
-            "raw_text": "NW winds 10 to 15 kt with gusts up to 20 kt. Seas 6 to 9 ft, occasionally to 11 ft. Wave detail: NE 7 ft at 9 seconds and N 6 ft at 9 seconds. Intracoastal waters light chop. A chance of showers.",
-            "wind_direction": "NW",
-            "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "6 to 9 ft",
-            "wave_detail_string": "NE 7 ft at 9 seconds and N 6 ft at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "NE",
-                    "height": "7 ft",
-                    "period": "9 seconds"
-                },
-                {
-                    "direction": "N",
-                    "height": "6 ft",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "NE",
-            "primary_wave_height": "7 ft",
             "primary_wave_period": "9 seconds",
-            "period": "Sat 11/21"
-        },
-        {
-            "raw_text": "NW winds 10 to 15 kt, becoming W 5 to 10 kt after midnight. Seas 5 to 8 ft, occasionally to 10 ft. Wave detail: N 8 ft at 9 seconds. Intracoastal waters light chop. A chance of showers until early morning.",
-            "wind_direction": "NW",
-            "wind_speed": "10 to 15 kt",
-            "wind_commentary": "becoming W 5 to 10 kt after midnight",
-            "wave_height": "5 to 8 ft",
-            "wave_detail_string": "N 8 ft at 9 seconds",
-            "swell_components": [
-                {
-                    "direction": "N",
-                    "height": "8 ft",
-                    "period": "9 seconds"
-                }
-            ],
-            "primary_swell_direction": "N",
-            "primary_wave_height": "8 ft",
-            "primary_wave_period": "9 seconds",
-            "period": "Sat Night 11/21"
-        },
-        {
-            "raw_text": "W winds 5 to 10 kt. Seas 5 to 8 ft, occasionally to 10 ft. Intracoastal waters light chop.",
-            "wind_direction": "W",
-            "wind_speed": "5 to 10 kt",
-            "wave_height": "5 to 8 ft",
             "period": "Sun 11/22"
         },
         {
@@ -152,18 +146,32 @@
             "period": "Sun Night 11/22"
         },
         {
-            "raw_text": "NW winds around 5 kt. Seas 2 to 4 ft, occasionally to 5 ft. Intracoastal waters smooth.",
-            "wind_direction": "NW",
-            "wind_speed": "5 kt",
+            "raw_text": "N winds 5 to 10 kt. Seas 2 to 4 ft, occasionally to 5 ft. Intracoastal waters light chop.",
+            "wind_direction": "N",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 4 ft",
             "period": "Mon 11/23"
         },
         {
-            "raw_text": "E winds around 5 kt. Seas 2 to 3 ft. Intracoastal waters smooth. A chance of showers.winds and seas higher in and near tstms.",
+            "raw_text": "E winds 5 to 10 kt. Seas 2 to 3 ft. Intracoastal waters light chop. A chance of showers after midnight.",
             "wind_direction": "E",
-            "wind_speed": "5 kt",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "2 to 3 ft",
             "period": "Mon Night 11/23"
+        },
+        {
+            "raw_text": "E winds 5 to 10 kt. Seas 2 to 3 ft. Intracoastal waters light chop. A chance of showers.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Tue 11/24"
+        },
+        {
+            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Intracoastal waters light chop. A chance of showers.winds and seas higher in and near tstms.",
+            "wind_direction": "E",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 ft",
+            "period": "Tue Night 11/24"
         }
     ]
 }
