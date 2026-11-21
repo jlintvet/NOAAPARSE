@@ -1,13 +1,12 @@
 {
-    "timestamp": "2026-11-21 06:56:43",
+    "timestamp": "2026-11-21 13:37:08",
     "forecasts": [
         {
-            "raw_text": "E winds 5 to 10 kt, becoming SE late. Seas around 2 ft. Wave detail: NE 1 ft at 2 seconds and S 1 ft at 2 seconds.",
-            "wind_direction": "E",
-            "wind_speed": "5 to 10 kt",
-            "wind_commentary": "becoming SE late",
-            "wave_height": "2 ft",
-            "wave_detail_string": "NE 1 ft at 2 seconds and S 1 ft at 2 seconds",
+            "raw_text": "NE winds around 10 kt, become E 5 to 10 kt by afternoon.  seas 1 to 2 ft. Wave detail: NE 1 ft at 2 seconds and SE 1 ft at  9 seconds.",
+            "wind_direction": "NE",
+            "wind_speed": "10 kt",
+            "wave_height": "1 to 2 ft",
+            "wave_detail_string": "NE 1 ft at 2 seconds and SE 1 ft at  9 seconds",
             "swell_components": [
                 {
                     "direction": "NE",
@@ -15,9 +14,9 @@
                     "period": "2 seconds"
                 },
                 {
-                    "direction": "S",
+                    "direction": "SE",
                     "height": "1 ft",
-                    "period": "2 seconds"
+                    "period": "9 seconds"
                 }
             ],
             "primary_swell_direction": "NE",
@@ -26,8 +25,8 @@
             "period": "Today 11/21"
         },
         {
-            "raw_text": "SE winds 5 to 10 kt. Seas around 2 ft. Wave detail: SE 2 ft at 8 seconds and E 1 ft at 3 seconds.",
-            "wind_direction": "SE",
+            "raw_text": "E winds 5 to 10 kt. Seas around 2 ft. Wave detail: SE 2 ft at 8 seconds and E 1 ft at 3 seconds.",
+            "wind_direction": "E",
             "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "SE 2 ft at 8 seconds and E 1 ft at 3 seconds",
@@ -168,7 +167,7 @@
             "period": "Wed 11/25"
         },
         {
-            "raw_text": "NE winds 25 to 35 kt. Seas 6 to 9 ft, occasionally to 11 ft. Chance of rain.winds and seas may be higher in and near tstms.",
+            "raw_text": "NE winds 25 to 35 kt. Seas 6 to 9 ft, occasionally to 11 ft. Chance of rain.",
             "wind_direction": "NE",
             "wind_speed": "25 to 35 kt",
             "wave_height": "6 to 9 ft",

@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-11-21 06:56:44",
+    "timestamp": "2026-11-21 13:37:09",
     "forecasts": [
         {
-            "raw_text": "E winds around 5 kt, becoming SE late. Seas around 2 ft. Wave detail: SW 1 ft at 3 seconds and SE 1 ft at 9 seconds.",
-            "wind_direction": "E",
-            "wind_speed": "5 kt",
-            "wind_commentary": "becoming SE late",
-            "wave_height": "2 ft",
-            "wave_detail_string": "SW 1 ft at 3 seconds and SE 1 ft at 9 seconds",
+            "raw_text": "NE winds 5 to 10 kt, becoming E this afternoon. Seas around 1 ft, then 1 to 2 ft this afternoon. Wave detail: SW 1 ft at 3 seconds and SE 1 ft at 9 seconds, becoming SW 1 ft  at 3 seconds and S 1 ft at 9 seconds.",
+            "wind_direction": "NE",
+            "wind_speed": "5 to 10 kt",
+            "wind_commentary": "becoming E this afternoon",
+            "wave_height": "1 ft",
+            "wave_detail_string": "SW 1 ft at 3 seconds and SE 1 ft at 9 seconds, becoming SW 1 ft  at 3 seconds and S 1 ft at 9 seconds",
             "swell_components": [
                 {
                     "direction": "SW",
@@ -18,6 +18,16 @@
                     "direction": "SE",
                     "height": "1 ft",
                     "period": "9 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "1 ft",
+                    "period": "3 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "1 ft",
+                    "period": "9 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
@@ -26,9 +36,9 @@
             "period": "Today 11/21"
         },
         {
-            "raw_text": "SE winds around 5 kt. Seas around 2 ft. Wave detail: S 1 ft at 3 seconds and S 1 ft at 9 seconds.",
+            "raw_text": "SE winds 5 to 10 kt. Seas around 2 ft. Wave detail: S 1 ft at 3 seconds and S 1 ft at 9 seconds.",
             "wind_direction": "SE",
-            "wind_speed": "5 kt",
+            "wind_speed": "5 to 10 kt",
             "wave_height": "2 ft",
             "wave_detail_string": "S 1 ft at 3 seconds and S 1 ft at 9 seconds",
             "swell_components": [
@@ -176,7 +186,7 @@
             "period": "Wed 11/25"
         },
         {
-            "raw_text": "E winds 30 to 40 kt. Seas 6 to 9 ft, occasionally to 11 ft. Chance of rain.winds and seas may be higher in and near tstms.",
+            "raw_text": "E winds 30 to 40 kt. Seas 6 to 9 ft, occasionally to 11 ft. Chance of rain.",
             "wind_direction": "E",
             "wind_speed": "30 to 40 kt",
             "wave_height": "6 to 9 ft",
