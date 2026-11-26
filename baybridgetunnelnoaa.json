@@ -1,25 +1,34 @@
 {
-    "timestamp": "2026-11-25 15:57:50",
+    "timestamp": "2026-11-25 22:22:22",
     "forecasts": [
         {
-            "raw_text": "NE winds 25 kt with gusts up to 30 kt, increasing to  35 to 45 kt with gusts up to 55 kt. Waves 6 to 7 ft, occasionally to 9 ft, building to 8 to 10 ft, occasionally to 13 ft. Wave  detail: E 7 ft at 7 seconds, becoming E 10 ft at 10 seconds. A  slight chance of showers early. Showers. A slight chance of tstms  late.",
+            "raw_text": "NE winds 40 to 45 kt with gusts up to 55 kt. Waves 8 to 10 ft, occasionally to 13 ft. Wave detail: E 10 ft at 10 seconds. Rain.",
             "wind_direction": "NE",
-            "wind_speed": "25 kt",
-            "wind_commentary": "increasing to  35 to 45 kt with gusts up to 55 kt",
-            "wind_gusts": "30 kt",
-            "wave_height": "6 to 7 ft",
-            "wave_commentary": "building to 8 to 10 ft, occasionally to 13 ft",
-            "period": "Tonight 11/25"
+            "wind_speed": "40 to 45 kt",
+            "wind_gusts": "55 kt",
+            "wave_height": "8 to 10 ft",
+            "wave_detail_string": "E 10 ft at 10 seconds",
+            "swell_components": [
+                {
+                    "direction": "E",
+                    "height": "10 ft",
+                    "period": "10 seconds"
+                }
+            ],
+            "primary_swell_direction": "E",
+            "primary_wave_height": "10 ft",
+            "primary_wave_period": "10 seconds",
+            "period": "Overnight 11/25"
         },
         {
-            "raw_text": "E winds 35 to 45 kt with gusts up to 55 kt, becoming SE 25 to 30 kt early in the afternoon, then becoming S 20 to 25 kt  late. Waves 9 to 11 ft, occasionally to 14 ft, subsiding to 6 to 8 ft, occasionally to 10 ft in the afternoon. Wave detail: E 11 ft  at 11 seconds, becoming SE 8 ft at 12 seconds. Showers in the  morning. A chance of tstms until late afternoon. Showers likely  early in the afternoon.",
+            "raw_text": "E winds 40 to 45 kt with gusts up to 55 kt, becoming SE 30 to 35 kt with gusts up to 50 kt late in the morning, then diminishing to 25 to 30 kt with gusts up to 35 kt early in the afternoon, becoming S 15 to 20 kt with gusts up to 25 kt late. Waves 9 to 11 ft, occasionally to 14 ft, subsiding to 6 to 8 ft, occasionally to 10 ft in the afternoon. Wave detail: E 11 ft at 11 seconds, becoming SE 8 ft at 12 seconds. Showers in the morning. A chance of tstms until late afternoon. Showers likely early in the afternoon.",
             "wind_direction": "E",
-            "wind_speed": "35 to 45 kt",
-            "wind_commentary": "becoming SE 25 to 30 kt early in the afternoon",
+            "wind_speed": "40 to 45 kt",
+            "wind_commentary": "becoming SE 30 to 35 kt with gusts up to 50 kt late in the morning",
             "wind_gusts": "55 kt",
             "wave_height": "9 to 11 ft",
             "wave_commentary": "subsiding to 6 to 8 ft, occasionally to 10 ft in the afternoon",
-            "wave_detail_string": "E 11 ft  at 11 seconds, becoming SE 8 ft at 12 seconds",
+            "wave_detail_string": "E 11 ft at 11 seconds, becoming SE 8 ft at 12 seconds",
             "swell_components": [
                 {
                     "direction": "E",
@@ -168,7 +177,7 @@
             "period": "Mon 11/30"
         },
         {
-            "raw_text": "N winds 10 to 15 kt with gusts up to 20 kt. Waves 2 to 3 ft.winds and waves higher in and near tstms.",
+            "raw_text": "N winds 10 to 15 kt with gusts up to 20 kt. Waves 2 to 3 ft.",
             "wind_direction": "N",
             "wind_speed": "10 to 15 kt",
             "wind_gusts": "20 kt",
