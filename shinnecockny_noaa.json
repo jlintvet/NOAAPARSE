@@ -1,20 +1,14 @@
 {
-    "timestamp": "2026-11-26 08:25:02",
+    "timestamp": "2026-11-26 17:43:20",
     "forecasts": [
         {
-            "raw_text": "E winds 35 to 45 kt with gusts up to 55 kt. Seas 11 to  15 ft, occasionally to 19 ft, building to 15 to 20 ft,  occasionally to 25 ft this afternoon. Wave detail: E 15 ft at 8  seconds, becoming E 20 ft at 10 seconds. Chance of rain early this morning, then rain late this morning and afternoon.",
+            "raw_text": "E winds 40 to 45 kt with gusts up to 55 kt. Seas 15 to 20 ft, occasionally to 25 ft. Wave detail: E 20 ft at 10 seconds. Rain.",
             "wind_direction": "E",
-            "wind_speed": "35 to 45 kt",
+            "wind_speed": "40 to 45 kt",
             "wind_gusts": "55 kt",
-            "wave_height": "11 to  15 ft",
-            "wave_commentary": "building to 15 to 20 ft,  occasionally to 25 ft",
-            "wave_detail_string": "E 15 ft at 8  seconds, becoming E 20 ft at 10 seconds",
+            "wave_height": "15 to 20 ft",
+            "wave_detail_string": "E 20 ft at 10 seconds",
             "swell_components": [
-                {
-                    "direction": "E",
-                    "height": "15 ft",
-                    "period": "8  seconds"
-                },
                 {
                     "direction": "E",
                     "height": "20 ft",
@@ -22,43 +16,61 @@
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "15 ft",
-            "primary_wave_period": "8  seconds",
-            "period": "Today 11/26"
+            "primary_wave_height": "20 ft",
+            "primary_wave_period": "10 seconds",
+            "period": "Rest Of Today 11/26"
         },
         {
-            "raw_text": "E winds 35 to 45 kt with gusts up to 60 kt, becoming S 20 to 25 kt with gusts up to 40 kt after midnight. Seas 18 to 22 ft, occasionally to 28 ft, subsiding to 15 to 18 ft, occasionally to 23 ft after midnight. Wave detail: E 22 ft at 11 seconds, becoming SE 18 ft at 11 seconds. Rain and slight chance of tstms in the evening.",
+            "raw_text": "E winds 35 to 45 kt with gusts up to 60 kt, becoming S 20 to 25 kt with gusts up to 40 kt after midnight. Seas 18 to 21 ft, occasionally to 27 ft, subsiding to 14 to 19 ft, occasionally to 24 ft after midnight. Wave detail: E 21 ft at 11 seconds, becoming SE 19 ft at 12 seconds. Rain and slight chance of tstms in the evening.",
             "wind_direction": "E",
             "wind_speed": "35 to 45 kt",
             "wind_commentary": "becoming S 20 to 25 kt with gusts up to 40 kt after midnight",
             "wind_gusts": "60 kt",
-            "wave_height": "18 to 22 ft",
-            "wave_commentary": "subsiding to 15 to 18 ft, occasionally to 23 ft",
-            "wave_detail_string": "E 22 ft at 11 seconds, becoming SE 18 ft at 11 seconds",
+            "wave_height": "18 to 21 ft",
+            "wave_commentary": "subsiding to 14 to 19 ft, occasionally to 24 ft",
+            "wave_detail_string": "E 21 ft at 11 seconds, becoming SE 19 ft at 12 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "22 ft",
+                    "height": "21 ft",
                     "period": "11 seconds"
                 },
                 {
                     "direction": "SE",
-                    "height": "18 ft",
-                    "period": "11 seconds"
+                    "height": "19 ft",
+                    "period": "12 seconds"
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "22 ft",
+            "primary_wave_height": "21 ft",
             "primary_wave_period": "11 seconds",
             "period": "Tonight 11/26"
         },
         {
-            "raw_text": "SW winds 25 to 30 kt, increasing to 30 to 35 kt in the afternoon. Seas 14 to 16 ft, occasionally to 20 ft. Wave detail: SW 16 ft at 11 seconds and SE 13 ft at 11 seconds. Chance of rain in the afternoon.",
+            "raw_text": "SW winds 25 to 35 kt. Seas 13 to 16 ft, occasionally to 20 ft. Wave detail: SW 16 ft at 10 seconds. Chance of showers in the afternoon.",
             "wind_direction": "SW",
-            "wind_speed": "25 to 30 kt",
-            "wind_commentary": "increasing to 30 to 35 kt in the afternoon",
-            "wave_height": "14 to 16 ft",
-            "wave_detail_string": "SW 16 ft at 11 seconds and SE 13 ft at 11 seconds",
+            "wind_speed": "25 to 35 kt",
+            "wave_height": "13 to 16 ft",
+            "wave_detail_string": "SW 16 ft at 10 seconds",
+            "swell_components": [
+                {
+                    "direction": "SW",
+                    "height": "16 ft",
+                    "period": "10 seconds"
+                }
+            ],
+            "primary_swell_direction": "SW",
+            "primary_wave_height": "16 ft",
+            "primary_wave_period": "10 seconds",
+            "period": "Fri 11/27"
+        },
+        {
+            "raw_text": "W winds 30 to 35 kt. Seas 15 to 16 ft, occasionally to 20 ft, subsiding to 13 to 16 ft, occasionally to 20 ft after midnight. Wave detail: SW 16 ft at 11 seconds, becoming SW 15 ft at 11 seconds and W 7 ft at 7 seconds. Slight chance of showers in the evening.",
+            "wind_direction": "W",
+            "wind_speed": "30 to 35 kt",
+            "wave_height": "15 to 16 ft",
+            "wave_commentary": "subsiding to 13 to 16 ft, occasionally to 20 ft",
+            "wave_detail_string": "SW 16 ft at 11 seconds, becoming SW 15 ft at 11 seconds and W 7 ft at 7 seconds",
             "swell_components": [
                 {
                     "direction": "SW",
@@ -66,137 +78,134 @@
                     "period": "11 seconds"
                 },
                 {
-                    "direction": "SE",
-                    "height": "13 ft",
+                    "direction": "SW",
+                    "height": "15 ft",
                     "period": "11 seconds"
+                },
+                {
+                    "direction": "W",
+                    "height": "7 ft",
+                    "period": "7 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
             "primary_wave_height": "16 ft",
             "primary_wave_period": "11 seconds",
-            "period": "Fri 11/27"
-        },
-        {
-            "raw_text": "W winds 30 to 35 kt. Seas 15 to 17 ft, occasionally to 22 ft, subsiding to 13 to 16 ft, occasionally to 20 ft after midnight. Wave detail: SW 17 ft at 11 seconds and E 5 ft at 10 seconds, becoming SW 16 ft at 11 seconds and E 4 ft at 10 seconds. Slight chance of rain in the evening.",
-            "wind_direction": "W",
-            "wind_speed": "30 to 35 kt",
-            "wave_height": "15 to 17 ft",
-            "wave_commentary": "subsiding to 13 to 16 ft, occasionally to 20 ft",
-            "wave_detail_string": "SW 17 ft at 11 seconds and E 5 ft at 10 seconds, becoming SW 16 ft at 11 seconds and E 4 ft at 10 seconds",
-            "swell_components": [
-                {
-                    "direction": "SW",
-                    "height": "17 ft",
-                    "period": "11 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "5 ft",
-                    "period": "10 seconds"
-                },
-                {
-                    "direction": "SW",
-                    "height": "16 ft",
-                    "period": "11 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "4 ft",
-                    "period": "10 seconds"
-                }
-            ],
-            "primary_swell_direction": "SW",
-            "primary_wave_height": "17 ft",
-            "primary_wave_period": "11 seconds",
             "period": "Fri Night 11/27"
         },
         {
-            "raw_text": "W winds 25 to 30 kt. Seas 10 to 14 ft, occasionally to 18 ft. Wave detail: W 13 ft at 10 seconds and E 3 ft at 10 seconds. Slight chance of rain in the morning.",
+            "raw_text": "W winds 25 to 30 kt. Seas 11 to 14 ft, occasionally to 18 ft, subsiding to 10 to 12 ft, occasionally to 15 ft in the afternoon. Wave detail: SW 12 ft at 10 seconds and W 7 ft at 7 seconds, becoming SW 10 ft at 10 seconds and W 7 ft at 7 seconds. Slight chance of showers.",
             "wind_direction": "W",
             "wind_speed": "25 to 30 kt",
-            "wave_height": "10 to 14 ft",
-            "wave_detail_string": "W 13 ft at 10 seconds and E 3 ft at 10 seconds",
+            "wave_height": "11 to 14 ft",
+            "wave_commentary": "subsiding to 10 to 12 ft, occasionally to 15 ft in the afternoon",
+            "wave_detail_string": "SW 12 ft at 10 seconds and W 7 ft at 7 seconds, becoming SW 10 ft at 10 seconds and W 7 ft at 7 seconds",
             "swell_components": [
                 {
-                    "direction": "W",
-                    "height": "13 ft",
+                    "direction": "SW",
+                    "height": "12 ft",
                     "period": "10 seconds"
                 },
                 {
-                    "direction": "E",
-                    "height": "3 ft",
+                    "direction": "W",
+                    "height": "7 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "10 ft",
                     "period": "10 seconds"
+                },
+                {
+                    "direction": "W",
+                    "height": "7 ft",
+                    "period": "7 seconds"
                 }
             ],
-            "primary_swell_direction": "W",
-            "primary_wave_height": "13 ft",
+            "primary_swell_direction": "SW",
+            "primary_wave_height": "12 ft",
             "primary_wave_period": "10 seconds",
             "period": "Sat 11/28"
         },
         {
-            "raw_text": "W winds 25 to 30 kt, diminishing to 20 to 25 kt after midnight. Seas 8 to 11 ft, occasionally to 14 ft, subsiding to 6 to 9 ft, occasionally to 11 ft after midnight. Wave detail: SW 10 ft at 9 seconds and W 6 ft at 6 seconds, becoming W 6 ft at 7 seconds and E 1 ft at 9 seconds.",
+            "raw_text": "W winds 25 to 30 kt, diminishing to 20 to 25 kt after midnight. Seas 9 to 11 ft, occasionally to 14 ft, subsiding to 7 to 10 ft, occasionally to 13 ft after midnight. Wave detail: SW 9 ft at 9 seconds and W 7 ft at 7 seconds, becoming SW 7 ft at 9 seconds and W 6 ft at 7 seconds.",
             "wind_direction": "W",
             "wind_speed": "25 to 30 kt",
             "wind_commentary": "diminishing to 20 to 25 kt after midnight",
-            "wave_height": "8 to 11 ft",
-            "wave_commentary": "subsiding to 6 to 9 ft, occasionally to 11 ft",
-            "wave_detail_string": "SW 10 ft at 9 seconds and W 6 ft at 6 seconds, becoming W 6 ft at 7 seconds and E 1 ft at 9 seconds",
+            "wave_height": "9 to 11 ft",
+            "wave_commentary": "subsiding to 7 to 10 ft, occasionally to 13 ft",
+            "wave_detail_string": "SW 9 ft at 9 seconds and W 7 ft at 7 seconds, becoming SW 7 ft at 9 seconds and W 6 ft at 7 seconds",
             "swell_components": [
                 {
                     "direction": "SW",
-                    "height": "10 ft",
+                    "height": "9 ft",
                     "period": "9 seconds"
                 },
                 {
                     "direction": "W",
-                    "height": "6 ft",
-                    "period": "6 seconds"
+                    "height": "7 ft",
+                    "period": "7 seconds"
+                },
+                {
+                    "direction": "SW",
+                    "height": "7 ft",
+                    "period": "9 seconds"
                 },
                 {
                     "direction": "W",
                     "height": "6 ft",
                     "period": "7 seconds"
-                },
-                {
-                    "direction": "E",
-                    "height": "1 ft",
-                    "period": "9 seconds"
                 }
             ],
             "primary_swell_direction": "SW",
-            "primary_wave_height": "10 ft",
+            "primary_wave_height": "9 ft",
             "primary_wave_period": "9 seconds",
             "period": "Sat Night 11/28"
         },
         {
-            "raw_text": "W winds 10 to 15 kt with gusts up to 20 kt. Seas 4 to 6 ft, occasionally to 8 ft.",
+            "raw_text": "W winds 10 to 15 kt. Seas 5 to 7 ft, occasionally to 9 ft, subsiding to 3 to 4 ft, occasionally to 5 ft in the afternoon.",
             "wind_direction": "W",
             "wind_speed": "10 to 15 kt",
-            "wind_gusts": "20 kt",
-            "wave_height": "4 to 6 ft",
+            "wave_height": "5 to 7 ft",
+            "wave_commentary": "subsiding to 3 to 4 ft, occasionally to 5 ft in the afternoon",
             "period": "Sun 11/29"
         },
         {
-            "raw_text": "S winds 20 to 25 kt with gusts up to 30 kt. Seas 5 to 7 ft, occasionally to 9 ft. Rain likely.",
+            "raw_text": "S winds 25 to 30 kt. Seas 4 to 6 ft, occasionally to 8 ft. Rain.",
             "wind_direction": "S",
-            "wind_speed": "20 to 25 kt",
-            "wind_gusts": "30 kt",
-            "wave_height": "5 to 7 ft",
+            "wind_speed": "25 to 30 kt",
+            "wave_height": "4 to 6 ft",
             "period": "Sun Night 11/29"
         },
         {
-            "raw_text": "W winds 25 to 30 kt. Seas 8 to 11 ft, occasionally to 14 ft. Rain likely.",
+            "raw_text": "W winds 30 to 35 kt. Seas 9 to 13 ft, occasionally to 17 ft. Rain likely.",
             "wind_direction": "W",
-            "wind_speed": "25 to 30 kt",
-            "wave_height": "8 to 11 ft",
+            "wind_speed": "30 to 35 kt",
+            "wave_height": "9 to 13 ft",
             "period": "Mon 11/30"
         },
         {
-            "raw_text": "NW winds 25 to 30 kt. Seas 8 to 11 ft, occasionally to 14 ft.winds and seas may be higher in and near tstms.",
+            "raw_text": "NW winds 25 to 30 kt with gusts up to 40 kt. Seas 9 to 12 ft, occasionally to 15 ft.",
             "wind_direction": "NW",
             "wind_speed": "25 to 30 kt",
-            "wave_height": "8 to 11 ft",
+            "wind_gusts": "40 kt",
+            "wave_height": "9 to 12 ft",
             "period": "Mon Night 11/30"
+        },
+        {
+            "raw_text": "NW winds 15 to 20 kt with gusts up to 25 kt. Seas 5 to 7 ft, occasionally to 9 ft.",
+            "wind_direction": "NW",
+            "wind_speed": "15 to 20 kt",
+            "wind_gusts": "25 kt",
+            "wave_height": "5 to 7 ft",
+            "period": "Tue 12/1"
+        },
+        {
+            "raw_text": "N winds 5 to 10 kt. Seas 2 to 3 ft.winds and seas may be higher in and near tstms.",
+            "wind_direction": "N",
+            "wind_speed": "5 to 10 kt",
+            "wave_height": "2 to 3 ft",
+            "period": "Tue Night 12/1"
         }
     ]
 }
