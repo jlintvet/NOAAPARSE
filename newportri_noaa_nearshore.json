@@ -1,19 +1,29 @@
 {
-    "timestamp": "2026-11-26 17:43:29",
+    "timestamp": "2026-11-26 23:41:15",
     "forecasts": [
         {
-            "raw_text": "E winds 35 to 45 kt with gusts up to 55 kt, becoming S 25 to 35 kt with gusts up to 45 kt after midnight. Seas 13 to 18 ft. Wave detail: E 18 ft at 10 seconds and SE 7 ft at 13 seconds. Rain this evening, then light rain after midnight.",
+            "raw_text": "E winds 35 to 45 kt, becoming S 25 to 35 kt. Seas 16 to 19 ft, subsiding to 13 to 18 ft. Wave detail: E 19 ft at 10 seconds and NE 4 ft at 6 seconds, becoming SE 18 ft at 11 seconds and SE 7 ft at 13 seconds. Rain, then light rain.",
             "wind_direction": "E",
             "wind_speed": "35 to 45 kt",
-            "wind_commentary": "becoming S 25 to 35 kt with gusts up to 45 kt after midnight",
-            "wind_gusts": "55 kt",
-            "wave_height": "13 to 18 ft",
-            "wave_detail_string": "E 18 ft at 10 seconds and SE 7 ft at 13 seconds",
+            "wind_commentary": "becoming S 25 to 35 kt",
+            "wave_height": "16 to 19 ft",
+            "wave_commentary": "subsiding to 13 to 18 ft",
+            "wave_detail_string": "E 19 ft at 10 seconds and NE 4 ft at 6 seconds, becoming SE 18 ft at 11 seconds and SE 7 ft at 13 seconds",
             "swell_components": [
                 {
                     "direction": "E",
-                    "height": "18 ft",
+                    "height": "19 ft",
                     "period": "10 seconds"
+                },
+                {
+                    "direction": "NE",
+                    "height": "4 ft",
+                    "period": "6 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "18 ft",
+                    "period": "11 seconds"
                 },
                 {
                     "direction": "SE",
@@ -22,9 +32,9 @@
                 }
             ],
             "primary_swell_direction": "E",
-            "primary_wave_height": "18 ft",
+            "primary_wave_height": "19 ft",
             "primary_wave_period": "10 seconds",
-            "period": "Tonight 11/26"
+            "period": "Overnight 11/26"
         },
         {
             "raw_text": "SW winds 20 to 25 kt, increasing to 25 to 30 kt in the afternoon. Seas 11 to 15 ft. Wave detail: S 14 ft at 10 seconds and SE 14 ft at 11 seconds. Scattered showers in the afternoon.",

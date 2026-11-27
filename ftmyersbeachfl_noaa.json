@@ -1,13 +1,23 @@
 {
-    "timestamp": "2026-11-26 17:43:32",
+    "timestamp": "2026-11-26 23:41:17",
     "forecasts": [
         {
-            "raw_text": "West winds around 20 knots decreasing to around 15 knots late. Seas 5 to 7 feet, occasionally to 9 feet. Wave  detail: west 7 feet at 8 seconds.",
+            "raw_text": "West winds around 20 knots. Seas 5 to 7 feet,  occasionally to 9 feet. Wave detail: west 7 feet at 8 seconds.",
             "wind_direction": "W",
             "wind_speed": "20 knots",
-            "wind_commentary": "decreasing to around 15 knots late",
             "wave_height": "5 to 7 feet",
-            "period": "Tonight 11/26"
+            "wave_detail_string": "west 7 feet at 8 seconds",
+            "swell_components": [
+                {
+                    "direction": "W",
+                    "height": "7 feet",
+                    "period": "8 seconds"
+                }
+            ],
+            "primary_swell_direction": "W",
+            "primary_wave_height": "7 feet",
+            "primary_wave_period": "8 seconds",
+            "period": "Rest Of Tonight 11/26"
         },
         {
             "raw_text": "Northwest winds 10 to 15 knots. Seas 4 to 6 feet, occasionally to 8 feet. Wave detail: northwest 6 feet at 8 seconds.",
