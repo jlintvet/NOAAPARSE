@@ -1,20 +1,14 @@
 {
-    "timestamp": "2026-11-27 18:06:21",
+    "timestamp": "2026-11-28 00:44:07",
     "forecasts": [
         {
-            "raw_text": "SW winds 25 to 30 kt, becoming W 20 to 25 kt with gusts to 30 kt late this evening and overnight. Seas 7 to 10 ft,  occasionally to 15 ft, subsiding to 5 to 8 ft, occasionally to 12 ft after midnight. Wave detail: S 10 ft at 10 seconds, becoming S 8 ft at 9 seconds.",
-            "wind_direction": "SW",
-            "wind_speed": "25 to 30 kt",
-            "wind_commentary": "becoming W 20 to 25 kt with gusts to 30 kt late this evening and overnight",
-            "wave_height": "7 to 10 ft",
-            "wave_commentary": "subsiding to 5 to 8 ft, occasionally to 12 ft",
-            "wave_detail_string": "S 10 ft at 10 seconds, becoming S 8 ft at 9 seconds",
+            "raw_text": "W winds 20 to 25 kt with gusts up to 30 kt. Seas 6 to 8 ft, occasionally to 12 ft. Wave detail: S 8 ft at 9 seconds.",
+            "wind_direction": "W",
+            "wind_speed": "20 to 25 kt",
+            "wind_gusts": "30 kt",
+            "wave_height": "6 to 8 ft",
+            "wave_detail_string": "S 8 ft at 9 seconds",
             "swell_components": [
-                {
-                    "direction": "S",
-                    "height": "10 ft",
-                    "period": "10 seconds"
-                },
                 {
                     "direction": "S",
                     "height": "8 ft",
@@ -22,9 +16,9 @@
                 }
             ],
             "primary_swell_direction": "S",
-            "primary_wave_height": "10 ft",
-            "primary_wave_period": "10 seconds",
-            "period": "Tonight 11/27"
+            "primary_wave_height": "8 ft",
+            "primary_wave_period": "9 seconds",
+            "period": "Overnight 11/28"
         },
         {
             "raw_text": "W winds 20 to 25 kt, diminishing to 15 to 20 kt late. Gusts up to 30 kt. Seas 5 to 6 ft, occasionally to 9 ft. Wave detail: S 6 ft at 8 seconds and W 3 ft at 4 seconds.",
@@ -102,23 +96,34 @@
             "period": "Sun 11/29"
         },
         {
-            "raw_text": "S winds 20 to 25 kt with gusts up to 30 kt, becoming SW 25 to 30 kt with gusts up to 40 kt after midnight. Seas 5 to 6 ft, occasionally to 9 ft. Wave detail: S 6 ft at 6 seconds. A chance of showers in the evening, then showers after midnight.",
+            "raw_text": "S winds 20 to 25 kt with gusts up to 30 kt, becoming SW 25 to 30 kt with gusts up to 40 kt after midnight. Seas 4 to 5 ft, occasionally to 7 ft, building to 6 to 7 ft, occasionally to 10 ft after midnight. Wave detail: S 5 ft at 5 seconds and SE 5 ft at 9 seconds, becoming S 7 ft at 7 seconds. A chance of showers in the evening, then showers after midnight.",
             "wind_direction": "S",
             "wind_speed": "20 to 25 kt",
             "wind_commentary": "becoming SW 25 to 30 kt with gusts up to 40 kt after midnight",
             "wind_gusts": "30 kt",
-            "wave_height": "5 to 6 ft",
-            "wave_detail_string": "S 6 ft at 6 seconds",
+            "wave_height": "4 to 5 ft",
+            "wave_commentary": "building to 6 to 7 ft, occasionally to 10 ft",
+            "wave_detail_string": "S 5 ft at 5 seconds and SE 5 ft at 9 seconds, becoming S 7 ft at 7 seconds",
             "swell_components": [
                 {
                     "direction": "S",
-                    "height": "6 ft",
-                    "period": "6 seconds"
+                    "height": "5 ft",
+                    "period": "5 seconds"
+                },
+                {
+                    "direction": "SE",
+                    "height": "5 ft",
+                    "period": "9 seconds"
+                },
+                {
+                    "direction": "S",
+                    "height": "7 ft",
+                    "period": "7 seconds"
                 }
             ],
             "primary_swell_direction": "S",
-            "primary_wave_height": "6 ft",
-            "primary_wave_period": "6 seconds",
+            "primary_wave_height": "5 ft",
+            "primary_wave_period": "5 seconds",
             "period": "Sun Night 11/29"
         },
         {
